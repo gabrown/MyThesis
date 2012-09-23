@@ -1,0 +1,21 @@
+\subsection{ATLAS coordinate system}
+\label{sec:Det:Coord}
+The ATLAS experiment uses a right-handed Cartesian coordinate system. 
+The beam line defines the z-axis, with the x-y plane being perpendicular to this. 
+The positive x direction is defined going from the interaction point to the centre of the LHC ring. 
+The positive y direction points upwards from the interaction point. 
+The detector side in the positive z direction is called A and the side in the negative z direction C.
+The azimuthal angle, $\phi$, is defined as the angle in the x-y plane around the beam, and the polar angle, $\theta$, is the angle to the beam line.
+Using the polar angle, pseudorapidity, $\eta$ is defined by 
+\begin{equation}
+\eta = - \ln \tan \left(\frac{\theta}{2}\right).
+\label{Detector:eta}
+\end{equation}
+
+The angle between two objects, $\Delta R$, is defined by 
+\begin{equation}
+\Delta R = \sqrt{(\Delta \eta)^2+(\Delta \phi)^2} .
+\label{Detector:dR}
+\end{equation}
+
+All transverse variables (such as transverse momentum, $p_T$, and transverse energy, $E_T$) use only the x and y components of the variable and so are defined in the x-y plane.

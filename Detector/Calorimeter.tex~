@@ -1,0 +1,19 @@
+\subsubsection{Calorimeter System}
+
+The ATLAS calorimeter system is required to contain and measure both electromagnetic (EM) and hadronic showers over a large $|\eta|$ region. 
+Additionally it is required to limit the chances of punch-through to the muon system behind. 
+The main ATLAS calorimeter system consists of an EM calorimeter and a hadronic calorimeter, each of which aims to contain and measure EM and hadronic showers respectively. 
+There are also two forward calorimeters, one at each end of the experiment, at larger pseudorapidity, which measure both EM and hadronic energy deposits.
+
+The EM calorimeter covers the range $|\eta|<3.2$ with full $\phi$ coverage, and is used to give precision measurements of electrons and photons (these are distinguished by looking for inner detector tracks). 
+It consists of one barrel detector and two end cap detectors which are lead LAr sampling detectors.
+
+
+The hadronic calorimeter is situated behind the EM calorimeter, and covers the same $\eta$ region. 
+It is responsible for measuring hadronic showers. 
+It consists of three barrel detectors (Tile barrel and two Tile extended barrels), and two hadronic end caps (HEC) detectors. 
+The Tile detectors are sampling detectors which have scintillating tiles as the active material and steel for the absorber. The HECs use LAr as the active material and copper as the absorber.
+
+
+Outside the region covered by the EM and hadronic calorimeter the forward calorimeter measures the EM and hadronic showers up to $|\eta| <4.9$.
+

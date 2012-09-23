@@ -1,0 +1,10 @@
+\subsection{Trigger and Data Acquisition}
+
+The event rate from the LHC is 1GHz *Check This*, but only $\mathcal{O}(200Hz)$ will be recorded to disk. The ATLAS trigger and data acquisition system (TDAQ) reduces this rate by trying to select to most interesting events.
+TDAQ is split into subsystems that are approximately associated with the sub-detects previously described. The three different trigger levels are level 1 (L1), level 2 (L2), and event filter (EF). The trigger levels are applied in series, with each level refining the desion and adding additional requirements. 
+L1 is required to make a decision in less than $2.5\mu$s and requduce the rate to 75 kHz. If the event has passed a L1 trigger, it then goes through the L2 and EF trigger which have more information about the event and reduces the rate to 200Hz.
+While the trigger is deciding if the even should be kept, the data acquisition system is buffering the event information.
+
+
+
+L1 triggers try and select interesting objects, like high $pT$ jets, electons, muons, photons, taus or large missing $E_T$, which are idicitive of interesting physics processes. 

@@ -1,0 +1,53 @@
+\subsection{Calorimeter}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\textwidth]{figures/Detector/AtlasCalorimeter.jpg}
+  \caption{ATLAS calorimeter system.}
+\label{Det:ATLASCalo}
+\end{figure}
+
+The calorimeter system at ATLAS comprises of several sampling detectors which have a complete $\phi$ coverage.
+This section will discuss the EM calorimeter, the hadronic calorimeter and the forward calorimeter. With the exeption of the barrel hadronic calorimeter (Tile barrel and extended barrel) all use LAg as the active material due to the radiation hardness and regularity of response.
+
+\subsubsection{EM Calorimeter}
+
+The EM calorimeter consists of a barrel detector and two end cap detectors, which together gives a coverage of $|\eta|<3.2$.
+Figure \ref{Det:ATLASCalo} shows the EM barrel and the EM end cap, which have the pseudorapidity range $|\eta|<1.475$ and $1.375<|\eta|<3.2$ respectively.
+In the precision region,  which is the region that overlaps the inner detector ($|\eta|<2.5$), there are three active layers and the detector is finely granulated to give a precise position measurement of the EM shower (used for photons).
+Outside of the precision region there is two active layers and the granularity is coarser. 
+
+Both the EM barrel and the EM end cap are lead liquid argon (LAr) detectors, where the active material is LAr and lead is the absorber.  
+The EM calorimeter has greater than 22 radiation lengths to attempt to fully contain any EM showers.
+
+
+\subsubsection{Hadronic Calorimeter}
+
+The hadronic calorimeter consists of 3 tile calorimeters (1 barrel and 2 extended barrel) in the region $|\eta|<1.7$ and 2 hadronic end caps (HEC) to extent the coverage to $|\eta|<3.2$ as shown in Figure \ref{Det:ATLASCalo}.  The HECs use LAr as the active material and have a copper absorber, whereas the tile calorimeters have a steel absoorber and a scintilator active material. 
+
+
+The HEC has 2 wheels per end cap, each with 32 wedged shaped moduals, which give the HEC a granulation of $\Delta\eta x \Delta\Phi = 0.1x0.1$ in the region $|\eta|<2.5$ and $\Delta\eta x \Delta\Phi = 0.2x0.2$ in the region $2.5<|\eta|<3.2$. Each wheel has two different depth segments, reulting in 4 layers per end cap.
+
+
+The tile calorimeter has three components, 1 barrel and two extended barrels. The tile barrel and tile extended barrel have the range $|\eta|<1$ and $0.8<|\eta|<1.7$ respectively. These detectors comprise of 64 moduals which have a size of $\Delta\Phi$~0.1, giving a granularity of $\Delta\eta x \Delta\Phi = 0.1x0.1$.
+
+\subsection{Forward Calorimeter}
+
+The forward calorimeter (fcal) is resposible for measuring the EM and hadronic showers in the region $3.2<|\eta|<4.9$, and the position is shown in figure \ref{Det:ATLASCalo}. The fcal has 3 layers, the first layer is a copper layer that is optimised for EM measurements and then two tungsten layers used to measure hadronic energy deposits, all of which have LAr as the active material. The coice for the materials and design was largely determined by the need to be radiaion hard due to the high particle flux.
+
+
+
+\subsubsection{L1 Calorimeter Trigger}
+
+The L1 calorimeter trigger (L1Calo) is the trigger system concerned with both the EM calorimeter and the hadronic calorimeter. The EM and Had calorimter cells are merged into trigger towers of $\Delta\eta x \Delta\phi$ of 0.1 x 0.1 for the presicion region and increasing size for higher rapidities. Trigger towers are used to define jet, electron, photon and tau trigger objects.
+
+
+Jet trigger objects are found by first defining jet elements from 2x2 trigger towers in both the EM and hadronic calorimeters, producing a size of $\Delta\eta x \Delta\Phi = 0.2x0.2$. A sliding window algorithm is used to find the L1 jet objects. The algorithm can be set have a window of either 2x3, 3x3 or 4x4 jet elements for the jet finding, and it looks over the jet elements to find local maxima in $E_t$ and requires it is greater than a given threshold. The L1 jet triggers are named L1\_JX where X is the EM energy threshold for the jet object. 
+
+\subsubsection{HLT}
+Once the L1 jets are found they can be passed to the HLT, and act as seeds. At L2 a rectangle of jet
+
+
+
+%https://twiki.cern.ch/twiki/pub/Atlas/TapmJet/jetslice_v3_6April08.pdf
+
+

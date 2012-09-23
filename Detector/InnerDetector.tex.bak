@@ -1,0 +1,22 @@
+\subsection{Inner Detector}
+The inner detector (ID) provides full tracking information for $|\eta|<2.5$. The purpose of the ATLAS tracking detectors is make high precision measurements of charged particle tracks near the beam line, which has uses such as, primary and secondary vertex finding and momentum resolution. 
+The tracing detectors have to be able to deal with the high track multiplicity expected at the design luminosity of the LHC.
+
+\begin{figure}  
+\centering  
+\includegraphics[width=0.9\textwidth]{figures/Detector/AtlasID.jpg}
+  \caption{ATLAS Inner Detector.}
+\label{Det:ATLASID}
+\end{figure}
+
+Figure \ref{Det:ATLASID} shows the different components of the ATLAS inner detector that will be discussed. Both the pixel detector and the semiconducting tracker have a tracking region out to $|\eta|<2.5$, and the transition radiation tracker goes out to $|\eta|<2$. 
+
+The pixel detector is the closest to the interaction point, and thus has the highest granularity in the inner detector trackers. There is three pixel layers in the barrel region each having a 2d segmentation giving a well measured space point. The main use of the pixel detector is to find B hadrons and $\tau$ leptons. 
+
+Further from the interaction point is is the semi conductor tracker (SCT) which is less granulated. *how does it work? 8 measuremurement from 4 layers + some detector pairs *. The SCT is mainly used for aquiring track momentum, impact parameters and vertex positions.
+
+The furthest away from the interaction point is the transition radiation tubes (TRT), which provides a large number of hits per track. The large numbers of hits, which are less accurate than the pixel and SCT hits, are used mainly for the momentum measurement.
+
+
+The high precision measurement very closes to the beam, and the large number of measurements further out, allows good track reconstruction and momentum measurement. The high precision measurements allow allow good measurement of particles impact parameter, vertexing for heavy flavor quarks and $\tau$ lepton tagging.
+
