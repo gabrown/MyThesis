@@ -1,0 +1,119 @@
+\documentclass[12pt,PhD]{Thesis}
+\usepackage{graphicx}
+\usepackage{braket}
+\usepackage{xspace}
+\usepackage{ifpdf}
+\usepackage{feynmp}
+\usepackage{ifpdf}
+\ifpdf
+  \DeclareGraphicsRule{*}{mps}{*}{}
+\fi
+\usepackage{afterpage}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\usepackage{grffile}
+\usepackage{subfigure}
+\usepackage[british]{babel}
+\newcommand{\Pom}{I$\!$P}
+\newcommand{\Reg}{I$\!$R}
+\input{Functions.tex}
+
+\submitdate{2012}
+
+\dept{School of Physics and Astronomy}
+\begin{document}
+\title{Precision measurement of jets at the LHC}
+    \author{Gareth John Ashley Brown}
+    \principaladviser{Prof. Fred Loebinger and Dr. Andrew Denis Pilkington}
+
+\beforeabstract
+\prefacesection{Abstract}
+    \input{Introduction/abstract.tex}
+\afterabstract
+  %  \prefacesection{The Author}
+% Preface here
+    %\input{Introduction/author.tex}
+    %\prefacesection{Acknowledgements}
+     %acknowledgements here
+   % \input{Introduction/acknowledge.tex}
+\afterpreface
+%
+%\chapter{Introduction}
+%\input{Introduction/Introduction.tex}
+%
+%\chapter{Theory}
+%\label{chp:Theory}
+%\input{Theory/Introduction.tex}
+%\input{Theory/QCD.tex}
+%\input{Theory/Dijets.tex}
+%\input{Theory/Jets.tex}
+%\input{Theory/MC.tex}
+%
+%
+%
+\chapter{The LHC and ATLAS}
+\input{Detector/Introduction.tex}
+\input{Detector/LHC.tex}
+\input{Detector/ATLAS.tex}
+\input{Detector/Coordinate.tex}
+\input{Detector/DetectorOverview.tex}  %{sec:Det:Over}
+\input{Detector/Magnet.tex}
+\input{Detector/InnerDetector.tex}
+\input{Detector/Calorimeter.tex}
+\input{Detector/Muon.tex}
+\input{Detector/CalorimeterAdvanced.tex} % {sec:Det:Cal}
+\input{Detector/Trigger.tex} 
+
+%\chapter{High Level Trigger Calorimeter Monitoring}
+%\input{ServiceWork/ServiceWork.tex}
+%
+%\chapter{In-Situ Validation of ATLAS Jet Reconstruction and Calibration}
+%\input{JetPerformance/Introduction_JES.tex}
+%
+%\section{In-Situ Validation of Jet Calibration}
+%\input{JetPerformance/JESU_Standard.tex}
+%\input{JetPerformance/JESU_Matrix.tex}
+%\input{JetPerformance/JESU_Example.tex}
+%
+%\section{2011 Study of Pile-up Dependance}
+%\input{JetPerformance/JESU_2011_Intro.tex}
+%\input{JetPerformance/JESU_2011_Pileup.tex}
+%
+%\section{2010 Forward Jet Validation}
+%\input{JetPerformance/ClosureTest.tex}
+%
+%\section{ Forward Jet Properties}
+%\input{JetPerformance/JetShapes.tex}
+%
+%
+%
+%\chapter{GBJ Analysis 1}
+%\input{GBJ1/Introduction.tex}
+%\input{GBJ1/AnalysisSelection.tex}
+%\input{GBJ1/EventSelection.tex} 
+%\input{GBJ1/AODD3PD.tex}
+%\input{GBJ1/JetCleaning.tex}
+%\input{GBJ1/Pileup.tex}
+%\input{GBJ1/UncorrectedData.tex}
+%\input{GBJ1/OtherWork.tex}
+%\input{GBJ1/FinalPlots.tex}
+%
+%\chapter{New Title}
+%\input{GBJ2/Introduction.tex}
+%\input{GBJ2/AnalysisSelection.tex}
+%\input{GBJ2/EventSelection.tex} 
+%\input{GBJ2/AODD3PD.tex}
+%\input{GBJ2/Systematics.tex}
+%\input{GBJ2/JES.tex}
+%\input{GBJ2/JetCleaning.tex}
+%\input{GBJ2/ResoEnergy.tex}
+%\input{GBJ2/ResoPhi.tex}
+%\input{GBJ2/SystematicCombined.tex}
+%\input{GBJ2/UncorrectedData.tex}
+%\input{GBJ2/FinalPlots.tex}
+
+\bibliographystyle{mnras}
+\bibliography{references}
+\end{document}

@@ -1,0 +1,25 @@
+\select@language {british}
+\contentsline {chapter}{Abstract}{5}
+\contentsline {chapter}{Declaration}{6}
+\contentsline {chapter}{Copyright}{7}
+\contentsline {chapter}{\numberline {1}The LHC and ATLAS}{8}
+\contentsline {section}{\numberline {1.1}The Large Hadron Collider}{8}
+\contentsline {subsection}{\numberline {1.1.1}Luminosity}{9}
+\contentsline {subsubsection}{2010 run}{11}
+\contentsline {section}{\numberline {1.2}The ATLAS Experiment}{11}
+\contentsline {subsection}{\numberline {1.2.1}ATLAS coordinate system}{11}
+\contentsline {subsection}{\numberline {1.2.2}Detector Overview}{13}
+\contentsline {subsubsection}{Magnet System}{13}
+\contentsline {subsubsection}{Inner Detector}{14}
+\contentsline {subsubsection}{Calorimeter System}{15}
+\contentsline {subsubsection}{Muon Detectors}{16}
+\contentsline {subsection}{\numberline {1.2.3}Calorimeter}{16}
+\contentsline {subsubsection}{EM Calorimeter}{17}
+\contentsline {subsubsection}{Hadronic Calorimeter}{17}
+\contentsline {subsubsection}{Forward Calorimeter}{18}
+\contentsline {subsubsection}{Calorimeter Objects}{18}
+\contentsline {subsection}{\numberline {1.2.4}Trigger and Data Acquisition}{19}
+\contentsline {subsubsection}{Minimum Bias Triggers}{20}
+\contentsline {subsubsection}{L1 Calorimeter}{20}
+\contentsline {subsubsection}{Jet Triggers}{21}
+\contentsline {chapter}{Bibliography}{22}
