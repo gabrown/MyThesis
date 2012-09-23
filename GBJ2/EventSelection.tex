@@ -1,0 +1,104 @@
+\section {Event selection}
+\label{sec:GBJ2:EvtSel}
+\subsection{Data Samples and Basic Event Selection}
+The analysis was performed using pp colisions at $\sqrt{s}=7$ TeV, recorded between April and October 2010 using the ATLAS detector with an unprescaled luminosity of XXXXX.
+Stable beam conditions and good data quality was required for the data used; the data quality was assessed by checking that all the parts of the detector and trigger were performing normally, and the physics objects (eg jets and muons) were being correctly reconstructed. 
+
+Jets were required to have two jets with $\pt{}>20 $ GeV with $|y|<4.4$.
+Events are rejected if there is any jet with $p_T>20$ GeV which is found as either bad or ugly as described in Section \ref{sec:GBJ1:Noise_Pileup}. 
+Events are also rejected if the number of reconstructed primary vertices is not equal to one.
+
+
+\subsection{Trigger Strategy}
+
+For each of the two leading offline jets, a specific trigger chain is assigned depending on the rapidity, $y$, and \pt{} of the offline jet as well as the run number the event occured in.
+Tables \ref{tab:CentralTrigger}, \ref{tab:TransTrigger} and \ref{tab:ForwardTrigger} show the trigger chains used in central ($|y_{jet}|<2.9$), forward transition ($3.3\le|y_{jet}|<3.6$) and forward trigger regions ($3.6\le|y_{jet}|<4.4$) respectively.
+If a jet falls into the region $2.9\le|y_{jet}|<3.3$, the offline jet is matched to the closest level one trigger jet using $\dr{}=\sqrt{\dphi{}^2 + \deta{}^2}$.
+It is defined as a central (forward) jet  if it is closest to a trigger jet that fired a central (forward) jet trigger, and a trigger chain is deturmined using Table \ref{tab:CentralTrigger} (Table \ref{tab:TransTrigger}).
+Either of the trigger chains assosiated with the leading jets are required to fire for the event to pass.
+
+This trigger strategy has previously been used in the measurement of te dijet cross section \cite{ref:Dijet}.
+In most region of phase spcae, the trigger efficiency for each considered jet is $100\%$ efficient.
+However, there are two regions where that is not the case.
+The first is the crack region, $1.3\le|y_{jet}|\le1.6$, between the barrel and end-cap calorimeter.
+The second is in the positive FCAL region in which there is a dead trigger tower that reduces the trigger efficiency for jets with $|y_{jet}|>3.1$.
+For each jet that fills in one of these regions, the event is weighted by 
+\begin{equation}
+W_{eff}= \frac{\mathcal{P}_{lead}}{\epsilon_{lead}} + \frac{\mathcal{P}_{sublead}}{\epsilon_{sublead}} -\frac{\mathcal{P}_{lead}\mathcal{P}_{sublead}}{\epsilon_{lead}\epsilon_{sublead}}
+\label{GBJ2:Eff}
+\end{equation}
+where $\mathcal{P}_{lead}$ and $\mathcal{P}_{sublead}$ is 1 if the event passed the leading and subleading trigger chain, else it is zero, and $\epsilon_{lead}$ and $\epsilon_{sublead}$ are the efficencies for the leading and subleading jets.
+
+Prescales are applied to the trigger to preferencially select events with higher \pt{} jets, only the highest \pt{} trigger is unprescaled.
+This results in a flattening of the jet \pt{} spectrum.
+To retrive the original distribution the events are weighted by the inverse of an effective luminosity for each trigger combination.
+By summing over the luminosity blocks, the  effective luminosity is calculated by
+\begin{equation}
+\mathcal{L}_{effective} = \sum_{LB} \frac{\mathcal{L}_{LB}}{P_{LB}^L P_{LB}^{SL}/(P_{LB}^L + P_{LB}^{SL} -1)}
+\label{GBJ2:Eff}
+\end{equation}
+where $P_{LB}^L$ and $P_{LB}^{SL}$ are the prescales for a given luminosity for the trigger chain assosiated with the leading and subleading jet respectively, and $\mathcal{L}_{LB}$ is the luminosity for the luminosity block. 
+
+The effective luminosities were calculated without the single vertex cut applied in this analysis. 
+A single vertex correction is applied to the effective luminosity of every trigger combination which is the fraction of events with only one vertex. 
+
+\begin{table}[htdp]
+\centering
+\begin{tabular}{ | c | c | c | c | }
+  \hline
+ \pt{} [GeV] & Period A-C & Period D-F & Period G-I \\
+  \hline
+20--42.5 &  $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$ & $ \rm EF\_ mbMbts\_ 1\_ eff$  \\
+42.5--70 &  $ \rm L1\_ J5$ &     $ \rm L1\_ J5$ &     $ \rm EF\_ j20\_ jetNoEF$  \\
+70--97.5 &   $ \rm L1\_ J15$ &    $ \rm L1\_ J15$ &    $ \rm EF\_ j35\_ jetNoEF$  \\
+97.5--152.5 &   $ \rm L1\_ J30$ &    $ \rm L1\_ J30$ &    $ \rm EF\_ j50\_ jetNoEF$  \\
+152.5--197.5 &  $ \rm L1\_ J55$ &    $ \rm L1\_ J55$ &    $ \rm EF\_ j75\_ jetNoEF$  \\
+197.5--217.5 &  $ \rm L1\_ J55$ &    $ \rm L1\_ J55$ &    $ \rm EF\_ j95\_ jetNoEF$  \\
+217.5+ &     $ \rm L1\_ J55$ &    $ \rm L1\_ J55$ &    $ \rm EF\_ L1J95\_ NoAlg$ \\
+
+  \hline
+\end{tabular}
+\caption{
+Trigger chains used for central trigger region, $|y_{jet}|<2.9$, for jet \pt{} and period.
+\label{tab:CentralTrigger}}
+\end{table}%
+
+
+\begin{table}[htdp]
+\centering
+\begin{tabular}{ | c | c | c | c | }
+\hline
+\pt{} [GeV] & Period A-D  & Period E-F & Period G-I \\
+      \hline
+         20--42.5 &     $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$  &   $ \rm EF\_ mbMbts\_ 1\_ eff$  \\
+         42.5--62.5 &   $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ10$      &   $ \rm EF\_ mbMbts\_ 1\_ eff$  \\
+         62.5--72.5 &   $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ10$      &   $ \rm EF\_ fj30\_ jetNoEF$  \\
+         72.5--95 &     $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ30$      &   $ \rm EF\_ fj30\_ jetNoEF$  \\
+         95--160 &      $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ30$      &   $ \rm EF\_ fj50\_ jetNoEF$  \\
+         160+ &         $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ30$      &   $ \rm EF\_ fj75\_ jetNoEF$  \\
+         \hline
+      \end{tabular}
+      \caption{
+      Trigger chains used for transition trigger region, $3.3\le|y_{jet}|<3.6$, for jet \pt{} and period.
+      \label{tab:TransTrigger}}
+\end{table}%
+
+\begin{table}[htdp]
+\centering
+\begin{tabular}{ | c | c | c | c | }
+  \hline
+ \pt{} [GeV] & Period A-D & Period E-F & Period G-I \\
+  \hline
+20--42.5 &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ10$ & $ EF\_ mbMbts\_ 1\_ eff$  \\
+42.5--50 &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ10$ & $ EF\_ fj30\_ jetNoEF$  \\
+50--67.5 &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ30$ & $ EF\_ fj30\_ jetNoEF$  \\
+67.5--100 &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ30$ & $ EF\_ fj50\_ jetNoEF$  \\
+100+ &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ30$ & $ EF\_ fj75\_ jetNoEF$  \\
+
+  \hline
+\end{tabular}
+\caption{
+Trigger chains used for forward trigger region, $3.6\le|y_{jet}|<4.4$, for jet \pt{} and period.
+\label{tab:ForwardTrigger}}
+\end{table}%
+

@@ -1,0 +1,100 @@
+\section {Event selection}
+\label{sec:GBJ2:EvtSel}
+\subsection{Data Samples}
+The analysis was performed using the full 2010 dataset recorded between April and October 2010 using the ATLAS detector.
+The events were collected from pp collisions at 7 TeV centre-of-mass energy.
+Stable beam conditions and good data quality was required for the data used.
+The data quality was assessed by checking that all the parts of the detector and trigger were performing normally, and the physics objects (eg jets and muons) were being correctly reconstructed. 
+
+
+\subsection{Trigger Strategy}
+
+The previous jet veto analysis decribed in Chapter XXX,  used just a central single jet trigger to gather data allowing a maximum \dy{} of 6.
+In this further analysis both central and forward jet triggers are used, and either of the two leading jets can trigger the event.
+This allows the analysis to study, with good statistics, large rapidity separated jets with a \dy{} of up to 8.
+
+For each of the two leading offline jets, a trigger chain is defined depending on the rapidity, $y$, and  \pt{} of the offline jet as well as the run number the event was in.
+The triggers are split into four $y$ regions, three where the trigger is fully defined by the $y$ and \pt{} of the offline jet, and the other, which falls in the transistion between the forward and central triggers, where trigger jet matching is required to assign the jet to either the central or forward transition region. 
+central region for $|y_{jet}|<2.9$, forward transition region for $3.3\le|y_{jet}|<3.6$ and forward region for $3.6\le|y_{jet}|<4.4$.
+Tables \ref{tab:CentralTrigger}, \ref{tab:TransTrigger} and \ref{tab:ForwardTrigger} show the trigger chains used in central, forward transition and forward trigger regions respectively.
+If a jet falls into the region $2.9\le|y_{jet}|<3.3$, the offline jet is matched to the closest central and forward trigger jets, and is defined as a central jet or forward transition jet if it is closer to the central or forward trigger jet respectively.
+
+Either or both of the trigger chains defined for the leading jets are required to be passed for the event to be used.
+Additionally, if either of the two leading jets fired the MBTS trigger, the data is required to come from the minimum bias trigger stream. 
+
+
+The aim of the stated trigger strategy is for each trigger chain to be fully efficient for the offline jet considered.
+There are two regions where this is not the case. 
+The first is the crack region, $1.3\le|y_{jet}|\le1.6$, between the barrel and end-cap calorimeter and the second is in the positive FCAL region there is a dead trigger tower which reduces the trigger efficiency for jets with $|y_{jet}|>3.1$.
+Both inefficiencies are accounted for by weighting the event with the inverse of the trigger efficiencies. 
+
+All but the highest \pt{} jet trigger has a prescale applied. 
+This is accounted for by giving every 2-jet trigger combination an effective luminosity which is formed from the prescale of each trigger in a given luminosity block and the recorded luminosity.  
+The single vertex cut reduces the amount of data used from each trigger chain, and so an efficency is calculated for each trigger combination, and each events is weighted to remove this cut.
+
+\begin{table}[htdp]
+\centering
+\begin{tabular}{ | c | c | c | c | }
+  \hline
+ \pt{} [GeV] & Period A-C & Period D-F & Period G-I \\
+  \hline
+20--42.5 &  $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$ & $ \rm EF\_ mbMbts\_ 1\_ eff$  \\
+42.5--70 &  $ \rm L1\_ J5$ &     $ \rm L1\_ J5$ &     $ \rm EF\_ j20\_ jetNoEF$  \\
+70--97.5 &   $ \rm L1\_ J15$ &    $ \rm L1\_ J15$ &    $ \rm EF\_ j35\_ jetNoEF$  \\
+97.5--152.5 &   $ \rm L1\_ J30$ &    $ \rm L1\_ J30$ &    $ \rm EF\_ j50\_ jetNoEF$  \\
+152.5--197.5 &  $ \rm L1\_ J55$ &    $ \rm L1\_ J55$ &    $ \rm EF\_ j75\_ jetNoEF$  \\
+197.5--217.5 &  $ \rm L1\_ J55$ &    $ \rm L1\_ J55$ &    $ \rm EF\_ j95\_ jetNoEF$  \\
+217.5+ &     $ \rm L1\_ J55$ &    $ \rm L1\_ J55$ &    $ \rm EF\_ L1J95\_ NoAlg$ \\
+
+  \hline
+\end{tabular}
+\caption{
+Trigger chains used for central trigger region, $|y_{jet}|<2.9$, for jet \pt{} and period.
+\label{tab:CentralTrigger}}
+\end{table}%
+
+
+\begin{table}[htdp]
+\centering
+\begin{tabular}{ | c | c | c | c | c | }
+\hline
+\pt{} [GeV] & Period A-C & Period D & Period E-F & Period G-I \\
+      \hline
+      20--42.5 &    $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$ & $ \rm EF\_ mbMbts\_ 1\_ eff$  \\
+         42.5--62.5 &    $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ10$ &   $ \rm EF\_ mbMbts\_ 1\_ eff$  \\
+         62.5--72.5 &    $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ10$ &   $ \rm EF\_ fj30\_ jetNoEF$  \\
+         72.5--95 &    $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ30$ &   $ \rm EF\_ fj30\_ jetNoEF$  \\
+         95--160 &    $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ30$ &   $ \rm EF\_ fj50\_ jetNoEF$  \\
+         160+ &    $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ MBTS\_ 1$ & $ \rm L1\_ FJ30$ &   $ \rm EF\_ fj75\_ jetNoEF$  \\
+         \hline
+      \end{tabular}
+      \caption{
+      Trigger chains used for transition trigger region, $3.3\le|y_{jet}|<3.6$, for jet \pt{} and period.
+      \label{tab:TransTrigger}}
+\end{table}%
+
+\begin{table}[htdp]
+\centering
+\begin{tabular}{ | c | c | c | c | }
+  \hline
+ \pt{} [GeV] & Period A-D & Period E-F & Period G-I \\
+  \hline
+20--42.5 &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ10$ & $ EF\_ mbMbts\_ 1\_ eff$  \\
+42.5--50 &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ10$ & $ EF\_ fj30\_ jetNoEF$  \\
+50--67.5 &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ30$ & $ EF\_ fj30\_ jetNoEF$  \\
+67.5--100 &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ30$ & $ EF\_ fj50\_ jetNoEF$  \\
+100+ &    $ L1\_ MBTS\_ 1$ & $ L1\_ FJ30$ & $ EF\_ fj75\_ jetNoEF$  \\
+
+  \hline
+\end{tabular}
+\caption{
+Trigger chains used for forward trigger region, $3.6\le|y_{jet}|<4.4$, for jet \pt{} and period.
+\label{tab:ForwardTrigger}}
+\end{table}%
+
+\subsection{Noise and Pileup Rejection}
+
+Events are rejected if there is any jet with $p_T>20$ GeV which is found as either bad or ugly as described in Section \ref{sec:GBJ1:Noise_Pileup}. 
+Events are also rejected if the number of reconstructed primary vertices is not equal to one.
+The effect of both cuts will be studied in later sections.
+

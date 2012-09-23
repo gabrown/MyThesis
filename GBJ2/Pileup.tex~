@@ -1,0 +1,39 @@
+\begin{table}
+\footnotesize
+\centering
+\begin{tabular}{ | c|  c | c | c | c | c | c |}
+\hline
+\hline
+$\Delta Y$ & \multicolumn{2}{|c|}{$y = A$} & \multicolumn{3}{|c|}{y = A + Bx}\\
+ & A &$\chi^{2}$/NDF & A & B & $\chi^{2}$/NDF\\
+%$\Delta y$ & $\bar{p_T} [GeV]$ & $\bar{f}_{gap}$ & b & c & d & e & f  \\
+\hline
+\input{figures/GBJ2/Pileup/Tableptcut2.txt}
+\hline
+\hline
+\end{tabular}
+\caption[]{
+The results from the two fits (equations \ref{GBJ1:Fit1} and \ref{GBJ1:Fit2}) for various slices of $\Delta y$ and $\bar{p_T}$.
+\label{}}
+\end{table}
+
+
+
+\begin{table}
+\footnotesize
+\centering
+\begin{tabular}{ | c|  c | c | c | c | c | c |}
+\hline
+\hline
+$\Delta Y$ & \multicolumn{2}{|c|}{$y = A$} & \multicolumn{3}{|c|}{y = A + Bx}\\
+ & A &$\chi^{2}$/NDF & A & B & $\chi^{2}$/NDF\\
+\hline
+\input{figures/GBJ2/Pileup/Tableptcut3.txt}
+\hline
+\hline
+\end{tabular}
+\caption[]{
+The results from the two fits (equations \ref{GBJ1:Fit1} and \ref{GBJ1:Fit2}) for various slices of $\Delta y$ and $\bar{p_T}$.
+\label{}}
+\end{table}
+

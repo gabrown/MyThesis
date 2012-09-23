@@ -1,0 +1,34 @@
+\section{Overview of Other Analysis Components}
+To compare the data to theoretical models, things outside what is presented so far in this chapter were done. This section will discuss work done by other members of the analysis team that was required to understand the final plots. First unfolding the data to hardon level will be discussed, then a look at the systematic uncertainties in this analysis and finally a look at the theoretical models that the data will be compared to.
+
+--Unfolding
+To compare the data to HEJ and POWHEG, detector and selection effects need to be accounted for, and the data needs to be unfolded back to hadron level. The is was done using a bin-by-bin method comparing the final distributions from PYTHIA at hadron and detector level. Rapidity weighted samples were generated and used to give good statistics at even the large $\Delta y$ regions.
+
+
+--Systematic Uncertainties
+The systematic uncertainties for various sources were considered, and they are presented below:
+\begin{description}
+\item[Jet Energy Scale (JES) uncertainty] varies depending on the $\Delta y$ bin. It can be as large at 5-10\% and is a significant source of uncertainty.
+\item[Unfolding uncertainty] comes mainly from the limited statistics of the PYTHIA MC used to get the unfolding factors. It is a significant source of uncertainty with values as large as 5\%.
+\item[Pileup] how effective is the single primary vertex requirement, and the effect of out-of-time pileup was studied in section XXX. The average gap fraction was found to be unaffected by the change in pileup conditions, and so the effect from this is negligible.  
+\item[Jet Cleaning Cuts] were changed to a stricter bad jet definition (which removed ~5\% of inclusive events) and there was a sub percent change to gap fraction distributions. Comparing this difference to the uncertainty due to JES and unfolding it is negligible.  
+\item[Cosmic and beam backgrounds] The number of events coming from cosmic and beam backgrounds (estimated using triggers that triggered during non filled bunch crossing) was very small compared to signal events, thus the effect is taken to be negligible.
+\item[Trigger Bias] was estimated by comparing the gap fraction and njets distributions with the analysis trigger strategy to the distributions got using the minimum bias stream and was found to be negligable in all regions.
+\end{description}
+
+The main two systematic uncertainties come from the JES and the unfolding. Figure \ref{GBJ1:SystUncert} shows the uncertainties from JES and unfolding and the combination of the two for one $\Delta y$ and one $\bar{p_T}$ slice. The overall uncertainty doesn't change much with $\bar{p_T}$, , but due to reduced statistics and moving into different regions of the detector both the JES, unfolding and overall uncertainty rise with larger $\Delta y$. For the final plots the overall systematic uncertainty and the statistical uncertainty has been added onto the data points.
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ1/OtherWork/SystematicUncertainty_dY.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/OtherWork/SystematicUncertainty_pT.eps,width=0.5\textwidth,height = 6cm}}\quad
+                              }
+\caption[Effect of jet cleaning on the gap fraction for $\Delta y$]{Gap fraction for each $\bar{p_T}$ bin for Medium and Loose jet cleaning definitions. Shown are (a) $1<\Delta y<2$ and (b) $3<\Delta y<4$ slices.
+\label{GBJ1:SystUncert}}
+\end{figure}
+
+
+
+
+--MC related stuff

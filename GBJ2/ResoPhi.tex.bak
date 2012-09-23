@@ -1,0 +1,89 @@
+\section{Jet Phi Resolution}
+\label{GBJ2:JPhiR}
+
+The effect from the jet $phi$ resolution was assessed by smearing every jet's phi in the event by a gausien, with the width found by comparing the phi of truth and reconstructed jets. 
+The effect is assessed in the same way as Chapter \ref{GBJ2:JER}, using multiple smears and taking the average to reduce fluctuations. 
+As no cuts are dependent on $\phi$, only distributions that are $\phi$ dependent are effected.
+
+Figures \ref{GBJ2:ResoPhi:cos} -- \ref{GBJ2:ResoPhi:dphi78} show the ratio of the final distributions from the smeared jets and from the nominal jets.
+
+Figure \ref{GBJ2:ResoPhi:cos} shows the ratio for average \cosdphi{} as a function of the dijet rapidity seperation, \dy{} for both (a) inclusive events and (b) gap events.
+For both the gap and inclusive distributions the increased $\phi$ smearing has reduced the average \cosdphi{} by about 1 percent at low \dy{}, but at larger \dy the effect become small.
+
+Figure \ref{GBJ2:ResoPhi:cos2} shows the ratio for average \costwodphi{} as a function of the dijet rapidity seperation, \dy{} for both (a) inclusive events and (b) gap events.
+Again the effect is largest at low \dy{}, and the maximum undertainty is two percent. 
+
+Figure \ref{GBJ2:ResoPhi:dphi23} shows the ratio for the \dphi{} distribution for (a) inclusive events and (b) gap events with a \dy{} of 2--3.
+The effect from the $\phi$ smearing is around three percent for inclusive events and five percent for gap events.
+
+Figure \ref{GBJ2:ResoPhi:dphi45} shows the ratio for the \dphi{} distribution for (a) inclusive events and (b) gap events with a \dy{} of 4--5.
+The effect from the $\phi$ smearing is around two percent for inclusive events and three percent for gap events.
+
+Figure \ref{GBJ2:ResoPhi:dphi78} shows the ratio for the \dphi{} distribution for (a) inclusive events and (b) gap events with a \dy{} of 7--8.
+The effect from the $\phi$ smearing is around two percent for both the inclusive and gap events.
+
+In the \dphi{} individual smeared ratios, the highest \dphi{} bin has lost events which have migrated into the ower \dphi{} bins. 
+This is expected due to the boudary of \dphi{} at one, and the steaply falling \dphi{} distribution.
+
+The uncertainty bands will be added in quadriture with the other uncertainties to form the final data systematic uncertainty band.
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___cosdPhi_deltaY_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___cosdPhi_deltaY_gap_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The ratio of average \cosdphi{} as a function of $\Delta y$ for (a) inclusive and (b) gap events reconstructed PYTHIA sample with nominal sample compared to phi smeared sample.
+\label{GBJ2:ResoPhi:cos}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___cos2dPhi_deltaY_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___cos2dPhi_deltaY_gap_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The ratio of average \costwodphi{} as a function of $\Delta y$ for (a) inclusive and (b) gap events reconstructed PYTHIA sample with nominal sample compared to phi smeared sample.
+\label{GBJ2:ResoPhi:cos2}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___dPhi__2_3_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___dPhi_gap__2_3_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The ratio of the \dphi{} distribution for $\Delta y$ of 2-3 for (a) inclusive and (b) gap events reconstructed PYTHIA sample with nominal sample compared to phi smeared sample.
+\label{GBJ2:ResoPhi:dphi23}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___dPhi__4_5_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___dPhi_gap__4_5_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The ratio of the \dphi{} distribution for $\Delta y$ of 4-5 for (a) inclusive and (b) gap events reconstructed PYTHIA sample with nominal sample compared to phi smeared sample.
+\label{GBJ2:ResoPhi:dphi45}}
+\end{figure}
+
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___dPhi__7_8_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoPhi/RMS_phi___dPhi_gap__7_8_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The ratio of the \dphi{} distribution for $\Delta y$ of 7-8 for (a) inclusive and (b) gap events reconstructed PYTHIA sample with nominal sample compared to phi smeared sample.
+\label{GBJ2:ResoPhi:dphi78}}
+\end{figure}
+
+

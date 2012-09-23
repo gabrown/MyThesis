@@ -1,0 +1,64 @@
+\subsection {Other Systematics}
+Two other sources of systematic uncertainty were assessed  by other members of the analysis team.
+The systematic due to the prescale and luminosity weights in the trigger strategy  was assessed using the PYTHIA sample and found to be negligable in all final distributions.
+
+The unfolding method used was the binomial unfolding method.
+The uncertainty due to model uncertainty and due to the statistics of the PYTHIA sample was assessed and added in quadriture with the other systematics. 
+
+\subsection{Combined Systematics}
+\label{sec:GBJ2:SysComb}
+
+The systematics studied above were combined  with a systematic from the unfolding process, which incorperates a MC statistics uncertainty and a model uncertainty, to produce the overall systematic uncertainty, some of which are shown in Figures \ref{GBJ2:SysComb:GapNjet} -- \ref{GBJ2:SysComb:cos2}.
+
+Figure \ref{GBJ2:SysComb:GapNjet} shows the systematic uncertainty on (a) the gap fraction and (b) the average number of jets as a function of \dy{}
+The dominant systematic is due to the JES uncertainty, while the unfolding also makes a significant contribution. 
+The effect from JER is small, and the effect due to $\phi$ resolution is zero.
+
+
+Figure \ref{GBJ2:SysComb:dphi23} shows the systematic uncertainty on the differential cross section for (a) inclusive events and (b) gap events.
+The domanent systematics are again the JES uncertainty and the unfolding, while the effect from the $\phi$ resolution and the JER are small.
+
+Figure \ref{GBJ2:SysComb:cos2} shows the systematic uncertainty on the average \costwodphi{} for (a) inclusive events and (b) gap events as a function of \dy{}.
+For the inclusive distrubution there is no overall dominant systematic, at low \dy{} $\phi$ resolution is large, with JES uncertainty, and unfolding also contributing.
+While at large \dy{}, the uncertainty is dominated by the JES and unfolding.
+For the gap distribution, again at low \dy{} the $\phi$ resolution is the dominant systematic and at larger \dy{} all the uncertainties have an effect. 
+
+On the final plots, the combined systematic uncertainty is shown as a yellow band around the data point.
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/GapFraction_dyBins.systematics.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/nGapJets_dyBins.systematics.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The combined systematics on (a) the gap fraction and (b) the average number of jets in the dijet rapidity region as a function of \dy{}.
+The combined systematics are from unfolding, JES uncertainty, JER and jet $\phi$ resolution.
+\label{GBJ2:SysComb:GapNjet}}
+\end{figure}
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CrossSection.Inclusive.DPhiBins.2dY3.systematics.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CrossSection.Gap.DPhiBins.2dY3.systematics.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The combined systematics on the differential cross section as a function of \dphi{}  for (a) inclusive events and (b) gap events for the \dy{} range 2--3.
+The combined systematics are from unfolding, JES uncertainty, JER and jet $\phi$ resolution.
+\label{GBJ2:SysComb:dphi23}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosTwoDeltaPhiInclusive_dyBins.systematics.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_dyBins.systematics.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The combined systematics on the average \costwodphi{} as a function of \dy{}  for (a) inclusive events and (b) gap events.
+The combined systematics are from unfolding, JES uncertainty, JER and jet $\phi$ resolution.
+\label{GBJ2:SysComb:cos2}}
+\end{figure}
+

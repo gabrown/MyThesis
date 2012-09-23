@@ -1,0 +1,45 @@
+\section{Data Stability}
+\label{sec:GBJ2:DataStab}
+
+It is important to check the stability of the final plots to monitor the effect of the different event cuts that have been applied.
+
+To check that the cuts were correctly applied, two separate implementations of the analysis were performed and the the agreement of the final plots checked.
+One of these analyses was carried out using the AOD data format, whilst the other used the D3PD format.
+The effect of the jet cleaning and pileup cuts, defined in Section \ref{sec:GBJ2:EvtSel}, are studied. 
+
+
+
+\subsection{Comparison between AOD and D3PD}
+\label{sec:GBJ2:AODD3PD}
+***should I also add a cut flow? ******
+
+Distributions are compared for two seperate implementations of the analyses using the AOD and the D3PD formats. 
+
+Figure \ref{GBJ2:AODD3PD:gap_njet} shows (a) the  gap fraction and (b) the  average number of jets in the rapidity region as a function of \dy{}.
+Figure \ref{GBJ2:AODD3PD:dphi} shows the \dphi{} distribution for inclusive events for a dijet separation, \dy{}, of (a) 2-3 and (b) 4-5. 
+All four plots show very good agreement between the AOD and D3PD implementations of the analysis.
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/AODD3PD/Comp_GapFraction_deltaY.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/AODD3PD/Comp_prof_deltaY_njets.eps,width=0.5\textwidth,height = 6cm}}\quad
+                              }
+\caption[]{
+(a) Gap fraction and (b) average number of jets in the rapidity region as a function of dijet separation, \dy{}, for 2010 uncorrected data from the AOD (red) and D3PD (black) data formats.
+\label{GBJ2:AODD3PD:gap_njet}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/AODD3PD/Comp_dPhi__2_3.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/AODD3PD/Comp_dPhi__4_5.eps,width=0.5\textwidth,height = 6cm}}\quad
+                              }
+\caption[]{
+\dphi{} distribution for inclusive events for a dijet separation, \dy{}, of (a) 2-3 and (b) 4-5 for 2010 uncorrected data from the AOD (red) and D3PD (black) data formats.
+\label{GBJ2:AODD3PD:dphi}}
+\end{figure}
+

@@ -1,0 +1,27 @@
+\section{Topology Selection}
+\label{sec:GBJ2:AnalSel}
+The jets used in this analysis were reconstructed using the anti$-k_T$ algorithm, described in Section XXX, with a radius parameter R=0.6.
+Only jets that have \pt{}$>20$ GeV and $|y|<4.4$ have been used, as these are the regions that have a well defined jet energy scale and jet cleaning cuts.
+
+The dijet system is defined by the two leading jets in the event, with cuts on the transverse momentum of the leading and sub-leading jets of 60 and 50 GeV respectively.
+
+
+
+The observables studied can loosely be divided into azimuthal decorrelation observables, and jet veto observables.
+Some of the distributions will be split into slices of rapidity separation of the dijet.
+The three slices choosen to be the standard \dy{} regions are 2--3, 4--5, and 7--8.
+The jet veto observables are the same as defined in the previous chapter, where the gap fraction, \gap{}, is defined by,
+\begin{equation}
+f_{\rm gap} = \frac{n (\qz{})}{N},
+\label{GBJ2:fgap}
+\end{equation}
+where n(\qz{}) is the number of gap events which pass the jet veto, and $N$ is the inclusive number of events.
+The gap fraction is studied as a function of the rapidity separation of the dijet, \dy{}, with a jet veto scale of \qz{}$=20$ GeV, and also as a function of the jet veto scale, \qz{}, for the three standard \dy{} slices.
+The second variable studied is \nb{}, which is the mean number of jets found in the rapidity region between the dijets \nb{} that have \pt{}$>$\qz{}. 
+
+The three new observables studied in this analysis are based on the \dphi{} between the dijets. 
+One observable is the cross-section as a function of \dphi{} for both gap and inclusive events for the three standard \dy{} slices.
+The other two observables are the average \cosdphi{} and average \costwodphi{} as a function of the rapidity separation of the dijets for both gap and inclusive events. 
+
+
+

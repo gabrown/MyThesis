@@ -1,0 +1,35 @@
+\section{Overview of Other Analysis Components}
+\label{sec:GBJ1:OtherWork}
+To compare the data to theoretical models further aspects of the analysis were performed by other members of the analysis team. This section will dmension the unfolding of the data to hadron level. The systematic uncertainties in this analysis will then be discussed.
+
+To compare the data to HEJ and POWHEG, detector and selection effects need to be accounted for, and the data needs to be unfolded back to hadron level. This was done using a bin-by-bin method comparing the final distributions from the PYTHIA sample at hadron and detector level. Rapidity weighted samples were generated and used to give good statistics in even the large $\Delta y$ regions.
+
+
+The systematic uncertainties for various sources were considered. They were:
+\begin{description}
+\item[Jet Energy Scale (JES) uncertainty] varies depending on the $\Delta y$ bin. It can be as large at 5-10\% and is a significant source of uncertainty.
+
+\item[Unfolding uncertainty] comes mainly from the limited statistics of the PYTHIA sample used to obtain the unfolding factors. It is a significant source of uncertainty with values as large as 5\%.
+
+\item[Pileup] the effectiveness of the single primary vertex requirement, and the effect of out-of-time pileup was discussed in section \ref{sec:GBJ1:Pileup}. The average gap fraction was found to be unaffected by the change in pileup conditions, and so the effect from this is negligible.  
+
+\item[Jet Cleaning Cuts] were changed to a stricter bad jet definition (which removed ~5\% of inclusive events) and there was a sub percent change to gap fraction distributions. This is negligble compared to the the uncertainty due to JES and unfolding.  
+
+\item[Cosmic and beam backgrounds] event rates were estimated using triggers during non-filled bunch crossings. The rate of such evens was found to be very small compared to the rate of signal events, and the effect is taken to be negligible.
+
+\item[Trigger Bias] was estimated by comparing the gap fraction and njets distributions with the analysis trigger strategy to the distributions obtained using the minimum bias stream and was found to be negligible in all regions.
+
+\end{description}
+
+The main two systematic uncertainties come from the JES and the unfolding. Figure \ref{GBJ1:SystUncert} shows the uncertainties from JES and unfolding and the combination for one $\Delta y$ and one $\bar{p_T}$ slice. The overall uncertainty does not change much with $\bar{p_T}$, but due to reduced statistics and moving into different regions of the detector both the JES, unfolding and overall uncertainty rise with larger $\Delta y$. For the final plots the overall systematic uncertainty and the statistical uncertainty have been added onto the data points.
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ1/OtherWork/SystematicUncertainty_dY.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/OtherWork/SystematicUncertainty_pT.eps,width=0.5\textwidth,height = 6cm}}\quad
+                              }
+\caption[Systematic uncertainty for the gap fraction for a slice in $\bar{p_T}$ and $\Delta y$]{Systematic uncertainty on the gap fraction versus (a) $\Delta y$ for $120<\bar{p_T}<150$ GeV and (b) $\bar{p_T}$ for $3<\Delta y<4$. 
+\label{GBJ1:SystUncert}}
+\end{figure}
+

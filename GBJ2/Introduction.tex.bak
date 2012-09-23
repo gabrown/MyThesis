@@ -1,0 +1,14 @@
+The previous jet veto analysis documented in Chapter \ref{sec:GBJ1} looked at both \dy{} and \ptb{} slices, with a limit on the \dy{} of 6.
+This \dy{} limit was due to the central trigger strategy. 
+There was a low number of events at larger \dy{} regions and the systematic and statistical uncertainies was large. 
+Whilst the HEJ curves agreed well with data at large \dy{}, the POWHEG curves did not.
+
+In this analysis a new trigger strategy is used. 
+This allows the jet veto study to be made out to a \dy{} of 8 with an increase of statistics in these larger \dy{} bins. 
+Additionally, to increase the statistics, the slicing is \ptb{} is removed.
+
+Another way to study energy emmission from the dijet system is to look at the azimuthal decorralation of the dijet pair.
+An azimuthal decorralation analysis, Reference \ref{}, was carried out but only using jets with an $\eta{} < 2.8$.
+The new analysis looks at multiple azimuthal decorralation observables and looks at events with and without a central jet veto.
+
+

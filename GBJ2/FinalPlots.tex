@@ -1,0 +1,180 @@
+\section{Corrected Data}
+\label{sec:GBJ2:FinalPlots}
+
+First, the corrected data, with the systematic uncertainties discussed, is first compared to some common MC generators in Figures \ref{GBJ2:FinalPlots:GapFracLO} and \ref{GBJ2:FinalPlots:NJetLO}.
+The MC generators chosen for the comparison are PYTHIA, HERWIG++ and SHERPA. 
+
+Figure \ref{GBJ2:FinalPlots:GapFracLO} shows (a) the gap fraction against \dy{} for the corrected data and the MC generators, and (b) shows the ratio of the MCs to the data.
+In general, PYTHIA gives slightly too low a gap fraction at low \dy{} but improves at larger \dy{}. 
+HERWIG does quite well at low \dy{} but from \dy{} of 4 onwards it diverges from the data giving too low a gap fraction. 
+SHERPA agrees quite well with the data, but better at large \dy{}
+
+Figure \ref{GBJ2:FinalPlots:NJetLO} shows (a) the average number of jets in the dijet rapidity region against \dy{} for the corrected data and the MC generators, and (b) shows the ratio of the MCs to the data.
+As with the gap fraction, PYTHIA agrees with the data quite well, but underestimates the data at large \dy{}.
+HERWIG agrees with the data at low \dy{}, but diverges at larger \dy{}.
+SHERPA on the whole agrees well with the data, but around a \dy{} of 4--7 underestimates the number of jets in the rapidity region.
+
+The corrected data is compared the theory predictions from HEJ and POWHEG. 
+The theory predictions are presented as a band to represent the theoretical uncertainty, which was found by varying both the renormalisation and factorisation scale and also the choice of PDF.
+Two POWHEG curves are shown which have the different parton showering, hadronization and underlying event of PYTHIA and HERWIG. 
+The HEJ events have been passed through Ariadne which ....
+
+
+Figure \ref{GBJ2:FinalPlots:GapFrac} shows (a) the gap fraction against \dy{} for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
+There is significant differences between the three theoretical predictions and the data.
+POWHEG + PYTHIA gives the best agreement with data, and while the gap fraction is a bit low at large \dy{}, it does have the plateau that is observed in the data. 
+Conversely, POWHEG + HERWIG has too low a gap fraction from from about a \dy{} of 2.
+The HEJ prediction also gives too low a gap fraction, but not as far from the data as the POWHEG + HERWIG curve.
+
+Figure \ref{GBJ2:FinalPlots:nJets} shows (a) the average number of jets in the dijet rapidity region against \dy{} for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
+HEJ agrees with the data well until a \dy{} of 4, but then gives too many jets, and doesn't replicate the plateau observed in the data. 
+POWHEG + HERWIG only agrees with data at the very lowest \dy{} bins, then has too many jets in the rapidity region for larger \dy{} and doesn't have the plateau either.
+POWHEG + PYTHIA agrees well best with the data, agreeing in all \dy{} bins and has a very good agreement at the plateau.
+
+Figure \ref{GBJ2:FinalPlots:Q0} shows (a) the gap fraction as a function of \qz{} for the three standard \dy{} slices for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
+All the theoretical predictions agree with data at large \qz{} where the gap fraction is one, this is because the \qz{} will, most of the time, be set above the \pt{} of the leading jets, so there cannot be any other jets in the event with \pt{} greater than \qz{}
+HEJ gives too low a gap fraction in the lower \qz{} region, especially for the higher \dy{} ranges, which agrees with the gap fraction against \dy{} in Figure \ref{GBJ2:FinalPlots:GapFrac}.
+POWHEG + HERWIG has too low a gap fraction at the low \qz{} region for all \dy{} slices, but as with HEJ, it get worse at larger \dy{} ranges.
+POWHEG + PYTHIA gives the best description of the data. In slice ... (need to see ratio)
+********Something is wrong with this plot need to look at division.**********
+
+
+Figure \ref{GBJ2:FinalPlots:dphi_Incl} shows (a) the differential cross section as a function of \dphi{} for the three standard \dy{} slices for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
+For the low \dy{} slice, all the theoretical predictions poorly match the data at low \dphi{}, but improve for larger \dphi{}.
+HEJ does particularly well in the 4--5 \dy{} slice, agreeing with the data for all \dphi{}.
+Both POWHEG + HERWIG and POWHEG + PYTHIA have a larger cross section for all but the largest two \dphi{} bins for the 4--5 \dy{} slice.
+In the 7--8 \dy{} slice, both POWHEG + HERWIG and POWHEG + PYTHIA agree with the data within the systematic uncertainty band, which is quite large in this slice.
+HEJ how too low a cross section in the 7--8 \dy{} slice. 
+
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_GapFraction_dyBins.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_GapFraction_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+(a) The gap fraction as a function of \dy{}.  
+The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against leading order MCs of PYTHIA, HERWIG++ and SHERPA.
+The ratio to the data for (a)  is shown in (b).
+\label{GBJ2:FinalPlots:GapFracLO}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_nGapJets_dyBins.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_nGapJets_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+(a) The average number of jets in the dijet rapidity region as a function of \dy{}.  
+The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against leading order MCs of PYTHIA, HERWIG++ and SHERPA.
+The ratio to the data for (a) is shown in (b).
+\label{GBJ2:FinalPlots:NJetLO}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/GapFraction_dyBins.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/GapFraction_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+(a) The gap fraction as a function of \dy{}.  
+The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against HEJ and POWHEG predictions.
+The ratio of the theoretical predictions to the data is shown in (b).
+\label{GBJ2:FinalPlots:GapFrac}}
+\end{figure}
+
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/nGapJets_dyBins.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/nGapJets_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+(a) The average number of jets in the dijet rapidity region as a function of \dy{}.  
+The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against HEJ and POWHEG predictions.
+The ratio to the data for (a) is shown in (b). 
+\label{GBJ2:FinalPlots:nJets}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/GapFraction_Q0.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/GapFraction_Q0_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The gap fraction as a function of \qz{} for the three standard \dy{} ranges.  
+The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against HEJ and POWHEG predictions.
+The ratio of the theoretical predictions to the data is shown in (b).
+\label{GBJ2:FinalPlots:Q0}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CrossSection.Inclusive.DPhiBins.AlldY.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CrossSection.Inclusive.DPhiBins.AlldY.Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The differential cross section as a function of \dphi{} for inclusive events for the three standard \dy{} ranges.  
+The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against HEJ and POWHEG predictions.
+The ratio of the theoretical predictions to the data is shown in (b).
+\label{GBJ2:FinalPlots:dPhi_Incl}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CrossSection.Gap.DPhiBins.AlldY.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CrossSection.Gap.DPhiBins.AlldY.Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The differential cross section as a function of \dphi{} for inclusive events for the three standard \dy{} ranges.  
+The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against HEJ and POWHEG predictions.
+The ratio of the theoretical predictions to the data is shown in (b).
+\label{GBJ2:FinalPlots:dPhi_Gap}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosDeltaPhiInclusive_dyBins.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosDeltaPhiInclusive_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosDeltaPhiGap_dyBins.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosDeltaPhiGap_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The average \cosdphi{} as a function of \dy{} for (a) inclusive events and (c) gap events for the three standard \dy{} ranges.  
+The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against HEJ and POWHEG predictions.
+The ratio to the data for (a) and (c) is shown in (b) and (d) respectively.
+\label{GBJ2:FinalPlots:Cos}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosTwoDeltaPhiInclusive_dyBins.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosTwoDeltaPhiInclusive_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_dyBins.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[]{
+The average \costwodphi{} as a function of \dy{} for (a) inclusive events and (c) gap events for the three standard \dy{} ranges.  
+The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against HEJ and POWHEG predictions.
+The ratio to the data for (a) and (c) is shown in (b) and (d) respectively.
+\label{GBJ2:FinalPlots:Cos2}}
+\end{figure}
+
+
+

@@ -1,0 +1,23 @@
+The emission of energy into the gap between a dijet system is studied for the first time at a hadron collider in this analysis. $\Delta y - \frac{\bar{p_T}}{p_T^{veto}}$ phase space (as seen in the theory chapter) has been probed is by slicing it up into different regions (in $\Delta y$ and ${\bar{p_T}}$) and by looking how the gap fraction changes as a function of either $\Delta y$, ${\bar{p_T}}$ or ${p_T^{veto}}$.
+Gap fraction as a function of $\Delta y$ studied by having multiple slices in ${\bar{p_T}}$, as well as having a fixed ${p_T^{veto}}$ value. The same was done for ${\bar{p_T}}$ but now slicing in $\Delta y$. The gap fraction as a function of ${p_T^{veto}}$ distributions are sliced in both $\Delta y$ and ${\bar{p_T}}$.
+
+The two different boundary jet definitions that are used are :
+
+\begin{enumerate}
+   \item  Two highest $p_T$ jets in the events;
+   \item  The most forward and most backwards jets in the events (above a given $p_T$).
+\end{enumerate}
+
+This chapter will first look at analysis and event selection in section x and y. Then in sections z-b  the stability of the data under the event selection with a thourough look at both the jet cleaning cuts and the pileup cut. There will
+
+Sources of systematic uncertainty arising from the event selection, especially from the jet cleaning, and the pile-up cuts.
+ 
+Then, a look into how the data agrees with reconstructed PYTHIA to check that the agreement is good enough to use PYTHIA for unfolding the detector effects
+
+Finally, the final results are shown, with explanations of the work done by other members of the analysis team to get these results.
+
+%-introduction to the analysis
+%   -define why we look at it
+%   -what observables we want to look at
+%
+%-give a bit of info on what is going to be in each chapter
