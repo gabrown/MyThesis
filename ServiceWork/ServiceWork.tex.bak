@@ -1,0 +1,60 @@
+The calorimeter high-level trigger (HLTCao) is used to trigger on physics objects that deposit their energy in either the electromagnetic or hadronic calrimeter.
+As described in Section \ref{sec:Det:Cal} the calrimeter is segmented into cells.
+These cells are clustered together, and can be combined with inner detector tracks, to define physics objects such as electrons, photons, taus, and jets. 
+
+The HLTCalo is monitored to check the performance and consistancy of the triggers. 
+This is achived by monitoring the individual cells in the calorimeters and also comparing the different L2 and EF triggered physics objects to the corresponding offline object.
+Monitoring flags are defined for each monitoring distribution, where a green flag represets the distribution is consistant with the expected distribution, and yellow and red represent a larger than expected difference to the expected. 
+When the flag is red or yellow the distribution is studied further to find the reason.
+
+
+
+%Within ATLAS all of the systems are monitored as the data is received (online monitoring) and also after the run has finished (offline monitoring).
+%The purpose of both types of monitoring is to check the performance of the ATLAS subsystems, to track any problems and to have the information to decide if the problem is tolerable, such that the data can still be used, or intolerable, such that the data will not be used for analysis. 
+%
+%One such monitored system is the calorimeter high-level trigger (HLTCalo).
+%The offline monitoring of the HLTCalo is done by monitoring the cells in the calorimeter and also different physics objects (such as electrons, photons and jets), and comparing the triggered version with the offline one. 
+%Flags are defined for each monitoring plot, and are normally set depending on how far the mean of the distributions are away from optimal set value.
+%Green, yellow and red are the different flag conditions, and both yellow and red indicate that the offline shift person should look at the distribution.
+
+In this chapter, the additions to the current cell monitoring which expose hot cells, and the addition of monitoring of calorimeter objects are discussed. 
+
+\section{Cells}
+
+To monitor the overall HLTCalo, monitoring is done on the cells of the calorimeter.
+This monitoring consists of distributions showing the number of active cells in the LAr and Tile, the number of problematic cells and the position of these cells in the LAr and Tile, and also the difference in energy between the trigger and offline cells.
+
+The number of cells in the LAr and Tile is an example of a monitoring plot that is very stable and  should only change when a hot cell is masked or taken offline, allowing very tight flag definitions.
+Monitoring plots, such as the percentage difference in energy in the trigger and offline cells, vary significantly ($\sim15\%$) with different running conditions, so either looser or no flag definitions are set.
+
+The average transverse energy per cell in $\eta  \phi$ distribution is important in identifying hot spots where one cell records artificially high energy in every event.
+Hot cells can be caused from ***** Ask Denis***** 
+Figure \ref{SW_hotspot} shows an example of a hot spot found using the offline cell monitoring in run 201191, resulting in the cell being masked (***Check with Denis****).
+
+\begin{figure}
+\centering
+\mbox{
+   \includegraphics[width=0.9\textwidth]{figures/ServiceWork/Cells_HotSpot.pdf}
+}
+\caption[Offline egamma \et{} verses L2/EF egamma \et{}]{Average \et{} per $\eta \phi$ bin in run 201191. A clear hot region is observed at $\eta=2.5$ $\phi=1$. \label{SW_hotspot}}
+\end{figure}
+
+
+
+\section{Calorimeter Objects}
+
+The other offline monitoring of the HLTCalo studies the calorimeter triggered objects (electrons, photons and jets) and compares them to the offline objects.
+A cut on the \dr{} is done to match the triggered objects to the offline objects.
+An \et{} cut has been applied to the offline objects, which is consitant with the analysis cut required when using the object. 
+
+
+
+\subsection{Electrons and Photons}
+
+
+
+\input{ServiceWork/Egamma.tex}
+ 
+\subsection{Jets}
+
+\input{ServiceWork/Jets.tex}
