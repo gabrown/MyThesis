@@ -1,0 +1,20 @@
+\subsubsection{Dijet \pt{} balance}
+
+In a dijet topology, it is expected, for perfectly measured jets, that both jets should have the equal \pt{}.
+Using this assumption, the \pt{} balance can be expressed with the asymmetry,
+\begin{equation}
+\mathcal{A} =\frac{\pt{}^1 - \pt{}^2}{\pt{}^{ave}},
+\label{JetPerf:Assym}
+\end{equation}
+where $\pt{}^1$ and $\pt{}^2$ are the \pt{} of the two jets, and $\pt{}^{ave}$ is the average \pt{} of the two jets.
+For imperfectly measured jets, the asymmetry would not be unity and a relative jet response can be constructed using the asymmetry as,
+\begin{equation}
+ \frac{\pt{}^1}{\pt{}^2}=\frac{2+\mathcal{A}}{2-\mathcal{A}}.
+\label{JetPerf:JetResp}
+\end{equation}
+
+
+For the balancing to work it is important that there is no other hard QCD emission in the interaction, this is achieved with a cut on the 3rd jet $\pt{}^3<0.25*\pt{}^{ave}$ and requiring the jets to be back-to-back in $\phi$ with a cut $\dphi{}>2.6$. 
+
+
+

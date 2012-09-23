@@ -1,0 +1,39 @@
+\subsubsection{Two and Three Bin Example of Matrix Method}
+To understand the matrix method, the two $\eta$ bin and the three $\eta$ bin cases are discussed further.
+
+
+For the two bin case, the equation relating the two $\eta$ bins is,  
+\begin{equation}
+c_{2k}\mathcal{R_{\rm 12k}}- c_{1k}.
+\label{JetPerf:Matrix_2binEquations}
+\end{equation}
+The equation is minimised when $c_{2k}\mean{\mathcal{R_{\rm 12k}}}= c_{1k}$ with a requirement that the average value is equal to unity.
+Setting the first $\eta$ bin to the reference region with a $c_{2k}=1$, then 
+\begin{equation}
+c_{1k}=\mathcal{R_{\rm 12k}}= \frac{2-\mean{\mathcal{A_{\rm ijk}}}}{2+\mean{\mathcal{A_{\rm ijk}}}} 
+\label{JetPerf:Matrix_2binEquations}
+\end{equation}
+which is the same as Equation \ref{JetPerf:SM_CorrectionFactor} used in the standard method.
+
+
+For a three bin case, with $\eta$ bin indices ${1,2,3}$ the equations are;
+\begin{equation}
+\begin{split}
+c_{2k}\mathcal{R_{\rm 12k}}- c_{1k}; \\
+c_{3k}\mathcal{R_{\rm 13k}}- c_{1k}; \\
+c_{3k}\mathcal{R_{\rm 23k}}- c_{2k}.
+\end{split}
+\label{JetPerf:Matrix_3binEquations}
+\end{equation}
+
+For the three bin example the minimisation equation is,
+\begin{equation}
+\left(\frac{c_{2k}\mathcal{R_{\rm 12k}}- c_{1k}}{\Delta\mathcal{R_{\rm 12k}}}\right)^2+
+\left(\frac{c_{3k}\mathcal{R_{\rm 13k}}- c_{1k}}{\Delta\mathcal{R_{\rm 13k}}}\right)^2+
+\left(\frac{c_{3k}\mathcal{R_{\rm 23k}}- c_{2k}}{\Delta\mathcal{R_{\rm 23k}}}\right)^2+ X(c_{ik}).
+\label{JetPerf:Matrix_3binEquations2}
+\end{equation}
+The minimisation attempts to minimise the first three terms, while also keeping the mean correction at unity (forth term).
+The varience on $\mathcal{R}$, $\Delta\mathcal{R}$, is smaller for hist statistics measurements of $\mathcal{R}$.
+Including the varience in the minimsation, gives measurements with a low varience a higher importance in determining the values of $c_{ik}$. 
+

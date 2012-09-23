@@ -1,0 +1,44 @@
+\section{Dijets with a Veto on Additional Radiation}
+
+The main analysis of this thesis is dijet production with a veto on additional jet radiation between the dijets.
+Dijet production cross section can be calculated using Equation \ref{Theory:XSec}.
+The leading order (LO) cross section calculations have the lowest order of $\alpha_{s}$ to get the correct final state, for dijets this is $\alpha_{s}^{2}$.
+Some of the LO parton scattering diagrams are shown in Figure \ref{Theory:LODijet}.
+Next-to-leading order (NLO) cross section calculations are the LO cross sections with $\alpha_{s}^{2}$ and next order in $\alpha_{s}$, ie $\alpha_{s}^{3}$.
+The $\alpha_{s}^{3}$ terms come from the interference between loop diagrams and LO diagrams, and also from 3 parton final state.
+
+\input{Theory/LO.tex}
+Dijet production cross section as a function of the dijet kinematic, for instance the dijet mass, and can be compared to LO and NLO cross section calculations.
+The dijet cross section is compared to NLO cross section calculation in \cite{ref:Dijet}, with an agreement within the experimental uncertainty.
+
+
+To study the additional radiation between the dijets, the fraction of events that do not contain an additional jet between the dijet is measured.
+This is the gap fraction,
+\begin{equation}
+f_{gap} = \frac{\sigma_{gap}}{\sigma_{Inclusive}},
+\label{Theory:GapFraction}
+\end{equation}
+where $\sigma_{gap}$ is the cross section for a dijet without a jet with $\pt{}>\qz{}$ in the rapidity region between them, \dr{} and $\sigma_{Inclusive}$ is the inclusive dijet cross section.
+The gap fraction is studied as a function of the dijet kinematics, dijet rapidity separation \dy{} and dijet average transverse momentum \ptb{}, and the jet veto scale, \qz{}.
+
+The dijet cross section can be calculated at fixed order using pQCD.
+For some regions of the dijet kinematics, or veto jet \pt{} pQCD calculation of $\sigma_{gap}$ fails to converge.
+Figure \ref{Theory:KineRange} illustrates the different effects that need to be considered for different regions of the dijet kinematics and jet veto scale.
+For narrow \dr{} or small values of $L=\ln(\frac{Q}{\qz{}})$, corresponding to jet veto scale being close to the scale of the event, fixed order calculation should describe the gap cross section well.
+In regions with larger separation or large values of L, resummation to all orders of perturbation theory is required.
+\begin{figure}
+\centering
+\mbox{
+              \epsfig{figure=figures/Theory/LY.pdf,width=0.9\textwidth}
+}
+\caption[]{
+Illustration depicting what type of physics is important for the gap fraction calculation for dijet rapidity separation, Y, and $L=\ln(\frac{Q}{\qz{}})$ from \cite{ref:Forshaw_Veto}.
+\label{Theory:KineRange}}
+\end{figure}
+%To study the emmision of radiation a veto on additional jets between the dijet can be applied.
+
+
+%If an event has no jet between the dijets, it is descrived as a gap event, and 
+
+
+

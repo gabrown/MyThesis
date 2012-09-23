@@ -1,0 +1,73 @@
+\section{Jets}
+\label{sec:Theory:Jets}
+
+Jets are defined using a jet finding algorithm which attempts to cluster nearby objects together.
+For a jet finding algorithm to be theoretically safe it need create the same jet independent of what level it is running over, for instance partons, hadrons, and energy deposits.
+The algorithm also needs to be both collinear and infrared safe.
+Collinear safety of a jet is the requirement that the jet finding should be unaffected by particles radiated at small angles to the original particle. 
+Figure \ref{Theory:IR} is a illustration of a collinear unsafe jet finding algorithm with a minimum \pt{} requirement of the objects.
+In the case where there is only one object, the \pt{} is  greater than the \pt{} cut and only one jet is found. 
+If the object splits into two collinear objects no jet is found, as the splitted objects do not pass the \pt{} cut.
+Infrared safety requires that the jet finding is unaffected by the addition of soft radiation in the event.  
+Figure \ref{Theory:Collinear} is an illustration of (a) two jets formed around two objects. 
+The effect on the final jet state due to additional soft objects between the objects is shown for (b) an IR safe and (c) IR unsafe jet finding algorithm.
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/Theory/Original-Collinear.eps,width=0.3\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/Theory/Unsafe-Collinear.eps,width=0.3\textwidth}}\quad
+                              }
+\caption[]{
+Illustration of a jet finding algorithm which requires the objects has a minimum \pt{} before jet finding. 
+(a) is a jet found around a object and (b) shows the effect of splitting the object into two smaller objects.
+The lengths of the arrowed lines represents the relative \pt{} of the objects and the green line is the minimum object \pt{}.
+\label{Theory:IR}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/Theory/Original-IR.eps,height=0.3\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/Theory/Safe-IR.eps,height=0.3\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/Theory/Unsafe-IR.eps,height=0.3\textwidth}}\quad
+                              }
+\caption[]{
+Illustration showing (a) jet finding on two objects and the effect on the jet final state of additional soft object between the two objects for (b) an infrared safe and (c) an infrared unsafe jet finding algorithm. 
+\label{Theory:Collinear}}
+\end{figure}
+
+
+\subsection{\Antikt{} jets}
+
+The main jet finding algorithm used in ATLAS is the \antikt{} algorithm \cite{ref:antiKt}, which is a sequential recombination algorithm.
+The algorithm defines 
+\begin{equation}
+d_{ij} = min\left( \frac{1}{\kt{}_j^2},\frac{1}{\kt{}_i^2}\right) \frac{\Delta R_{ij}^2}{R^2}
+\label{Theory:dij}
+\end{equation}
+and 
+\begin{equation}
+d_{iB} = \frac{1}{\kt{}_i^2}
+\label{Theory:diB}
+\end{equation}
+for all objects (for example partons, particles, energy deposits) in the event.
+
+The algorithm then combines the objects into jets in the following way:
+
+\begin{enumerate}
+\item Find the smallest of $d_{ij}$ and $d_{iB}$
+\item If $d_{ij} < d_{iB}$ then combine the two objects
+\item If $d_{ij} > d_{iB}$ then define object $i$ as a jet and remove from list of objects
+\item Continue iterating until there is no objects left 
+\end{enumerate}
+
+The jet finding algorithm combines the highest \pt{} objects first, which have a  $\Delta R  < R$, then subsequently lower \pt{} objects.
+Only jets that have a final \pt{} greater than a \pt{} cut are kept in the jet collection. 
+
+There are many algorithms that are theoretically safe (both IR and collinear safe).
+The \antikt{} algorithm was chosen to be the default because it produces regularly shaped jets and has a good behaviour under noise and pileup. 
+In ATLAS the default is to uses two $R$ parameters, 0.4 and 0.6, and full four momentum recombination.
+
+%\subsection{Parton Hadron Duality}

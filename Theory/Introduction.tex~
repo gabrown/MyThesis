@@ -1,0 +1,14 @@
+The Standard Model (SM) of particle physics is the theoretical framework of particle physics which describes the interaction of matter through the electromagnetic, strong and weak forces.
+
+
+
+\begin{figure}
+\centering
+\mbox{
+              \epsfig{figure=figures/Theory/SM.eps,width=0.6\textwidth}
+                              }
+\caption[]{
+Illustration showing hadron hadron interaction through partons $a$ and $b$ going to $X$.
+\label{Theory:HadronHadron}}
+\end{figure}
+

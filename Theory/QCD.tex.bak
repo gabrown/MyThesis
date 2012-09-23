@@ -1,0 +1,124 @@
+\section{QCD}
+\label{Theory:QCD}
+
+The expression for the QCD Lagrangian which describes a spin-1/2 quark, q, with mass m interacting with a spin-1 gluon is 
+\begin{equation}
+\mathcal{L} = - \frac{1}{4} F^{a}_{\alpha\beta} F_{b}^{\alpha\beta} + \sum_{q,j} \bar{q}_{j}( i\partial - m_{q})q^{j}  + \sum_{q} \sum_{ika} \bar{q}_{i}\gamma_{\mu} t^{a}_{ik} q^{k} A^{\mu}_{a}, 
+\label{Theory:L_QCD}
+\end{equation}
+where $A^{\mu}_{a}$ is the gluon field, $t^{a}_{ik}=\frac{1}{2}\lambda_{a}$ where $\lambda_{a}$ are the Gell--Mann matrices, $\gamma_{\mu}$ are the gamma matrices and 
+\begin{equation}
+F^{a}_{\alpha\beta} = \partial^{\alpha}A_{A}^{\beta} - \partial^{\beta}A_{a}^{\alpha} + g \sum_{bc} f_{abc} A_{b}^{\alpha}A_{b}^{\beta}. 
+\label{Theory:F_Tensor}
+\end{equation}
+
+The first term in Equation \ref{Theory:L_QCD} is concerned with the gluon self coupling and gluon propagator, where terms with $g^2$  correspond to a four gluon interaction, terms with $g$ correspond to the three gluon interaction and other terms correspond to the basic gluon propagator.
+In Equation \ref{Theory:F_Tensor}, the third term is a key difference to QED, and allows for the self interactions of the gluon.
+The second term in Equation \ref{Theory:L_QCD} corresponds to the basic quark propagator without a gluon interaction.
+The final term in Equation \ref{Theory:L_QCD} is the gluon-quark interaction.
+
+\subsection{Asymptotic Freedom}
+
+
+The coupling constant, $\alpha_{s} = \frac{g_s^2}{4\pi}$, governs the stregnth of the partonic interactions and is dependent on the scale, Q, of the interaction.
+When interactions are calculated using perturbative QCD (pQCD), ultraviolet divergences arise which require a renormalisation. 
+This renormalisation introduces an additional mass scale, $\mu$.
+The coupling constant at a momentum scale, Q, relative to a scale $\mu$ at leading order is given by
+\begin{equation}
+\alpha_{s}(Q^2) = \frac{\alpha_{s}(\mu^2)}{1+b\alpha_{s}(\mu^2)\ln(\frac{Q^2}{\mu^2})}
+\label{Theory:Coupling}
+\end{equation}
+where 
+\begin{equation}
+b = \frac{33-2n_f}{12\pi}
+\label{Theory:b_Coupling}
+\end{equation}
+where $n_f$ is the number of active flavours of quarks.
+$b$ is positive even for the maximum number of flavours.
+
+The renormalisation scale $\mu$ is arbitrary and so can be freely chosen.
+Measurements of $\alpha_s$ are made at various values of $Q$ and are compared at $\alpha_s(M_Z)$, where $M_Z$ is the mass of the Z.
+This allows the calculation of $\alpha_s$ at other scales, though as Q gets small, Equation \ref{Theory:Coupling} diverges and pQCD is no longer appropriate.
+
+Equation \ref{Theory:Coupling} shows two important features of QCD, asymptotic freedom and confinement.
+At high values of $Q$, corresonding to probing smaller distances, the coupling constant is small and the quark behaves as if it were a free particle, and has asymptotic freedom.
+Confinement comes from the feature that at low values of $Q$, the coupling constant becomes very large.
+This leads to the requirement that quarks and gluons are always found in bound colour singet states, namely hadrons.
+
+
+pQCD should only be used down to a scale $\Lambda_{QCD}$ at which higher orders of $\alpha_s$ become significant and the perturbative expansion no longer converge.
+When modelling events, the different scales can be used to define a perturbative region, where the calculation can be done using pQCD, and a non-perturbative region, where perturbation theory is no longer reliable.
+%This separation, or factorisation, of the different scales will be discussed further in Sections XXX and XXX.
+
+
+
+
+\subsection{Hadron -- Hadron Cross Section}
+
+
+As discussed in reference ( 2007 Rep. Prog. Phys. 70 89 ), QCD factorisation theorem indicates that the hadronic cross section of a given process can be split into the hard partonic scattering process, which can be calculated using pQCD, and the parton distribution functions (PDFs) can be introduced to integrate over the different partons and thier parton \pt{} within the hadron. 
+
+The cross section for the process shown in Figure \ref{Theory:HadronHadron} is given by,
+
+\begin{equation}
+\sigma_{AB}=\int\int dx_a dx_b f_{a/A}(x_a) f_{b/B}(x_a) \hat{\sigma}_{ab\rightarrow X}
+\label{Theory:XSec}
+\end{equation}
+where A and B are the initial protons, $a$ and $b$ are different combinations of quarks and gluons, $x_a$ is the fraction of the proton energy that parton $a$ carries, $ f_{a/A}(x_a)$ is the PDF which represents the probability of finding a parton with energy fraction  $x_a$ within A, and $\hat{\sigma}_{ab\rightarrow X}$ is the partonic cross section for the sub-process $ab\rightarrow X$.
+The partonic scatter is described by the matrix element, $\mathcal{M}$, and the resulting partonic cross section is given by
+\begin{equation}
+d \hat{\sigma}_{a,b\rightarrow X}= \frac{1}{\hat{s}}|\mathcal{M}_{a,b\rightarrow X}|^{2} d\Phi_n
+\label{Theory:PartonCrossSection}
+\end{equation}
+where i and j represent the incoming partons, $\sqrt{\hat{s}}= (k_a + k_b)$ where $k_i$ is the momentum of parton $i$, and $d\Phi_n$ is the n-body phase space.
+The partonic cross section is calculated using the Feynmann rules.
+When $X$ is just quarks and gluons, then the Feynmann rules can be derived only from the QCD Lagrangian. 
+
+Problems occur when calculating collinear or soft gluon emission from $a$ or $b$, and these lead to divergences.  
+A factorisation scale $\mu_F$ is defined such that emissions with a momentum less than $\mu_F$ are absorbed into the PDFs, and only emissions above this value are calculated. 
+
+%Once the divergences are absorbed into the PDFs and the $\hat{\sigma}_{ab\rightarrow X}$ is perturbative expanded, Equation \ref{Theory:XSec} becomes,
+%\begin{equation}
+%\sigma_{AB}=\int\int dx_a dx_b f_{a/A}(x_a,\mu_F) f_{b/B}(x_b,\mu_F) [\hat{\sigma}_0 + \alpha_s(\mu_R^2)  * \hat{\sigma}_1 + HO]_{ab\rightarrow X}
+%\label{Theory:XSec2}
+%\end{equation}
+%where $\hat{\sigma}_0$ and $\hat{\sigma}_1$ are the LO and NLO cross section respectively, and  $\alpha_s(\mu_R)$ is the renormalisation scale.
+%Both the factorisation and renormalisation scale is set to be close to scale of the hard interaction of the event.
+%This choise for the $\mu_F$ and $\mu_R$ reduces the effect from higher order terms.
+
+
+The PDFs, $f(x_0,Q_0)$, have been measured at electron-proton colliders and fix target experiments for a range of $x_0$ and $Q_0$ values. 
+
+\begin{figure}
+\centering
+\mbox{
+              \epsfig{figure=figures/Theory/Hadron-Hadron.eps,width=0.6\textwidth}
+                              }
+\caption[]{
+Illustration showing hadron hadron interaction through partons $a$ and $b$ going to $X$. 
+\label{Theory:HadronHadron}}
+\end{figure}
+
+
+\subsection{Jet Formation}
+
+For a parton scatter with partonic final state objects, the colored partons move away from the interaction point.
+As discussed above, confinement requires that all observable particles are colour neutral, and this will only occur when there is a low relative momentum between partons.
+As the distance between the partons increases, pair production and gluon emission create a cascade of partons. 
+This results in final state hadrons that can be detected.
+
+A jet is defined to allow calculations with partons in the final state to be compared to calculations that have a hadronic final state, and also to detector level objects.
+The jet definition is required to give a duality between the parton level and hadron level. 
+Figure \ref{Theory:InitJet} is an illustration of a jet at different levels.
+
+
+\begin{figure}
+\centering
+\mbox{
+              \epsfig{figure=figures/Theory/JetEvolution.eps,width=0.9\textwidth}
+                              }
+\caption[]{
+Illustration of a jet at parton, particle and calorimeter levels. 
+\label{Theory:InitJet}}
+\end{figure}
+

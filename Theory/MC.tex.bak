@@ -1,0 +1,78 @@
+\section{MC Event Simulation}
+\label{Theory:MC}
+
+
+Monte Carlo (MC) event simulation is used to compare data to theoretical predictions. 
+MCs aim to give a full description of a hadron-hadron interaction.
+
+As discussed in Section \ref{Theory:QCD}, the interaction can be factorised to separate the perturbative and non-perturbative parts. 
+First the matrix element for the process is calculated to model the hard interaction.
+Then high \pt{} partons from the hard interaction are evolved down to low \pt{} hadrons through parton showering and hadronisation.
+
+Parton showering (PS) evolves the partons from the ME, down to the scale, $\Lambda_{QCD}$, where pQCD no longer works and hadronization occurs.
+The PS aims to describes the higher order terms concerned with soft and collinear emission of parton. ***Simone can you explain the HO effects that maybe useful for gap fracion?***.
+The emission of partons continue until all the remaining partons are at a given cut off scale.
+Once at this scale, hadronisation models combine partons together to make colour neutral partons.
+
+Other emmision in the MC event is underlying event (UE) and pile-up.
+Underlying event (UE) is any additional radiation beyond the hard interaction within the $pp$ collision.
+This mainly consists of multiple parton-parton interactions and beam remnants which add additional energy into the event.
+Pile-up comes from multiple proton-proton collisions. 
+Both add additional radiation into the event.
+
+
+
+
+\subsection{MC Generators}
+\subsubsection{PYTHIA}
+
+PYTHIA \cite{ref:PYTHIA64} is a general-purpose MC with a large library of LO subprocesses, including the LO QCD matrix elements for the $2 \rightarrow 2$ subprocesses.
+The PYTHIA PS orders emmisions in \pt{} and has a veto to insure angle ordering. 
+The hadronisation used in PYTHIA is based on the Lund string model \cite{ref:Lund}.
+The version of PYTHIA used in the analyses presented is PYTHIA 6.4.2.3 with the MRST LO$^*$ PDF \cite{ref:MRST} and the AMBT1 tune \cite{ref:Tune}
+
+The PYTHIA sample is weighted in both leading parton \pt{} and rapidity seperation between leading partons allowing to compare to data at large \ptb{} and large \dy{}.
+The PYTHIA events are passed through a full ATLAS detector simulation, based on GEANT4 \cite{ref:Geant4}, allowing them to be used to unfold the detector effects and return the data to hadron scale.
+
+%- Has library of subprocess at LO
+%- for QCD has 2->2
+%
+%-PS: initial and final state showers
+%-PS: uses decreasing timelike virtuality with angle ordering imposed by veto
+%
+%-UE: Descried perturbatively for set of 2 to 2 scattering
+%-UE: scatterings colour connected with each other and beam reminants
+%-UE: p(perp) min cut of 2GeV
+%
+%
+%-H: Based upon the Lund String Model discussed in
+%-H: Gluons is string between coloured qqbar.
+%-H: As breaks, there is new q qbar pairs.
+
+\subsubsection{HERWIG++}
+
+HERWIG++ is another general-purpose MC which has LO QCD matrix elements for the $2 \rightarrow 2$ subprocesses.
+The hadronisation used in HERWIG is the cluster model \cite{ref:ClusterModel} which forces all the gluons remaining from the PS to split into quark antiquark pairs. 
+HERWIG++ has a PS which evoves the partons using angular ordering of emmisions.
+The version used is HERWIG++ 2.5.0 \cite{ref:HERWIG} using the MRST LO$^*$ PDF and underlying event tune of LHC-UE7-1 *reference this tune*.%\cite{ref:HERWIGTune}. 
+%- Has library of subprocesses for SM and supersymetry
+%- for QCD has 2->2
+%
+%-PS: angle ordering of parton cascade 
+%
+%-H: Uses 
+%
+%***Herwig Angle Ordering***** The first emmited gluon normally has the largest angle compared to original parton.
+
+\subsubsection{POWHEG}
+The POWHEG generator has the NLO matrix elements for dijet production. 
+This aims to give a better $3^{rd}$ jet description, than the standard LO MC of PYTHIA or HERWIG.
+POWHEG can interface to external implementations of parton showers and  hadronisation.
+In this thesis, both PYTHIA and HERWIG parton showering and hadronisations are used.
+Events were generated with the MSTW 2008 NLO PDF.
+\subsubsection{HEJ}
+
+High Energy Jets (HEJ) is a generator which produces parton-level cross sections.  
+HEJ implements an all-order decription of wide-angle emmisions, where the \pt{} of the partons are similar.
+This represents the low $L$ region in Figure \ref{Theory:KineRange}.
+Events were generated with the MSTW 2008 NLO PDF.

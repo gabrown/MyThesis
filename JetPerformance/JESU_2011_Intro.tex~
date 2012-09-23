@@ -1,0 +1,127 @@
+\subsubsection{Event Selection}
+
+The jets in the analysis were reconstructed using the \antikt{} algorithm and calibrated using the EMJES scheme (discussed in section X).
+
+The analysis requires that a single jet trigger has passed.
+Triggers are used if they are in the plautau region of the turn-on curve, corresponding to a $>99\%$ efficiency.
+The trigger used for a given \ptave{} is shown in Table \ref{JetPerf:Triggers}.
+A trigger with name jX requires an EF-level trigger jet with EM scale $\pt{}>$X GeV.
+
+\begin{table}
+%\footnotesize
+\centering
+\begin{tabular}{  c c }
+\ptave{} & Trigger\\
+$[\rm GeV]$ & \\
+\hline
+$22-30$   & j10 \\
+$30-40$   & j15 \\
+$40-55$   & j20 \\
+$55-75$   & j30 \\
+$75-100$  & j40 \\
+$100-130$ & j55 \\
+$130-170$ & j75 \\
+$170-220$ & j100 \\
+$220-300$ & j135 \\
+$300-400$ & j180 \\
+\end{tabular}
+\caption[]{
+\label{JetPerf:Triggers}}
+\end{table}
+The data were required to be recorded when all ATLAS sub-detectors are fully functioning. 
+
+To ensure the two-to-two topology the \dphi{} between the two jets was required to be greater than $2.5$ rad and events containing a third jet with $\pt{} >0.25~ \ptave{}$ were removed.
+The reference region that is used to do the final rescaling is \etarange{-0.8}{0.8}.
+
+\subsubsection{Basic Assymetry and Response Distributions}
+
+Figures \ref{JetPerf:Asym_j15} and \ref{JetPerf:Asym_j30} each show two typical assymetry distributions for jets falling in (a) two central regions, $-0.8<\eta_{left}<-0.1$ and $0.1<\eta_{right}<0.8$, and (b) one central region and one more forward region, $0.1<\eta_{left}<0.8$ and $2.1<\eta_{right}<2.8$. 
+Each assymetry distributions have been fitted with a gausian from $\rm{-0.7<A<0.7}$.
+
+Figure \ref{JetPerf:Asym_j15} shows typical assymetry distributions, for $30<\ptave{}<40$ GeV jets.
+The peak of the fitted assymetry for both jets falling in the central region is $0.006$, which corresponds to a very small \pt{} imbalence of $\mean{\pt{}^{right}}= 0.994 \mean{\pt{}^{left}}$.
+The peak of the fitted assymetry for one jet falling in the central region and the other in a forward region is $0.023$, which corresponds to a \pt{} imbalence of $\mean{\pt{}^{right}}= 0.98 \mean{\pt{}^{left}}$.
+
+Figure \ref{JetPerf:Asym_j30} shows typical assymetry distributions, for $55<\ptave{}<75$ GeV jets.
+The peak of the fitted assymetry for both jets falling in the central region is $0.003$, which corresponds to the two jets \pt{} balencing. 
+The peak of the fitted assymetry for one jet falling in the central region and the other in a forward region is $0.007$, which corresponds to a \pt{} imbalence of $\mean{\pt{}^{right}}= 0.993 \mean{\pt{}^{left}}$.
+
+The spread observed in the assymetry distributions arrises due to the jet energy resolution of the two jets and the peak value of the fited assymetry relates to the relative responses of the two regions.
+In the distributions for both the low and high \ptave{} jets the case where both jets fall into central bins has a lower \pt{} imbalence than one jet falling into a further forward region.  
+Both central jets fall into the regions of the barrel calorimeter when is well understood, and has little dead material.
+However, when one jet is further forward, is falls into the end-cap region on the calorimeter and the difference observed could be due to the differing abilities to calibrate the different parts of the detector. 
+Additionally, the higher \ptave{} jets have a smaller \pt{} imbalence than the lower \ptave{} jets.
+The spread of assymetry is smaller for higher \ptave{} jets, which is due to the improved resolution for higher \pt{} jets.
+
+
+Figures \ref{JetPerf:ResponseMatrix_30_40_j15} and \ref{JetPerf:ResponseMatrix_55_75_j30} show the the response matrices, which are used by the minimisation, for jets in the range $30<\ptave{}<40$ GeV and $55<\ptave{}<75$ GeV respectively.
+Generally, the low \ptave{} jets have a larger range of relative responses than the high \ptave{} jets, with some bins deviating from unity by up to $6\%$.
+In both response matrices the higher $\eta$ bins have a larger spread of responses than the more central bins.
+
+
+Figure \ref{JetPerf:PtComp} shows the relative response as a function of detector $\eta$ for $22<\ptave{}<30$ GeV jets, $30<\ptave{}<40$ GeV jets, and $55<\ptave{}<75$ GeV jets. 
+For the lowest \ptave{} jets show the largest relative response.  
+There is a relative response of $\approx1.02$ at $|\eta|=1$ which corresponds to the crack region between the tile barrel and tile extended barrel. 
+This crack can be seen in the jet energy EM-scale response in Figure \ref{JetPerf:MCResp}.
+For low \pt{} jets, the calibration has overcalibrated the jets in this crack region. 
+For the medium and high jet \pt{} ranges shown, the relative response for $|\eta|<1$ is very close to unity.
+The response at higher $\eta{}$ deviates away from unity, and as the jet \pt{} increases the deviation reduces. 
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j15zvar4_6.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j15zvar6_9.eps,width=0.5\textwidth}}\quad
+}
+\caption[]{
+Asymmetry distribution for jets with $30<\ptave{}<40$ GeV with (a) $-0.8<\eta_{left}<-0.1$ and $0.1<\eta_{right}<0.8$ and (b)  $0.1<\eta_{left}<0.8$ and $2.1<\eta_{right}<2.8$.
+The distribution is fitted using a gausian between $\rm{-0.7<A<0.7}$ and the fit result and error is shown as is the mean and error on the mean. 
+\label{JetPerf:Asym_j15}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j30zvar4_6.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j30zvar6_9.eps,width=0.5\textwidth}}\quad
+}
+\caption[]{
+Asymmetry distribution for jets with $55<\ptave{}<75$ GeV with (a) $-0.8<\eta_{left}<-0.1$ and $0.1<\eta_{right}<0.8$ and (b)  $0.1<\eta_{left}<0.8$ and $2.1<\eta_{right}<2.8$.
+The distribution is fitted using a gausian between $\rm{-0.7<A<0.7}$ and the fit result and error is shown as is the mean and error on the mean. 
+\label{JetPerf:Asym_j30}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \epsfig{figure=figures/JetPerformance/2011/j15TwoDPlotBoth.eps,width=0.9\textwidth}
+}
+\caption[]{
+Response matrix for $30<\ptave{}<40GeV$ for AntiKt4TopoEM jets which passed the j15 trigger. 
+The text in the bins is the percentage away from unity that the response is.
+\label{JetPerf:ResponseMatrix_30_40_j15}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \epsfig{figure=figures/JetPerformance/2011/j30TwoDPlotBoth.eps,width=0.9\textwidth}
+}
+\caption[]{
+Response matrix for $55<\ptave{}<75GeV$ for AntiKt4TopoEM jets which passed the j30 trigger. 
+The text in the bins is the percentage away from unity that the response is.
+\label{JetPerf:ResponseMatrix_55_75_j30}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\mbox{
+              \epsfig{figure=figures/JetPerformance/2011/ResponseAvePtComp.eps,width=0.9\textwidth}
+}
+\caption[]{
+Relative response as a function of detector $\eta$ for jets with $22<\ptave{}<30$ GeV.
+Relative responses are shown for events with \Range{NPV}{0}{2}, \Range{NPV}{3}{6}, $\rm NPV\ge7$ and all NPV. 
+\label{JetPerf:PtComp}}
+\end{figure}
+
+
