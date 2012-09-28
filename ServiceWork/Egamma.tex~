@@ -7,7 +7,7 @@
 The EM calorimeter component of the HLTCalo is monitored by using physics objects that are reconstructed using EM energy deposits from electrons and photons. 
 There are differences between the L2 and EF level EM cluster finding due to the time constraints on the L2 trigger.  
 The L2 EM clusters are found using only the second EM calorimeter layer, in which the highest energy cell is used as the cluster seed.
-From this cluster seed, the cluster position is formed using the energy weighted $\eta$ $\phi$ from a grid $\etaphi{0.075}$ around the seed and the cluster energy is calculated by summing over the energy of the cells. 
+From this cluster seed, the cluster position is formed using the energy weighted $\eta$ $\phi$ from a grid \etaphi{0.075} around the seed and the cluster energy is calculated by summing over the energy of the cells. 
 Conversely, the EF EM clusters use a sliding window cluster algorithm using the calo towers. 
 This reduces the effect of the hot cells, as these will be smeared by the surrounding regular cells which will not have energy deposits.
 The offline cluster are also found using a sliding window algorithm, but have full offline cell information.
@@ -127,7 +127,8 @@ Flags were assigned for a given run depending on the difference of the mean to a
 The run is flagged green if the difference is less than $0.2\%$, yellow if between $0.2\% - 0.4\%$ or red if greater than $0.4\%$.
 These flag values were tuned using the initial runs in the first data taking region.
 Most of the runs are set as green or yellow, with only a few set as red.
-The red flagged runs are runs where there is no stable beam and there are problems with the LAr calorimeter caused by *****  There is a problem here, just following up with Denis to find out what it is*****
+The red flagged runs are runs where there is no stable beam and some sections of the LAr calorimeter were not online during the run.
+
 
 \begin{figure}
 \centering

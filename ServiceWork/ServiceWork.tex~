@@ -5,7 +5,7 @@ These cells are clustered together, as described in Section \ref{sec:Det:Calo} ,
 The HLTCalo is monitored to check the performance and consistency of the triggers. 
 This is achieved by monitoring the individual cells in the calorimeters and also comparing the different L2 and EF triggered physics objects to the corresponding offline object.
 Monitoring flags are defined for each monitoring distribution, where a green flag represents the distribution is consistent with the expected distribution, and yellow and red represent a deviation from the expected distribution. 
-When the flag is red or yellow the distribution is studied further to find the reason, and if neccessary can then be excluded from physics analysis.
+When the flag is red or yellow the distribution is studied further to find the reason, and if necessary can then be excluded from physics analysis.
 
 
 In this chapter, work done by the author on improvements to the current cell monitoring which expose hot cells, and the addition of monitoring of calorimeter objects are discussed. 
@@ -20,7 +20,7 @@ Monitoring plots, such as the percentage difference in energy in the trigger and
 
 The average transverse energy per cell in $\eta  \phi$ distribution is important in identifying hot spots where one cell records artificially high energy in every event.
 Hot cells can be caused from electronics problems within the cells. 
-Figure \ref{SW_hotspot} shows an example of a hot spot found using the offline cell monitoring in run 201191, resulting in the cell being masked (***Check with Denis****).
+Figure \ref{SW_hotspot} shows an example of a hot spot found using the offline cell monitoring in run 201191, resulting in the cell being masked.
 
 \begin{figure}
 \centering
@@ -55,4 +55,4 @@ An \et{} cut has been applied to the offline objects, which is consistent with t
 \subsection{Summary}
 
 The updates to the HLT cell monitoring and the addition of offline monitoring of the HLTCalo using physics objects such as jets are presented.
-Cells have been masked to reduce the effect from noisy cells, and the EM and jet triggers have been monitored and observed to have good stablity, and data where this has not been the case has not been used for physics analyses.
+Cells have been masked to reduce the effect from noisy cells, and the EM and jet triggers have been monitored and observed to have good stability, and data where this has not been the case has not been used for physics analyses.
