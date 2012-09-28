@@ -1,0 +1,18 @@
+The Large Hadron Collider provided proton-proton collisions at a world record centre-of-mass energy of 7 TeV.
+The ATLAS detector aims to descover new physics coming from these collisions.
+New physics at hadron-hadron colliders are influenced by jets, either new physics signals with jet final states, backgrounds to new physics or jets found in the same event as new physics events.
+Analysis cuts and event selection on this additional radiation can force the measurement into extreme regions of phase space.
+This extreme phase space region can be probed by studying dijet production with additional radiation cuts. 
+These studies give important precision QCD measurements which can be compared to various event generators.
+
+
+In Chapter \ref{chp:Theory} of this thesis the Standard Model (SM) of particle physics is reviewed with particular emphasis on Quantum Chromo Dynamics in Chapter \ref{chp:Theory}. 
+In Chapter \ref{chp:LHC_ATLAS} the LHC experiment and ATLAS detector are described. 
+Monitoring of the calorimeter systems is described in Chapter \ref{chp:HLTCalo}.
+In-situ methods used to assess the effectiveness of jet calibration and forward jet properties are presented in Chapter \ref{chp:JetPerf}.
+Chapter \ref{chp:GBJ1} presents the analysis which formed the basis of the first ATLAS paper on dijet production with a veto on jets bounded by the dijet system as a function of the dijet rapidity seperation and the average transverse momentum. 
+In Chapter \ref{chp:GBJ2} the analysis described in Chapter \ref{chp:GBJ1} is extended to study dijets with a large rapidity seperation, and a measurement of the azimuthal decorrelation is made.
+Finally, in Chapter \ref{chp:Conc} the results from the previous Chapters are summarised.
+
+
+

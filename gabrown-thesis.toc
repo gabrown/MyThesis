@@ -1,25 +1,94 @@
 \select@language {british}
-\contentsline {chapter}{Abstract}{5}
-\contentsline {chapter}{Declaration}{6}
-\contentsline {chapter}{Copyright}{7}
-\contentsline {chapter}{\numberline {1}The LHC and ATLAS}{8}
-\contentsline {section}{\numberline {1.1}The Large Hadron Collider}{8}
-\contentsline {subsection}{\numberline {1.1.1}Luminosity}{9}
-\contentsline {subsubsection}{2010 run}{11}
-\contentsline {section}{\numberline {1.2}The ATLAS Experiment}{11}
-\contentsline {subsection}{\numberline {1.2.1}ATLAS coordinate system}{11}
-\contentsline {subsection}{\numberline {1.2.2}Detector Overview}{13}
-\contentsline {subsubsection}{Magnet System}{13}
-\contentsline {subsubsection}{Inner Detector}{14}
-\contentsline {subsubsection}{Calorimeter System}{15}
-\contentsline {subsubsection}{Muon Detectors}{16}
-\contentsline {subsection}{\numberline {1.2.3}Calorimeter}{16}
-\contentsline {subsubsection}{EM Calorimeter}{17}
-\contentsline {subsubsection}{Hadronic Calorimeter}{17}
-\contentsline {subsubsection}{Forward Calorimeter}{18}
-\contentsline {subsubsection}{Calorimeter Objects}{18}
-\contentsline {subsection}{\numberline {1.2.4}Trigger and Data Acquisition}{19}
-\contentsline {subsubsection}{Minimum Bias Triggers}{20}
-\contentsline {subsubsection}{L1 Calorimeter}{20}
-\contentsline {subsubsection}{Jet Triggers}{21}
-\contentsline {chapter}{Bibliography}{22}
+\contentsline {chapter}{Abstract}{11}
+\contentsline {chapter}{Declaration}{12}
+\contentsline {chapter}{Copyright}{13}
+\contentsline {chapter}{\numberline {1}Introduction}{14}
+\contentsline {chapter}{\numberline {2}Theory}{16}
+\contentsline {section}{\numberline {2.1}QCD}{16}
+\contentsline {subsection}{\numberline {2.1.1}Asymptotic Freedom and Confinement}{18}
+\contentsline {subsection}{\numberline {2.1.2}Hadron -- Hadron Cross Section}{19}
+\contentsline {subsection}{\numberline {2.1.3}Jet Formation}{20}
+\contentsline {section}{\numberline {2.2}Dijet Production}{21}
+\contentsline {section}{\numberline {2.3}Jets}{23}
+\contentsline {subsection}{\numberline {2.3.1}\hbox {Anti-${k_t}$}\xspace {} jets}{25}
+\contentsline {section}{\numberline {2.4}MC Event Simulation}{26}
+\contentsline {subsection}{\numberline {2.4.1}MC Generators}{26}
+\contentsline {subsubsection}{PYTHIA}{26}
+\contentsline {subsubsection}{HERWIG++}{27}
+\contentsline {subsubsection}{ALPGEN}{27}
+\contentsline {subsubsection}{POWHEG}{28}
+\contentsline {subsubsection}{HEJ}{28}
+\contentsline {chapter}{\numberline {3}The LHC and ATLAS}{29}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{29}
+\contentsline {subsection}{\numberline {3.1.1}Luminosity}{30}
+\contentsline {subsubsection}{2010 run}{31}
+\contentsline {section}{\numberline {3.2}The ATLAS Coordinate System}{32}
+\contentsline {section}{\numberline {3.3}The ATLAS Detector}{33}
+\contentsline {subsection}{\numberline {3.3.1}Magnet System}{34}
+\contentsline {subsection}{\numberline {3.3.2}Inner Detector}{34}
+\contentsline {subsection}{\numberline {3.3.3}Calorimeter System}{36}
+\contentsline {subsubsection}{EM Calorimeter}{38}
+\contentsline {subsubsection}{Hadronic Calorimeter}{38}
+\contentsline {subsubsection}{Forward Calorimeter}{39}
+\contentsline {subsubsection}{Calorimeter Objects}{39}
+\contentsline {subsection}{\numberline {3.3.4}Muon Detectors}{40}
+\contentsline {subsection}{\numberline {3.3.5}Trigger and Data Acquisition}{40}
+\contentsline {subsubsection}{Minimum Bias Triggers}{42}
+\contentsline {subsubsection}{L1 Calorimeter}{42}
+\contentsline {subsubsection}{Jet Triggers}{42}
+\contentsline {section}{\numberline {3.4}Jets in ATLAS}{43}
+\contentsline {subsubsection}{Jet Energy Scale (JES)}{43}
+\contentsline {subsubsection}{Jet Energy Scale Uncertainty}{45}
+\contentsline {subsubsection}{Jet Energy Resolution}{46}
+\contentsline {subsubsection}{Jet Cleaning}{47}
+\contentsline {chapter}{\numberline {4}High Level Trigger Calorimeter Monitoring}{49}
+\contentsline {section}{\numberline {4.1}Cells}{50}
+\contentsline {section}{\numberline {4.2}Calorimeter Objects}{50}
+\contentsline {subsection}{\numberline {4.2.1}Electrons and Photons}{51}
+\contentsline {subsubsection}{EM cluster matching}{52}
+\contentsline {subsubsection}{Monitored Distributions}{53}
+\contentsline {subsection}{\numberline {4.2.2}Jets}{57}
+\contentsline {subsubsection}{Jet matching}{57}
+\contentsline {subsubsection}{Monitored Distributions}{58}
+\contentsline {subsection}{\numberline {4.2.3}Summary}{59}
+\contentsline {chapter}{\numberline {5}In-Situ Validation of ATLAS Jet Reconstruction and Calibration}{61}
+\contentsline {section}{\numberline {5.1}In-Situ Validation of Jet Calibration}{62}
+\contentsline {subsubsection}{Standard Method for Dijet Balance}{62}
+\contentsline {subsubsection}{Matrix Method for Dijet Balance}{63}
+\contentsline {subsubsection}{Two and Three Bin Example of Matrix Method}{64}
+\contentsline {section}{\numberline {5.2}2011 Study of Pile-up Dependance}{65}
+\contentsline {subsubsection}{Event Selection}{65}
+\contentsline {subsubsection}{Basic Asymmetry and Response Distributions}{66}
+\contentsline {subsubsection}{Effect of Pileup on Dijet Balance}{68}
+\contentsline {section}{\numberline {5.3}2010 Forward Jet Validation}{76}
+\contentsline {section}{\numberline {5.4} Forward Jet Properties}{76}
+\contentsline {chapter}{\numberline {6}Measurement of Dijet Production with a Veto on Additional Central Jet Activity}{80}
+\contentsline {section}{\numberline {6.1}Topology Selection}{81}
+\contentsline {section}{\numberline {6.2}Event selection}{82}
+\contentsline {subsection}{\numberline {6.2.1}Data Samples}{82}
+\contentsline {subsection}{\numberline {6.2.2}Trigger Strategy}{82}
+\contentsline {subsection}{\numberline {6.2.3}Noise and Pileup Rejection}{83}
+\contentsline {section}{\numberline {6.3}Control Plots}{84}
+\contentsline {section}{\numberline {6.4}Systematic Uncertainties}{84}
+\contentsline {subsection}{\numberline {6.4.1}Stability of Event Selection}{84}
+\contentsline {subsection}{\numberline {6.4.2}Jet Cleaning}{87}
+\contentsline {subsection}{\numberline {6.4.3}Pileup}{88}
+\contentsline {section}{\numberline {6.5}Overview of Other Analysis Components}{95}
+\contentsline {section}{\numberline {6.6}Corrected Data}{96}
+\contentsline {chapter}{\numberline {7}Dijets with a Jet Veto and Azimuthal Decorrelations at Very Large Rapidity Separations}{109}
+\contentsline {section}{\numberline {7.1}Topology Selection}{110}
+\contentsline {section}{\numberline {7.2}Event selection}{111}
+\contentsline {subsection}{\numberline {7.2.1}Data Samples and Basic Event Selection}{111}
+\contentsline {subsection}{\numberline {7.2.2}Trigger Strategy}{111}
+\contentsline {section}{\numberline {7.3}Closure of Event Selection}{114}
+\contentsline {section}{\numberline {7.4}Systematic Uncertainty}{115}
+\contentsline {subsection}{\numberline {7.4.1}Jet Energy Scale Uncertainty}{115}
+\contentsline {subsection}{\numberline {7.4.2}Jet Energy Resolution}{117}
+\contentsline {subsection}{\numberline {7.4.3}Jet $\phi {}$ Resolution}{121}
+\contentsline {subsection}{\numberline {7.4.4}Jet Cleaning}{128}
+\contentsline {subsection}{\numberline {7.4.5}Other Systematics}{131}
+\contentsline {subsection}{\numberline {7.4.6}Combined Systematics}{136}
+\contentsline {section}{\numberline {7.5}Assessment of Uncorrected Data vs MC}{136}
+\contentsline {section}{\numberline {7.6}Corrected Data}{143}
+\contentsline {chapter}{\numberline {8}Summary and Conclusions}{154}
+\contentsline {chapter}{Bibliography}{157}

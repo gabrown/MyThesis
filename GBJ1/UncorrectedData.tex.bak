@@ -1,0 +1,49 @@
+% Why is comparing to uncorrected data important?
+
+\section{Control Plots}
+\label{sec:GBJ1:Uncorr}
+This section presents the selected data compared to the reconstructed PYTHIA sample, to check that the PYTHIA sample approximately agrees with data so that it can be used for unfolding the detecter effects in the data. 
+
+Figures \ref{UncorrIncl_dy} - \ref{Uncorr_Pt3_dy} are various distributions with data and the reconstructed PYTHIA sample shown, and also the ratio between them.
+Figure \ref{UncorrIncl_dy} shows the normalised inclusive $\Delta y$ distribution for (a) $70<\ptb{}<90$ GeV, (b) $90<\ptb{}<120$ GeV and (c) $180<\ptb{}<210$ GeV slices. 
+The MC and data shape agree, with differences less than 10\%.
+Figure \ref{Uncorr_Pt3_dy} shows the normalised inclusive $p_T$ of the highest jet in the dijet rapidity region distribution for two different slices in $\Delta y$ and $\bar{p_T}$ space. 
+There is general agreement in both regions, with fluctuations of about 20\%.
+Figure \ref{Uncorr_GF} shows slices of the gap fraction against $\Delta y$ and $\bar{p_T}$.
+The gap fraction between MC and data agrees within 10\%.
+
+The three figures show good agreement between the data and the reconstruted PYTHIA sample, and give confidence that the PYTHIA sample can be used for the unfolding factors. 
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ1/UncorrectedData/Inclusive_selA_Ave_pT_70_90_Norm.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/UncorrectedData/Inclusive_selA_Ave_pT_90_120_Norm.eps,width=0.5\textwidth,height = 6cm}}\quad
+}
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ1/UncorrectedData/Inclusive_selA_Ave_pT_180_210_Norm.eps,width=0.5\textwidth,height = 6cm}}\quad
+                              }
+\caption[Comparison between data and PYTHIA sample in the inclusive distribution for $\Delta y$]{
+Fraction of events for each $\Delta y$ bin for 2010 uncorrected data and PYTHIA sample. Shown are (a) $70<\bar{p_T}<90$, (b) $90<\bar{p_T}<120$ and (c) $210<\bar{p_T}<240$ slices.
+\label{UncorrIncl_dy}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ1/UncorrectedData/Pt3_dY_2_3_pt_90_120_PYTHIA.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/UncorrectedData/Pt3_dY_2_3_pt_180_210_PYTHIA.eps,width=0.5\textwidth,height = 6cm}}\quad
+                              }
+\caption[Comparison between data and PYTHIA sample for Pt3 distribution]{Faction of events for each $p_T^{veto}$ bin for 2010 uncorrected data and PYTHIA sample. Shown are (a) $90<\bar{p_T}<120$ and $2 < \Delta y <3$, and (b) $90<\bar{p_T}<120$ and $2 < \Delta y <3$ slices.\label{Uncorr_Pt3_dy}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ1/UncorrectedData/RatioGF_selA_Ave_pT_90_120.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/UncorrectedData/RatioGF_selA_DeltaY_2_3.eps,width=0.5\textwidth,height = 6cm}}\quad
+                              }
+\caption[Comparison of gap fraction between data and PYTHIA sample for $\Delta y$]{Gap fraction against (a) $\Delta y$ for the $90<\bar{p_T}<120$ slice and (b) $\bar{p_T}$ for the $2 < \Delta y <3$ slice, for 2010 uncorrected data and PYTHIA sample.\label{Uncorr_GF}}
+\end{figure}
+
+

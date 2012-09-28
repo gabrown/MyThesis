@@ -1,38 +1,63 @@
-\section{Dijets with a Veto on Additional Radiation}
+\section{Dijet Production}
+\label{sec:Theory:Dijet}
 
-The main analysis of this thesis is dijet production with a veto on additional jet radiation between the dijets.
-Dijet production cross section can be calculated using Equation \ref{Theory:XSec}.
-The leading order (LO) cross section calculations have the lowest order of $\alpha_{s}$ to get the correct final state, for dijets this is $\alpha_{s}^{2}$.
-Some of the LO parton scattering diagrams are shown in Figure \ref{Theory:LODijet}.
-Next-to-leading order (NLO) cross section calculations are the LO cross sections with $\alpha_{s}^{2}$ and next order in $\alpha_{s}$, ie $\alpha_{s}^{3}$.
-The $\alpha_{s}^{3}$ terms come from the interference between loop diagrams and LO diagrams, and also from 3 parton final state.
-
-\input{Theory/LO.tex}
-Dijet production cross section as a function of the dijet kinematic, for instance the dijet mass, and can be compared to LO and NLO cross section calculations.
+The main analysis of this thesis is directed towards dijet production with a veto on additional jet radiation between the dijets.
+Dijet production cross section can be calculated using Equation \ref{Theory:XSec} with the $\hat{\sigma}$ being the partonic cross section for $2\rightarrow 2$ scattering.
+Measured dijet production cross sections as a function of the dijet kinematics, for instance the dijet mass, and can be compared to LO and NLO cross section calculations.
 The dijet cross section is compared to NLO cross section calculation in \cite{ref:Dijet}, with an agreement within the experimental uncertainty.
+The leading order (LO) cross section calculations have the lowest order of $\alpha_{s}$ needed to get the correct final state, for dijets this is $\alpha_{s}^{2}$.
+Some of the LO parton scattering diagrams are shown in Figure \ref{Theory:LODijet}.
+Next-to-leading order (NLO) cross section calculations consist of the LO cross sections with $\alpha_{s}^{2}$, plus the next order in the perturbative series expanded in $\alpha_{s}$, ie $\alpha_{s}^{3}$.
+\input{Theory/LO.tex}
 
-
-To study the additional radiation between the dijets, the fraction of events that do not contain an additional jet between the dijet is measured.
-This is the gap fraction,
+When describing pp collisions, it is useful to define a co-ordinate system.
+The z-direction is defined as the collision axis, with the x-y plane defined perpendicular to the collision azis.
+For an object with energy, E, and momentum, $\bold{\rm p}$, the rapidity, $y$, of the object is defined by
 \begin{equation}
-f_{gap} = \frac{\sigma_{gap}}{\sigma_{Inclusive}},
+y=\frac{1}{2}\ln\left(\rm \frac{E+p_z}{E-p_z}\right)
+\label{Theory:Rapidity}
+\end{equation}
+where $\rm p_{z}$ is the longitudinal z component of momentum. 
+The azimuthal angle, $\phi$, is defined as the angle in the x-y plane around the collision axis.
+The transverse momentum, \pt{}, is defined as
+\begin{equation}
+\pt{}=\sqrt{ p_{x}^{2} +  p_{y}^{2}}.
+\label{Theory:pt}
+\end{equation}
+Both \pt{} and differences in rapidity are Lorentz invarient in boosts in the z-direction \cite{ref:Rapidity}.  
+ 
+
+To study the additional radiation in the dijet region, the fraction of events that do not contain an additional jet between the dijet is measured.
+This is the gap fraction, defined as
+\begin{equation}
+f_{gap}(Q_{0}) = \frac{\sigma_{0}}{\sigma},
 \label{Theory:GapFraction}
 \end{equation}
-where $\sigma_{gap}$ is the cross section for a dijet without a jet with $\pt{}>\qz{}$ in the rapidity region between them, \dr{} and $\sigma_{Inclusive}$ is the inclusive dijet cross section.
-The gap fraction is studied as a function of the dijet kinematics, dijet rapidity separation \dy{} and dijet average transverse momentum \ptb{}, and the jet veto scale, \qz{}.
+where $\sigma$ is the dijet cross section,  $\sigma_{0}$ is the cross section for a dijet system without a parton with \pt{} above the jet veto scale, $\qz{}$, in the rapidity region spanned by the dijet system.
+The gap fraction is studied as a function of the dijet rapidity separation, \dy{}, the average transverse momentum of the dijet, \ptb{} and the veto scale, \qz{}.
+The dependence of the gap fraction on \dy{}, \ptb{}, and \qz{} is studied after keeping two of the variables fixed.
 
 The dijet cross section can be calculated at fixed order using pQCD.
-For some regions of the dijet kinematics, or veto jet \pt{} pQCD calculation of $\sigma_{gap}$ fails to converge.
+However, for some regions of the dijet kinematics or veto jet scale, the pQCD calculation of $\sigma_{0}$ requires increasing number of higher order terms, and so a resummation is done.
 Figure \ref{Theory:KineRange} illustrates the different effects that need to be considered for different regions of the dijet kinematics and jet veto scale.
-For narrow \dr{} or small values of $L=\ln(\frac{Q}{\qz{}})$, corresponding to jet veto scale being close to the scale of the event, fixed order calculation should describe the gap cross section well.
-In regions with larger separation or large values of L, resummation to all orders of perturbation theory is required.
+In particular, putting the dijet kinematics to high \dy{} or to large values of $Q/\qz{}$ require sophisticated calculation tools, and resummation to all orders in perturbation theory is necessary \cite{ref:Jeff3,ref:HEJ1}.
+
+A number of other variables are used to probe the effect of higher order QCD.
+The azimuthal decorralation variables probe how back-to-back a pair of jets are.
+For leading order dijet production, they are back-to-back, but emission change this and move them away from back-to-back.
+The azimuthal decorralation observables considered in this thesis are \dphiDist{}, \mean{\cosdphi{}} and  \mean{\costwodphi{}} hich were proposed by theorists  \cite{ref:BFKL,ref:BFKL_cos,ref:BFKL_dPhi,ref:Anderson1}.  
+The mean number of jets in the rapidity region spanned by the dijet system is another probe of higher order QCD, and suggested by theorists \cite{ref:Andersen2}.
+
+
+
 \begin{figure}
 \centering
 \mbox{
               \epsfig{figure=figures/Theory/LY.pdf,width=0.9\textwidth}
 }
 \caption[]{
-Illustration depicting what type of physics is important for the gap fraction calculation for dijet rapidity separation, Y, and $L=\ln(\frac{Q}{\qz{}})$ from \cite{ref:Forshaw_Veto}.
+Illustration depicting what type of physics is important for the gap fraction calculation for dijet rapidity separation, Y, and $L=\ln(Q/\qz{})$.
+Figure taken from \cite{ref:Forshaw_Veto}.
 \label{Theory:KineRange}}
 \end{figure}
 %To study the emmision of radiation a veto on additional jets between the dijet can be applied.

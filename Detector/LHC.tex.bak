@@ -12,8 +12,7 @@ Figure \ref{Det:LHC} shows the layout of the LHC, and the four experiments.
 \centering
 \includegraphics[width=0.9\textwidth]{figures/Detector/AtlasSite.jpg}
   \caption{The LHC and the sites of the 4 main LHC experiments.}
-\comment[LHC Facility]{
-\label{Det:LHC}}
+\label{Det:LHC}
 \end{figure}
 
 A series of accelerators provide proton bunches to the LHC at an energy of 450 GeV.
@@ -29,7 +28,7 @@ R_X = L \sigma_X,
 \end{equation}
 where $\sigma_X$ is the cross section for the process and L is the luminosity.
 
-Achiveing a large luminosity is important for observing physics processes that have a low cross-section, and an accurate luminosity determination is important for measuring differential cross-sections of processes from the event rate. 
+Achieving a large luminosity is important for observing physics processes that have a low cross-section, and an accurate luminosity determination is important for measuring differential cross-sections of processes from the event rate. 
 
 Luminosity is defined by,
 \begin{equation}
@@ -40,8 +39,8 @@ where $N_b$ is the number of particles per bunch, $n_b$ is the number of collidi
 
 
 Equation \ref{Det:Lumi} is useful to understand both the luminosity and how to increase it. 
-However, the beam current changes throughout a run, so the equation is not ideal to measure the lumiosity during a run.
-*I am ot sure this is the only reason, it may also be due to the presision of the beam current measurement* 
+However, the beam current changes throughout a run, so the equation is not ideal to measure the luminosity during a run.
+*I am ot sure this is the only reason, it may also be due to the precision of the beam current measurement* 
 An alternative way of acquiring the instantaneous luminosity is to measure the interaction rate via various ATLAS detectors and correlate this to the luminosity. 
 The interaction rate is either the hit rate or the event rate for a given detector.
 The luminosity defined by the interaction rate is,
@@ -54,12 +53,14 @@ where $\mu$ is the number of inelastic collisions per bunch crossing, $\sigma_{i
 
 The calibration constant that associates the luminosity to the $\mu_{vis}$, which is measured using interaction rates, is $\sigma_{vis}$.
 One method of obtaining the calibration constant $\sigma_{vis}$, and thus the absolute luminosity, is using a van der Meer scan method.
-The method aims to measure the interaction rate when the two beams are perfectly alligned, while also measuring the beam currents.
+The method aims to measure the interaction rate when the two beams are perfectly aligned, while also measuring the beam currents.
 This is achieved by scanning one beam over the other in the x-y plane. 
-The interaction rate is fitted as a function of separation in x and y seperately, and the maximum interaction rate is found at the peak of each fit. 
+The interaction rate is fitted as a function of separation in x and y separately, and the maximum interaction rate is found at the peak of each fit. 
 The 2010 data luminosity calibrated by the van der Meer scan method has a luminosity uncertainty of 3.4\%.
 
-The amount of data that an experiment collects is expressed using the integrated luminosity, which is the intergral over time of the luminosity.
+The amount of data that an experiment collects is expressed using the integrated luminosity, which is the integral over time of the luminosity.
+
+The luminosity determination at ATLAS is presented in \cite{ref:Lumi}.
 
 \subsubsection{2010 run}
 The 7 TeV centre-of-mass proton-proton run in 2010 was the first substantial data-taking period provided by the LHC. 
@@ -67,13 +68,15 @@ The initial runs provided peak luminosity of \lumi{\sim0.01\times10^{30}} from o
 By the end of the 2010 data-taking run the peak luminosity was \lumi{\sim2\times10^{32}} from 348 colliding bunches.
 The luminosity increase was mainly achieved by increasing the number of colliding bunches per beam and the number of protons per bunch, though decreasing the $\beta^\star$ and reducing the beams crossing angle also increased the luminosity.
 
+The data is split into luminosity blocks, runs and periods.
+A luminosity block corresponds to the luminosity infomation stored in two minute during a run. 
+A data run is a group of luminosity blocks consecutavely taken. 
+A data period is a group of data runs with similar beam parameter conditions.
 
-The 2010 data taking run was split into different data periods, where a new period would be started when there was a significant change in the beam parameters.
+The 2010 data taking run was split into nine different data periods, which corresponded to a total integrated luminosity delivered of 48.1 $\rm pb^{-1}$.
 Table \ref{Det:Periods} shows the data periods for the 2010 LHC run, and how the beam conditions and peak luminosity changed.  
 Additionally, periods G-I had used bunch trains where bunches were grouped together with 150 ns spacing between the bunches.  
 
-
-The total integrated luminosity delivered by the LHC for the 2010 run was 48.1 $pb^1$.
 
 \begin{table}
 \begin{center}
@@ -82,7 +85,7 @@ The total integrated luminosity delivered by the LHC for the 2010 run was 48.1 $
 Period&Date&Peak Luminosity& $N_b$ & $n_b$ \\
 & &\lumi{}& $\times10^{11}$ & \\
 \hline
-A & Mar 30 - Apr 18 & 0.004 & <0.01 & 1 \\
+A & Mar 30 - Apr 18 & 0.004 & $<0.01$ & 1 \\
 B & Apr 23 - May 17 & 0.06 & 0.01-0.6 & 1-3 \\
 C & May 18 - June 5 & 0.2 & 0.7-1.9 & 3-8 \\
 D & June 18 - July 19 & 1.6 & 3-8 & 2-8 \\
@@ -93,8 +96,10 @@ H & Oct 8 - Oct 18 & 150 & 250-350 & 233-300 \\
 I & Oct 24 - Oct 29 & 210 & 350-400 & 300-350 \\
 \hline
 \end{tabular}
-\caption{ Beam information for the different data taking periods.}
+\caption[2010 Data Period Information]{
+   Beam information for the different data taking periods in 2010 data.
 \label{Det:Periods}
+}
 \end{center}
 \end{table}
 

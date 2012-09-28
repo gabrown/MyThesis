@@ -1,33 +1,97 @@
-\section{Final Plots}
+\section{Corrected Data}
 \label{sec:GBJ1:FinalPlots}
-In this section, the final plots that were shown in the publication are discussed. The plots shown are from both selections and show the gap fraction as a function of $\Delta y$, $\bar{p_T}$ and $Q_0$, and also the mean number of jets in the rapidity interval as a function of $\Delta y$ and $\bar{p_T}$. When $\Delta y$ and $\bar{p_T}$ is looked at, $Q_0$ is always at a fixed value of 20 GeV. The data is sliced up into different regions, and so the gap fraction vurses $\Delta y$ distribution is shown, if is done 7 different $\bar{p_T}$ ranges, and similar is done the other way. Each slice is offset to allow the data to be shown on one plot, and next to each plot the ratio of the theory predictions to data is shown.
 
-On each plot, the black points are the data points with statistical uncertainty bars, with the yellow bands being the systematic uncertainty (from the JES and unfolding). The red and blue dotted line is the POWHEG + PYTHIA and POWHEG + HERWIG predictions respectively, and the blue band is the HEJ prediction with a theoretical uncertainty.
+In this section, the final plots that were shown in the publication are discussed. 
+The plots shown are from  the leading $p_T$ dijet selection and the forward/backwards selection and show the gap fraction as a function of $\Delta y$, $\bar{p_T}$ and $Q_0$, and also the mean number of jets in the rapidity interval as a function of $\Delta y$ and $\bar{p_T}$. 
+When $\Delta y$ and $\bar{p_T}$ is studied, $Q_0$ is always at a fixed value of 20 GeV. 
+The data is sliced up into different regions, and so the gap fraction versus $\Delta y$ distribution is shown for seven different $\bar{p_T}$ ranges, and similarly for the $\bar{p_T}$ distribution. 
+Each slice is offset to allow the data to be shown on one plot. 
+The ratio of the theory predictions to data is shown next to each plot.
 
-Figures \ref{GBJ1:dYSelA} and \ref{GBJ1:pTSelA} are the gap fraction as a function of $\Delta y$ and $\bar{p_T}$ respectively. The figure illistrates that HEJ  agrees well with the data for the complete range in $\Delta y$ for low $\bar{p_T}$, but at higher $\bar{p_T}$ slices it seems to deviate away from the data giving too many gap events. As explained in section XXX, HEJ works by resumming terms of $\Delta y$ when $\bar{p_T}/Q_0$ is small, so not too surprising that a deviation if observed at larger $\bar{p_T}/Q_0$ ($Q_0$ is fixed). 
-POWHEG + PYTHIA probably gives the best overall discription of the data, but at large $\Delta y$ the gap fraction is too low. *explain why this might be for POWHEG in general*  POWHEG + HERWIG seems to give too much activity in all phase space regions, and this deviation gets larger for larger $\Delta y$. 
+On each plot, the black points are the data points with statistical uncertainty bars, with the yellow bands indicating the systematic uncertainty from both the JES and unfolding. 
+The red and blue dotted lines are the POWHEG + PYTHIA and POWHEG + HERWIG predictions respectively, and the blue band is the HEJ prediction with a theoretical uncertainty.
+
+Figures \ref{GBJ1:dYSelA} and \ref{GBJ1:pTSelA} show the gap fraction and the ratio of theory to data as a function of $\dy{}$ and $\ptb{}$ respectively for different \ptb{} and \dy{} slices for the leading \pt{} dijet selection. 
+The gap fraction from the data reduces as a function of \ptb{} and \dy{}.
+When the rapidity region between the dijets is small the phase-space for emission is small. 
+When the \dy{} or the \ptb{} of the dijets increases that phase-space availible for emmission increase, and so the gap fraction decreases.
+The gap fraction for data levels off at higher \ptb{}.
+As described in Section \ref{sec:Theory:Dijet}, the extra terms that become important in calculating the gap cross section go as the $\ln\frac{Q}{\qz{}}$, where Q is the \pt{} scale of the hard interaction which is like \ptb{}.
+This leveling off can be explained by the difference in the $\ln$  at different \ptb{}. 
+This difference is larger between a \ptb{} of 50 GeV and 200 GeV than 200 GeV to 500 GeV.
+
+HEJ agrees well with the data for the complete range in $\dy$ for low $\ptb{}$. 
+However, for $\ptb{}$ slices $150\ge\ptb{}>180$ GeV and above, HEJ starts to overestimate the gap fraction.
+This deviation is shown more clearly when plotting as a function of \ptb{}.
+For all but the highest \dy{} slices, where there are significan uncertainties, HEJ deviates from the data for $\ptb{}>140$ GeV.
+As described in Section \ref{Theory:MC}, HEJ generates partons with similar \pt{}.
+Therefore, is it not unexpected that it should do better when \qz{} and \ptb{} are similar, and to do worse when the diffence gets large.
+
+POWHEG + PYTHIA and POWHEG + HERWIG give significantly different gap fractions as a function of \dy{} and \ptb{}.
+POWHEG + PYTHIA gives the best overall description of the data.
+POWHEG + PYTHIA agrees with the data at all \ptb{} slices for low \dy{}, however it starts to deviate for $\dy{}>3.5$. 
+This can also be seen for the gap fraction as a function of \ptb{} for the different \dy{} slices. 
+For the slices, $1\ge\dy{}>2$, $2\ge\dy{}>3$, and $3\ge\dy{}>4$, the agreement is very good throughout \ptb{}, with only deviations away from the data at large \dy{} which correspond to statistical fluctuations.
+However, for the other \dy{} slices POWHEG + PYTHIA gives too low a gap fraction.
+The NLO calculation of POWHEG plus the parton showering from PYTHIA does not have terms that become important for large \dy{}.
+Conversely, POWHEG + HERWIG only agrees with the data only in the lowest of \dy{} bins, it deviates for $\dy{}>1$ for all slices of \ptb{}. 
+In the gap fraction against \ptb{} for different \dy{} slices distributions, POWHEG + HERWIG does not agree well with the data and underestimates the gap fraction for all considered regions of phase-space.
+The difference between POWHEG + PYTHIA and POWHEG + HERWIG would indicate the parton showering has a significant effect on the gap fraction. 
 
 
-%Figures \ref{GBJ1:dYSelA} and \ref{GBJ1:pTSelA} are the gap fraction as a function of $\Delta y$ and $\bar{p_T}$ respectively. Figure \ref{GBJ1:dYSelA} illistrates that for low $\bar{p_T}$ that HEJ agrees well with the data for the complete range in $\Delta y$, but at higher $\bar{p_T}$ slices it seems to deviate away from the data. The figure also shows how both POWHEG curves agree at low $\Delta y$, but deviates at higher $\Delta y$. Figure \ref{GBJ1:pTSelA} makes this point even more apparent where POWHEG + PYTHIA agrees well with the data accross the $\bar{p_T}$ range for low $\Delta y$ slices, but then deviates in the larger $\Delta y$ slices.
+Figure \ref{GBJ1:Q0SelA} shows the gap fraction as a function of \qz{} for different slices in \dy{} and \ptb{} for the leading \pt{} dijet selection.
+For a low \qz{} value, the gap fraction is at a minimum, as any increase in \qz{} will reduce the number of events with a jet above \qz{}.
+When the \qz{} increases the gap fraction increases, which is expected as the probablitiy of getting a very high \pt{} emmision is low.
+
+POWHEG + HERWIG underestimates the data in all slices considered and for all but the highest \qz{} bins, indicating that there is too much emission from the POWHEG + the HERWIG parton shower. 
+For the gap fraction against \qz{} for $2\ge\dy{}<3$ and  $70\ge\pt{}<90$ GeV slice, both HEJ and POWHEG + PYTHIA over laps with the data throught the \qz{} range. 
+For the other slices, as low \qz{} HEJ overestimates the gap fraction, but improves as \qz{} and \ptb{} become closer, which is expected as HEJ generates partons with similar \pt{}.
+Neither POWHEG + PYTHIA or HEJ agrees well with the gap fraction when both \dy{} and \qz{} is large.
 
 
-Figure \ref{GBJ1:Q0SelA} is the gap fraction as a function of $Q_0$ for various $\Delta y$ and $\bar{p_T}$ slices. The figure shows that none of the theoretical curves agree well with the data when the large $\Delta y$ or $\bar{p_T}$ slices are considered. Both HEJ and POWHEG + PYTHIA do well in the low $\Delta y$ and $\bar{p_T}$ slice. When larger $\Delta y$ and $\bar{p_T}$ slices are looked at they both deviate from the data, with HEJ improving its agreement at larger values of $Q_0$. As seen in the previous figures, POWHEG + HERWIG still gives a gap fraction lower than the POWHEG + PYTHIA, and that is far from the data for all ranges. 
 
+Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of jets in the rapidity interval between the boundary jets as a function of $\dy{}$ and $\ptb{}$ respectively for slices in \ptb{} and \dy{} for the leading \pt{} dijet selection. 
+This is an alternative method of probing the activity between the boundary jets. 
+The gap fraction is only concerned with the leading jet in the rapidity region, but the average number of jets considers all jet in that region with a $\pt{}>20$ GeV. 
+As with the gap fraction, POWHEG + PYTHIA agrees best with the data.
+POWHEG + HERWIG consitantly gives too much activity in the rapidity region, which helps to explain why the POWHEG + HERWIG gap fraction is below the data.
+Except at very low \ptb{}, HEJ has too little activity in the rapidity region.
+Comparing to the gap fraction slices, in which it agrees with data, would indicate that HEJ describes only the highest \pt{} emission between the dijet well. 
+the agreement may improve if HEJ was interfaced to a \pt{} ordered parton shower.
 
-%Figure \ref{GBJ1:Q0SelA} is the gap fraction as a function of $Q_0$ for various $\Delta y$ and $\bar{p_T}$ slices. The figure shows that the POWHEG + PYTHIA agrees with the data quite well for the low $\Delta y$ slices (even with a larger $\bar{p_T}$ slice), but seems to undershots the data for the larger $\Delta y$ slices, indicating that there is not enough activity in the gap region for large $\Delta y$ events. HEJ doesn quite well in the low $\Delta y$ and low $\bar{p_T}$ slice, but overshots at low $Q_0$ at either larger $\Delta y$ or $\bar{p_T}$ slices, indicating that events are two likely to have a jet with $p_T>20$ GeV in all events bar the low  $\Delta y$ or $\bar{p_T}$ region.
-
-
-Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of jets in the rapidity interval between the boundary jets as a function of $\Delta y$ and $\bar{p_T}$ respectively. This is an alternative method at probing the activity between the boundary jets. Where the gap fraction is only conserned with the leading jet in the rapidity region, the average number of jets consideres all jet in that region with a $p_T>20$ GeV. In both plots it can be seen that, except at very low $\bar{p_T}$, HEJ underestimates the the number of jets in the gap region, which is in agreement with what is seen in the gap fraction plots. POWHEG + PYTHIA does quite well in all regions of agreeing with the data and is still the best discripter of the data, whereas POWHEG + HERWIG seems to slightly overestimate the data thorught the curves, and gets worse at lower $\bar{p_T}$.  
-
-%Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of jets in the rapidity interval between the boundary jets as a function of $\Delta y$ and $\bar{p_T}$ respectively. In both plots it can be seen that, except at very low $\bar{p_T}$, HEJ underestimates the the number of jets in the gap region. POWHEG + PYTHIA does quite well in all regions of agreeing with the data, whereas POWHEG + HERWIG seems to slightly overestimate the data thorught the curves.  
  
+Figures \ref{GBJ1:dYSelB} and \ref{GBJ1:pTSelB} show the gap fraction and the ratio of theory to data as a function of $\dy{}$ and $\ptb{}$ respectively for different \ptb{} and \dy{} slices for the forward/backward dijet selection.
+For this selection, there are often imbalences in the \pt{} of the boundary jets, especially at larger \ptb{}.
+All three theory comparisons show similar difference to the data. 
+The gap fraction from HEJ as a function of \dy{} falls below the data for low \ptb{} slices. 
+This has been suggested in cite{ref:Anderson1} that this is due to the importance of soft emission from the dijets.
+
+Figure \ref{GBJ1:Q0SelA} shows the gap fraction as a function of \qz{} for different slices in \dy{} and \ptb{} for the forward/backward dijet selection.
+For the leading \pt{} dijet selection the \qz{} could only be measured upto the \ptb{}, but with this selection the gap fraction can be less than one, as there can be jets with higher \pt{} than the \ptb{}.
+The gap fraction does not rise as quickly as in the previous selection.
+The POWHEG + PYTHIA  shows similar agreement to the data as for the previous selection.
+HEJ does not agree well with the data, and especially for the higher \dy{} slices have consistantly low gap fraction throughout \qz{}. 
+
+Figure \ref{GBJ1:pTSelBQ0} shows the gap fraction as a function of $\dy{}$ and $\ptb{}$ respectively for different \ptb{} and \dy{} slices for the forward/backward dijet selection, but the \qz{} is set to the \ptb{} of the event. 
+This shows how the gap fraction is effected by emissions which are harder than the \ptb{} dijets. 
+POWHEG + PYTHIA and POWHEG + HERWIG both overlap the data.
+This would indicate that this definition of the gap fraction is less dependant on the modeling of the parton shower, hadronisation and underlying event.
+The new definition of the jet veto does not improve the HEJ agreement with the data.
+
+
+Since publishing the results of this analysis, several papers \cite{ref:Anderson1,ref:JeffNew} have compared  their theoretical predictions to the ATLAS data. 
+Both disussed the unreliablity of fixed order calculations in this topology of event.
+\cite{ref:JeffNew} used an all-order resummation in $\log\frac{\bar{p_T}}{Q_0}$ terms to compare to the data. 
+The conclusion of the paper was: ``The message is clear: the accuracy of the ATLAS data already demands better theoretical calculations".
+
+
 \begin{figure}
 \centering
 \mbox{
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY_ratio.eps,width=0.5\textwidth}}\quad
 }
-\caption[Fill me in]{ Fill me in 
+\caption[Gap fraction as a function of $\Delta y$ for leading $p_T$ dijet selection]{ (a) Gap fraction as a function of $\Delta y$ for various $\bar{p_T}$ slices. (b) Ratio between the theoretical predictions and data. Leading $\bar{p_T}$ dijet selection.
 \label{GBJ1:dYSelA}}
 \end{figure}
 
@@ -39,7 +103,7 @@ Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_ptBar.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_ptBar_ratio.eps,width=0.5\textwidth}}\quad
 }
-\caption[Fill me in]{ Fill me in 
+\caption[Gap fraction as a function of $\bar{p_T}$ for leading $p_T$ dijet selection]{ (a) Gap fraction as a function of $\bar{p_T}$ for various $\Delta y$ slices. (b) Ratio between the theoretical predictions and data. Leading $\bar{p_T}$ dijet selection.
 \label{GBJ1:pTSelA}}
 \end{figure}
 
@@ -51,7 +115,7 @@ Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Q0.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Q0_ratio.eps,width=0.5\textwidth}}\quad
 }
-\caption[Fill me in]{ Fill me in 
+\caption[Gap fraction as a function of $Q_0$ for leading $p_T$ dijet selection]{ (a) Gap fraction as a function of $Q_0$ for various $\Delta y$ and $\bar{p_T}$ slices. (b) Ratio between the theoretical predictions and data. Leading $\bar{p_T}$ dijet selection.
 \label{GBJ1:Q0SelA}}
 \end{figure}
 
@@ -61,7 +125,7 @@ Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Njets_dY.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Njets_dY_ratio.eps,width=0.5\textwidth}}\quad
 }
-\caption[Fill me in]{ Fill me in 
+\caption[Mean number of jets as a function of $\Delta y$ for leading $p_T$ dijet selection]{ (a) Mean number of jets as a function of $\Delta y$ for various $\bar{p_T}$ slices. (b) Ratio between the theoretical predictions and data. Leading $\bar{p_T}$ dijet selection.
 \label{GBJ1:NjetsdYSelA}}
 \end{figure}
 
@@ -71,10 +135,11 @@ Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Njets.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Njets_ratio.eps,width=0.5\textwidth}}\quad
 }
-\caption[Fill me in]{ Fill me in 
+\caption[Mean number of jets as a function of $\bar{p_T}$ for leading $p_T$ dijet selection]{ (a) Mean number of jets as a function of $\bar{p_T}$ for various $\Delta y$ slices. (b) Ratio between the theoretical predictions and data. Leading $\bar{p_T}$ dijet selection.
 \label{GBJ1:NjetspTSelA}}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%SELECTION B%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
 \centering
@@ -82,19 +147,60 @@ Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY_SelB.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY_SelB_ratio.eps,width=0.5\textwidth}}\quad
 }
-\caption[Fill me in]{ Fill me in 
+\caption[Gap fraction as a function of $\Delta y$ for forward backward selection]{ (a) Gap fraction as a function of $\Delta y$ for various $\bar{p_T}$ slices. (b) Ratio between the theoretical predictions and data. Forward backward selection.
 \label{GBJ1:dYSelB}}
 \end{figure}
 
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_pT.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_pT_ratio.eps,width=0.5\textwidth}}\quad
+}
+\caption[Gap fraction as a function of $\bar{p_T}$ for forward backward selection]{ (a) Gap fraction as a function of $\bar{p_T}$ for various $\Delta y$ slices. (b) Ratio between the theoretical predictions and data. Forward backward selection.
+\label{GBJ1:pTSelB}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_Q0.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_Q0_ratio.eps,width=0.5\textwidth}}\quad
+}
+\caption[Gap fraction as a function of $Q_0$ for forward backward selection]{ (a) Gap fraction as a function of $Q_0$ for various $\Delta y$ and $\bar{p_T}$ slices. (b) Ratio between the theoretical predictions and data. Forward backward selection.
+\label{GBJ1:Q0SelB}}
+\end{figure}
+
+
+%\begin{figure}
+%\centering
+%\mbox{
+%              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/Njets_SelB_dY.eps,width=0.5\textwidth}}\quad
+%              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/Njets_SelB_dY_ratio.eps,width=0.5\textwidth}}\quad
+%}
+%\caption[Mean number of jets as a function of $\Delta y$ for forward backward selection ]{ (a) Mean number of jets in rapidity region as a function of $\Delta y$ for various $\bar{p_T}$ slices. (b) Ratio between the theoretical predictions and data. Forward backward selection.
+%\label{GBJ1:nJetsdYSelB}}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\mbox{
+%              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/Njets_SelB_pT.eps,width=0.5\textwidth}}\quad
+%              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/Njets_SelB_pT_ratio.eps,width=0.5\textwidth}}\quad
+%}
+%\caption[Mean number of jets as a function of $\Delta y$ for forward backward selection]{ (a) Mean number of jets in rapidity region as a function of $\bar{p_T}$ for various $\Delta y$ slices. (b) Ratio between the theoretical predictions and data. Forward backward selection.
+%\label{GBJ1:nJetspTSelB}}
+%\end{figure}
 
 
 \begin{figure}
 \centering
 \mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_pT_SelB.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_pT_SelB_ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_dY_Q0pTbar.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_dY_Q0pTbar_ratio.eps,width=0.5\textwidth}}\quad
 }
-\caption[Fill me in]{ Fill me in 
-\label{GBJ1:pTSelB}}
+\caption[Gap fraction as a function of $\Delta y$ for forward backward selection and variable $Q_0$]{ 
+(a) Gap fraction as a function of $\Delta y$ for various $\bar{p_T}$ slices. (b) Ratio between the theoretical predictions and data. Forward backward selection with veto scale set as \ptb{}.
+\label{GBJ1:pTSelBQ0}}
 \end{figure}
 

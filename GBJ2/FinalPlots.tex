@@ -5,54 +5,88 @@ First, the corrected data, with the systematic uncertainties discussed, is first
 The MC generators chosen for the comparison are PYTHIA, HERWIG++ and SHERPA. 
 
 Figure \ref{GBJ2:FinalPlots:GapFracLO} shows (a) the gap fraction against \dy{} for the corrected data and the MC generators, and (b) shows the ratio of the MCs to the data.
+The gap fraction from data reduces as a function of \dy{}, but for $\dy{}>5.5$ it starts to level off. 
 In general, PYTHIA gives slightly too low a gap fraction at low \dy{} but improves at larger \dy{}. 
-HERWIG does quite well at low \dy{} but from \dy{} of 4 onwards it diverges from the data giving too low a gap fraction. 
-SHERPA agrees quite well with the data, but better at large \dy{}
+HERWIG overlaps the data  at low \dy{} but from \dy{} of 3 onwards it diverges from the data giving too low a gap fraction. 
+HERWIG has large statistical error bars, and to get a full understanding of the shape higher statistics sample need to be generated.
+SHERPA agrees quite well with the data, but with some deviations at large \dy{}.
 
 Figure \ref{GBJ2:FinalPlots:NJetLO} shows (a) the average number of jets in the dijet rapidity region against \dy{} for the corrected data and the MC generators, and (b) shows the ratio of the MCs to the data.
-As with the gap fraction, PYTHIA agrees with the data quite well, but underestimates the data at large \dy{}.
+As with the gap fraction, PYTHIA agrees with the data  matching the rise and position of the peak, but underestimates the data at large \dy{}.
 HERWIG agrees with the data at low \dy{}, but diverges at larger \dy{}.
+Due to the low statistics, it is hard to conclude if the HERWIG flattens, or weather it continues to rise.
 SHERPA on the whole agrees well with the data, but around a \dy{} of 4--7 underestimates the number of jets in the rapidity region.
 
 The corrected data is compared the theory predictions from HEJ and POWHEG. 
 The theory predictions are presented as a band to represent the theoretical uncertainty, which was found by varying both the renormalisation and factorisation scale and also the choice of PDF.
 Two POWHEG curves are shown which have the different parton showering, hadronization and underlying event of PYTHIA and HERWIG. 
-The HEJ events have been passed through Ariadne which ....
+The HEJ events have been passed through Ariadne, which is a \pt{} ordered parton shower. 
 
 
 Figure \ref{GBJ2:FinalPlots:GapFrac} shows (a) the gap fraction against \dy{} for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
 There is significant differences between the three theoretical predictions and the data.
-POWHEG + PYTHIA gives the best agreement with data, and while the gap fraction is a bit low at large \dy{}, it does have the plateau that is observed in the data. 
+POWHEG + PYTHIA gives the best agreement with data, and while the gap fraction is slightly lower than the data, it agrees in most bins. 
+The plateau in the data is also observed in the POWHEG + PYTHIA curve.
 Conversely, POWHEG + HERWIG has too low a gap fraction from from about a \dy{} of 2.
 The HEJ prediction also gives too low a gap fraction, but not as far from the data as the POWHEG + HERWIG curve.
+Given that most of the events will have a low \ptb{} without a large imbalance (cuts on $pt{}_1$ and $pt{}_2$ are similar) it is surprising that HEJ does not perform well, especially when compared to the previous measurement.
+This maybe due to the change in kinematics cuts in this analysis, or due to the effect of passing the events through Ariadne.
+Also to be noted, in the previous analysis the gap fraction for data only flattened out in large \ptb{} slices. 
+In this analysis there is not a particularly high \ptb{} cut, and a flattening out is observed.
+A flattening out could be due to PDF effects, for instance if both jets have an energy of  $3.5$ TeV, then no emission can occur.
+A flattening out is also intrinsic with a colour singlet exchange (get paper off Andy).
+This needs to be analysed with a MC that has a model for  colour singlet exchange.
+
 
 Figure \ref{GBJ2:FinalPlots:nJets} shows (a) the average number of jets in the dijet rapidity region against \dy{} for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
-HEJ agrees with the data well until a \dy{} of 4, but then gives too many jets, and doesn't replicate the plateau observed in the data. 
-POWHEG + HERWIG only agrees with data at the very lowest \dy{} bins, then has too many jets in the rapidity region for larger \dy{} and doesn't have the plateau either.
-POWHEG + PYTHIA agrees well best with the data, agreeing in all \dy{} bins and has a very good agreement at the plateau.
+The mean multiplicity of jets in the rapidity region increases as a function of \dy{}, to a peak of $\sim1.2$ at $\dy{}=7$, and then plateau's.
+POWHEG + PYTHIA agrees well best with the data, overlapping in most \dy{} bins and has a very good agreement at the plateau.
+HEJ agrees with the data well until a \dy{} of 4, but then gives too many jets, and does not replicate the plateau observed in the data. 
+In the previous analysis, HEJ gave two low activity, which would indicate that Ariadne is increasing the amount of activity, but perhaps too much.
+POWHEG + HERWIG only agrees with data at the very lowest \dy{} bins, then has too many jets in the rapidity region for larger \dy{} and but it does have a plateau at large \dy{}.
 
 Figure \ref{GBJ2:FinalPlots:Q0} shows (a) the gap fraction as a function of \qz{} for the three standard \dy{} slices for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
 All the theoretical predictions agree with data at large \qz{} where the gap fraction is one, this is because the \qz{} will, most of the time, be set above the \pt{} of the leading jets, so there cannot be any other jets in the event with \pt{} greater than \qz{}
-HEJ gives too low a gap fraction in the lower \qz{} region, especially for the higher \dy{} ranges, which agrees with the gap fraction against \dy{} in Figure \ref{GBJ2:FinalPlots:GapFrac}.
+HEJ gives too low a gap fraction in the lower \qz{} region, especially for the higher \dy{} ranges, which was also seen in the gap fraction against \dy{} in Figure \ref{GBJ2:FinalPlots:GapFrac}.
 POWHEG + HERWIG has too low a gap fraction at the low \qz{} region for all \dy{} slices, but as with HEJ, it get worse at larger \dy{} ranges.
-POWHEG + PYTHIA gives the best description of the data. In slice ... (need to see ratio)
-********Something is wrong with this plot need to look at division.**********
+POWHEG + PYTHIA gives the best description of the data, but still getting too low a gap fraction for $30<\qz{}<60$ for the lowest \dy{} range.
 
 
-Figure \ref{GBJ2:FinalPlots:dphi_Incl} shows (a) the differential cross section as a function of \dphi{} for the three standard \dy{} slices for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
-For the low \dy{} slice, all the theoretical predictions poorly match the data at low \dphi{}, but improve for larger \dphi{}.
-HEJ does particularly well in the 4--5 \dy{} slice, agreeing with the data for all \dphi{}.
-Both POWHEG + HERWIG and POWHEG + PYTHIA have a larger cross section for all but the largest two \dphi{} bins for the 4--5 \dy{} slice.
-In the 7--8 \dy{} slice, both POWHEG + HERWIG and POWHEG + PYTHIA agree with the data within the systematic uncertainty band, which is quite large in this slice.
-HEJ how too low a cross section in the 7--8 \dy{} slice. 
+%Figure \ref{GBJ2:FinalPlots:dphi_Incl} shows (a) the differential cross section as a function of \dphi{} for the three standard \dy{} slices for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
+%For the low \dy{} slice, all the theoretical predictions poorly match the data at low \dphi{}, but improve for larger \dphi{}.
+%HEJ does particularly well in the 4--5 \dy{} slice, agreeing with the data for all \dphi{}.
+%Both POWHEG + HERWIG and POWHEG + PYTHIA have a larger cross section for all but the largest two \dphi{} bins for the 4--5 \dy{} slice.
+%In the 7--8 \dy{} slice, both POWHEG + HERWIG and POWHEG + PYTHIA agree with the data within the systematic uncertainty band, which is quite large in this slice.
+%HEJ how too low a cross section in the 7--8 \dy{} slice. 
 
+Figure \ref{GBJ2:FinalPlots:Cos} shows the \mean{\cosdphi{}} as a function of \dy{} for (a) inclusive events and (c) gap events with the ratios of the theoretical predictions to the data in (b) and (d) respectively. 
+A \mean{\cosdphi{}} value of one corresponds to perfectly back-to-back in azimuth jets.
+The \mean{\cosdphi{}} distribution for the inclusive events shows a value of $ \mean{\cosdphi{}}\sim0.95$ for $\dy{}<3$.
+As the $\dy{}$ increase the jets become less back-to-back and the \mean{\cosdphi{}} falls.
+As the $\dy{}$ increase the available phase-space to emit into is larger due to the jet being at very high energies.
+For the gap events, the mean{\cosdphi{}} at low \dy{} starts at a similar level to the inclusive events, but then slowly rises.
+When the \dy{} is low, emissions can fall outside the rapidity region, but as the \dy{} increases this region becomes smaller, and the jet veto is stopping hard emission into the rapidity region.
+For the inclusive events, all three predictions undershoot the data for $3.5<\dy{}<6$.
+While HEJ agrees in quite a few bins, the shape is steeper than observed in data.
+Both POWHEG + HERWIG and POWHEG + PYTHIA have a similar shape to the data, but the overall scale is a bit low.
+For the gap events, all three predictions have a similar shape to the data, but HEJ's overall scale is on the high side of the data, and the POWHEG + PYTHIA and  POWHEG + HERWIG are slightly below the data.
+This observable does not discriminate well between the different theoretical predictions. 
+
+Figure \ref{GBJ2:FinalPlots:Cos2} shows the \mean{\costwodphi{}} as a function of \dy{} for (a) inclusive events and (c) gap events with the ratios of the theoretical predictions to the data in (b) and (d) respectively. 
+Similar results to the \mean{\cosdphi{}} are seen for \mean{\costwodphi{}}.
+For the inclusive events, the HEJ curve has a steeper shape, crossing the data at $\dy{}\sim2.5$. 
+The POWHEG + HERWIG and POWHEG + PYTHIA fall below the data throughout \dy{}.
+For the gap events, HEJ is above the data, except at large \dy{} where there are large uncertainties.
+Both the POWHEG + HERWIG and POWHEG + PYTHIA fall below the data.
+
+For the azimuthal decorralation observables, POWHEG + PYTHIA again agrees best with the data, matching the shape of the data, even if the overall scale is a bit low.
 
 
 \begin{figure}
 \centering
 \mbox{
               \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_GapFraction_dyBins.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_GapFraction_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_GapFraction_dyBins_Ratio-Edit.eps,width=0.5\textwidth}}\quad
                               }
 \caption[]{
 (a) The gap fraction as a function of \dy{}.  
@@ -65,7 +99,7 @@ The ratio to the data for (a)  is shown in (b).
 \centering
 \mbox{
               \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_nGapJets_dyBins.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_nGapJets_dyBins_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/LO_nGapJets_dyBins_Ratio-Edit.eps,width=0.5\textwidth}}\quad
                               }
 \caption[]{
 (a) The average number of jets in the dijet rapidity region as a function of \dy{}.  
@@ -105,7 +139,7 @@ The ratio to the data for (a) is shown in (b).
 \begin{figure}
 \centering
 \mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/GapFraction_Q0.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/GapFraction_Q0-Edit.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/GapFraction_Q0_Ratio.eps,width=0.5\textwidth}}\quad
                               }
 \caption[]{

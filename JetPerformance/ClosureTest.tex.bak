@@ -1,0 +1,51 @@
+In 2010, the dijet \pt{} balence was not used to recalibrate the jets, but was used to assess the JES calibration factors.
+The relative jet response, \cite{ref:EtaInter2010}, shows a different in the forward region for MC and data.
+The difference between the data and MC jet responses could either originate from physics or detector effects decribed in Section \ref{sec:Det:Jets}. 
+
+
+Using the ratio of the relative response factors from the MC and the data, the residual correction, 
+
+\begin{equation}
+\mathcal{C_{\rm{in-situ}}} = \frac{\rm{c_{MC}}}{\rm{c_{Data}}}
+\label{JetPerf:ResidualCorrection}
+\end{equation}
+is calculated, where $\frac{1}{\rm{c_{MC}}}$ and $\frac{1}{\rm{c_{Data}}}$ are the relative response factors for MC and data respectively. 
+
+
+Figure \ref{JetPerf:EtaData} shows the jet $\eta$ distribution for (a) \pt{}$>30$ GeV from the Min Bias trigger and (b) \pt{}$>50$ from the calorimeter trigger stream. 
+The in-situ calibrated data has a much better agreement with the MC than the regular data does in both plots. 
+There are still differences in the forward region, but overall the differences are smaller than ten percent.
+
+Figure \ref{JetPerf:E_PtData} is the jet (a) \pt{}  and  (b) energy distributions  fot jets in the region \etaRange{3.2}{4.5}  for \pt{}$>20$ GeV. 
+The energy distribution shows improvements in agreement between the MC after the data is calibrated.
+The \pt{} distribution shows smaller differences for the in-situ calibrated data.
+
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/EtaDist30GeV.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/EtaDist50GeV.eps,width=0.5\textwidth}}\quad
+}
+\caption[]{
+$\eta$ distribution for jets with (a) \pt{}$>30$ GeV from the Min Bias trigger and (b) \pt{}$>50$ from the calorimeter trigger stream. 
+Uncorrected data (open black circles) and corrected data (red circles) are shown along with the reference MC. 
+\label{JetPerf:EtaData}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/EDist.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/PtDist.eps,width=0.5\textwidth}}\quad
+}
+\caption[]{
+(a) Jet energy and (b) jet \pt{} for the region \etaRange{3.2}{4.5}.
+Uncorrected data (open black circles) and corrected data (red circles) are shown along with the reference MC. 
+\label{JetPerf:E_PtData}}
+\end{figure}
+
+
+
+

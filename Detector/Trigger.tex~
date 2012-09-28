@@ -1,7 +1,7 @@
 \subsection{Trigger and Data Acquisition}
 \label{sec:Det:Trig}
-The event rate from the LHC is 1GHz *Check This*, but only $\mathcal{O}(200Hz)$ will be recorded to disk. 
-The ATLAS trigger and data acquisition system (TDAQ) reduces the initial event rate by trying to select out the most interesting events.
+The event rate from the LHC is $\sim1$ GHz, but only $\mathcal{O}(200~\rm Hz)$ will be recorded to disk. 
+The ATLAS trigger and data acquisition system (TDAQ) reduces the initial event rate by select the most interesting events containing high \pt{} objects.
 TDAQ is split into subsystems that are approximately associated with the sub-detectors previously described. 
 The three different trigger levels are level 1 (L1), level 2 (L2), and event filter (EF). 
 The L2 and EF triggers are called the higher level triggers (HLT). 
@@ -13,46 +13,50 @@ While the trigger is deciding if the event should be kept, the data acquisition 
 
 L1 triggers try and select interesting objects, such as high $p_T$ jets, electrons, muons, photons, taus or large missing $E_T$, which are indicative of interesting physics processes. 
 The main three detector systems that trigger events at the L1 level are the RPC and TGC, which trigger on muons, the calorimeter with reduced granularity, which triggers on the jets, electrons, muons, photons, or large missing $E_T$, and the Minimum Bias triggers that trigger on minimal energy and used to select an unbiased sample of events. 
-The results from the muon, calorimeter and minimum bias triggers are passed to the central trigger process. 
-This then applies a trigger menu, which is list of triggers, their thresholds and prescales. 
+The results from the muon, calorimeter and minimum bias triggers are passed to the Central Trigger Processors (CTP). 
+The CTP then applies a trigger menu, which is list of triggers, their thresholds and prescales. 
 By applying a prescale, $p$, to a trigger, only $\frac{1}{p}$ of the events that fired the trigger will be passed to L2. 
 The purpose of the prescale is to reduce the rate of less interesting or high rate processes and also to keep the overall rate constant as the luminosity changes.
-If the event fires the L1 trigger and passes the prescale, the L1 trigger passes the region of interest, ROI, (this is a $\eta\phi$ region near the triggered object) to the HLT.
-The L2 triggers have access to the full granularity around the L1 ROI, but cannot do full reconstruction in the 40 ns given to make the initial decision. 
-With the extra time, more information is used to make tighter and additional cuts to reduce the rate to 3.5 kHz.
+
+Should the event fire the L1 trigger and pass the prescale, the L1 trigger passes the region of interest, ROI, (this is a $\eta\phi$ region near the triggered object) to the HLT.
+The L2 triggers have access to the information around the L1 ROI, but cannot attempt a  full event reconstruction in the 40 ns given to make the initial decision. 
+The extra information at L2 is used to make tighter cuts in order to reduce the rate to 3.5 kHz.
 The EF triggers have approximately four seconds to make a decision.
-This is long enough to do longer offline analysis procedures which help to reduce the overall rate written to disk to 200 Hz.
+This is long enough to do longer offline analysis procedures using the full event reconstruction, which help to reduce the overall rate written to disk to 200 Hz.
 
 The important triggers for this thesis are the calorimeter trigger (specifically the jet trigger) and the minimum bias trigger, which will be discussed below.
+Additional information about the triggers and their performance can be found in \cite{ref:TriggerPerf}.
 
 \subsubsection{Minimum Bias Triggers}
-The minimum bias triggers aim to provide a trigger that is not biased towards any particular physics process or to high $p_T$ objects. 
-This is achieved by having a set of minimum bias trigger scintillator counters (MBTS) at the front of the calorimeter endcaps ($2<|\eta|<3.8$). 
-This is easily fired by having a low energy hit threshold. 
+The minimum bias triggers aim to provide events that are minimally biased towards any particular physics process. 
+This is achieved by having a set of minimum bias trigger scintillator counters (MBTS) at the front of the calorimeter end-caps ($2<|\eta|<3.8$). 
+The MBTS are fired by any low energy particle within thier acceptance. 
 The result is a very high rate from the MBTS, such that it is heavily prescaled for all but the lowest luminosity runs. 
-The MBTS is ideal to check the bias of trigger strategies. 
 
 
 
 \subsubsection{L1 Calorimeter}
 The L1 calorimeter trigger (L1Calo) is the trigger system concerned with both the EM calorimeter and the hadronic calorimeter. 
-The EM and Had calorimeter readout cells are merged into trigger towers of $\Delta\eta \rm{x} \Delta\phi$ of 0.1 x 0.1 for the precision region and increasing size for regions of higher rapidity. 
+The EM and hadronic calorimeter readout cells are merged into trigger towers of $\Delta\eta \times \Delta\phi$ of $0.1 \times 0.1$ for the precision region and increasing size for regions of higher rapidity. 
 Trigger towers are used to define jet, electron, photon and tau trigger objects.
 
 \subsubsection{Jet Triggers}
 
 L1 jet trigger objects are found by first defining jet elements from 2x2 trigger towers in both the EM and hadronic calorimeters.
-In the central precision region the jet elements cover a region of $\Delta\eta \rm{x} \Delta\Phi = 0.2\rm{x}0.2$. 
+In the central precision region the jet elements cover a region of $\Delta\eta \times \Delta\phi = 0.2\times 0.2$. 
 A sliding window algorithm is used to find the L1 jet objects. 
-The algorithm can be set have a window of either 2x3, 3x3 or 4x4 jet elements for the jet finding, and it looks over the jet elements to find local maxima in \et{} which are greater than a given threshold. 
+The algorithm can be set to have a window of either 2x3, 3x3 or 4x4 jet elements for the jet finding. 
+The algorithm looks over the jet elements to find local maxima in transverse energy, \et{}, and defines a jet if the \et{} is  greater than a given threshold. 
 The L1 jet triggers are named L1\_JX where X is the EM energy threshold for the jet object.
 
 Once the L1 jets are found the ROIs, regions of interest (positions of jets), are passed to the HLT, and act as seeds. 
-The L2 jet trigger can access the course calorimeter information within a tuneable (*what is the default*) $\Delta\eta\Delta\phi$ around the L1 jet ROI. 
-This information is then passed into a seeded cone jet algorithm (see section XXX), which is a basic and fast jet finder which uses jet radius, R, of 0.4, and which is restricted to three iterations.
+The L2 jet trigger can access the course calorimeter information from around the L1 jet ROI. 
+This information is then passed into a seeded cone jet algorithm (see Section \ref{HLTCalo:Jets}), which is a basic and fast jet finder which uses jet radius, R, of 0.4, and which is restricted to three iterations.
 The L2 can access finer calorimeter information and produce cone-like jets.
-The hadronic components of the jet at L2 had been calibrated.
-This is important as the have a lower response to energy deposits than the EM components. 
+The hadronic components of the jet at L2 are calibrated, which is important as the detector has a lower response to hadronic energy deposits than the EM energy deposits. 
+
+The EF jet triggers were not used in the 2010 data-taking. 
+The definition in 2011 is in Section \ref{HLTCalo:Jets}.
 
 %https://twiki.cern.ch/twiki/pub/Atlas/TapmJet/jetslice_v3_6April08.pdf
 

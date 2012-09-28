@@ -1,9 +1,9 @@
-\section{Data compared to reconstructed PYTHIA }
+\section{Assesment of Uncorrected Data vs MC}
 \label{sec:GBJ2:Uncorr}
 This section presents the data compared to the reconstructed PYTHIA sample, to check that the PYTHIA sample agrees with data sufficiently well to enable it to be used for unfolding the detector effects in the data.
 
-Figures \ref{GBJ2:Uncorr:Incl_Gap} -- \ref{GBJ2:Uncorr:Q0} show some of the final distributions comparing the PYTHIA and uncorrected data samples.
-The PYTHIA error bands are the quadriture sum of the statistical error and the JES uncertainty bands. 
+Figures \ref{GBJ2:Uncorr:Incl_Gap} -- \ref{GBJ2:Uncorr:Q0} show the uncorrected data compared to PYTHIA.
+The PYTHIA error bands are the quadrature sum of the statistical error and the JES uncertainty bands. 
 
 Figure \ref{GBJ2:Uncorr:Incl_Gap} shows (a) the inclusive distribution and (b) the gap fraction as a function of \dy{}.
 In the inclusive distribution the PYTHIA is consistently below the data, but are within the uncertainty bands.
@@ -13,18 +13,12 @@ In the gap fraction plot, PYTHIA has a slightly lower gap fraction except at the
 Figures \ref{GBJ2:Uncorr:dphi23}, \ref{GBJ2:Uncorr:dphi45}, and \ref{GBJ2:Uncorr:dphi78} show the \dphi{} distribution for \dy{} ranges of 2--3, 4--5, and 7--8 respectively, for (a) inclusive events and (b) gap events.
 In these \dphi{} plots the agreement is not quite as good especially at high \dphi{} for \dy{} of 2--3 and 4--5, where there is a difference of about $20\%$. 
 
-Figures \ref{GBJ2:Uncorr:cos} and \ref{GBJ2:Uncorr:cos2} show the average \cosdphi{} and average \costwodphi{} as a function of the dijet sereration, \dy{} for (a) inclusive and (b) gap events.
-In general, PYTHIA agrees well with all the distributions quite well, but there are some small deviations in the larger \dy{} bins. 
+Figures \ref{GBJ2:Uncorr:cos} and \ref{GBJ2:Uncorr:cos2} show the average \cosdphi{} and average \costwodphi{} as a function of the dijet separation, \dy{} for (a) inclusive and (b) gap events.
+In general, PYTHIA agrees well with all the distributions quite well, but there are some small deviations in the largets \dy{} bins. 
 
 Figure \ref{GBJ2:Uncorr:Q0} show the gap fraction as a function of \qz{}, for the \dy{} ranges (a) 2--3, (b) 4--5 and (c) 7--8.
 There are some differences between the PYTHIA sample and uncorrected data, especially in the low \qz{} in the 2--3 \dy{} slice.
 
-Another important comparison is the distribution of the \pt{} of the highest \pt{} jet within the rapidity region bounded by the leading jets for both the data and PYTHIA samples.
-While this is not one of the final distributions, it will have a large effect on the gap definition.
-Figure \ref{GBJ2:Uncorr:pt3} shows this ratio with the JES uncertainty band shown in red.
-For the unfolding, model uncertainty will need to be assessed.
-This cna be done by varing the \pt{} of the leading gap jet within the full range allowed by the JES uncertainty band.
-The two blue lines on the plot shows how weights that were used. ****These are not drawn on yet****
 
 \begin{figure}
 \centering
@@ -112,16 +106,5 @@ Average \costwodphi{} as a function of \dy{} for (a) inclusive and (b) gap event
 \caption[]{
 The gap fraction against \qz{} for \dy{} ranges (a) 2--3, (b) 4--5 and (c) 7--8 for 2010 uncorrected data (black points) and reconstructed PYTHIA sample (red points).
 \label{GBJ2:Uncorr:Q0}}
-\end{figure}
-
-\begin{figure}
-\centering
-\mbox{
-   \includegraphics[width=0.8\textwidth]{figures/GBJ2/ControlPlots/Ratio___pt3.eps}
-}
-\caption[]{
-Ratio of the \pt{} of the leading gap jet from 2010 uncorrected data to that of the reconstructed PYTHIA sample.
-The red lines show the JES uncertainty bands.
-\label{GBJ2:Uncorr:pt3}}
 \end{figure}
 

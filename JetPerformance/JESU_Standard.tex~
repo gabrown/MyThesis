@@ -7,15 +7,17 @@ The other jet is the ``probe'' jet, and is used to probe the regions outside the
 
 Given these definitions, Equations \ref{JetPerf:Assym} and \ref{JetPerf:JetResp} become,
 \begin{equation}
-\mathcal{A} =\frac{\pt{}^{probe} - \pt{}^{ref}}{\pt{}^{ave}}
+\mathcal{A} =\frac{\pt{}^{probe} - \pt{}^{ref}}{\ptave{}}
+\qquad
 \rm{ and } 
+\qquad
 \frac{\pt{}^{ref}}{\pt{}^{probe}}=\frac{2+\mathcal{A}}{2-\mathcal{A}}=\frac{1}{\rm c},
 \label{JetPerf:SM_Eqn}
 \end{equation}
-where $|\rm c|$ is the inter-calibration factor of the probe jet.  
+where $\rm c$ is the response ratio of the probe jet to the reference jet.  
 
 Using this standard method, a asymmetry distribution, $\mathcal{A}_{ik}$ , is attained in bins of $\eta$ and $\phi$.
-The inter-calibration factor for the i-th $\eta$ and k-th $\pt{}^{ave}$ bin is defined as
+The ratio of responses, or inter-calibration factor, for the i-th $\eta$ and k-th $\ptave{}$ bin is defined as
 \begin{equation}
 \rm{c_{ik}} =\frac{2-\mean{\mathcal{A}_{ik}}}{2+\mean{\mathcal{A}_{ik}}},
 \label{JetPerf:SM_CorrectionFactor}

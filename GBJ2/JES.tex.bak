@@ -1,38 +1,38 @@
 \subsection{Jet Energy Scale Uncertainty}
 
-The effect of the JES is studied using the rapidity weighted PYTHIA samples.
+The effect of the uncertainty in the JES, explained in Section \ref{sec:Det:Jets}, is studied using the rapidity weighted PYTHIA samples.
 Each jet, which is at the central value of the JES by default, is shifted up and down by $1 \sigma$ of the uncertainty of the JES.
 The events are then passed through the event selection and three sets of the final distribution are made corresponding to nominal jets,  jets shifted up and jets shift down.
 The shifted and nominal distributions were fitted by an appropriate distribution to reduce the fluctuations in the final JES uncertainty band.
 The JES uncertainty band was found by taking the ratio of the shifted distribution (both up and down) to the nominal distribution.
 
 
-********** Have a figure showing the JES uncertainty as a function of jet pt eta  ************
-
 Figures \ref{GBJ2:JES:gap_njets} - \ref{GBJ2:JES:Q0} show the JES uncertainty bands for the final distributions.
-
 The JES uncertainty shifting has two main effects that will apply differently in different distributions.
 The first is shift the \pt{} of the leading jets which has the effect of moving events across the leading jets \pt{} cuts at 50 GeV and 60 GeV.
 This results in more events for JES shifted up and less events for JES shifted down. 
-The other effect is the shifting of the non-leading jets, the major effect is on the third jet \pt{} and this will effect any of the gap fraction distributions or the distributions that only use gap events. 
+The other effect is the shifting of the non-leading jets, the major effect is on the third jet \pt{} and this will effect the gap fraction distributions, or distributions that use gap events. 
 
-The JES uncertainty band for the gap fraction is shown in Figure \ref{GBJ2:JES:gap_njets} (a), and is small for low \dy{}, but increases at larger \dy{}.
+The JES uncertainty band for the gap fraction as a function of \dy{} is shown in Figure \ref{GBJ2:JES:gap_njets} (a), and is small for low \dy{}, but increases at larger \dy{}.
 The increase at larger \dy{} is due to the increase in the JES uncertainty at large \dy{}, causing large changes in the \pt{} of the non leading jets.
 Figure \ref{GBJ2:JES:gap_njets} (b) shows the JES uncertainty band for the average number of jets in the rapidity region, and while there is some substructure, the overall uncertainty is approximately $\pm 10 \%$.
-******Not sure yet on the shape of the njets*******
 
 
 Figure \ref{GBJ2:JES:dPhi} shows the JES uncertainty bands for the \dphi{} distributions for both the inclusive and gap events, for the different \dy{} ranges.
-The uncertainty bands for the \dphi{} distributions are significantly larger than for other distributions.
-Due to the steeply falling jet \pt{} distribution, a shift in the JES can allow many more jets to pass the analysis \pt{} cuts and enter the distibutions.
-The effect on these \dphi{} cross section distributions is expected to be larger than on gap fraction distribution as the latter is formed from a ratio and, as such, the effect from the shift is partially cancelled out. 
-There is a slight increase in the JES uncertainty bands for smaller \dphi{} and for larger \dy{} regions the uncertainty bands increase.
+The uncertainty bands for the \dphi{} distributions are significantly larger than for other distributions, because a shift in the JES can allow many more jets to pass the analysis \pt{} cuts and more events to enter the distributions.
+The effect of the increase of events is smaller in the gap fraction which formed from a ratio and, as such, the increase in events effects both the numerator and denometer.
+For the $2<\dy{}<3$ and $4<\dy{}<5$ ranges, the JES uncertainty band increases marginally for lower \dphi{}.
+For the $7<\dy{}<8$ range the JES uncertainty band has a larger increase for low \dphi{}.
 
-The average \cosdphi{} and \costwodphi{} JES uncertainty bands are shown in Figure \ref{GBJ2:JES:cos} (a) and (b) respectively. 
+The average \cosdphi{} and \costwodphi{} JES uncertainty bands are shown as a function of \dy{} in Figure \ref{GBJ2:JES:cos} (a) and (b) respectively. 
 The JES uncertainty effects the inclusive events more than the gap events in both the distributions, and in the inclusive events the effect grows as a function of dijet rapidity separation.
 The maximum effect of the JES uncertainty on the average \cosdphi{} is around $1\%$ for the inclusive events, and less than $0.5\%$ for the gap events.
 For the average \costwodphi{} the effect from the JES uncertainty is around $3\%$ for the inclusive events, and less than $0.5\%$ for the gap events. 
-********Think both inclusive shapes are prob due to the dphi of lower ptbar jets being closer to pi, but need to check*******
+The shape of the inclusive JES uncertainties for \mean{\cosdphi{}} and \mean{\costwodphi{}} can be understood from the \dphi{} distributions for the JES smeared up and JES smeared down. 
+When the JES is smeared up in the \dphi{} distribution, for the low \dy{} slices the shape does not change very much.
+However, in the larger \dy{} slices the distribution now has more low \dphi{} dijets.
+The effect of this on the \mean{\cosdphi{}} and \mean{\costwodphi{}} is that at low \dy{} there should be little change, but at large \dy{} the change in \dphi{} is larger, and so the effect on \dy{} should be greater. 
+
 
 Figure \ref{GBJ2:JES:Q0} shows the JES uncertainty bands for the gap fraction as a function of the jet veto scale, \qz{}, for the \dy{} ranges 2--3, 4--5 and 7-8.
 The uncertainty bands increase for larger \dy{}.

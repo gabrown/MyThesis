@@ -1,5 +1,12 @@
-The Standard Model (SM) of particle physics is the theoretical framework of particle physics which describes the interaction of matter through the electromagnetic, strong and weak forces.
-
+The Standard Model (SM) of particle physics is the theoretical framework that describes the interaction of matter through the strong, electromagnetic, and weak forces.
+Figure \ref{Theory:SM} shows the bosons and fermions in the SM.
+The matter are represented in three generations of fermion, with each generation being heavier than the last. 
+The electromagnetic force is mediated through the photon, which interacts with charged particles.
+The weak force in mediated by the W and Z bosons.
+The strong force decribes the interactions between quarks and gluons, and is mediated by the gluon.
+Finally, there is also the Higgs boson, which is the reminant of the Higgs field that was introduced to give mass to the bosons and fermions.
+The strong force is described by quantum chromo-dynamics (QCD).
+This thesis is concerned with QCD measurements, and more detail about QCD is given in this chapter.
 
 
 \begin{figure}
@@ -7,8 +14,8 @@ The Standard Model (SM) of particle physics is the theoretical framework of part
 \mbox{
               \epsfig{figure=figures/Theory/SM.eps,width=0.6\textwidth}
                               }
-\caption[]{
-Illustration showing hadron hadron interaction through partons $a$ and $b$ going to $X$.
-\label{Theory:HadronHadron}}
+\caption[The fundamental particles in the SM]{
+The fundamental particles in the SM.
+\label{Theory:SM}}
 \end{figure}
 

@@ -1,0 +1,12 @@
+\subsection{Muon Detectors}
+
+Furthest from the interaction point are the muon detectors. 
+The muon detectors measure the hits from muons which are bent by the magnetic field from the barrel toroid ($|\eta|<1.4$) and end cap toroids ($1.6<|\eta|<2.7$), and a combination of both in the region between. 
+The muon system has seperate dedicated detectors for both precision position measurements and for triggering on muons.
+
+For the presision measurement, Monitored Drift Tubes (MDT) are used in the rapidity range $|\eta|<2.7$, with the higher granularity Cathode Strip Chambers (CSC) used in the more forward region of $2<|\eta|<2.7$ in the innermost layer. 
+
+The muon triggering system consists of Resistive Plate Chambers (RPC) in the barrel region and Thin Gap Chambers (TGC) in the end cap region. 
+The muon triggering system covers the region of $|\eta|<2.4$. 
+
+

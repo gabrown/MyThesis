@@ -13,23 +13,23 @@ The minimum \pt{} cut applied on the offline jets corresponds to the standard an
 
 
 The L2 jet-finding is done using a cone algorithm.
-The cone algorithm is seeded using a L1 RoI, and all deposits within the radius of the cone are combined, and a new cone center is defined using the energy weigted position of the constituants.
+The cone algorithm is seeded using a L1 RoI, and all deposits within the radius of the cone are combined, and a new cone centre is defined using the energy weighted position of the constituents.
 With the new cone defined, any new deposits with in the radius are again combined, and a new cone centre is define.
-This continues until the cone center does not change.
+This continues until the cone centre does not change.
 
 The \antikt{} jet-finding algorithm is used for the EF jets. 
 While it is the same jet-finding algorithm, the EF jets run over clusters that are close to the RoI.
-***check with denis**** 
-****Also what calibration ****
+
+In the 2012 data taking, calibration is applied to the EF jets to account for the non-compensating calorimeters. 
 
 \subsubsection{Jet matching}
 
 The trigger jets are matched to offline jets to allow them to be compared.
-This matching is achived by applying a \dr{} cut.
+This matching is achieved by applying a \dr{} cut.
 Figure \ref{SW_jet_L2_dR} is the \dr{} between the offline jets and all L2 jets in the event.
 As observed in the EM clusters, in (a) there are two peaks at $\dr{}\approx0$ and $\dr{}\approx3$.
 The difference to the EM clusters are best seen in (b), the first peak is not quite a zero, if is just offset.
-This is due to the $\phi$ resolution of the jts moving the \dphi{} away from zero. 
+This is due to the $\phi$ resolution of the jets moving the \dphi{} away from zero. 
 Figure \ref{SW_jet_EF_dR} is the \dr{} between the offline jets and all EF jets in the event.
 The distributions are similar to the L2 jet \dr{} distributions, with a peak just above zero, and one at $\dr{}\approx3$. 
 
@@ -56,32 +56,31 @@ This value corresponds to the R value used in the jet-finding for both the trigg
 
 
 
-\subsubsection{Monitoring}
+\subsubsection{Monitored Distributions}
 
 The jet monitoring uses the same distributions as the monitoring of the EM clusters.
 The monitoring distributions shown in Figures \ref{SW_jet_L2EF_EtEt} - \ref{SW_jet_L2EF_Reco} are from run 203335, which was taken in 2012.
 
 Figure \ref{SW_jet_L2EF_EtEt} shows the \et{} of the offline jet versus the (a) L2 and (b) EF jets.
 The \et{} comparison is used to check the linearity of the trigger jet \et{} to that of the offline jet.
-The L2 trigger jets fall on a line, which coresponds to $\approx 60 \%$ of the offline jets. 
+The L2 trigger \et{} shows linearity to the offline jet \et{}, with the trigger jets \et{} being $\approx 60 \%$ of the offline jet \et{}. 
 This is due to the different energy scales of the jets, whilst the offline are fully calibrated, the L2 trigger jets are at EM scale.
-****Check with denis****
 The \et{} of the EF jets agrees well with the offline jets. 
-This imporvement is expected due to the calibration done on the EF jets.
-While the EF jets and L2 have different agreements to the offline jet \et{}, the linearity is good for both.
+This improvement is expected due to the calibration done on the EF jets.
+Both the EF jets and L2 have good linearity to the offline jet \et{}.
 
 Figure \ref{SW_jet_L2EF_EtFrac_Eta} is the \et{} fraction as a function of jet $\eta$ for (a) the L2 jets and (b) the EF jets.
 The L2 jets have a mean \et{} fraction of $\approx 0.7$, whilst the EF jets have a mean \et{} fraction closer to one.  
 This is again explained due to the jet energy scale of the trigger jets.
 In both distributions, underlying differences between the trigger jets and offline jets can be seen in different regions of the detector.
-***Ask Denis what could be causing the differences at eta of +-1.2****
+The jumps in $f(\et{})$ at $|\eta|\sim1.2$ is the transistion between barrel and calorimeter, and large fluctuations in jet \pt{} are anticipated.
+
 
 Figure \ref{SW_jet_L2EF_Reco} shows the \et{} resolution of (a) the L2 jets and (b) the EF jets. 
 As seen in previous figures, the L2 jets are $\approx 70 \%$ of the offline jets, due to the difference in calibration.
 The mean of the \et{} resolution of the EF jets is close to zero. 
 Problems in the detector, should show up in the plot, as a change in the mean.
 
-*****Need to end it some how ****
 
 
 \begin{figure}

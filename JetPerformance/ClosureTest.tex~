@@ -1,12 +1,7 @@
-In 2010, the dijet \pt{} balence was not used to recalibrate the jets, but was used to assess the JES calibration factors.
-The relative jet response, \cite{ref:EtaInter2010}, shows a different in the forward region for MC and data.
-
-The difference between the data and MC jet responses could either originate from physics or detector effects. 
-If the difference if from a detector effect, for instance .., then the calibration should be applied to the data to correct for it.
-If the difference is actually from a physics effect in the MC, for instance ..., then it should be added as an uncertainty in the method.
-
-
-
+In 2010, the dijet \pt{} balance was not used to recalibrate the jets, but was used to assess the uncertainty on the JES calibration factors.
+However, the relative jet response, \cite{ref:EtaInter2010}, shows a difference in the forward region for MC and data.
+The difference between the data and MC jet responses could either originate from physics or detector effects described in Section \ref{sec:Det:Jets}. 
+The method described below was done to test if a calibration to the data would fix the observed issues.
 
 Using the ratio of the relative response factors from the MC and the data, the residual correction, 
 
@@ -21,7 +16,7 @@ Figure \ref{JetPerf:EtaData} shows the jet $\eta$ distribution for (a) \pt{}$>30
 The in-situ calibrated data has a much better agreement with the MC than the regular data does in both plots. 
 There are still differences in the forward region, but overall the differences are smaller than ten percent.
 
-Figure \ref{JetPerf:E_PtData} is the jet (a) \pt{}  and  (b) energy distributions  fot jets in the region \etaRange{3.2}{4.5}  for \pt{}$>20$ GeV. 
+Figure \ref{JetPerf:E_PtData} is the jet (a) \pt{}  and  (b) energy distributions  for jets in the region \etaRange{3.2}{4.5}  for \pt{}$>20$ GeV. 
 The energy distribution shows improvements in agreement between the MC after the data is calibrated.
 The \pt{} distribution shows smaller differences for the in-situ calibrated data.
 

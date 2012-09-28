@@ -2,34 +2,49 @@
 \subsection{Pileup}
 \label{sec:GBJ1:Pileup}
 
-As described in section XXX, there are two types of pileup; in-time pileup and out-of-time pileup. Both forms of pileup add additional energy into the detectors, and can add additional energy into existing jets, or even add new jets. The additional energy from the pileup interactions can change the gap fraction and mean number of jets distributions.  In this section the effect of both in-time and out-of-time pileup will be determined, and the effectiveness of the pileup cut outlined in section \ref{sec:GBJ1:EvtSel} will be assessed.
-
-In-time pileup is due to multiple proton-proton interactions in the same bunch collision. In-time pileup can be estimated by looking at the number of reconstructed primary vertices. Out-of-time pileup is additional energy coming from previous bunch collisions. Out-of-time pileup depends on the number of primary vertices of the previous bunches, and also upon the bunch spacing. 
-
-The cut requiring one primary vertex will remove the effect of in-time pileup. To check the effect of out-of-time pileup, the gap fraction has been looked at as a function of data period. Each period has slightly different conditions that will effect the out-of-time pileup. It is therefore important to know both the average number of primary vertices for each period, and also any changes in the bunch spacing.  
-Table \ref{GBJ1:VertexAve} shows that the average number of primary vertices for different periods increases throughout 2010 data taking. The main changes in the bunch spacing are in period E where * Need to check what happened here*, and in period G where the machine used bunch trains with 150ns bunch spacing. 
-  
- 
-Two methods were used to assess the effect of the differing pileup conditions for the different data taking periods. Both methods are based on splitting the measurements into average gap fractions for a small range in both $\Delta y$ and $\bar{p_T}$, and seeing how this average gap fraction varies with differing pileup conditions.
-The first method was just a visual check to see if the average gap fraction of the low pileup regions (periods B-D were chosen) and the high pileup regions (periods E-I) were consistent with each other and with the overall average for all periods. Figures \ref{GBJ1:GFAve6070} - \ref{GBJ1:GFAve150180} show the average gap fraction as a function of period for various $\Delta y$ and $\bar{p_T}$ slices. The fits to the different data periods was done with a simple $y = A$ fit. The figures show that any differences between the different fit lines is at the percent level, and more importantly, there is no global trend.
+The cut requiring one primary vertex will reduce the effect of in-time pileup. 
+The effect of the out-of-time (oot) pileup and the residual in-time pileup are assesed by comparing the average gap fraction for different pileup conditions.
+These different condictions can be characterised by the average number of primary vertices for a given period and also changes in the bunch spacing.  
+Table \ref{GBJ1:VertexAve} shows that the average number of primary vertices for different periods increases throughout 2010 data taking. 
+The main changes in the bunch spacing are in period E where it was partially reduced and in period G where bunch trains were introduced, which had 150ns bunch spacing. 
 
 
-The second method is a more quantitative approach in which each $\Delta y$ and $\bar{p_T}$ slice is fit with 2 straight lines, one that had no dependence on period, and one that allowed a period dependent term. The two fits used are,
+To check the effect of out-of-time pileup, the average gap fraction for different \dy{} and \ptb{} as a function of data period.
+The data is then split into periods B, C and D which correspond to the periods with large bunch spaceing, and periods E, F, G, H and I, which correspond to the periods with closer bunch spacing and bunch trains.
+A horizontal line has been fitted for periods BCD and for periods EFGHI, and also for all periods.
+The effect of oot pileup is then assessed by the difference in the fit lines.
+
+To check the effect of the residual in-time pileup, the data is again split into the data period, and the average gap fraction if found for different \ptb{} and \dy{} ranges.
+These average gap fraction plots as a function are fitted with two straight line functions. 
+The first straight line function,
 \begin{equation}
-y = A
+y = A,
 \label{GBJ1:Fit1}
-\end{equation} 
-and 
+\end{equation}
+ has no period dependance which corresponds to no effect from pileup.
+The second straight line function,
 \begin{equation}
 y = A + B x,
 \label{GBJ1:Fit2}
-\end{equation} 
- where $y$ is the average gap fraction and $x$ is the data taking period. For each fit the $\chi^2/NDF$ was calculated to check that the fit was sensible.
+\end{equation}
+has a period dependant term.
+For each function, the constants and the $\chi^2/NDF$ is measured and assessed. 
 
-Table \ref{GBJ1:GFAveTable} shows the result of all the fits for the various $\Delta y$ and $\bar{p_T}$ slices. The $\chi^2/NDF$ of the fits to equation \ref{GBJ1:Fit1} show that the fits have good agreement with a straight line with no period dependence. When fitting to equation \ref{GBJ1:Fit2}, the gradient of the line, $B$, is consistent (within errors) with zero for almost all slices. 
+
+Figures \ref{GBJ1:GFAve6070} - \ref{GBJ1:GFAve150180} show the average gap fraction as a function of period for various $\Delta y$ and $\bar{p_T}$ slices with fits to the different data periods with a simple $y = A$ fit. 
+Figure \ref{GBJ1:GFAve6070} shows this for a low \ptb{} range of 60--70 GeV for (a) $1<\dy{}<2$, (b) $2<\dy{}<3$ and (c) $3<\dy{}<5$.
+The fit for the periods EFGHI is level with the period BCD for the lowest \dy{} range, $0.2$ above for the medium \dy{} range and $0.1$ below for the \dy{} range.
+For this \ptb{} range no trend is observed.
+Figures \ref{GBJ1:GFAve90120} and \ref{GBJ1:GFAve150180} show a similar lack of trend and diffences within $0.2$.
+These results would indicate that there is no significant effect from oot pileup. 
 
 
-These two methods have shown that after the primary vertex cut, the effect from pileup (mainly out-of-time) is negligible, especially when compared to the systematic uncertainties discussed later. It should be noted that this may not be the case with higher instantainious luminosities.
+Table \ref{GBJ1:GFAveTable} shows the result of all the fits for the various $\Delta y$ and $\bar{p_T}$ slices. 
+The $\chi^2/NDF$ of the fits to equation \ref{GBJ1:Fit1} show that the fits have good agreement with a straight line with no period dependence.
+When fitting to equation \ref{GBJ1:Fit2}, the gradient of the line, $B$, is consistent, within statistical errors, with zero for almost all slices. 
+
+
+These two methods have shown that after the primary vertex cut, the effect of pileup is negligible, especially when compared to the systematic uncertainties discussed later. 
  
 \begin{table}
 \begin{center}
@@ -47,8 +62,9 @@ H&2.33\\
 I&2.78\\
 \hline
 \end{tabular}
-\caption{ Average number of vertices for the different data taking periods.}
-\label{GBJ1:VertexAve}
+\caption[Average number of primary vertices for different data periods]{ 
+Average number of vertices for the different data taking periods.
+\label{GBJ1:VertexAve}}
 \end{center}
 \end{table}
 
@@ -62,7 +78,9 @@ I&2.78\\
 
               \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_060_70_3-5_exclusive.eps,width=0.5\textwidth}}\quad
                               }
-\caption[Average gap fraction vs period for $60<\bar{p_T}<70$]{Average gap fraction with $60<\bar{p_T}<70$ and (a) $1<\Delta y<2$, (b) $2<\Delta y<3$  and (c) $3<\Delta y<5$. Each set of average gap fractions have been fited with a horizontal line for periods B-D, periods E-I and for all periods
+\caption[Average gap fraction vs period for $60<\bar{p_T}<70$]{
+Average gap fraction with $60<\bar{p_T}<70$ and (a) $1<\Delta y<2$, (b) $2<\Delta y<3$  and (c) $3<\Delta y<5$. 
+Each set of average gap fractions have been fitted with a horizontal line for periods B-D, periods E-I and for all periods.
 \label{GBJ1:GFAve6070}}
 \end{figure}
 
@@ -78,7 +96,9 @@ I&2.78\\
 
               \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_090_120_3-5_exclusive.eps,width=0.5\textwidth}}\quad
                               }
-\caption[Average gap fraction vs period for $90<\bar{p_T}<120$]{Average gap fraction with $90<\bar{p_T}<120$ and (a) $1<\Delta y<2$, (b) $2<\Delta y<3$  and (c) $3<\Delta y<5$. Each set of average gap fractions have been fited with a horizontal line for periods B-D, periods E-I and for all periods
+\caption[Average gap fraction vs period for $90<\bar{p_T}<120$]{
+Average gap fraction with $90<\bar{p_T}<120$ and (a) $1<\Delta y<2$, (b) $2<\Delta y<3$  and (c) $3<\Delta y<5$. 
+Each set of average gap fractions have been fitted with a horizontal line for periods B-D, periods E-I and for all periods.
 \label{GBJ1:GFAve90120}}
 \end{figure}
 
@@ -94,7 +114,9 @@ I&2.78\\
 
               \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_150_180_3-5_exclusive.eps,width=0.5\textwidth}}\quad
                               }
-\caption[Average gap fraction vs period for $150<\bar{p_T}<180$]{Average gap fraction with $150<\bar{p_T}<180$ and (a) $1<\Delta y<2$, (b) $2<\Delta y<3$  and (c) $3<\Delta y<5$. Each set of average gap fractions have been fited with a horizontal line for periods B-D, periods E-I and for all periods.
+\caption[Average gap fraction vs period for $150<\bar{p_T}<180$]{
+Average gap fraction with $150<\bar{p_T}<180$ and (a) $1<\Delta y<2$, (b) $2<\Delta y<3$  and (c) $3<\Delta y<5$. 
+Each set of average gap fractions have been fitted with a horizontal line for periods B-D, periods E-I and for all periods.
 \label{GBJ1:GFAve150180}}
 \end{figure}
 
@@ -114,7 +136,8 @@ $\Delta Y$ & $\overline{p_{T}}$ Range & $\bar{f}_{gap}$&\multicolumn{2}{|c|}{$y 
 \hline
 \hline
 \end{tabular}
-\caption[Average Gap Fraction Table]{The results from the two fits (equations \ref{GBJ1:Fit1} and \ref{GBJ1:Fit2}) for various slices of $\Delta y$ and $\bar{p_T}$.
+\caption[Results from period dependant and period independant straight line fits to the average gap fraction as a function of period]{
+The results from the two fits (equations \ref{GBJ1:Fit1} and \ref{GBJ1:Fit2}) for various slices of $\Delta y$ and $\bar{p_T}$.
 \label{GBJ1:GFAveTable}}
 \end{table}
 

@@ -1,0 +1,12 @@
+This thesis documents the measurements of jet activity in the rapidity region between a dijet system performed using proton-proton collisions at $\sqrt{s}~=~7$ TeV from data collected by the ATLAS detector during 2010 at the LHC.
+A number of observables that probe additional quark and gluon radiation in the dijet topology were studied.
+
+The confidence of the jet triggers and jet calibration were also documented including development of the monitoring of the ATLAS calorimter high level tiggers, and in-situ validation of the jet calibration and properties of jet found in the forward calorimeter.
+
+The fraction of events that survive a veto on jets with transverse momentum above a jet veto scale, \qz{}, in the rapidity region between the dijet system is measured for dijets with mean transverse momentum $50<\ptb{}<500$ and rapidity separation of up to six.
+The mean number of jets that have a transverse momentum above the jet veto scale in the rapidity region between the dijet system is also measured. 
+These measurements are compared to state of the art theoretical calculations from HEJ and POWHEG, and also compared to PYTHIA, HERWIG++ and ALPGEN.
+
+Additionally, a preliminalry analysis into very wide separation dijets was started. 
+As well as the previous observables, azimuthal decorrelation variables to test how back-to-back the dijet are, is measured
+

@@ -1,0 +1,56 @@
+%The response of the calorimter to jets can be defined using fully simulated MC samples as
+%\begin{equation}
+%\mathcal{R(\eta)} = \frac{\pt{}^{reco}(\eta)}{\pt{}^{truth}(\eta)}
+%\label{JetPerf:MCJetResp}
+%\end{equation}
+%where \pt{}$^{reco}$ is the \pt{} of the MC jet after full simulation of the detector, and  \pt{}$^{truth}$ is the \pt{} of the MC jet, before detector simulation. 
+%The truth and reco jets are matched using a \dr{} cut of 0.3.
+%%The calibration is done using the H1 method, which is described in \cite{ref:H1}. 
+%
+%Jet response within the calorimeter varies as a function of $\eta$ due to the different calorimeter technology used and the varying levels of dead material, as shown in Figure \ref{JetPerf:MCResp}.
+%The default calibration procedure in ATLAS is to correct the energy and momentum by $\frac{1}{\mathcal{R(\eta)}}$.
+%
+%\begin{figure}
+%\centering
+%\mbox{
+%              {\epsfig{figure=figures/JetPerformance/MCResponse-ref_ATLAS-CONF-2010-055.eps,width=\textwidth}}
+%                              }
+%\caption[]{ PYTHIA simulated jet EM-scale response as a function of reconstructed jet $\eta$ for different jet energies \cite{ref:EtaInter2010}
+%\label{JetPerf:MCResp}}
+%\end{figure}
+%
+%The accuracy of the calibration depends how well the MC models the physics, such as ..., and how accurately if describes the detector geometry. 
+%In-situ methods are used to check the calibration and to assign a corresponding uncertainty.
+
+
+
+The response of the calorimeter to jets is found using fully simulated MC, comparing reconstructed jets to truth jets, and correction factors are found.
+These correction factors are know as the EM+JES calibration and is described in Section \ref{sec:Det:Jets}. 
+To get the uncertainty on the JES, various MC and in-situ validation is done.
+This chapter discribes one such in-situ method, \pt{} balencing of dijet events. 
+
+In the central region (\etaRange{0}{0.8}), the JES and its uncertainty  are well known due to test-beam data and good koledge of the detector geometry.
+\pt{} balencing of dijet events can extend this uncertainty in to the end cap (\etaRange{0.8}{2.8}) and forward (\etaRange{2.8}{4.5}) regions. 
+The jets in the central region, which are well understood, are used as a baseline to get relative JES uncertainties in the end cap and forward regions. 
+
+This method of extending the uncertainty outside the central region is achieved by using the \pt{} balance of dijet events to get a relative jet response between the 2 jets.
+In a dijet topology, it is expected, that both jets should have the same transvere momentum, assuming that the jets arise from a $2\rightarrow2$ partonic scatter.
+Using this assumption, the \pt{} imbalance can be expressed using the asymmetry, $\mathcal{A}$, defined as
+\begin{equation}
+\mathcal{A} =\frac{\pt{}^1 - \pt{}^2}{\ptave{}},
+\label{JetPerf:Assym}
+\end{equation}
+where $\pt{}^1$ and $\pt{}^2$ are the transverse momentum of the two leading jets, and $\ptave{}$ is the average \pt{} of the two jets.
+For imperfectly measured jets, the asymmetry would not be unity and a relative calorimeter response to a jet can be constructed using the asymmetry as,
+\begin{equation}
+ \frac{\pt{}^1}{\pt{}^2}=\frac{2+\mean{\mathcal{A}}}{2-\mean{\mathcal{A}}}.
+\label{JetPerf:JetResp}
+\end{equation}
+
+The assumption made is that the event comes from a $2\rightarrow2$ partonic scatter, without an additional hard QCD emission in the interaction.
+This assumption can be wrong if there is more than two hard jets, or if there is a large amount of soft quark or gluon emission outside the jet. 
+To reduce these effects, a cut is placed on the third jet \pt{} of $\pt{}^3<0.25*\ptave{}$ and also requiring the jets to be back-to-back in azimuth with a cut $\dphi{}>2.6$.
+Also this can be incorrect due to the \pt{} resolution of the jets.
+This is accounted for by looking at lots of events, and taking the peake of a fitted Gausien function.
+
+ 

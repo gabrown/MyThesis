@@ -1,4 +1,240 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{ref:Webber}
+W.~J.~Stirling R.~K.~Ellis and B.~R. Webber.
+\newblock {\em QCD and Collider Physics}.
+\newblock Cambridge University Press,
+  http://dx.doi.org/10.1017/CBO9780511628788, 1996.
+
+\bibitem{ref:HardInt}
+J~M Campbell, J~W Huston, and W~J Stirling.
+\newblock Hard interactions of quarks and gluons: a primer for LHC physics.
+\newblock {\em Reports on Progress in Physics}, {\bf 70}(1):89, 2007.
+
+\bibitem{ref:PDF1}
+H1 and ZEUS Collaborations.
+\newblock Combined Measurement and QCD Analysis of the Inclusive ep Scattering
+  Cross Sections at HERA.
+\newblock 11 2009.
+\newblock 0911.0884.
+
+\bibitem{ref:PDF2}
+Marco Guzzi, Pavel Nadolsky, Edmond Berger, Hung-Liang Lai, Fredrick Olness,
+  and C.-P. Yuan.
+\newblock CT10 parton distributions and other developments in the global QCD
+  analysis.
+\newblock 01 2011.
+\newblock 1101.0561.
+
+\bibitem{ref:MRST}
+A.D. Martin, W.J. Stirling, R.S. Thorne, and G.~Watt.
+\newblock Parton distributions for the LHC.
+\newblock 01 2009.
+\newblock 0901.0002.
+
+\bibitem{ref:Dijet}
+ATLAS Collaboration.
+\newblock Measurement of inclusive jet and dijet production in pp collisions at
+  sqrt(s) = 7 TeV using the ATLAS detector.
+\newblock 12 2011.
+\newblock 1112.6297.
+
+\bibitem{ref:Rapidity}
+John~C. Collins.
+\newblock Light cone variables, rapidity and all that.
+\newblock 1997.
+\newblock hep-ph/9705393.
+
+\bibitem{ref:Jeff3}
+Simone Marzani, Jeffrey Forshaw, and James Keates.
+\newblock Gaps between jets and soft gluon resummation.
+\newblock 06 2009.
+\newblock 0906.2418.
+
+\bibitem{ref:HEJ1}
+Jeppe~R. Andersen and Jennifer~M. Smillie.
+\newblock Constructing All-Order Corrections to Multi-Jet Rates.
+\newblock 08 2009.
+\newblock 0908.2786.
+
+\bibitem{ref:BFKL}
+A.H. Mueller and H.~Navelet.
+\newblock An inclusive minijet cross section and the bare pomeron in QCD.
+\newblock {\em Nuclear Physics B}, {\bf 282}(0):727 -- 744, 1987.
+
+\bibitem{ref:BFKL_cos}
+B.Duclou{\'e}, L.Szymanowski, and S.Wallon.
+\newblock Mueller-Navelet jets at LHC: the first complete NLL BFKL study.
+\newblock 08 2012.
+\newblock 1208.6111.
+
+\bibitem{ref:BFKL_dPhi}
+Cyrille Marquet.
+\newblock Testing BFKL evolution with Mueller-Navelet jets.
+\newblock 12 2007.
+\newblock 0712.0746.
+
+\bibitem{ref:Anderson1}
+Simone Alioli, Jeppe~R. Andersen, Carlo Oleari, Emanuele Re, and Jennifer~M.
+  Smillie.
+\newblock Probing higher-order corrections in dijet production at the LHC.
+\newblock 02 2012.
+\newblock 1202.1475.
+
+\bibitem{ref:Andersen2}
+Jeppe~R. Andersen and Jennifer~M. Smillie.
+\newblock High Energy Description of Processes with Multiple Hard Jets.
+\newblock 07 2010.
+\newblock 1007.4449.
+
+\bibitem{ref:Forshaw_Veto}
+Jeffrey Forshaw, James Keates, and Simone Marzani.
+\newblock Jet vetoing at the LHC.
+\newblock 05 2009.
+\newblock 0905.1350.
+
+\bibitem{ref:antiKt}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock The anti- k t jet clustering algorithm.
+\newblock {\em Journal of High Energy Physics}, {\bf 2008}(04):063, 2008.
+
+\bibitem{ref:JetSh}
+ATLAS Collaboration.
+\newblock Study of Jet Shapes in Inclusive Jet Production in pp Collisions at
+  sqrt(s) = 7 TeV using the ATLAS Detector.
+\newblock 01 2011.
+\newblock 1101.0070.
+
+\bibitem{ref:PYTHIA64}
+Torbj{\"o}rn Sj{\"o}strand, Stephen Mrenna, and Peter Skands.
+\newblock PYTHIA 6.4 physics and manual.
+\newblock {\em Journal of High Energy Physics}, {\bf 2006}(05):026, 2006.
+
+\bibitem{ref:Lund}
+B.~Andersson, G.~Gustafson, G.~Ingelman, and T.~Sj{\"o}strand.
+\newblock Parton fragmentation and string dynamics.
+\newblock {\em Physics Reports}, {\bf 97}(2--3):31 -- 145, 1983.
+
+\bibitem{ref:Tune}
+ATLAS Collaboration.
+\newblock Charged particle multiplicities in pp interactions at √s = 0.9 and
+  7 TeV in a diffractive limited phase-space measured with the ATLAS detector
+  at the LHC and new PYTHIA6 tune.
+\newblock 2010.
+
+\bibitem{ref:Geant4}
+S.~Agostinelli, , et~al.
+\newblock Geant4---a simulation toolkit.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, {\bf
+  506}(3):250 -- 303, 2003.
+
+\bibitem{ref:ClusterModel}
+Richard~D. Field and Stephen Wolfram.
+\newblock A QCD model for e+e− annihilation.
+\newblock {\em Nuclear Physics B}, {\bf 213}(1):65 -- 84, 1983.
+
+\bibitem{ref:HERWIG}
+M.~Bahr, S.~Gieseke, M.~A. Gigg, D.~Grellscheid, K.~Hamilton, O.~Latunde-Dada,
+  S.~Platzer, P.~Richardson, M.~H. Seymour, A.~Sherstnev, J.~Tully, and B.~R.
+  Webber.
+\newblock Herwig++ Physics and Manual.
+\newblock 03 2008.
+\newblock 0803.0883.
+
+\bibitem{ref:Herwigpp}
+Stefan Gieseke, Christian R{\"o}hr, and Andrzej Si{\'o}dmok.
+\newblock Colour reconnections in Herwig++.
+\newblock 06 2012.
+\newblock 1206.0041.
+
+\bibitem{ref:ALPGEN}
+M.L. Mangano, M.~Moretti, F.~Piccinini, R.~Pittau, and A.D. Polosa.
+\newblock ALPGEN, a generator for hard multiparton processes in hadronic
+  collisions.
+\newblock hep-ph/0206293.
+
+\bibitem{ref:ALPGENPDF}
+J.~Pumplin, D.R. Stump, J.~Huston, H.L. Lai, P.~Nadolsky, and W.K. Tung.
+\newblock New Generation of Parton Distributions with Uncertainties from Global
+  QCD Analysis.
+\newblock hep-ph/0201195.
+
+\bibitem{ref:Jimmy}
+J.M. Butterworth, Jeffrey~R. Forshaw, and M.H. Seymour.
+\newblock Multiparton interactions in photoproduction at HERA.
+\newblock {\em Z.Phys.}, {\bf C72}:637--646, 1996.
+\newblock hep-ph/9601371.
+
+\bibitem{ref:ALPGENTune}
+ATLAS Collaboration.
+\newblock First tuning of HERWIG/JIMMY to ATLAS data.
+\newblock Technical Report ATL-PHYS-PUB-2010-014, CERN, Geneva, Oct 2010.
+
+\bibitem{ref:Powheg1}
+Stefano Frixione, Paolo Nason, and Carlo Oleari.
+\newblock Matching NLO QCD computations with Parton Shower simulations: the
+  POWHEG method.
+\newblock 09 2007.
+\newblock 0709.2092.
+
+\bibitem{ref:Powheg2}
+Simone Alioli, Keith Hamilton, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock Jet pair production in POWHEG.
+\newblock 12 2010.
+\newblock 1012.3380.
+
+\bibitem{ref:Powheg3}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock A general framework for implementing NLO calculations in shower Monte
+  Carlo programs: the POWHEG BOX.
+\newblock 02 2010.
+\newblock 1002.2581.
+
+\bibitem{ref:HEJ2}
+Jeppe~R. Andersen and Jennifer~M. Smillie.
+\newblock Multiple Jets at the LHC with High Energy Jets.
+\newblock 01 2011.
+\newblock 1101.5394.
+
+\bibitem{ref:Lumi}
+Georges Aad et~al. [ATLAS Collaboration Collaboration].
+\newblock {Luminosity Determination in pp Collisions at sqrt(s)=7 TeV Using the
+  ATLAS Detector at the LHC}.
+\newblock {\em Eur.Phys.J.}, {\bf C71}:1630, 2011.
+\newblock 1101.2185.
+
+\bibitem{ref:ATLASExp}
+ATLAS Collaboration.
+\newblock The ATLAS Experiment at the CERN Large Hadron Collider.
+\newblock {\em J. Instrum.}, {\bf 3}:S08003. 437 p, 2008.
+
+\bibitem{ref:ZeeCalib}
+ATLAS Collaboration.
+\newblock Electron performance measurements with the ATLAS detector using the
+  2010 LHC proton-proton collision data.
+\newblock {\em The European Physical Journal C - Particles and Fields}, {\bf
+  72}:1--46, 2012.
+\newblock 10.1140/epjc/s10052-012-1909-1.
+
+\bibitem{ref:Clustering}
+W~Lampl, S~Laplace, D~Lelas, P~Loch, H~Ma, S~Menke, S~Rajagopalan, D~Rousseau,
+  S~Snyder, and G~Unal.
+\newblock Calorimeter Clustering Algorithms: Description and Performance.
+\newblock Technical Report ATL-LARG-PUB-2008-002. ATL-COM-LARG-2008-003, CERN,
+  Geneva, Apr 2008.
+
+\bibitem{ref:TriggerPerf}
+ATLAS Collaboration.
+\newblock Performance of the ATLAS Trigger System in 2010.
+\newblock 10 2011.
+\newblock 1110.1530.
+
+\bibitem{ref:OffsetCorrection}
+ATLAS Collaboration.
+\newblock In-situ jet energy scale and jet shape corrections for multiple
+  interactions in the first ATLAS data at the LHC.
+\newblock Technical Report ATLAS-CONF-2011-030, CERN, Geneva, Mar 2011.
 
 \bibitem{ref:JES}
 ATLAS Collaboration.
@@ -6,5 +242,77 @@ ATLAS Collaboration.
   collisions at sqrt(s) = 7 TeV.
 \newblock 12 2011.
 \newblock 1112.6426.
+
+\bibitem{ref:JES_basic}
+ATLAS Collaboration.
+\newblock Jet energy scale and its systematic uncertainty for jets produced in
+  proton-proton collisions at sqrt(s) = 7 TeV and measured with the ATLAS
+  detector.
+\newblock Technical Report ATLAS-CONF-2010-056, CERN, Geneva, Jul 2010.
+
+\bibitem{ref:JER}
+ATLAS Collaboration.
+\newblock Jet energy resolution and selection efficiency relative to track jets
+  from in-situ techniques with the ATLAS Detector Using Proton-Proton
+  Collisions at a Center of Mass Energy $sqrt{s}$ = 7 TeV.
+\newblock Technical Report ATLAS-CONF-2010-054, CERN, Geneva, Jul 2010.
+
+\bibitem{ref:JER2}
+G~Romeo, A~Schwartzman, R~Piegaia, T~Carli, and R~Teuscher.
+\newblock Jet Energy Resolution from In-situ Techniques with the ATLAS Detector
+  Using Proton-Proton Collisions at a Center of Mass Energy $\sqrt{s}$ = 7 TeV.
+\newblock (Internal Note) ATL-COM-PHYS-2011-240, CERN, Geneva, Mar 2011.
+
+\bibitem{ref:Pileup}
+ATLAS Collaboration.
+\newblock Pile-up corrections for jets from proton-proton collisions at
+  $\sqrt{s} = 7$ TeV in ATLAS in 2011.
+\newblock Technical Report ATLAS-CONF-2012-064, CERN, Geneva, Jul 2012.
+
+\bibitem{ref:JES2011}
+ATLAS Collaboration.
+\newblock Jet energy scale and its systematic uncertainty in proton-proton
+  collisions at sqrt(s)=7 TeV with ATLAS 2011 data.
+\newblock Technical Report ATLAS-COM-CONF-2012-171, CERN, Geneva, Aug 2012.
+
+\bibitem{ref:EtaInter2010}
+ATLAS Collaboration.
+\newblock In-situ pseudo-rapidity inter-calibration to evaluate jet energy
+  scale uncertainty and calorimeter performance in the forward region.
+\newblock {\em CERN}, (ATLAS-CONF-2010-055), 2010.
+
+\bibitem{ref:HadModels}
+ATLAS Collaboration.
+\newblock Response and Shower Topology of 2 to 180 GeV Pions Measured with the
+  ATLAS Barrel Calorimeter at the CERN Test-beam and Comparison to Monte Carlo
+  Simulations.
+\newblock {\em CERN}, {\bf ATL-CAL-PUB-2010-001}, 2010.
+
+\bibitem{ref:JetShapes}
+ATLAS Collaboration.
+\newblock Properties of Jets and Inputs to Jet Reconstruction and Calibration
+  with the ATLAS Detector Using Proton-Proton Collisions at $\sqrt{s}=7$ TeV.
+\newblock {\em CERN}, (ATLAS-CONF-2010-053), 2010.
+
+\bibitem{ref:ATLASGap}
+ATLAS Collaboration.
+\newblock Measurement of dijet production with a veto on additional central jet
+  activity in pp collisions at sqrt(s)=7 TeV using the ATLAS detector.
+\newblock 07 2011.
+\newblock 1107.1641.
+
+\bibitem{ref:JeffNew}
+Rosa Maria~Duran Delgado, Jeffrey~R. Forshaw, Simone Marzani, and Michael~H.
+  Seymour.
+\newblock The dijet cross section with a jet veto.
+\newblock 07 2011.
+\newblock 1107.2084.
+
+\bibitem{ref:Decorr}
+ATLAS Collaboration.
+\newblock Measurement of Dijet Azimuthal Decorrelations in pp Collisions at
+  sqrt(s)=7 TeV.
+\newblock 02 2011.
+\newblock 1102.2696.
 
 \end{thebibliography}

@@ -1,9 +1,12 @@
 \subsection{Calorimeter}
+\label{sec:Det:Cal}
+
 \begin{figure}
   \centering
   \includegraphics[width=0.9\textwidth]{figures/Detector/AtlasCalorimeter.jpg}
-  \caption{ATLAS calorimeter system.}
+  \caption[ATLAS calorimeter system]{
 \label{Det:ATLASCalo}
+}
 \end{figure}
 
 This section will discuss the EM calorimeter, the hadronic calorimeter and the forward calorimeter. 

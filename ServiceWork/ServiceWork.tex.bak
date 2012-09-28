@@ -1,34 +1,25 @@
-The calorimeter high-level trigger (HLTCao) is used to trigger on physics objects that deposit their energy in either the electromagnetic or hadronic calrimeter.
-As described in Section \ref{sec:Det:Cal} the calrimeter is segmented into cells.
-These cells are clustered together, and can be combined with inner detector tracks, to define physics objects such as electrons, photons, taus, and jets. 
+The calorimeter high-level trigger (HLTCalo) is used to trigger on physics objects that deposit their energy in either the electromagnetic or hadronic calorimeter.
+As described in Section \ref{sec:Det:Calo} the calorimeter is segmented into cells.
+These cells are clustered together, as described in Section \ref{sec:Det:Calo} , and can be combined with inner detector tracks, to define physics objects such as electrons, photons, taus, and jets. 
 
-The HLTCalo is monitored to check the performance and consistancy of the triggers. 
-This is achived by monitoring the individual cells in the calorimeters and also comparing the different L2 and EF triggered physics objects to the corresponding offline object.
-Monitoring flags are defined for each monitoring distribution, where a green flag represets the distribution is consistant with the expected distribution, and yellow and red represent a larger than expected difference to the expected. 
-When the flag is red or yellow the distribution is studied further to find the reason.
+The HLTCalo is monitored to check the performance and consistency of the triggers. 
+This is achieved by monitoring the individual cells in the calorimeters and also comparing the different L2 and EF triggered physics objects to the corresponding offline object.
+Monitoring flags are defined for each monitoring distribution, where a green flag represents the distribution is consistent with the expected distribution, and yellow and red represent a deviation from the expected distribution. 
+When the flag is red or yellow the distribution is studied further to find the reason, and if neccessary can then be excluded from physics analysis.
 
 
-
-%Within ATLAS all of the systems are monitored as the data is received (online monitoring) and also after the run has finished (offline monitoring).
-%The purpose of both types of monitoring is to check the performance of the ATLAS subsystems, to track any problems and to have the information to decide if the problem is tolerable, such that the data can still be used, or intolerable, such that the data will not be used for analysis. 
-%
-%One such monitored system is the calorimeter high-level trigger (HLTCalo).
-%The offline monitoring of the HLTCalo is done by monitoring the cells in the calorimeter and also different physics objects (such as electrons, photons and jets), and comparing the triggered version with the offline one. 
-%Flags are defined for each monitoring plot, and are normally set depending on how far the mean of the distributions are away from optimal set value.
-%Green, yellow and red are the different flag conditions, and both yellow and red indicate that the offline shift person should look at the distribution.
-
-In this chapter, the additions to the current cell monitoring which expose hot cells, and the addition of monitoring of calorimeter objects are discussed. 
+In this chapter, work done by the author on improvements to the current cell monitoring which expose hot cells, and the addition of monitoring of calorimeter objects are discussed. 
 
 \section{Cells}
 
 To monitor the overall HLTCalo, monitoring is done on the cells of the calorimeter.
-This monitoring consists of distributions showing the number of active cells in the LAr and Tile, the number of problematic cells and the position of these cells in the LAr and Tile, and also the difference in energy between the trigger and offline cells.
+This monitoring consists of distributions showing the number of active cells in the LAr and Tile, the number of problematic cells and the position of these cells in the LAr and Tile, and also the difference in cell energy between the trigger levels and offline levels.
 
 The number of cells in the LAr and Tile is an example of a monitoring plot that is very stable and  should only change when a hot cell is masked or taken offline, allowing very tight flag definitions.
 Monitoring plots, such as the percentage difference in energy in the trigger and offline cells, vary significantly ($\sim15\%$) with different running conditions, so either looser or no flag definitions are set.
 
 The average transverse energy per cell in $\eta  \phi$ distribution is important in identifying hot spots where one cell records artificially high energy in every event.
-Hot cells can be caused from ***** Ask Denis***** 
+Hot cells can be caused from electronics problems within the cells. 
 Figure \ref{SW_hotspot} shows an example of a hot spot found using the offline cell monitoring in run 201191, resulting in the cell being masked (***Check with Denis****).
 
 \begin{figure}
@@ -43,9 +34,9 @@ Figure \ref{SW_hotspot} shows an example of a hot spot found using the offline c
 
 \section{Calorimeter Objects}
 
-The other offline monitoring of the HLTCalo studies the calorimeter triggered objects (electrons, photons and jets) and compares them to the offline objects.
+The HLTCalo is also monitored by comparing calorimeter triggered objects (electrons, photons and jets) and to the offline objects.
 A cut on the \dr{} is done to match the triggered objects to the offline objects.
-An \et{} cut has been applied to the offline objects, which is consitant with the analysis cut required when using the object. 
+An \et{} cut has been applied to the offline objects, which is consistent with the analysis cut required when using the object. 
 
 
 
@@ -56,5 +47,12 @@ An \et{} cut has been applied to the offline objects, which is consitant with th
 \input{ServiceWork/Egamma.tex}
  
 \subsection{Jets}
+\label{HLTCalo:Jets}
 
 \input{ServiceWork/Jets.tex}
+
+
+\subsection{Summary}
+
+The updates to the HLT cell monitoring and the addition of offline monitoring of the HLTCalo using physics objects such as jets are presented.
+Cells have been masked to reduce the effect from noisy cells, and the EM and jet triggers have been monitored and observed to have good stablity, and data where this has not been the case has not been used for physics analyses.

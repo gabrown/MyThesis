@@ -4,22 +4,6 @@
 The analysis removes events with jets that have $\pt{}>20$ GeV  that fail the loose jet cleaning cut.
 This event-level jet cleaning cut can be compared to a jet-level cleaning cut, which removes jets that fail the loose jet cleaning cuts, to assess the impact of rejecting events due to bad jets that do not impact the measurement.
 
-Loose jet cleaning does not remove all of the bad jets, and to assess the effect from the remaining bad jets, the final distributions are compared to the more stringent ``medium'' jet cleaning, which  removes a higher proportion of bad jets. 
-The concern with using the medium jet cleaning cut is that it has inefficiencies for good jets that have a low \pt{}.
-These inefficiencies have been estimated in \cite{ref:JES}.
-The differences from comparing the medium and loose jet cleaning cuts will come from both the bad jets and the inefficiencies.
-To isolate just the effect due to the bad jets, the medium jet cleaning cuts are compared to events which have  the inefficiencies applied as well as the loose cleaning cuts. 
-The three different jet cleaning cuts that have been applied are the standard loose jet cleaning, medium jet cleaning, and the "inefficient loose jet cleaning" which corresponds to the loose jet cleaning with the inefficiencies from the medium cleaing applied. 
-%Three different cleaning cuts are applied to the jets:
-%\begin{description}
-%   \item[Loose jet cleaning] $ N_{good} + N_{bad}$
-%   \item[Medium jet cleaning] $\epsilon N_{good} $
-%   \item[Inefficient loose jet cleaning] $ \epsilon (N_{good}+N_{bad}) $
-%\end{description}
-%where $\epsilon$ is the medium inefficiency for good jets, $N_{good}$ is the number of good jets and $N_{bad}$ is the bad jets that the medium jet cleaning removes.
-Each distribution will compare the "medium jet ratio", which is the ratio of the distribution with medium jet cleaning to the distribution with loose jet cleaning, to the "inefficiency jet ratio", which is the ratio of the distribution with inefficiency applied to the loose jet cleaning to the distribution with loose jet cleaning. 
-The effect of the bad jets can be assessed by considering the difference between the medium jet ratio, which remove events due to bad jets and the inefficency to good jets, and the inefficiency jet ratio, which only removes events due to the inefficiency. 
-
 
 
 Figure \ref{GBJ2:JetCleaning:gap} shows the effect of event verses jet cleaning criteria for loose cleaning on (a) the gap fraction and (b) the average number of jets in the rapidity region bounded by the dijet as a function of \dy{}.
@@ -35,38 +19,50 @@ There are similar results for the other \dy{} slices.
 
 The cross section distributions show the largest effect, as the event-level cleaning cut will remove more event, but the difference is less than half a percent, and the systematic uncertainty due to this is negligible.
 The other distributions show negligible differences when changing from an event-level cleaning criteria to a jet-level cleaning criteria. 
+Event-level cleaning was determined to have no bias and is used in the final analysis. 
 
 
 
-Figure \ref{GBJ2:JetCleaning:gap_ML} shows the ratio of the gap fraction as a function of (a) \dy{} and (b) \qz{} for \dy{} 2--3,  for the medium jet cleaning to the loose jet cleaning and inefficient loose jet cleaning to the loose jet cleaning with the event-level criteria.
-Changing to the medium jet cleaning causes the gap fraction to increase with a maximum difference of $\approx 2\%$ at high \dy{} and $\approx 1\%$ at low \qz{}.
+
+
+
+
+
+
+Loose jet cleaning does not remove all of the bad jets, and to assess the effect from the remaining bad jets, the final distributions are compared to the more stringent ``medium'' jet cleaning, which  removes a higher proportion of bad jets. 
+The concern with using the medium jet cleaning cut is that it has inefficiencies for good jets that have a low \pt{}.
+These inefficiencies have been estimated in \cite{ref:JES}.
+The differences from comparing the medium and loose jet cleaning cuts will come from removeing more bad jets and the good jet inefficiencies.
+To try to isolate the effect due to the bad jets on each distribution, the medium jet cleaning cuts are compared to events which have the inefficiencies from \cite{ref:JES} applied to events selected using the loose cleaning cuts, termed ``inefficient loose cleaning''. 
+
+
+Figure \ref{GBJ2:JetCleaning:gap_ML} shows the ratio of the gap fraction as a function of (a) \dy{} and (b) \qz{} for \dy{} 2--3,  for the medium cleaning to the loose cleaning.
+Also shown us the ratio of inefficient loose cleaning to the loose cleaning.
+Changing to the medium cleaning causes the gap fraction to increase with a maximum difference of $\approx 2\%$ at high \dy{} and $\approx 1\%$ at low \qz{}.
 This increase in the gap fraction results from gap events having less jets than inclusive events, meaning they are less likely to fail the jet cleaning cut. 
 The inefficient loose cleaning matches the medium data well, which would indicate that the effect from bad jets on the gap fraction is small and the main effect is from the good jet inefficiency. 
 Similar results are seen for the gap fraction against \qz{} in the other slices in \dy{}.  
 
-%Figure \ref{GBJ2:JetCleaning:gap_ML} shows the ratio of the gap fraction as a function of (a) \dy{} and (b) \qz{} for \dy{} 2--3,  with a medium jet cleaning cut to loose jet cleaning cuts at event-level.
-%When this is compared to the data with a loose jet cleaning cut and the medium jet inefficiency applied, and also to the MC with the medium jet inefficiency applied, there is very little difference in shape.
-%This would indicate that the shape difference does not come from bad jets, but from the medium good jet inefficiency. 
-%Similar results were observed for the other \dy{} slices.
 
-The ratio of the medium jet cleaning to the loose jet cleaning and the inefficient loose jet cleaning to the loose jet cleaning for event-level criteria is shown in Figure \ref{GBJ2:JetCleaning:cos_ML} and \ref{GBJ2:JetCleaning:cos2_ML} for \mean{\cosdphi{}} and \mean{\costwodphi{}} respectively as a function of \dy{} for (a) inclusive events and (b) events that pass the jet veto. 
+The ratio of the medium cleaning to the loose cleaning and the inefficient loose cleaning to the loose cleaning for event-level criteria is shown in Figure \ref{GBJ2:JetCleaning:cos_ML} and \ref{GBJ2:JetCleaning:cos2_ML} for \mean{\cosdphi{}} and \mean{\costwodphi{}} respectively as a function of \dy{} for (a) inclusive events and (b) events that pass the jet veto. 
 Both distributions show that the effect of the bad jets and inefficiency is small for both gap and inclusive events.
 At larger \dy{} there are some statistical fluctuation.
 
-Figure \ref{GBJ2:JetCleaning:dphi23_ML} shows the ratios of the differencial cross section for  a \dy{} slice of  2--3  for the medium jet cleaning to the loose jet cleaning and the inefficient loose jet cleaning to the loose jet cleaning with the event-level criteria for (a) inclusive events and (b) events that pass the jet veto.
+Figure \ref{GBJ2:JetCleaning:dphi23_ML} shows the ratio of \dphiDist for $2<\dy{}<3$ for the medium cleaning to the loose cleaning, and the ratio of inefficient loose cleaning to the loose cleaning for (a) inclusive events and (b) events that pass the jet veto.
 There is a reduction of $\approx 2\%$ in the gap and inclusive cross section when the medium cleaning cut is applied.
-The application of the inefficient loose cleaning cuts causes a reduction to the cross section of between $2-4\%$, and crucially it falls to below the medium jet cleaning ratio. 
+The inefficient loose cleaning cuts causes a reduction to \dphiDist{} of between $2-4\%$, and crucially it falls to below the medium jet cleaning ratio. 
 This indicates that the inefficiencies of the medium jet cleaning on good jets are overestimated.
-The maximum effect from the bad jets is when there is no inefficiency in the medium jet cleaning, corresponding to the deviation to one. 
+The maximum effect from the bad jets would occur if there was no inefficiency in the medium jet cleaning, ie corresponding to the deviation of the distribution from unity. 
 For the slice in \dy{} of 2--3 the maximum deviation is $3\%$, which would be a very conservative estimate of the effect.
-Given that this is an overestimatation of a effect that is expected to be small and the uncertainty from the JES adds an uncertainty band of about $20\%$, this difference can be disregarded. 
+Given that this is an overestimation of a effect that is expected to be small, and the uncertainty from the JES adds an uncertainty band of about $20\%$, this difference is disregarded. 
 The other slices in \dy{} show a similar results when comparing the difference between medium jet cleaning and loose jet cleaning to the systematic band from JES.
 
 
 The method of jet cleaning used this analysis was the loose jet cleaning definitions and event-level criteria.
 No bias due to using event-level was found. 
-The loose jet cleaning definition was used due to the high efficency for good jets.
-The effect from bad jets was assessed, and while it is hard to get an accurate value for the effect dur to the medium jet inefficiencies for good jets being overestimated, the upper limit of the effect was significantly less than the effect from the JES uncertainty. 
+The loose jet cleaning definition was used due to the high efficiency for good jets.
+The effect from bad jets was assessed, and while it is hard to get an accurate value for the effect due to the medium jet inefficiencies for good jets being overestimated, the upper limit of the effect was significantly less than the effect from the JES uncertainty. 
+No systematic uncertainty from cleaning is applied for the final analysis.
 
 
 \begin{figure}
@@ -156,7 +152,7 @@ The ratio of the \dphi{} distribution for $\Delta y$ of 2--3 for (a) inclusive a
               %\subfigure[]{\epsfig{figure=figures/GBJ2/jetcleaning/Clean___prof_deltaY_njets_Ratio_MediumLoose_Evt_Data.eps,width=0.5\textwidth}}\quad
               %\epsfig{figure=figures/GBJ2/jetcleaning/Clean___GapFraction_deltaY_Ratio_MediumLoose_Evt_Data.eps,width=0.7\textwidth}\quad
                               }
-\caption[Comparison between medium jet cleaning definitions and loose jet cleaning definiton for (a) the gap fraction and (b) the average number of jets as a function of \dy{}]{
+\caption[Comparison between medium jet cleaning definitions and loose jet cleaning definition for (a) the gap fraction and (b) the average number of jets as a function of \dy{}]{
 The ratio of (a) the gap fraction  and (b) the average number of jets in the rapidity region bounded by the dijet as a function of $\Delta y$ for the MC and data with medium jet cleaning cuts compared to loose jet cleaning cuts at the event-level.
 \label{GBJ2:JetCleaning:gap_ML}}
 \end{figure}
@@ -168,7 +164,7 @@ The ratio of (a) the gap fraction  and (b) the average number of jets in the rap
               \subfigure[]{\epsfig{figure=figures/GBJ2/jetcleaning/Clean___cosdPhi_deltaY_Ratio_MediumLoose_Evt_Data.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ2/jetcleaning/Clean___cosdPhi_deltaY_gap_Ratio_MediumLoose_Evt_Data.eps,width=0.5\textwidth}}\quad
                               }
-\caption[Comparison between medium jet cleaning definitions and loose jet cleaning definiton for \mean{\cosdphi{}} as a function of \dy{} for  (a) inclusive events and (b) events that pass the gap vet]{
+\caption[Comparison between medium jet cleaning definitions and loose jet cleaning definition for \mean{\cosdphi{}} as a function of \dy{} for  (a) inclusive events and (b) events that pass the gap vet]{
 The ratio of \mean{\cosdphi{}} as a function of $\Delta y$ for (a) inclusive and (b) gap events for the MC and data with medium jet cleaning cuts compared to loose jet cleaning cuts at the event-level.
 \label{GBJ2:JetCleaning:cos_ML}}
 \end{figure}
@@ -180,7 +176,7 @@ The ratio of \mean{\cosdphi{}} as a function of $\Delta y$ for (a) inclusive and
               \subfigure[]{\epsfig{figure=figures/GBJ2/jetcleaning/Clean___cos2dPhi_deltaY_Ratio_MediumLoose_Evt_Data.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ2/jetcleaning/Clean___cos2dPhi_deltaY_gap_Ratio_MediumLoose_Evt_Data.eps,width=0.5\textwidth}}\quad
                               }
-\caption[Comparison between medium jet cleaning definitions and loose jet cleaning definiton for \mean{\costwodphi{}} as a function of \dy{} for  (a) inclusive events and (b) events that pass the gap veto]{
+\caption[Comparison between medium jet cleaning definitions and loose jet cleaning definition for \mean{\costwodphi{}} as a function of \dy{} for  (a) inclusive events and (b) events that pass the gap veto]{
 The ratio of \mean{\costwodphi{}} as a function of $\Delta y$ for (a) inclusive and (b) gap events for the MC and data with medium jet cleaning cuts compared to loose jet cleaning cuts at the event-level.
 
 \label{GBJ2:JetCleaning:cos2_ML}}
@@ -193,7 +189,7 @@ The ratio of \mean{\costwodphi{}} as a function of $\Delta y$ for (a) inclusive 
               \subfigure[]{\epsfig{figure=figures/GBJ2/jetcleaning/Clean___dPhi__2_3_Ratio_MediumLoose_Evt_Data.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ2/jetcleaning/Clean___dPhi_gap__2_3_Ratio_MediumLoose_Evt_Data.eps,width=0.5\textwidth}}\quad
                               }
-\caption[Comparison between medium jet cleaning definitions and loose jet cleaning definiton for the differential cross section as a function of \dy{} for a \dy{} range of 2--3 for (a) inclusive events and (b) events that pass the gap veto]{
+\caption[Comparison between medium jet cleaning definitions and loose jet cleaning definition for the differential cross section as a function of \dy{} for a \dy{} range of 2--3 for (a) inclusive events and (b) events that pass the gap veto]{
 
 The ratio of the \dphi{} distribution for $\Delta y$ of 2--3 for (a) inclusive and (b) gap events for the MC and data with medium jet cleaning cuts compared to loose jet cleaning cuts at the event-level.
 
