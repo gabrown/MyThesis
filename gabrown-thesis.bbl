@@ -1,5 +1,19 @@
 \begin{thebibliography}{10}
 
+\bibitem{ref:ATLASGap}
+ATLAS Collaboration.
+\newblock Measurement of dijet production with a veto on additional central jet
+  activity in pp collisions at sqrt(s)=7 TeV using the ATLAS detector.
+\newblock 07 2011.
+\newblock 1107.1641.
+
+\bibitem{ref:GBJInternal}
+P~Bernat, GJA Brown, M~Campanelli, J~Gray, H~Kucuk, A~Pilkington, and JEM
+  Robinson.
+\newblock Measurement of dijet production and azimuthal decorrelation with a
+  jet veto in $pp$ collision at $sqrt{s}=7$~TeV using the ATLAS detector.
+\newblock (Internal ATLAS Note), Aug 2012.
+
 \bibitem{ref:Webber}
 W.~J.~Stirling R.~K.~Ellis and B.~R. Webber.
 \newblock {\em QCD and Collider Physics}.
@@ -293,13 +307,6 @@ ATLAS Collaboration.
 \newblock Properties of Jets and Inputs to Jet Reconstruction and Calibration
   with the ATLAS Detector Using Proton-Proton Collisions at $\sqrt{s}=7$ TeV.
 \newblock {\em CERN}, (ATLAS-CONF-2010-053), 2010.
-
-\bibitem{ref:ATLASGap}
-ATLAS Collaboration.
-\newblock Measurement of dijet production with a veto on additional central jet
-  activity in pp collisions at sqrt(s)=7 TeV using the ATLAS detector.
-\newblock 07 2011.
-\newblock 1107.1641.
 
 \bibitem{ref:JeffNew}
 Rosa Maria~Duran Delgado, Jeffrey~R. Forshaw, Simone Marzani, and Michael~H.

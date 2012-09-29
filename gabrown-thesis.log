@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.11.4)  28 SEP 2012 14:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.11.4)  28 SEP 2012 21:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -615,7 +615,7 @@ File: figures/ServiceWork/Cells_HotSpot.pdf Graphic file (type pdf)
 
 <use figures/ServiceWork/Cells_HotSpot.pdf>
 Package pdftex.def Info: figures/ServiceWork/Cells_HotSpot.pdf used on input li
-ne 29.
+ne 30.
 (pdftex.def)             Requested size: 371.30594pt x 274.48494pt.
  (./ServiceWork/Egamma.tex [50]
 [51 <./figures/ServiceWork/Cells_HotSpot.pdf>]
@@ -736,7 +736,7 @@ d_L2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/ServiceWork/run_190
 644/EtEt_Matched_L2-eps-converted-to.pdf figures/ServiceWork/run_190644/EtEt_Ma
 tched_L2.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/ServiceWork/run_190644/EtEt_Matched_L2-eps-converted-to.pdf, id=357, 5
@@ -746,7 +746,7 @@ ic file (type pdf)
 
 <use figures/ServiceWork/run_190644/EtEt_Matched_L2-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ServiceWork/run_190644/EtEt_Matched_L2-eps-con
-verted-to.pdf used on input line 101.
+verted-to.pdf used on input line 102.
 (pdftex.def)             Requested size: 206.28247pt x 122.60585pt.
 Package epstopdf Info: Source file: <figures/ServiceWork/run_190644/EtEt_Matche
 d_EF.eps>
@@ -759,7 +759,7 @@ d_EF-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/ServiceWork/run_190
 644/EtEt_Matched_EF-eps-converted-to.pdf figures/ServiceWork/run_190644/EtEt_Ma
 tched_EF.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/ServiceWork/run_190644/EtEt_Matched_EF-eps-converted-to.pdf, id=358, 5
@@ -769,10 +769,10 @@ ic file (type pdf)
 
 <use figures/ServiceWork/run_190644/EtEt_Matched_EF-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ServiceWork/run_190644/EtEt_Matched_EF-eps-con
-verted-to.pdf used on input line 101.
+verted-to.pdf used on input line 102.
 (pdftex.def)             Requested size: 206.28247pt x 122.60585pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 101--102
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 102--103
  [][] 
  []
 
@@ -787,7 +787,7 @@ Matched_L2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/ServiceWork/run_190
 644/EtFrac_Eta_Matched_L2-eps-converted-to.pdf figures/ServiceWork/run_190644/E
 tFrac_Eta_Matched_L2.eps>
-(epstopdf)             \includegraphics on input line 110.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/ServiceWork/run_190644/EtFrac_Eta_Matched_L2-eps-converted-to.pdf, id=
@@ -797,7 +797,7 @@ File: figures/ServiceWork/run_190644/EtFrac_Eta_Matched_L2-eps-converted-to.pdf
 
 <use figures/ServiceWork/run_190644/EtFrac_Eta_Matched_L2-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ServiceWork/run_190644/EtFrac_Eta_Matched_L2-e
-ps-converted-to.pdf used on input line 110.
+ps-converted-to.pdf used on input line 111.
 (pdftex.def)             Requested size: 206.28247pt x 122.60585pt.
 Package epstopdf Info: Source file: <figures/ServiceWork/run_190644/EtFrac_Eta_
 Matched_EF.eps>
@@ -810,7 +810,7 @@ Matched_EF-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/ServiceWork/run_190
 644/EtFrac_Eta_Matched_EF-eps-converted-to.pdf figures/ServiceWork/run_190644/E
 tFrac_Eta_Matched_EF.eps>
-(epstopdf)             \includegraphics on input line 110.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/ServiceWork/run_190644/EtFrac_Eta_Matched_EF-eps-converted-to.pdf, id=
@@ -820,10 +820,10 @@ File: figures/ServiceWork/run_190644/EtFrac_Eta_Matched_EF-eps-converted-to.pdf
 
 <use figures/ServiceWork/run_190644/EtFrac_Eta_Matched_EF-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ServiceWork/run_190644/EtFrac_Eta_Matched_EF-e
-ps-converted-to.pdf used on input line 110.
+ps-converted-to.pdf used on input line 111.
 (pdftex.def)             Requested size: 206.28247pt x 122.60585pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 110--111
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 111--112
  [][] 
  []
 
@@ -838,7 +838,7 @@ d_L2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/ServiceWork/run_190
 644/Reso_Matched_L2-eps-converted-to.pdf figures/ServiceWork/run_190644/Reso_Ma
 tched_L2.eps>
-(epstopdf)             \includegraphics on input line 119.
+(epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/ServiceWork/run_190644/Reso_Matched_L2-eps-converted-to.pdf, id=361, 5
@@ -848,7 +848,7 @@ ic file (type pdf)
 
 <use figures/ServiceWork/run_190644/Reso_Matched_L2-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ServiceWork/run_190644/Reso_Matched_L2-eps-con
-verted-to.pdf used on input line 119.
+verted-to.pdf used on input line 120.
 (pdftex.def)             Requested size: 206.28247pt x 122.60585pt.
 Package epstopdf Info: Source file: <figures/ServiceWork/run_190644/Reso_Matche
 d_EF.eps>
@@ -861,7 +861,7 @@ d_EF-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/ServiceWork/run_190
 644/Reso_Matched_EF-eps-converted-to.pdf figures/ServiceWork/run_190644/Reso_Ma
 tched_EF.eps>
-(epstopdf)             \includegraphics on input line 119.
+(epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/ServiceWork/run_190644/Reso_Matched_EF-eps-converted-to.pdf, id=362, 5
@@ -871,10 +871,10 @@ ic file (type pdf)
 
 <use figures/ServiceWork/run_190644/Reso_Matched_EF-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ServiceWork/run_190644/Reso_Matched_EF-eps-con
-verted-to.pdf used on input line 119.
+verted-to.pdf used on input line 120.
 (pdftex.def)             Requested size: 206.28247pt x 122.60585pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 119--120
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 120--121
  [][] 
  []
 
@@ -889,10 +889,10 @@ File: figures/ServiceWork/EF_Reso_Range.pdf Graphic file (type pdf)
 
 <use figures/ServiceWork/EF_Reso_Range.pdf>
 Package pdftex.def Info: figures/ServiceWork/EF_Reso_Range.pdf used on input li
-ne 137.
+ne 138.
 (pdftex.def)             Requested size: 412.56496pt x 304.78897pt.
 
-Overfull \hbox (7.83325pt too wide) in paragraph at lines 137--138
+Overfull \hbox (7.83325pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
@@ -1165,13 +1165,13 @@ ceWork/Jets/EF_EtFracEtaMatchedJet-eps-converted-to.pdf> <./figures/ServiceWork
 F_ResoMatchedJetsJet-eps-converted-to.pdf>] [61]
 Chapter 5.
 (./JetPerformance/Introduction_JES.tex
-Overfull \hbox (20.14308pt too wide) in paragraph at lines 32--35
+Overfull \hbox (20.14308pt too wide) in paragraph at lines 6--9
 \OT1/cmr/m/n/12 bal-an-cing of dijet events can ex-tend this un-cer-tainty in t
 o the end cap ([])
  []
 
 
-Overfull \hbox (0.18214pt too wide) in paragraph at lines 36--39
+Overfull \hbox (0.18214pt too wide) in paragraph at lines 10--13
 []\OT1/cmr/m/n/12 This method of ex-tend-ing the un-cer-tainty out-side the cen
 t-ral re-gion is achieved
  []
@@ -1708,8 +1708,11 @@ rmance/EMF-eps-converted-to.pdf>]
 Chapter 6.
 (./GBJ1/Introduction.tex) (./GBJ1/AnalysisSelection.tex [81
 
-])
-(./GBJ1/EventSelection.tex [82] [83]) (./GBJ1/UncorrectedData.tex [84]
+]
+
+LaTeX Warning: Citation `ref:GBJConf' on page 82 undefined on input line 10.
+
+) (./GBJ1/EventSelection.tex [82] [83]) (./GBJ1/UncorrectedData.tex [84]
 Package epstopdf Info: Source file: <figures/GBJ1/UncorrectedData/Inclusive_sel
 A_Ave_pT_70_90_Norm.eps>
 (epstopdf)                    date: 2011-11-29 23:13:11
@@ -2868,7 +2871,7 @@ Overfull \hbox (27.41829pt too wide) in paragraph at lines 30--33
 eps-converted-to.pdf> <./figures/GBJ2/AODD3PD/Comp_prof_deltaY_njets-eps-conver
 ted-to.pdf>]) (./GBJ2/JES.tex [116 <./figures/GBJ2/AODD3PD/Comp_dPhi__2_3-eps-c
 onverted-to.pdf> <./figures/GBJ2/AODD3PD/Comp_dPhi__4_5-eps-converted-to.pdf>]
-[117]
+[117] [118]
 Package epstopdf Info: Source file: <figures/GBJ2/JES/Smeared__GapFraction_delt
 aY.eps>
 (epstopdf)                    date: 2012-07-31 15:14:31
@@ -2880,17 +2883,17 @@ aY-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/JES/Smeared__G
 apFraction_deltaY-eps-converted-to.pdf figures/GBJ2/JES/Smeared__GapFraction_de
 ltaY.eps>
-(epstopdf)             \includegraphics on input line 49.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/GBJ2/JES/Smeared__GapFraction_deltaY-eps-converted-to.pdf, id=1398, 56
+<figures/GBJ2/JES/Smeared__GapFraction_deltaY-eps-converted-to.pdf, id=1401, 56
 9.12625pt x 385.44pt>
 File: figures/GBJ2/JES/Smeared__GapFraction_deltaY-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use figures/GBJ2/JES/Smeared__GapFraction_deltaY-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/JES/Smeared__GapFraction_deltaY-eps-conve
-rted-to.pdf used on input line 49.
+rted-to.pdf used on input line 57.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/JES/Smeared__prof_deltaY_njet
 s.eps>
@@ -2903,20 +2906,20 @@ s-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/JES/Smeared__p
 rof_deltaY_njets-eps-converted-to.pdf figures/GBJ2/JES/Smeared__prof_deltaY_nje
 ts.eps>
-(epstopdf)             \includegraphics on input line 49.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/GBJ2/JES/Smeared__prof_deltaY_njets-eps-converted-to.pdf, id=1399, 569
+<figures/GBJ2/JES/Smeared__prof_deltaY_njets-eps-converted-to.pdf, id=1402, 569
 .12625pt x 385.44pt>
 File: figures/GBJ2/JES/Smeared__prof_deltaY_njets-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use figures/GBJ2/JES/Smeared__prof_deltaY_njets-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/JES/Smeared__prof_deltaY_njets-eps-conver
-ted-to.pdf used on input line 49.
+ted-to.pdf used on input line 57.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 49--52
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 57--60
  [][] 
  []
 
@@ -2929,16 +2932,16 @@ nverted-to.pdf>
 (epstopdf)                    size: 7948 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/JES/Smeared__d
 Phi__7_8-eps-converted-to.pdf figures/GBJ2/JES/Smeared__dPhi__7_8.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/GBJ2/JES/Smeared__dPhi__7_8-eps-converted-to.pdf, id=1400, 569.12625pt
+<figures/GBJ2/JES/Smeared__dPhi__7_8-eps-converted-to.pdf, id=1403, 569.12625pt
  x 385.44pt>
 File: figures/GBJ2/JES/Smeared__dPhi__7_8-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use figures/GBJ2/JES/Smeared__dPhi__7_8-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/JES/Smeared__dPhi__7_8-eps-converted-to.p
-df used on input line 62.
+df used on input line 70.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/JES/Smeared__dPhi_gap__7_8.ep
 s>
@@ -2950,20 +2953,20 @@ s-converted-to.pdf>
 (epstopdf)                    size: 7957 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/JES/Smeared__d
 Phi_gap__7_8-eps-converted-to.pdf figures/GBJ2/JES/Smeared__dPhi_gap__7_8.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/GBJ2/JES/Smeared__dPhi_gap__7_8-eps-converted-to.pdf, id=1401, 569.126
+<figures/GBJ2/JES/Smeared__dPhi_gap__7_8-eps-converted-to.pdf, id=1404, 569.126
 25pt x 385.44pt>
 File: figures/GBJ2/JES/Smeared__dPhi_gap__7_8-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use figures/GBJ2/JES/Smeared__dPhi_gap__7_8-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/JES/Smeared__dPhi_gap__7_8-eps-converted-
-to.pdf used on input line 62.
+to.pdf used on input line 70.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 62--66
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 70--74
  [][] 
  []
 
@@ -2978,17 +2981,17 @@ ap-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/JES/Smeared__c
 osdPhi_deltaY_gap-eps-converted-to.pdf figures/GBJ2/JES/Smeared__cosdPhi_deltaY
 _gap.eps>
-(epstopdf)             \includegraphics on input line 75.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/GBJ2/JES/Smeared__cosdPhi_deltaY_gap-eps-converted-to.pdf, id=1402, 56
+<figures/GBJ2/JES/Smeared__cosdPhi_deltaY_gap-eps-converted-to.pdf, id=1405, 56
 9.12625pt x 385.44pt>
 File: figures/GBJ2/JES/Smeared__cosdPhi_deltaY_gap-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use figures/GBJ2/JES/Smeared__cosdPhi_deltaY_gap-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/JES/Smeared__cosdPhi_deltaY_gap-eps-conve
-rted-to.pdf used on input line 75.
+rted-to.pdf used on input line 83.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/JES/Smeared__cos2dPhi_deltaY_
 gap.eps>
@@ -3001,20 +3004,20 @@ gap-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/JES/Smeared__c
 os2dPhi_deltaY_gap-eps-converted-to.pdf figures/GBJ2/JES/Smeared__cos2dPhi_delt
 aY_gap.eps>
-(epstopdf)             \includegraphics on input line 75.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/GBJ2/JES/Smeared__cos2dPhi_deltaY_gap-eps-converted-to.pdf, id=1403, 5
+<figures/GBJ2/JES/Smeared__cos2dPhi_deltaY_gap-eps-converted-to.pdf, id=1406, 5
 69.12625pt x 385.44pt>
 File: figures/GBJ2/JES/Smeared__cos2dPhi_deltaY_gap-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use figures/GBJ2/JES/Smeared__cos2dPhi_deltaY_gap-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/JES/Smeared__cos2dPhi_deltaY_gap-eps-conv
-erted-to.pdf used on input line 75.
+erted-to.pdf used on input line 83.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 75--79
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 83--87
  [][] 
  []
 
@@ -3027,16 +3030,16 @@ rted-to.pdf>
 (epstopdf)                    size: 7728 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/JES/Nominal_2_
 3__Q0-eps-converted-to.pdf figures/GBJ2/JES/Nominal_2_3__Q0.eps>
-(epstopdf)             \includegraphics on input line 88.
+(epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/GBJ2/JES/Nominal_2_3__Q0-eps-converted-to.pdf, id=1404, 569.12625pt x 
+<figures/GBJ2/JES/Nominal_2_3__Q0-eps-converted-to.pdf, id=1407, 569.12625pt x 
 385.44pt>
 File: figures/GBJ2/JES/Nominal_2_3__Q0-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use figures/GBJ2/JES/Nominal_2_3__Q0-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/JES/Nominal_2_3__Q0-eps-converted-to.pdf 
-used on input line 88.
+used on input line 96.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/JES/Nominal_4_5__Q0.eps>
 (epstopdf)                    date: 2012-08-14 12:21:01
@@ -3047,16 +3050,16 @@ rted-to.pdf>
 (epstopdf)                    size: 7742 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/JES/Nominal_4_
 5__Q0-eps-converted-to.pdf figures/GBJ2/JES/Nominal_4_5__Q0.eps>
-(epstopdf)             \includegraphics on input line 88.
+(epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/GBJ2/JES/Nominal_4_5__Q0-eps-converted-to.pdf, id=1405, 569.12625pt x 
+<figures/GBJ2/JES/Nominal_4_5__Q0-eps-converted-to.pdf, id=1408, 569.12625pt x 
 385.44pt>
 File: figures/GBJ2/JES/Nominal_4_5__Q0-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use figures/GBJ2/JES/Nominal_4_5__Q0-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/JES/Nominal_4_5__Q0-eps-converted-to.pdf 
-used on input line 88.
+used on input line 96.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/JES/Nominal_7_8__Q0.eps>
 (epstopdf)                    date: 2012-08-14 12:21:01
@@ -3067,30 +3070,30 @@ rted-to.pdf>
 (epstopdf)                    size: 7542 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/JES/Nominal_7_
 8__Q0-eps-converted-to.pdf figures/GBJ2/JES/Nominal_7_8__Q0.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/GBJ2/JES/Nominal_7_8__Q0-eps-converted-to.pdf, id=1406, 569.12625pt x 
+<figures/GBJ2/JES/Nominal_7_8__Q0-eps-converted-to.pdf, id=1409, 569.12625pt x 
 385.44pt>
 File: figures/GBJ2/JES/Nominal_7_8__Q0-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use figures/GBJ2/JES/Nominal_7_8__Q0-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/JES/Nominal_7_8__Q0-eps-converted-to.pdf 
-used on input line 92.
+used on input line 100.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 88--95
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 96--103
  [][] 
  []
 
-) (./GBJ2/ResoEnergy.tex [118] [119 <./figures/GBJ2/JES/Smeared__GapFraction_de
-ltaY-eps-converted-to.pdf> <./figures/GBJ2/JES/Smeared__prof_deltaY_njets-eps-c
-onverted-to.pdf> <./figures/GBJ2/JES/Smeared__dPhi__7_8-eps-converted-to.pdf> <
-./figures/GBJ2/JES/Smeared__dPhi_gap__7_8-eps-converted-to.pdf>] [120 <./figure
-s/GBJ2/JES/Smeared__cosdPhi_deltaY_gap-eps-converted-to.pdf> <./figures/GBJ2/JE
-S/Smeared__cos2dPhi_deltaY_gap-eps-converted-to.pdf> <./figures/GBJ2/JES/Nomina
-l_2_3__Q0-eps-converted-to.pdf> <./figures/GBJ2/JES/Nominal_4_5__Q0-eps-convert
-ed-to.pdf> <./figures/GBJ2/JES/Nominal_7_8__Q0-eps-converted-to.pdf>] [121]
+) (./GBJ2/ResoEnergy.tex [119 <./figures/GBJ2/JES/Smeared__GapFraction_deltaY-e
+ps-converted-to.pdf> <./figures/GBJ2/JES/Smeared__prof_deltaY_njets-eps-convert
+ed-to.pdf> <./figures/GBJ2/JES/Smeared__dPhi__7_8-eps-converted-to.pdf> <./figu
+res/GBJ2/JES/Smeared__dPhi_gap__7_8-eps-converted-to.pdf>] [120 <./figures/GBJ2
+/JES/Smeared__cosdPhi_deltaY_gap-eps-converted-to.pdf> <./figures/GBJ2/JES/Smea
+red__cos2dPhi_deltaY_gap-eps-converted-to.pdf> <./figures/GBJ2/JES/Nominal_2_3_
+_Q0-eps-converted-to.pdf> <./figures/GBJ2/JES/Nominal_4_5__Q0-eps-converted-to.
+pdf> <./figures/GBJ2/JES/Nominal_7_8__Q0-eps-converted-to.pdf>] [121]
 Package epstopdf Info: Source file: <figures/GBJ2/ResoEnergy/RMS_E___GapFractio
 n_deltaY_Ratio.eps>
 (epstopdf)                    date: 2012-08-23 10:10:26
@@ -4216,7 +4219,7 @@ converted-to.pdf>
 (epstopdf)                    size: 8321 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/R
 atio___pt3-eps-converted-to.pdf figures/GBJ2/ControlPlots/Ratio___pt3.eps>
-(epstopdf)             \includegraphics on input line 16.
+(epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Ratio___pt3-eps-converted-to.pdf, id=1934, 569.12625
@@ -4226,9 +4229,9 @@ type pdf)
 
 <use figures/GBJ2/ControlPlots/Ratio___pt3-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Ratio___pt3-eps-converted-to
-.pdf used on input line 16.
+.pdf used on input line 19.
 (pdftex.def)             Requested size: 330.05322pt x 223.5377pt.
- [136 <./figures/GBJ2/ControlPlots/Ratio___pt3-eps-converted-to.pdf>]
+ [136]
 Package epstopdf Info: Source file: <figures/GBJ2/FinalPlots/GapFraction_dyBins
 .systematics.eps>
 (epstopdf)                    date: 2012-09-26 00:32:43
@@ -4240,18 +4243,18 @@ Package epstopdf Info: Source file: <figures/GBJ2/FinalPlots/GapFraction_dyBins
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/FinalPlots/Gap
 Fraction_dyBins.systematics-eps-converted-to.pdf figures/GBJ2/FinalPlots/GapFra
 ction_dyBins.systematics.eps>
-(epstopdf)             \includegraphics on input line 50.
+(epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/FinalPlots/GapFraction_dyBins.systematics-eps-converted-to.pdf, i
-d=1943, 569.12625pt x 541.02126pt>
+d=1938, 569.12625pt x 541.02126pt>
 File: figures/GBJ2/FinalPlots/GapFraction_dyBins.systematics-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use figures/GBJ2/FinalPlots/GapFraction_dyBins.systematics-eps-converted-to.pd
 f>
 Package pdftex.def Info: figures/GBJ2/FinalPlots/GapFraction_dyBins.systematics
--eps-converted-to.pdf used on input line 50.
+-eps-converted-to.pdf used on input line 51.
 (pdftex.def)             Requested size: 206.28247pt x 196.0966pt.
 Package epstopdf Info: Source file: <figures/GBJ2/FinalPlots/nGapJets_dyBins.sy
 stematics.eps>
@@ -4264,20 +4267,20 @@ stematics-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/FinalPlots/nGa
 pJets_dyBins.systematics-eps-converted-to.pdf figures/GBJ2/FinalPlots/nGapJets_
 dyBins.systematics.eps>
-(epstopdf)             \includegraphics on input line 50.
+(epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/FinalPlots/nGapJets_dyBins.systematics-eps-converted-to.pdf, id=1
-944, 569.12625pt x 541.02126pt>
+939, 569.12625pt x 541.02126pt>
 File: figures/GBJ2/FinalPlots/nGapJets_dyBins.systematics-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use figures/GBJ2/FinalPlots/nGapJets_dyBins.systematics-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/FinalPlots/nGapJets_dyBins.systematics-ep
-s-converted-to.pdf used on input line 50.
+s-converted-to.pdf used on input line 51.
 (pdftex.def)             Requested size: 206.28247pt x 196.0966pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 50--54
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 51--55
  [][] 
  []
 
@@ -4292,18 +4295,18 @@ sive.DPhiBins.2dY3.systematics-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/FinalPlots/Cro
 ssSection.Inclusive.DPhiBins.2dY3.systematics-eps-converted-to.pdf figures/GBJ2
 /FinalPlots/CrossSection.Inclusive.DPhiBins.2dY3.systematics.eps>
-(epstopdf)             \includegraphics on input line 61.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/FinalPlots/CrossSection.Inclusive.DPhiBins.2dY3.systematics-eps-c
-onverted-to.pdf, id=1945, 569.12625pt x 541.02126pt>
+onverted-to.pdf, id=1940, 569.12625pt x 541.02126pt>
 File: figures/GBJ2/FinalPlots/CrossSection.Inclusive.DPhiBins.2dY3.systematics-
 eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/GBJ2/FinalPlots/CrossSection.Inclusive.DPhiBins.2dY3.systematics-e
 ps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/FinalPlots/CrossSection.Inclusive.DPhiBin
-s.2dY3.systematics-eps-converted-to.pdf used on input line 61.
+s.2dY3.systematics-eps-converted-to.pdf used on input line 62.
 (pdftex.def)             Requested size: 206.28247pt x 196.0966pt.
 Package epstopdf Info: Source file: <figures/GBJ2/FinalPlots/CrossSection.Gap.D
 PhiBins.2dY3.systematics.eps>
@@ -4316,21 +4319,21 @@ PhiBins.2dY3.systematics-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/FinalPlots/Cro
 ssSection.Gap.DPhiBins.2dY3.systematics-eps-converted-to.pdf figures/GBJ2/Final
 Plots/CrossSection.Gap.DPhiBins.2dY3.systematics.eps>
-(epstopdf)             \includegraphics on input line 61.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/FinalPlots/CrossSection.Gap.DPhiBins.2dY3.systematics-eps-convert
-ed-to.pdf, id=1946, 569.12625pt x 541.02126pt>
+ed-to.pdf, id=1941, 569.12625pt x 541.02126pt>
 File: figures/GBJ2/FinalPlots/CrossSection.Gap.DPhiBins.2dY3.systematics-eps-co
 nverted-to.pdf Graphic file (type pdf)
 
 <use figures/GBJ2/FinalPlots/CrossSection.Gap.DPhiBins.2dY3.systematics-eps-con
 verted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/FinalPlots/CrossSection.Gap.DPhiBins.2dY3
-.systematics-eps-converted-to.pdf used on input line 61.
+.systematics-eps-converted-to.pdf used on input line 62.
 (pdftex.def)             Requested size: 206.28247pt x 196.0966pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 61--65
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 62--66
  [][] 
  []
 
@@ -4345,18 +4348,18 @@ usive_dyBins.systematics-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/FinalPlots/Cos
 TwoDeltaPhiInclusive_dyBins.systematics-eps-converted-to.pdf figures/GBJ2/Final
 Plots/CosTwoDeltaPhiInclusive_dyBins.systematics.eps>
-(epstopdf)             \includegraphics on input line 74.
+(epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/FinalPlots/CosTwoDeltaPhiInclusive_dyBins.systematics-eps-convert
-ed-to.pdf, id=1947, 569.12625pt x 541.02126pt>
+ed-to.pdf, id=1942, 569.12625pt x 541.02126pt>
 File: figures/GBJ2/FinalPlots/CosTwoDeltaPhiInclusive_dyBins.systematics-eps-co
 nverted-to.pdf Graphic file (type pdf)
 
 <use figures/GBJ2/FinalPlots/CosTwoDeltaPhiInclusive_dyBins.systematics-eps-con
 verted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/FinalPlots/CosTwoDeltaPhiInclusive_dyBins
-.systematics-eps-converted-to.pdf used on input line 74.
+.systematics-eps-converted-to.pdf used on input line 75.
 (pdftex.def)             Requested size: 206.28247pt x 196.0966pt.
 Package epstopdf Info: Source file: <figures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_
 dyBins.systematics.eps>
@@ -4369,55 +4372,38 @@ dyBins.systematics-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/FinalPlots/Cos
 TwoDeltaPhiGap_dyBins.systematics-eps-converted-to.pdf figures/GBJ2/FinalPlots/
 CosTwoDeltaPhiGap_dyBins.systematics.eps>
-(epstopdf)             \includegraphics on input line 74.
+(epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_dyBins.systematics-eps-converted-to.
-pdf, id=1948, 569.12625pt x 541.02126pt>
+pdf, id=1943, 569.12625pt x 541.02126pt>
 File: figures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_dyBins.systematics-eps-converte
 d-to.pdf Graphic file (type pdf)
 
 <use figures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_dyBins.systematics-eps-converted
 -to.pdf>
 Package pdftex.def Info: figures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_dyBins.syste
-matics-eps-converted-to.pdf used on input line 74.
+matics-eps-converted-to.pdf used on input line 75.
 (pdftex.def)             Requested size: 206.28247pt x 196.0966pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 74--78
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 75--79
  [][] 
  []
 
-) (./GBJ2/UncorrectedData.tex [137] [138 <./figures/GBJ2/FinalPlots/GapFraction
-_dyBins.systematics-eps-converted-to.pdf> <./figures/GBJ2/FinalPlots/nGapJets_d
-yBins.systematics-eps-converted-to.pdf> <./figures/GBJ2/FinalPlots/CrossSection
-.Inclusive.DPhiBins.2dY3.systematics-eps-converted-to.pdf> <./figures/GBJ2/Fina
-lPlots/CrossSection.Gap.DPhiBins.2dY3.systematics-eps-converted-to.pdf>]
-[139 <./figures/GBJ2/FinalPlots/CosTwoDeltaPhiInclusive_dyBins.systematics-eps-
-converted-to.pdf> <./figures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_dyBins.systemati
-cs-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared__Nevent_
-deltaY.eps>
-(epstopdf)                    date: 2012-08-24 16:18:45
-(epstopdf)                    size: 11304 bytes
-(epstopdf)             Output file: <figures/GBJ2/ControlPlots/Smeared__Nevent_
-deltaY-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-08-24 16:18:54
-(epstopdf)                    size: 11439 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
-meared__Nevent_deltaY-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared__N
-event_deltaY.eps>
-(epstopdf)             \includegraphics on input line 28.
-Package epstopdf Info: Output file is already uptodate.
+) (./GBJ2/UncorrectedData.tex [137 <./figures/GBJ2/ControlPlots/Ratio___pt3-eps
+-converted-to.pdf>] [138 <./figures/GBJ2/FinalPlots/GapFraction_dyBins.systemat
+ics-eps-converted-to.pdf> <./figures/GBJ2/FinalPlots/nGapJets_dyBins.systematic
+s-eps-converted-to.pdf> <./figures/GBJ2/FinalPlots/CrossSection.Inclusive.DPhiB
+ins.2dY3.systematics-eps-converted-to.pdf> <./figures/GBJ2/FinalPlots/CrossSect
+ion.Gap.DPhiBins.2dY3.systematics-eps-converted-to.pdf>] [139 <./figures/GBJ2/F
+inalPlots/CosTwoDeltaPhiInclusive_dyBins.systematics-eps-converted-to.pdf> <./f
+igures/GBJ2/FinalPlots/CosTwoDeltaPhiGap_dyBins.systematics-eps-converted-to.pd
+f>]
+Overfull \hbox (18.27892pt too wide) in paragraph at lines 22--29
+\OT1/cmr/m/n/12 value of one cor-res-ponds to per-fectly back-to-back in azi-mu
+th jets. The []
+ []
 
-<figures/GBJ2/ControlPlots/Smeared__Nevent_deltaY-eps-converted-to.pdf, id=2014
-, 569.12625pt x 385.44pt>
-File: figures/GBJ2/ControlPlots/Smeared__Nevent_deltaY-eps-converted-to.pdf Gra
-phic file (type pdf)
-
-<use figures/GBJ2/ControlPlots/Smeared__Nevent_deltaY-eps-converted-to.pdf>
-Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__Nevent_deltaY-eps-c
-onverted-to.pdf used on input line 28.
-(pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared__GapFrac
 tion_deltaY.eps>
 (epstopdf)                    date: 2012-08-24 16:18:45
@@ -4429,21 +4415,44 @@ tion_deltaY-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__GapFraction_deltaY-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smear
 ed__GapFraction_deltaY.eps>
-(epstopdf)             \includegraphics on input line 28.
+(epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__GapFraction_deltaY-eps-converted-to.pdf, id
-=2015, 569.12625pt x 385.44pt>
+=2014, 569.12625pt x 385.44pt>
 File: figures/GBJ2/ControlPlots/Smeared__GapFraction_deltaY-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use figures/GBJ2/ControlPlots/Smeared__GapFraction_deltaY-eps-converted-to.pdf
 >
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__GapFraction_deltaY-
-eps-converted-to.pdf used on input line 28.
+eps-converted-to.pdf used on input line 39.
+(pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
+Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared__prof_de
+ltaY_njets.eps>
+(epstopdf)                    date: 2012-08-24 16:18:45
+(epstopdf)                    size: 11130 bytes
+(epstopdf)             Output file: <figures/GBJ2/ControlPlots/Smeared__prof_de
+ltaY_njets-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-09-28 20:59:45
+(epstopdf)                    size: 11735 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
+meared__prof_deltaY_njets-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeare
+d__prof_deltaY_njets.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/GBJ2/ControlPlots/Smeared__prof_deltaY_njets-eps-converted-to.pdf, id=
+2015, 569.12625pt x 385.44pt>
+File: figures/GBJ2/ControlPlots/Smeared__prof_deltaY_njets-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use figures/GBJ2/ControlPlots/Smeared__prof_deltaY_njets-eps-converted-to.pdf>
+Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__prof_deltaY_njets-e
+ps-converted-to.pdf used on input line 39.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 28--31
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 39--42
  [][] 
  []
 
@@ -4458,7 +4467,7 @@ _3-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__dPhi__2_3-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared__dPhi_
 _2_3.eps>
-(epstopdf)             \includegraphics on input line 41.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__dPhi__2_3-eps-converted-to.pdf, id=2016, 56
@@ -4468,7 +4477,7 @@ File: figures/GBJ2/ControlPlots/Smeared__dPhi__2_3-eps-converted-to.pdf Graphic
 
 <use figures/GBJ2/ControlPlots/Smeared__dPhi__2_3-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__dPhi__2_3-eps-conve
-rted-to.pdf used on input line 41.
+rted-to.pdf used on input line 52.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared__dPhi_ga
 p__2_3.eps>
@@ -4481,7 +4490,7 @@ p__2_3-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__dPhi_gap__2_3-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared__d
 Phi_gap__2_3.eps>
-(epstopdf)             \includegraphics on input line 41.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__dPhi_gap__2_3-eps-converted-to.pdf, id=2017
@@ -4491,10 +4500,10 @@ phic file (type pdf)
 
 <use figures/GBJ2/ControlPlots/Smeared__dPhi_gap__2_3-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__dPhi_gap__2_3-eps-c
-onverted-to.pdf used on input line 41.
+onverted-to.pdf used on input line 52.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 41--44
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 52--55
  [][] 
  []
 
@@ -4509,7 +4518,7 @@ _5-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__dPhi__4_5-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared__dPhi_
 _4_5.eps>
-(epstopdf)             \includegraphics on input line 53.
+(epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__dPhi__4_5-eps-converted-to.pdf, id=2018, 56
@@ -4519,7 +4528,7 @@ File: figures/GBJ2/ControlPlots/Smeared__dPhi__4_5-eps-converted-to.pdf Graphic
 
 <use figures/GBJ2/ControlPlots/Smeared__dPhi__4_5-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__dPhi__4_5-eps-conve
-rted-to.pdf used on input line 53.
+rted-to.pdf used on input line 64.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared__dPhi_ga
 p__4_5.eps>
@@ -4532,7 +4541,7 @@ p__4_5-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__dPhi_gap__4_5-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared__d
 Phi_gap__4_5.eps>
-(epstopdf)             \includegraphics on input line 53.
+(epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__dPhi_gap__4_5-eps-converted-to.pdf, id=2019
@@ -4542,10 +4551,10 @@ phic file (type pdf)
 
 <use figures/GBJ2/ControlPlots/Smeared__dPhi_gap__4_5-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__dPhi_gap__4_5-eps-c
-onverted-to.pdf used on input line 53.
+onverted-to.pdf used on input line 64.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 53--56
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 64--67
  [][] 
  []
 
@@ -4560,7 +4569,7 @@ _8-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__dPhi__7_8-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared__dPhi_
 _7_8.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__dPhi__7_8-eps-converted-to.pdf, id=2020, 56
@@ -4570,7 +4579,7 @@ File: figures/GBJ2/ControlPlots/Smeared__dPhi__7_8-eps-converted-to.pdf Graphic
 
 <use figures/GBJ2/ControlPlots/Smeared__dPhi__7_8-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__dPhi__7_8-eps-conve
-rted-to.pdf used on input line 66.
+rted-to.pdf used on input line 77.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared__dPhi_ga
 p__7_8.eps>
@@ -4583,7 +4592,7 @@ p__7_8-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__dPhi_gap__7_8-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared__d
 Phi_gap__7_8.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__dPhi_gap__7_8-eps-converted-to.pdf, id=2021
@@ -4593,10 +4602,10 @@ phic file (type pdf)
 
 <use figures/GBJ2/ControlPlots/Smeared__dPhi_gap__7_8-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__dPhi_gap__7_8-eps-c
-onverted-to.pdf used on input line 66.
+onverted-to.pdf used on input line 77.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 66--69
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 77--80
  [][] 
  []
 
@@ -4611,7 +4620,7 @@ _deltaY-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__cosdPhi_deltaY-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared__
 cosdPhi_deltaY.eps>
-(epstopdf)             \includegraphics on input line 79.
+(epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__cosdPhi_deltaY-eps-converted-to.pdf, id=202
@@ -4621,7 +4630,7 @@ aphic file (type pdf)
 
 <use figures/GBJ2/ControlPlots/Smeared__cosdPhi_deltaY-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__cosdPhi_deltaY-eps-
-converted-to.pdf used on input line 79.
+converted-to.pdf used on input line 90.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared__cosdPhi
 _deltaY_gap.eps>
@@ -4634,7 +4643,7 @@ _deltaY_gap-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__cosdPhi_deltaY_gap-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smear
 ed__cosdPhi_deltaY_gap.eps>
-(epstopdf)             \includegraphics on input line 79.
+(epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__cosdPhi_deltaY_gap-eps-converted-to.pdf, id
@@ -4645,10 +4654,10 @@ f Graphic file (type pdf)
 <use figures/GBJ2/ControlPlots/Smeared__cosdPhi_deltaY_gap-eps-converted-to.pdf
 >
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__cosdPhi_deltaY_gap-
-eps-converted-to.pdf used on input line 79.
+eps-converted-to.pdf used on input line 90.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 79--82
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 90--93
  [][] 
  []
 
@@ -4663,7 +4672,7 @@ i_deltaY-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__cos2dPhi_deltaY-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared_
 _cos2dPhi_deltaY.eps>
-(epstopdf)             \includegraphics on input line 91.
+(epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__cos2dPhi_deltaY-eps-converted-to.pdf, id=20
@@ -4673,7 +4682,7 @@ raphic file (type pdf)
 
 <use figures/GBJ2/ControlPlots/Smeared__cos2dPhi_deltaY-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__cos2dPhi_deltaY-eps
--converted-to.pdf used on input line 91.
+-converted-to.pdf used on input line 102.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared__cos2dPh
 i_deltaY_gap.eps>
@@ -4686,7 +4695,7 @@ i_deltaY_gap-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared__cos2dPhi_deltaY_gap-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smea
 red__cos2dPhi_deltaY_gap.eps>
-(epstopdf)             \includegraphics on input line 91.
+(epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared__cos2dPhi_deltaY_gap-eps-converted-to.pdf, i
@@ -4697,10 +4706,10 @@ df Graphic file (type pdf)
 <use figures/GBJ2/ControlPlots/Smeared__cos2dPhi_deltaY_gap-eps-converted-to.pd
 f>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared__cos2dPhi_deltaY_gap
--eps-converted-to.pdf used on input line 91.
+-eps-converted-to.pdf used on input line 102.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 91--94
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 102--105
  [][] 
  []
 
@@ -4715,7 +4724,7 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared2_3__Q0-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared2_3__Q0.eps
 >
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared2_3__Q0-eps-converted-to.pdf, id=2026, 569.12
@@ -4725,7 +4734,7 @@ e (type pdf)
 
 <use figures/GBJ2/ControlPlots/Smeared2_3__Q0-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared2_3__Q0-eps-converted
--to.pdf used on input line 102.
+-to.pdf used on input line 113.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared4_5__Q0.e
 ps>
@@ -4738,7 +4747,7 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared4_5__Q0-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared4_5__Q0.eps
 >
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared4_5__Q0-eps-converted-to.pdf, id=2027, 569.12
@@ -4748,7 +4757,7 @@ e (type pdf)
 
 <use figures/GBJ2/ControlPlots/Smeared4_5__Q0-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared4_5__Q0-eps-converted
--to.pdf used on input line 102.
+-to.pdf used on input line 113.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 Package epstopdf Info: Source file: <figures/GBJ2/ControlPlots/Smeared7_8__Q0.e
 ps>
@@ -4761,7 +4770,7 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=figures/GBJ2/ControlPlots/S
 meared7_8__Q0-eps-converted-to.pdf figures/GBJ2/ControlPlots/Smeared7_8__Q0.eps
 >
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/GBJ2/ControlPlots/Smeared7_8__Q0-eps-converted-to.pdf, id=2028, 569.12
@@ -4771,39 +4780,39 @@ e (type pdf)
 
 <use figures/GBJ2/ControlPlots/Smeared7_8__Q0-eps-converted-to.pdf>
 Package pdftex.def Info: figures/GBJ2/ControlPlots/Smeared7_8__Q0-eps-converted
--to.pdf used on input line 105.
+-to.pdf used on input line 116.
 (pdftex.def)             Requested size: 206.28247pt x 139.70518pt.
 
-Overfull \hbox (27.41637pt too wide) in paragraph at lines 102--108
+Overfull \hbox (27.41637pt too wide) in paragraph at lines 113--119
  [][] 
  []
 
-) [140 <./figures/GBJ2/ControlPlots/Smeared__Nevent_deltaY-eps-converted-to.pdf
-> <./figures/GBJ2/ControlPlots/Smeared__GapFraction_deltaY-eps-converted-to.pdf
-> <./figures/GBJ2/ControlPlots/Smeared__dPhi__2_3-eps-converted-to.pdf> <./figu
-res/GBJ2/ControlPlots/Smeared__dPhi_gap__2_3-eps-converted-to.pdf>] [141 <./fig
-ures/GBJ2/ControlPlots/Smeared__dPhi__4_5-eps-converted-to.pdf> <./figures/GBJ2
-/ControlPlots/Smeared__dPhi_gap__4_5-eps-converted-to.pdf> <./figures/GBJ2/Cont
-rolPlots/Smeared__dPhi__7_8-eps-converted-to.pdf> <./figures/GBJ2/ControlPlots/
-Smeared__dPhi_gap__7_8-eps-converted-to.pdf>] [142 <./figures/GBJ2/ControlPlots
-/Smeared__cosdPhi_deltaY-eps-converted-to.pdf> <./figures/GBJ2/ControlPlots/Sme
-ared__cosdPhi_deltaY_gap-eps-converted-to.pdf> <./figures/GBJ2/ControlPlots/Sme
-ared__cos2dPhi_deltaY-eps-converted-to.pdf> <./figures/GBJ2/ControlPlots/Smeare
-d__cos2dPhi_deltaY_gap-eps-converted-to.pdf>] [143 <./figures/GBJ2/ControlPlots
-/Smeared2_3__Q0-eps-converted-to.pdf> <./figures/GBJ2/ControlPlots/Smeared4_5__
-Q0-eps-converted-to.pdf> <./figures/GBJ2/ControlPlots/Smeared7_8__Q0-eps-conver
-ted-to.pdf>]
+) [140 <./figures/GBJ2/ControlPlots/Smeared__GapFraction_deltaY-eps-converted-t
+o.pdf> <./figures/GBJ2/ControlPlots/Smeared__prof_deltaY_njets-eps-converted-to
+.pdf>] [141 <./figures/GBJ2/ControlPlots/Smeared__dPhi__2_3-eps-converted-to.pd
+f> <./figures/GBJ2/ControlPlots/Smeared__dPhi_gap__2_3-eps-converted-to.pdf> <.
+/figures/GBJ2/ControlPlots/Smeared__dPhi__4_5-eps-converted-to.pdf> <./figures/
+GBJ2/ControlPlots/Smeared__dPhi_gap__4_5-eps-converted-to.pdf>] [142 <./figures
+/GBJ2/ControlPlots/Smeared__dPhi__7_8-eps-converted-to.pdf> <./figures/GBJ2/Con
+trolPlots/Smeared__dPhi_gap__7_8-eps-converted-to.pdf> <./figures/GBJ2/ControlP
+lots/Smeared__cosdPhi_deltaY-eps-converted-to.pdf> <./figures/GBJ2/ControlPlots
+/Smeared__cosdPhi_deltaY_gap-eps-converted-to.pdf>] [143 <./figures/GBJ2/Contro
+lPlots/Smeared__cos2dPhi_deltaY-eps-converted-to.pdf> <./figures/GBJ2/ControlPl
+ots/Smeared__cos2dPhi_deltaY_gap-eps-converted-to.pdf> <./figures/GBJ2/ControlP
+lots/Smeared2_3__Q0-eps-converted-to.pdf> <./figures/GBJ2/ControlPlots/Smeared4
+_5__Q0-eps-converted-to.pdf> <./figures/GBJ2/ControlPlots/Smeared7_8__Q0-eps-co
+nverted-to.pdf>]
 Chapter 8.
 (./Conclusion/conclusions.tex [144
 
 ] [145]) (./gabrown-thesis.bbl [146]
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
 []\OT1/cmr/m/n/12 W. J. Stirl-ing R. K. El-lis and B. R. Webber.  \OT1/cmr/m/it
 /12 QCD
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
 \OT1/cmr/m/it/12 and Col-lider Phys-ics\OT1/cmr/m/n/12 .  Cam-bridge Uni-ver-si
 ty Press,
  []
@@ -4818,7 +4827,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ’ in font cmr12!
  [149]
-Underfull \hbox (badness 1448) in paragraph at lines 213--219
+Underfull \hbox (badness 1448) in paragraph at lines 227--233
 \OT1/cmr/m/it/12 European Phys-ical Journal C - Particles and Fields\OT1/cmr/m/
 n/12 , \OT1/cmr/bx/n/12 72\OT1/cmr/m/n/12 :1--46, 2012.
  []
@@ -4832,10 +4841,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4612 strings out of 493633
- 103260 string characters out of 3143377
- 127195 words of memory out of 3000000
- 7624 multiletter control sequences out of 15000+200000
+ 4615 strings out of 493633
+ 103316 string characters out of 3143377
+ 127210 words of memory out of 3000000
+ 7627 multiletter control sequences out of 15000+200000
  16999 words of font info for 61 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  42i,16n,25p,541b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4858,7 +4867,7 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2011/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2011/texmf-dist/fo
 nts/type1/urw/palatino/uplb8a.pfb>
-Output written on gabrown-thesis.pdf (152 pages, 22882313 bytes).
+Output written on gabrown-thesis.pdf (152 pages, 22887265 bytes).
 PDF statistics:
  2255 PDF objects out of 2487 (max. 8388607)
  1540 compressed objects within 16 object streams

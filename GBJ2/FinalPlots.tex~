@@ -8,7 +8,7 @@ Figure \ref{GBJ2:FinalPlots:GapFracLO} shows (a) the gap fraction against \dy{} 
 The gap fraction from data reduces as a function of \dy{}, but for $\dy{}>5.5$ it starts to level off. 
 In general, PYTHIA gives slightly too low a gap fraction at low \dy{} but improves at larger \dy{}. 
 HERWIG overlaps the data  at low \dy{} but from \dy{} of 3 onwards it diverges from the data giving too low a gap fraction. 
-HERWIG has large statistical error bars, and to get a ful understanding of the shape higher statistics sample need to be generated.
+HERWIG has large statistical error bars, and to get a full understanding of the shape higher statistics sample need to be generated.
 SHERPA agrees quite well with the data, but with some deviations at large \dy{}.
 
 Figure \ref{GBJ2:FinalPlots:NJetLO} shows (a) the average number of jets in the dijet rapidity region against \dy{} for the corrected data and the MC generators, and (b) shows the ratio of the MCs to the data.
@@ -29,7 +29,7 @@ POWHEG + PYTHIA gives the best agreement with data, and while the gap fraction i
 The plateau in the data is also observed in the POWHEG + PYTHIA curve.
 Conversely, POWHEG + HERWIG has too low a gap fraction from from about a \dy{} of 2.
 The HEJ prediction also gives too low a gap fraction, but not as far from the data as the POWHEG + HERWIG curve.
-Given that most of the events will have a low \ptb{} without a large imbalence (cuts on $pt{}_1$ and $pt{}_2$ are similar) it is surprising that HEJ does not perform well, especially when compared to the previous measurement.
+Given that most of the events will have a low \ptb{} without a large imbalance (cuts on $pt{}_1$ and $pt{}_2$ are similar) it is surprising that HEJ does not perform well, especially when compared to the previous measurement.
 This maybe due to the change in kinematics cuts in this analysis, or due to the effect of passing the events through Ariadne.
 Also to be noted, in the previous analysis the gap fraction for data only flattened out in large \ptb{} slices. 
 In this analysis there is not a particularly high \ptb{} cut, and a flattening out is observed.
@@ -39,7 +39,7 @@ This needs to be analysed with a MC that has a model for  colour singlet exchang
 
 
 Figure \ref{GBJ2:FinalPlots:nJets} shows (a) the average number of jets in the dijet rapidity region against \dy{} for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
-The mean multiplicity of jets in the rapidity region increases as a function of dy{}, to a peak of $\sim1.2$ at $\dy{}=7$, and then plateau's.
+The mean multiplicity of jets in the rapidity region increases as a function of \dy{}, to a peak of $\sim1.2$ at $\dy{}=7$, and then plateau's.
 POWHEG + PYTHIA agrees well best with the data, overlapping in most \dy{} bins and has a very good agreement at the plateau.
 HEJ agrees with the data well until a \dy{} of 4, but then gives too many jets, and does not replicate the plateau observed in the data. 
 In the previous analysis, HEJ gave two low activity, which would indicate that Ariadne is increasing the amount of activity, but perhaps too much.
@@ -63,9 +63,9 @@ Figure \ref{GBJ2:FinalPlots:Cos} shows the \mean{\cosdphi{}} as a function of \d
 A \mean{\cosdphi{}} value of one corresponds to perfectly back-to-back in azimuth jets.
 The \mean{\cosdphi{}} distribution for the inclusive events shows a value of $ \mean{\cosdphi{}}\sim0.95$ for $\dy{}<3$.
 As the $\dy{}$ increase the jets become less back-to-back and the \mean{\cosdphi{}} falls.
-As the $\dy{}$ increase the availible phase-space to emit into is larger due to the jet being at very high energies.
+As the $\dy{}$ increase the available phase-space to emit into is larger due to the jet being at very high energies.
 For the gap events, the mean{\cosdphi{}} at low \dy{} starts at a similar level to the inclusive events, but then slowly rises.
-When the \dy{} is low, emmisions can fall outside the rapidity region, but as the \dy{} increases this region becomes smaller, and the jet veto is stoping hard emision into the rapidity region.
+When the \dy{} is low, emissions can fall outside the rapidity region, but as the \dy{} increases this region becomes smaller, and the jet veto is stopping hard emission into the rapidity region.
 For the inclusive events, all three predictions undershoot the data for $3.5<\dy{}<6$.
 While HEJ agrees in quite a few bins, the shape is steeper than observed in data.
 Both POWHEG + HERWIG and POWHEG + PYTHIA have a similar shape to the data, but the overall scale is a bit low.
@@ -74,12 +74,12 @@ This observable does not discriminate well between the different theoretical pre
 
 Figure \ref{GBJ2:FinalPlots:Cos2} shows the \mean{\costwodphi{}} as a function of \dy{} for (a) inclusive events and (c) gap events with the ratios of the theoretical predictions to the data in (b) and (d) respectively. 
 Similar results to the \mean{\cosdphi{}} are seen for \mean{\costwodphi{}}.
-For the inclusive events, the HEJ curve has a steaper shape, crossing the data at $\dy{}\sim2.5$. 
+For the inclusive events, the HEJ curve has a steeper shape, crossing the data at $\dy{}\sim2.5$. 
 The POWHEG + HERWIG and POWHEG + PYTHIA fall below the data throughout \dy{}.
 For the gap events, HEJ is above the data, except at large \dy{} where there are large uncertainties.
 Both the POWHEG + HERWIG and POWHEG + PYTHIA fall below the data.
 
-For the azimuthal decorrelation observables, POWHEG + PYTHIA again agrees best with the data, matching the shape of the data, even if the overal scale is a bit low.
+For the azimuthal decorralation observables, POWHEG + PYTHIA again agrees best with the data, matching the shape of the data, even if the overall scale is a bit low.
 
 
 \begin{figure}

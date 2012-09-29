@@ -7,15 +7,15 @@ This is neccessary if the MC is to be used for systematic studies and unfolding.
 Figure \ref{UncorrIncl_dy} shows the \Incl{} distribution for (a) $70<\ptb{}<90$ GeV, (b) $90<\ptb{}<120$ GeV and (c) $180<\ptb{}<210$ GeV slices. 
 The MC and data shape agree, with differences less than 10\%.
 Figure \ref{Uncorr_Pt3_dy} shows the \ptDist{} distribution, where $\pt{}^veto$ is the momentum of the highest jet in the rapidity region bounded by the dijet,  for two different slices in $\Delta y$ and $\bar{p_T}$. 
-Most of the distribution is containedin the first bin**********
-There is good agreement in both regions, with fluctuations of about 20\%.
+The shape of the PYTHIA curve has good agreement with data in both regions, with fluctuations of about 20\%.
+The main differences are at higher \pt{} where the statistical uncertainty is higher.
 Figure \ref{Uncorr_GF} shows slices of the gap fraction against $\Delta y$ and $\bar{p_T}$.
 As a function of \dy{}, PYTHIA describes the data well, only deviating by $~10\%$ at higher \dy{}.
 As a function of \ptb{}, PYTHIA describes the data very well for $\ptb{}<250$ GeV, after that the gap fraction for PYTHIA is $\sim10\%$ high.
 The three figures demonstrate reasonable agreement between the data and the reconstructed PYTHIA sample. 
 This was true of other control plosts and the forward/backward dijet selection.
 Overall, there is confidence that the PYTHIA sample can be used for some systematic studies and for correcting detector effects. 
-These control plots were also published in \cite{ref:ATLASGap}
+These control plots were also published in \cite{ref:ATLASGap}.
 
 \begin{figure}
 \centering

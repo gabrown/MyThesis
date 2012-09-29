@@ -83,11 +83,11 @@
 \contentsline {section}{\numberline {7.3}Closure of Event Selection}{115}
 \contentsline {section}{\numberline {7.4}Systematic Uncertainty}{116}
 \contentsline {subsection}{\numberline {7.4.1}Jet Energy Scale Uncertainty}{116}
-\contentsline {subsection}{\numberline {7.4.2}Jet Energy Resolution}{118}
+\contentsline {subsection}{\numberline {7.4.2}Jet Energy Resolution}{119}
 \contentsline {subsection}{\numberline {7.4.3}Jet $\phi {}$ Resolution}{122}
 \contentsline {subsection}{\numberline {7.4.4}Jet Cleaning}{129}
 \contentsline {subsection}{\numberline {7.4.5}Other Systematics}{132}
-\contentsline {subsection}{\numberline {7.4.6}Combined Systematics}{137}
+\contentsline {subsection}{\numberline {7.4.6}Combined Systematics}{136}
 \contentsline {section}{\numberline {7.5}Assessment of Uncorrected Data vs MC}{137}
 \contentsline {chapter}{\numberline {8}Summary and Conclusions}{144}
 \contentsline {chapter}{Bibliography}{147}

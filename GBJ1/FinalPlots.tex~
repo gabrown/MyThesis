@@ -31,7 +31,7 @@ For the slices, $1\ge\dy{}>2$, $2\ge\dy{}>3$, and $3\ge\dy{}>4$, the agreement i
 However, for the other \dy{} slices POWHEG + PYTHIA gives too low a gap fraction.
 Conversely, POWHEG + HERWIG only agrees with the data only in the lowest of \dy{} bins, it deviates for $\dy{}>1$ for all slices of \ptb{}. 
 In the gap fraction against \ptb{} for different \dy{} slices distributions, POWHEG + HERWIG does not agree well with the data and underestimates the gap fraction for all considered regions of phase-space.
-The difference between POWHEG + PYTHIA and POWHEG + HERWIG is an indication of the uncertainty in current calculations.
+The difference between POWHEG + PYTHIA and POWHEG + HERWIG is an indication of the uncertainty in current calculations of parton showers.
 
 
 Figure \ref{GBJ1:Q0SelA} shows the gap fraction as a function of \qz{} for different slices in \dy{} and \ptb{} for the leading \pt{} dijet selection.

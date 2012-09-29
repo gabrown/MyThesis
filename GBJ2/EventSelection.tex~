@@ -26,7 +26,7 @@ For each jet that fills in one of these regions, the event is weighted by
 W_{eff}= \frac{\mathcal{P}_{lead}}{\epsilon_{lead}} + \frac{\mathcal{P}_{sublead}}{\epsilon_{sublead}} -\frac{\mathcal{P}_{lead}\mathcal{P}_{sublead}}{\epsilon_{lead}\epsilon_{sublead}}
 \label{GBJ2:Eff}
 \end{equation}
-where $\mathcal{P}_{lead}$ and $\mathcal{P}_{sublead}$ is 1 if the event passed the leading and subleading trigger chain, else it is zero, and $\epsilon_{lead}$ and $\epsilon_{sublead}$ are the efficiencies for the leading and subleading jets.
+where $\mathcal{P}_{lead}$ and $\mathcal{P}_{sublead}$ is 1 if the event passed the leading and subleading trigger chain, else it is zero, and $\epsilon_{lead}$ and $\epsilon_{sublead}$ are thei \pt{} dependent efficiencies for the leading and subleading jets.
 The efficiencies are taken from the analysis in \cite{ref:Dijet}.
 
 During data taking, prescales are applied to the jet trigger to preferentially select events with higher \pt{} jets; only the highest \pt{} trigger is unprescaled.
