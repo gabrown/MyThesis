@@ -1,7 +1,8 @@
-In 2010, the dijet \pt{} balence was not used to recalibrate the jets, but was used to assess the JES calibration factors.
-The relative jet response, \cite{ref:EtaInter2010}, shows a different in the forward region for MC and data.
-The difference between the data and MC jet responses could either originate from physics or detector effects decribed in Section \ref{sec:Det:Jets}. 
-
+In 2010, the dijet \pt{} balance was not used to recalibrate the jets, but was used to assess the uncertainty on the JES calibration factors.
+However, the relative jet response, \cite{ref:EtaInter2010}, shows a difference in the forward region for MC and data.
+The difference between the data and MC jet responses could either originate from physics or detector effects described in Section \ref{sec:Det:Jets}. 
+Until the source of the differences is determined, these relative response factors should not be used to calibrate the jets for physics analysis.
+However, they are used to test the closure of the calibration and to see if it fixes the difference between data and MC.
 
 Using the ratio of the relative response factors from the MC and the data, the residual correction, 
 
@@ -16,10 +17,13 @@ Figure \ref{JetPerf:EtaData} shows the jet $\eta$ distribution for (a) \pt{}$>30
 The in-situ calibrated data has a much better agreement with the MC than the regular data does in both plots. 
 There are still differences in the forward region, but overall the differences are smaller than ten percent.
 
-Figure \ref{JetPerf:E_PtData} is the jet (a) \pt{}  and  (b) energy distributions  fot jets in the region \etaRange{3.2}{4.5}  for \pt{}$>20$ GeV. 
+Figure \ref{JetPerf:E_PtData} is the jet (a) \pt{}  and  (b) energy distributions  for jets in the region \etaRange{3.2}{4.5}  for \pt{}$>20$ GeV. 
 The energy distribution shows improvements in agreement between the MC after the data is calibrated.
 The \pt{} distribution shows smaller differences for the in-situ calibrated data.
 
+These results show that calibration bring the data closer to the MC, which gives confidence to the method and results.
+This confidence resulted in the desision to uses the dijet \pt{} balance method to calibrate the jets in the 2011 sample. 
+These plots were published in an ATLAS conference note \cite{ref:EtaInter2010}.
 
 
 \begin{figure}

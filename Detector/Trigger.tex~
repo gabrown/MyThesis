@@ -6,7 +6,7 @@ TDAQ is split into subsystems that are approximately associated with the sub-det
 The three different trigger levels are level 1 (L1), level 2 (L2), and event filter (EF). 
 The L2 and EF triggers are called the higher level triggers (HLT). 
 The trigger levels are applied in series, with each level refining the decision and adding additional requirements. 
-L1 is required to make a decision in less than $2.5\mu$s and reduce the rate to 75 kHz. 
+L1 is required to make a decision in less than $2.5~\mu$s and reduce the rate to 75 kHz. 
 If the event has passed a L1 trigger, it then goes through the L2 and EF trigger which have more information about the event and reduce the rate to 200Hz.
 While the trigger is deciding if the event should be kept, the data acquisition system is buffering the event information.
 
@@ -18,8 +18,8 @@ The CTP then applies a trigger menu, which is list of triggers, their thresholds
 By applying a prescale, $p$, to a trigger, only $\frac{1}{p}$ of the events that fired the trigger will be passed to L2. 
 The purpose of the prescale is to reduce the rate of less interesting or high rate processes and also to keep the overall rate constant as the luminosity changes.
 
-Should the event fire the L1 trigger and pass the prescale, the L1 trigger passes the region of interest, ROI, (this is a $\eta\phi$ region near the triggered object) to the HLT.
-The L2 triggers have access to the information around the L1 ROI, but cannot attempt a  full event reconstruction in the 40 ns given to make the initial decision. 
+Should the event fire the L1 trigger and pass the prescale, the L1 trigger passes the region of interest, RoI, (this is a $\eta\phi$ region near the triggered object) to the HLT.
+The L2 triggers have access to the information around the L1 RoI, but cannot attempt a  full event reconstruction in the 40 ns given to make the initial decision. 
 The extra information at L2 is used to make tighter cuts in order to reduce the rate to 3.5 kHz.
 The EF triggers have approximately four seconds to make a decision.
 This is long enough to do longer offline analysis procedures using the full event reconstruction, which help to reduce the overall rate written to disk to 200 Hz.
@@ -45,12 +45,12 @@ Trigger towers are used to define jet, electron, photon and tau trigger objects.
 L1 jet trigger objects are found by first defining jet elements from 2x2 trigger towers in both the EM and hadronic calorimeters.
 In the central precision region the jet elements cover a region of $\Delta\eta \times \Delta\phi = 0.2\times 0.2$. 
 A sliding window algorithm is used to find the L1 jet objects. 
-The algorithm can be set to have a window of either 2x3, 3x3 or 4x4 jet elements for the jet finding. 
+The algorithm can be set to have a window of either $2\times3$, $3\times3$ or $4\times4$ jet elements for the jet finding. 
 The algorithm looks over the jet elements to find local maxima in transverse energy, \et{}, and defines a jet if the \et{} is  greater than a given threshold. 
 The L1 jet triggers are named L1\_JX where X is the EM energy threshold for the jet object.
 
-Once the L1 jets are found the ROIs, regions of interest (positions of jets), are passed to the HLT, and act as seeds. 
-The L2 jet trigger can access the course calorimeter information from around the L1 jet ROI. 
+Once the L1 jets are found, the RoIs, corresponding to the position of the L1 jets, are passed to the HLT, and act as seeds. 
+The L2 jet trigger can access the course calorimeter information from around the L1 jet RoI. 
 This information is then passed into a seeded cone jet algorithm (see Section \ref{HLTCalo:Jets}), which is a basic and fast jet finder which uses jet radius, R, of 0.4, and which is restricted to three iterations.
 The L2 can access finer calorimeter information and produce cone-like jets.
 The hadronic components of the jet at L2 are calibrated, which is important as the detector has a lower response to hadronic energy deposits than the EM energy deposits. 

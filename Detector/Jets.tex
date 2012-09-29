@@ -4,7 +4,7 @@
 The jet definition within ATLAS uses the \antikt{} algorithm, which is described in Section \ref{sec:Theory:Jets}. 
 This algorithm groups related energy deposits in the ATLAS calorimeters.
 Different input objects can be used with the \antikt{} algorithm, such as cells, towers and topoclusters and these objects can be calibrated to different energy scales.
-In this analysis, unless otherwise stated, the jets are defined using the \antikt{} algorithm with a distance parameter of 0.6, running over topocluster at EM scale, where topoclusters and EM scale are defined in Section \ref{sec:Det:Calo}.
+In this analysis, unless otherwise stated, the jets are defined using the \antikt{} algorithm with a distance parameter of 0.6 running over topocluster at EM scale, where topoclusters and EM scale are defined in Section \ref{sec:Det:Calo}.
 
 
 \subsubsection{Jet Energy Scale (JES)}
@@ -20,7 +20,7 @@ The second correction was the vertex correction, which defined the origin of the
 This correction changes the direction and \pt{} of the jet, but not the energy, and it improves the angular resolution of the jet.
 The final correction is the jet energy scale (JES) correction.
 
-The JES correction uses fully simulated MC, "reco", jets and jets at hadron level, "truth" jets, to obtain correction factors as a function of jet energy and jet rapidity. 
+The JES correction uses fully simulated MC, ``reco'', jets and jets at hadron level, ``truth'' jets, to obtain correction factors as a function of jet energy and jet rapidity. 
 The response of the calorimeter to jets can be defined using these fully simulated MC samples as
 \begin{equation}
 \mathcal{R(\eta)} = \frac{\pt{}^{reco}(\eta)}{\pt{}^{truth}(\eta)}

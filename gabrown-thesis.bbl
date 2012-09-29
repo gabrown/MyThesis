@@ -322,4 +322,15 @@ ATLAS Collaboration.
 \newblock 02 2011.
 \newblock 1102.2696.
 
+\bibitem{ref:GBJConf1}
+ATLAS Collaboration.
+\newblock Dijet production with a jet veto in pp collisions at √s=7TeV.
+\newblock Technical Report ATLAS-CONF-2010-085, CERN, Geneva, Oct 2010.
+
+\bibitem{ref:GBJConf2}
+ATLAS Collaboration.
+\newblock Measurement of dijet production with a jet veto in pp collisions at
+  sqrt(s) = 7 TeV using the ATLAS detector.
+\newblock Technical Report ATLAS-CONF-2011-038, CERN, Geneva, Mar 2011.
+
 \end{thebibliography}

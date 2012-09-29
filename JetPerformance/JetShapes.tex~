@@ -1,7 +1,7 @@
 The internal jet structure of jets in the forward region was examined using 2010 data to assess how well the MC simulation reproduces the data.
 The transverse size of the jet is quantified using the jet width,
 \begin{equation}
-\rm{Width}=\frac{\sum (r^{cluster} * \et{}^{cluster}) }{\sum \et{}^{cluster}},
+\rm{Width}=\frac{\sum (r^{cluster} \times \et{}^{cluster}) }{\sum \et{}^{cluster}},
 \label{JetPerf:Width}
 \end{equation}
 where the sums are over all clusters within the jet, and $r^{cluster}$ is the distance of each cluster from the jet centre.

@@ -15,23 +15,23 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces }}{45}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Example JES Uncertainty}}{46}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Offline egamma \unhbox \voidb@x \hbox {$E_{\rm t}$}{} verses L2/EF egamma \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{51}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \unhbox \voidb@x \hbox {$\Delta {\rm R}$}{} between offline and L2 egamma object}}{52}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Offline EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{} verses L2/EF EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{51}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \unhbox \voidb@x \hbox {$\Delta {\rm R}$}{} between offline and L2 EM object}}{52}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \unhbox \voidb@x \hbox {$\Delta {\rm R}$}{} between offline and EF egamma object}}{53}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \unhbox \voidb@x \hbox {$\Delta {\rm R}$}{} between offline and EF EM object}}{53}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{53}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{53}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Offline egamma \unhbox \voidb@x \hbox {$E_{\rm t}$}{} versus L2 and EF egamma \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{54}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Offline EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{} versus L2 and EF EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{54}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{54}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \unhbox \voidb@x \hbox {$E_{\rm t}$}{} fraction of L2 and EF to offline egamma objects}}{55}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \unhbox \voidb@x \hbox {$E_{\rm t}$}{} fraction of L2 and EF to offline EM objects}}{55}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Offline egamma \unhbox \voidb@x \hbox {$E_{\rm t}$}{} versus L2/EF egamma \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{55}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Offline EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{} versus L2/EF EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{55}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Offline egamma \unhbox \voidb@x \hbox {$E_{\rm t}$}{} versus L2/EF egamma \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{56}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Offline EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{} versus L2/EF EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{56}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces \unhbox \voidb@x \hbox {$\Delta {\rm R}$}{} between offline and L2 jets}}{58}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{58}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{58}
@@ -217,7 +217,7 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{135}
 \contentsline {figure}{\numberline {7.27}{\ignorespaces }}{137}
 \contentsline {figure}{\numberline {7.28}{\ignorespaces }}{138}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{138}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {b}}}{138}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{138}
 \contentsline {figure}{\numberline {7.29}{\ignorespaces }}{138}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{138}
@@ -225,26 +225,26 @@
 \contentsline {figure}{\numberline {7.30}{\ignorespaces }}{139}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{139}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{139}
-\contentsline {figure}{\numberline {7.31}{\ignorespaces }}{140}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{140}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{140}
+\contentsline {figure}{\numberline {7.31}{\ignorespaces }}{141}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{141}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{141}
 \contentsline {figure}{\numberline {7.32}{\ignorespaces }}{141}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{141}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{141}
-\contentsline {figure}{\numberline {7.33}{\ignorespaces }}{141}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{141}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{141}
+\contentsline {figure}{\numberline {7.33}{\ignorespaces }}{142}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{142}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{142}
 \contentsline {figure}{\numberline {7.34}{\ignorespaces }}{142}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{142}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{142}
-\contentsline {figure}{\numberline {7.35}{\ignorespaces }}{142}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{142}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{142}
+\contentsline {figure}{\numberline {7.35}{\ignorespaces }}{143}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{143}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{143}
 \contentsline {figure}{\numberline {7.36}{\ignorespaces }}{143}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{143}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{143}
-\contentsline {figure}{\numberline {7.37}{\ignorespaces }}{143}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{143}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{143}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{143}
+\contentsline {figure}{\numberline {7.37}{\ignorespaces }}{144}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{144}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{144}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{144}
 \addvspace {10\p@ }

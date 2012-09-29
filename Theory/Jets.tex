@@ -28,7 +28,7 @@ The algorithm then combines the objects into jets in the following way:
 \item If $d_{ij}^{min} > d_{iB}^{min}$ then define object $i$ as a jet and remove from list of objects
 \item Continue iterating until there is no objects left in the list of objects 
 \end{enumerate}
-The \antikt{} jet finding algorithm combines highest \pt{} objects  with the objects close to them first, which have a  $\Delta R  < R$, then subsequently lower \pt{} objects.
+The \antikt{} jet finding algorithm combines the objects around the highest \pt{} objects first, which have a  $\Delta R  < R$, then subsequently lower \pt{} objects.
 Only jets that have a final \pt{} greater than a \pt{} cut are kept in the jet collection. 
 
 There are many algorithms that are theoretically safe (both IR and collinear safe).
