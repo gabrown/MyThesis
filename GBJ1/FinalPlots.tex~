@@ -14,8 +14,8 @@ The red and blue dotted lines are the POWHEG + PYTHIA and POWHEG + HERWIG predic
 
 Figures \ref{GBJ1:dYSelA} and \ref{GBJ1:pTSelA} show the gap fraction and the ratio of theory to data as a function of $\dy{}$ and $\ptb{}$ respectively for different \ptb{} and \dy{} slices for the leading \pt{} dijet selection. 
 The gap fraction from the data reduces as a function of \ptb{} and \dy{}.
-When the rapidity region between the dijets is small the phase-space for emission is small. 
-When the \dy{} or the \ptb{} of the dijets increases that phase-space available for emission increase, and so the gap fraction decreases.
+When the rapidity region between the dijets is small the phase space for emission is small. 
+When the \dy{} or the \ptb{} of the dijets increases that phase space available for emission increase, and so the gap fraction decreases.
 For the highest \ptb{} range, the gap fraction starts to level off. 
 This feature could be due to PDF effects, where both of the jets have high \pt{}, and so the probablity of having another jet in the event is low.
 HEJ agrees well with the data for the complete range in $\dy$ for low $\ptb{}$. 
@@ -32,7 +32,7 @@ This can also be seen for the gap fraction as a function of \ptb{} for the diffe
 For the slices, $1\le\dy{}<2$, $2\le\dy{}<3$, and $3\le\dy{}<4$, the agreement is very good throughout \ptb{}, with only deviations away from the data at large \dy{} which correspond to statistical fluctuations.
 However, for the other \dy{} slices POWHEG + PYTHIA gives too low a gap fraction.
 Conversely, POWHEG + HERWIG only agrees with the data only in the lowest of \dy{} bins, it deviates for $\dy{}>1$ for all slices of \ptb{}. 
-In the gap fraction against \ptb{} for different \dy{} slices distributions, POWHEG + HERWIG does not agree well with the data and underestimates the gap fraction for all considered regions of phase-space.
+In the gap fraction against \ptb{} for different \dy{} slices distributions, POWHEG + HERWIG does not agree well with the data and underestimates the gap fraction for all considered regions of phase space.
 The difference between POWHEG + PYTHIA and POWHEG + HERWIG is an indication of the uncertainty in current calculations of parton showers.
 
 
@@ -72,7 +72,7 @@ HEJ does not agree well with the data, and especially for the higher \dy{} slice
 Figure \ref{GBJ1:pTSelBQ0} shows the gap fraction as a function of $\dy{}$ and $\ptb{}$ respectively for different \ptb{} and \dy{} slices for the forward/backward dijet selection, but the \qz{} is set to the \ptb{} of the event. 
 This shows how the gap fraction is affected by emissions which are harder than the \ptb{} of the  dijets. 
 POWHEG + PYTHIA and POWHEG + HERWIG both overlap the data.
-This would indicate that this definition of the gap fraction is less dependant on the modelling of the parton shower, hadronization and underlying event.
+This would indicate that this definition of the gap fraction is less dependent on the modelling of the parton shower, hadronisation and underlying event.
 The new definition of the jet veto does not improve the HEJ agreement with the data.
 
 

@@ -39,7 +39,7 @@ The  effective luminosity is calculated by
 \end{equation}
 where $P_{LB}^L$ and $P_{LB}^{SL}$ are the prescales for a given luminosity for the trigger chain associated with the leading and subleading jet respectively, and $\mathcal{L}_{LB}$ is the luminosity for the luminosity block. 
 
-The effective luminosities were calculated in \cite{ref:Dijet} for all pileup conditions.
+The effective luminosities were calculated in \cite{ref:Dijet} for all pile-up conditions.
 In this analysis, a single vertex cut is applied, which effectively reduces the luminosity, $\mathcal{L}_{LB}$, in Equation \ref{GBJ2:LBeff} by a factor $\rm f_{L}$.
 A single vertex correction is derived for this analysis, defined as 
 \begin{equation}

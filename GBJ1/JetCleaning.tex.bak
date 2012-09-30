@@ -1,46 +1,31 @@
-\subsubsection{Jet Cleaning}
-Jet cleaning is done to make sure the sample contains only well measured jets that come from real energy deposits. Jet cleaning removes two category's of jets, "ugly" and "bad" jets.
+\subsection{Jet Cleaning}
+\label{sec:GBJ1:Cleaning}
 
-Ugly jets are jets that are badly measured but do come from real energy deposits. Ugly jets are often found in regions between detectors,"crack", where te performance of the detectors aren't optimal (see section on detects). The two cuts that are applied to remove ugly jets are, 
-$frac_{TileGap3}>0.5$ where $frac_{TileGap3}$ is the ...., and $frac_{BadCell}>0.5$ where $frac_{BadCell}$ is the fraction of the electro magnetic energy of the jet that comes from bad cells inside the jet.
+The effect of jet cleaning is investigated by examining the change in the gap fraction and the inclusive distribution when using a tighter cleaning definition. 
+The two cleaning cuts used are loose and medium, which are defined in Section \ref{sec:Det:Jets}.
+The medium cleaning cuts remove more bad jets than the loose cleaning cuts, however they have inefficencies for good jets at low \pt{}.
+The loose cleaning cut has $>99\%$ efficency for good jets.
 
-Bad jets are jets that don't come from a real energy deposit. Bad jets can come from a variety of different sources, three that are more significant is cosmic and beam background, HEC spikes and EM conherent noise. There are 4 different definitions of bad jets to cut apon, "Loose", "Loose+", "Tight", and "Tight+", where "Loose" has the least stringent cuts and "Tight+" is the strictist. The definition for the 4 cleaning cuts is shown in Figure X (Definitions of the jet cleaning varibles are discussed in Chapter Detector). Cutting on the tight+ definition removes a higher proportion of bad jets than the loose definition, but the efficentcy for real jets is also lower.
-
-The effect of the cut definitions loose+ and tight+ is investigated by looking at the difference in the gap fractions (for various slices) and the inclusive distribution for the two cuts. Figure \ref{JetCleanIncl_dy} shows two slices in $\bar{p_T}$ of the inclusive distribution in $\Delta y$ with both the Loose+ and Tight+ cuts applied. There is ~2 percent reduction in statistics using the Tight+ cuts, but the shape of the distribution seems to be unchanged.  
-The gap fraction is shown in $\bar{p_T}$ in figure \ref{JetCleanGF_dy} and in $\Delta y$ in figure \ref{JetCleanGF_pt} with the two different jet cleaning definitions. The difference in the gap fraction between the two cleaning definitions is small ($<1\%$). Due to the fact that the difference in observavble is small, but more statistics are gained, the loose+ bad jet definition is used for the analysis. 
-
-\begin{table}
-\small 
-\footnotesize
-\centering
-\begin{tabular}{ |c | c | } 
-\hline
-Varible &  Description \\
-\hline
-Emf & Fraction of energy of the jet (at EM scale) that comes from EM clusters * Check This *\\
-LAr Quality, Q  & Fraction of energy of the jet coming from LAr cells with a cell Q-factor$>$4000.\\
-HECf &  Fraction of energy of the jet that was measured in the HEC \\
-n90 & Minimum number of cells which contain at least $90\%$ of the jet energy \\
-Timing, t &  jet time computed as the energy squared cells mean time * Check This * \\
-fmax & Maximum energy fraction in one calorimeter layer  \\
-\hline
-\end{tabular}
-\caption{Shows the variables, and the decription of the variables needed for jet cleanign}
-\label{CleaningVariables}
-\end{table}
-
-
-%Due to pIn section(Jet/Detector performance)
-%As discribed in the section on Jet/Detector performance, dd
+Figure \ref{JetCleanIncl_dy} shows two slices in \ptb{} of the inclusive distribution in \dy{} for the leading \pt{} dijet selection with both the loose and medium cuts applied. 
+There is $\thicksim\, 2\: \%\: $ reduction in statistics using the medium cuts, but the shape of the distribution seems to be unchanged.  
+For the leading \pt{} dijet selection, the gap fraction is shown as a function of \ptb{} in Figure \ref{JetCleanGF_dy} and as a function of \dy{} in Figure \ref{JetCleanGF_pt} with the two different jet cleaning definitions. 
+The difference in the gap fraction between the two cleaning definitions is small ($<1\%$) and within the statistical uncertainty of the samples, and more statistics are gained with the loose bad jet definition.
+Similar order effects are observed with the forward/backward selection.
+Given that there is little bias and the improvement in statistics, this is used for the remaining analysis. 
+Normally one would be concerned about normalisation problems in the inclusive distributions, however this analysis only details fractions where the normalisation cancels.
 
 
 \begin{figure}
 \centering
 \mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/Inclusive_selA_Ave_pT_90_120.eps,width=0.5\textwidth,height = 6cm}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/Inclusive_selA_Ave_pT_210_240.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/Inclusive_selA_Ave_pT_90_120.eps,width=0.4\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/Inclusive_selA_Ave_pT_210_240.eps,width=0.4\textwidth,height = 6cm}}\quad
                               }
-\caption[Effect of jet cleaning on the inclusive distribution for $\bar{p_T}$]{Number of events for each $\Delta y$ bin for Medium and Loose jet cleaning definitions. Shown are (a) $90<\bar{p_T}<120$ and (b)$210<\bar{p_T}<240$ slices.\label{JetCleanIncl_dy}}
+\caption[Effect of jet cleaning on the inclusive distribution in \dy{}]{
+Number of events for each \dy{} bin for medium and loose jet cleaning definitions. 
+Shown are (a) $90<\ptb{}<120$ GeV and (b)$210<\ptb{}<240$ GeV slices.
+The ratio of the medium cleaning to loose cleaning is shown below the distribution.
+\label{JetCleanIncl_dy}}
 \end{figure}
 
 \begin{figure}
@@ -49,17 +34,25 @@ fmax & Maximum energy fraction in one calorimeter layer  \\
               \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/RatioGF_selA_Ave_pT_90_120.eps,width=0.5\textwidth,height = 6cm}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/RatioGF_selA_Ave_pT_210_240.eps,width=0.5\textwidth,height = 6cm}}\quad
                               }
-\caption[Effect of jet cleaning on the gap fraction for $\bar{p_T}$]{Gap fraction for each $\Delta y$ bin for Medium and Loose jet cleaning definitions. Shown are (a) $90<\bar{p_T}<120$ and (b)$210<\bar{p_T}<240$ slices.\label{JetCleanGF_dy}}
+\caption[Effect of jet cleaning on the gap fraction versus \ptb{}]{
+Gap fraction for each \dy{} bin for medium and loose jet cleaning definitions. 
+Shown are (a) $90<\ptb{}<120$ GeV and (b)$210<\ptb{}<240$ GeV slices.
+The ratio of the medium cleaning to loose cleaning is shown below the distribution.
+\label{JetCleanGF_dy}}
 \end{figure}
 
 
 \begin{figure}
 \centering
 \mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/RatioGF_selA_DeltaY_1_2.eps,width=0.5\textwidth,height = 6cm}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/RatioGF_selA_DeltaY_3_4.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/RatioGF_selA_DeltaY_1_2-Edit.eps,width=0.5\textwidth,height = 6cm}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ1/JetCleaning/RatioGF_selA_DeltaY_3_4-Edit.eps,width=0.5\textwidth,height = 6cm}}\quad
                               }
-\caption[Effect of jet cleaning on the gap fraction for $\Delta y$]{Gap fraction for each $\bar{p_T}$ bin for Medium and Loose jet cleaning definitions. Shown are (a) $1<\Delta y<2$ and (b) $3<\Delta y<4$ slices.\label{JetCleanGF_pt}}
+\caption[Effect of jet cleaning on the gap fraction versus \dy{}]{
+Gap fraction for each \ptb{} bin for medium and loose jet cleaning definitions. 
+Shown are (a) $1<\dy{}<2$ and (b) $3<\dy{}<4$ slices.
+The ratio of the medium cleaning to loose cleaning is shown below the distribution.
+\label{JetCleanGF_pt}}
 \end{figure}
 
 

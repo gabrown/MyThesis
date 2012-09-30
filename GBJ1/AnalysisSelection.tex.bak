@@ -1,7 +1,25 @@
-\section{Analysis Selection}
-The analysis uses 2 different boundary jet definitions, "Leading $p_T$ Selection" and "forward/backward selection", to define the dijet system. Where leading $p_T$ selection is the 2 highest $p_T$ jets in the event, and forward/backward selection is the most forward and most backward jet in the event. A jet veto can be applied to the boundary system to study the additional ratiation between the boundary jets. The jet veto is a requirement that there is no jets, with $p_T>Q_0$, in the rapidity region bounded by the boundary jets and is used to define a gap event. 
+\section{Topology Selection}
+\label{sec:GBJ1:AnalSel}
 
-The jets used in this analysis were reconstructed using the anti$-k_T$ algorithm (see section X) with a radius parameter R=0.6. Only jets that have $p_T>20$ GeV and $|\eta|<4.4$ have been used, as these are the regions that have a well defined jet energy scale and jet cleaning cuts. 
-Once the boundary jets have been assigned, with the above cuts on $\eta$ and $p_T$ applied, an additional cut is applied to the average transverse momentum, $\bar{p_T}$, of the boundary jets of 50 GeV. This cut is required to ensure that the event is in a high efficiency trigger region. These cuts define the inclusive events for the analysis. A gap event can be defined when we apply a jet veto with a nominal $Q_0=20$ GeV (this is the minimum value of $Q_0$, due to the $p_T$ cut on the jets). 
+The jets used in this analysis were reconstructed using the \antikt{} algorithm with a radius parameter R=0.6, as described in Section \ref{sec:Theory:Jets}.
+Only jets that have \pt{}$>20$ GeV and $|y|<4.4$ have been used, as these are the regions that have a well defined jet energy scale and jet cleaning cuts, as dicussed in Section \ref{sec:Det:Jets}. 
 
-To study the activity in the rapidity region between the boundary jets, two varibles are looked at. First is the "Gap Fraction", which is the fraction of the inclusive sample that doesn't have an additional jet with $p_T>Q_0$ in the dijets rapidity region. The second is the mean number of jets, with $p_T>Q_0$, in the dijet rapidity region. 
+The analysis uses two different dijet selection criteria, ``Leading \pt{} Dijet Selection'' and ``Forward/Backward Selection'', to define two boundary jets. 
+In the leading dijet \pt{} selection the boundary jets are the two highest \pt{} jets in the event, whereas in the forward/backward selection the two boundary jets are the most forward (positive rapidity) and most backward (negative rapidity) jets in the event. 
+Once the boundary jets have been defined, an additional cut is applied to the average transverse momentum, \ptb{}, of the boundary jets of 50 GeV. 
+This ensures that the dijets are in a high efficiency trigger region, which were studied in early plausibility studies \cite{ref:GBJConf1} by other members of the analysis team. 
+These cuts define the inclusive events for the analysis. 
+
+
+Two variables are investigated; the gap fraction and the mean  number of jets in the rapidity interval between the boundary jets. 
+The gap fraction, \gap, defined in Equation \ref{Theory:GapFraction} can be measured by,
+\begin{equation}
+f_{\rm gap}(\qz{}) = \frac{\sigma_{0}}{\sigma} =  \frac{N (\qz{})}{N},
+\label{GBJ1:fgap}
+\end{equation}
+where N(\qz{}) is the number of events that do not contain a jet with $\pt{}>\qz{}$ in the rapidity interval between the boundary jets, and $N$ is the number of events in the inclusive sample, if the trigger, acceptance and lumionsity biases cancel in the ratio.
+The nominal choice of the jet veto scale is \qz{}$=20$ GeV. 
+The mean number of jets in the rapidity interval is defined for jets with $\pt{}>20$ GeV. 
+
+Both the gap fraction and the mean number of jets are measured as a function of dijet rapidity region, \dy{}, for multiple slices in \ptb{}, and also as a function of \ptb{} for multiple slices in \dy{}. 
+The gap fraction is also measured as a fraction of the veto scale, \qz{}

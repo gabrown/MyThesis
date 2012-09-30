@@ -2,22 +2,23 @@
 \label{sec:GBJ1:EvtSel}
 \subsection{Data Samples}
 
-The analysis was performed on  pp collision data that was recorded between April and October 2010 using the ATLAS detector with a centre-of-mass energy of 7 TeV. 
+The analysis was performed on  pp collision data with a centre-of-mass energy of 7 TeV recorded between April and October 2010 using the ATLAS detector. 
 Data was only used if it was collected during stable beam conditions and there was good data quality. 
-The data quality was assessed by checking that all the parts of the detector and trigger were performing normally, and the physics objects (eg jets and muons) were being correctly reconstructed. 
-This is achived by the application of a "good runs list" (GRL) which is a list of runs and the luminosity blocks within them where the data quality and beam conditions are optimum.
+The data quality was assessed by the ATLAS performance working groups by checking that all the parts of the detector and trigger were performing normally, and the physics objects (for instance jets and muons) were being correctly reconstructed. 
+This is achieved by the application of a ``good runs list'' (GRL) which is a list of runs and the luminosity blocks in which the data quality and beam conditions have been declared adequite by the relevant peformance groups.
 
 
 \subsection{Trigger Strategy}
-The trigger strategy used the ATLAS jet triggers to select events, for the analysis, required that certain triggers fired for specific dijet topologies. 
-During the data periods B-D only the level 1 jet triggers were also used for selecting events, and during periods E-I the level 2 jet triggers were used. 
-There are three different trigger areas in the ATLAS detectors, two in the large rapidity region (one forward, $\eta>3.2$ and one backwards, $\eta<-3.2$) and one in the central region ($|\eta|<3.2$). 
-In the trigger strategy only the central trigger region is used. 
 
+The trigger strategy used the ATLAS jet triggers to select events.
+For a given dijet \ptb{}, a specific trigger is required to have fired for the event to be included in the analysis.
+The trigger depends on the data period the event was collected in.
+
+During the data periods B-D, only the level 1 (L1) jet triggers were also used for selecting events. 
+During periods E-I, the level 2 (L2) jet triggers were used. 
 The L1 and L2 (named EF) jet triggers have names of the format $\rm L1\_JX$, where X is the EM transverse energy threshold.
+The jet triggers used only inputs from $|\eta|<3.2$ to build trigger jets.
  
-For each \ptb{} region a specific trigger is required to pass for the event to be included in the analysis.
-The trigger also depends on the data period the event was collected in to account for activation of the L2 jet triggers during period E.
 Table \ref{tab:trig_strat} shows the trigger requirement for different $\bar{p_T}$ regions and data periods.
 
 \begin{table}[htdp]
@@ -35,46 +36,25 @@ Table \ref{tab:trig_strat} shows the trigger requirement for different $\bar{p_T
 210 - 7000  & $\rm L1\_J95$ & $\rm EF\_L1J95\_NoAlg$  & $\rm EF\_L1J95\_NoAlg$ \\
   \hline                       
 \end{tabular}
-\caption[Jet trigger strategy]{
-L1 and L2 jet triggers used to select events. 
-Jet triggers are shown for different $\bar{p_T}$ regions and data periods. 
+\caption[Trigger strategy using jet triggers]{
+L1 and L2 jet triggers used to select events are shown for different the differ dijet $\bar{p_T}$ regions and data periods. 
 \label{tab:trig_strat}}
 \end{table}%
 
-\subsection{Noise and Pileup Rejection}
+\subsection{Noise and Pile-up Rejection}
 
-Events are rejected if a "fake" jet with $\pt{}>20$ GeV.
-Fake jets can be catigoriesed ``bad'' jets, which are not energy deposits from the interaction and often come from noisy calorimeters, cosmic rays or beam-background, and ``ugly'' jets which are real energy deposits, but have been poorly measured, often by falling into transitions between different detectors. 
+Events are rejected if a fake jet with $\pt{}>20$ GeV within the event.
+Fake jets are defined as ``bad'' jets, which are related to noisy calorimeters, cosmic rays or beam-background, or ``ugly'' jets that are energy deposits from the proton-proton interaction, but have been poorly measured (often by falling into transitions between different detectors). 
 The ugly jet cleaning cuts and the loose and medium bad jet cleaning cuts are defined in Section \ref{sec:Det:Jets}.
 
-Cutting on the medium definition removes a higher proportion of bad jets than the loose definition, but is inefficiency for good jets, whereas the loose definition has an efficency of $>99\%$ for good jets.
+The medium jet cleaning cut removes a larger proportion of bad jets, but is inefficient for good jets.
+The loose jet cleaning cut has an efficiency of $>99\%$ for good jets, but some bad jets remain.
 The effects of the jet cleaning cuts and the justification for using the loose bad jet requirement is shown in Section \ref{sec:GBJ1:Pileup}.
 
 
 Events are only used if the number of reconstructed primary vertices is equal to one.
 This cut reduces the impact of in-time pile-up. 
-In-time pileup is defined as multiple proton-proton interactions in the same bunch crossing and results in addition primary vertices.
+In-time pile-up is defined as multiple proton-proton interactions in the same bunch crossing and results in additional primary vertices.
 The cut is necessary to remove the impact of extra energy deposits in the rapidity region between the boundary jets, which can degrade the gap by either producing a new jet, or by increasing the \pt{} of an existing jet to greater than \qz{}.
-
-Out-of-time pileup also adds extra energy into the detector, and thus effect the gap fraction. 
-Out-of-time pileup is additional energy coming from previous bunch collisions and depends on both the number of primary vertices of the previous bunches and the bunch spacing. 
-
-The residual effect of in-time pileup and out-of-time pileup is studied in Section \ref{sec:GBJ1:Cleaning}. 
-
-
-%As described in section XXX, there are two types of pileup; in-time pileup and out-of-time pileup. Both forms of pileup add additional energy into the detectors, and can add additional energy into existing jets, or even add new jets. The additional energy from the pileup interactions can change the gap fraction and mean number of jets distributions.  In this section the effect of both in-time and out-of-time pileup will be determined, and the effectiveness of the pileup cut outlined in section \ref{sec:GBJ1:EvtSel} will be assessed.
-
-%In-time pileup is due to multiple proton-proton interactions in the same bunch collision. In-time pileup can be estimated by looking at the number of reconstructed primary vertices. 
-
-
-
-
-%-The data used
-%-GRL explanation
-%-Trigger
-%-pileup cut
-%-fake jets removed
-
-
-
+The residual effect of pile-up is studied in Section \ref{sec:GBJ1:Cleaning}. 
 

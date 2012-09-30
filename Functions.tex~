@@ -24,4 +24,5 @@
 \newcommand{\Incl}{\mbox{$\frac{1}{N}\frac{dN}{d\Delta y}$}}
 \newcommand{\ptDist}{\mbox{$\frac{1}{N}\frac{dN}{d\Delta \pt{}^{veto}}$}}
 \newcommand{\dphiDist}{\mbox{$\frac{d\sigma}{d\dphi{}}$}}
+\newcommand{\dphidyDist}{\mbox{$\frac{d^2{}\sigma}{dyd\dphi{}}$}}
 %\newcommand{\dphiDist}{\mbox{$d\sigma/d\dphi{}$}}

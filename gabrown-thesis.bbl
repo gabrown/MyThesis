@@ -297,6 +297,24 @@ ATLAS Collaboration.
   Simulations.
 \newblock {\em CERN}, {\bf ATL-CAL-PUB-2010-001}, 2010.
 
+\bibitem{ref:QGSPNew}
+J~Beringer, G~Folger, F~Gianotti, A~Ribon, J~P Wellisch, D~Barberis,
+  M~Cervetto, and B~Osculati.
+\newblock Validation of Geant4 hadronic physics.
+\newblock 2004.
+
+\bibitem{ref:BERTNew}
+M.P. Guthrie, R.G. Alsmiller, and H.W. Bertini.
+\newblock {Calculation of the capture of negative pions in light elements and
+  comparison with experiments pertaining to cancer radiotherapy}.
+\newblock {\em Nucl.Instrum.Meth.}, {\bf 66}:29--36, 1968.
+
+\bibitem{ref:FTFNew}
+Bo~Andersson, G.~Gustafson, and B.~Nilsson-Almqvist.
+\newblock {A Model for Low p(t) Hadronic Reactions, with Generalizations to
+  Hadron - Nucleus and Nucleus-Nucleus Collisions}.
+\newblock {\em Nucl.Phys.}, {\bf B281}:289, 1987.
+
 \bibitem{ref:JetShapes}
 ATLAS Collaboration.
 \newblock Properties of Jets and Inputs to Jet Reconstruction and Calibration

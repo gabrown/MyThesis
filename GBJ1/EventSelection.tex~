@@ -54,7 +54,7 @@ The effects of the jet cleaning cuts and the justification for using the loose b
 
 Events are only used if the number of reconstructed primary vertices is equal to one.
 This cut reduces the impact of in-time pile-up. 
-In-time pileup is defined as multiple proton-proton interactions in the same bunch crossing and results in additional primary vertices.
+In-time pile-up is defined as multiple proton-proton interactions in the same bunch crossing and results in additional primary vertices.
 The cut is necessary to remove the impact of extra energy deposits in the rapidity region between the boundary jets, which can degrade the gap by either producing a new jet, or by increasing the \pt{} of an existing jet to greater than \qz{}.
-The residual effect of pileup is studied in Section \ref{sec:GBJ1:Cleaning}. 
+The residual effect of pile-up is studied in Section \ref{sec:GBJ1:Cleaning}. 
 

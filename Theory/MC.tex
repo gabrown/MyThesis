@@ -5,14 +5,14 @@
 Monte Carlo (MC) event simulation is used to compare data to theoretical predictions. 
 MCs aim to give a full description of a hadron-hadron interaction.
 As discussed in Section \ref{Theory:QCD}, the calculation can be factorised to separate the perturbative and non-perturbative parts. 
-First the differential partonic cross section is calculated to model the kinematics of the hard interaction.
+First the differential partonic cross-section is calculated to model the kinematics of the hard interaction.
 This will typically consist of $n$ high \pt{} partons in the final state.
 Parton showering and hadronisation algorithms are used to turn the partonic final state into a hadronic one.
 
 PS attempts to simulate the higher order contributions to the calculation from soft and collinear parton emission.
-There is a greater probablity of emisson for soft or collinear emission from the partons.
+There is a greater probability of emission for soft or collinear emission from the partons.
 The effectiveness of the PS for soft and collinear emissions is tested through jet shapes \cite{ref:JetSh}.
-The PS correctly resums soft and collinear contributions, is to leading logs.
+The PS correctly resums soft and collinear contributions, ie to leading logarithms \cite{ref:Webber}.
 Through the parton showering, the high \pt{} partons successively radiates partons until all partons are at a scale of a few GeV.
 Once at this scale, hadronisation combines the partons together to make colour neutral hadrons. 
 
@@ -25,39 +25,39 @@ MC often include emission from multiple parton-parton interactions (MPI), which 
 
 PYTHIA \cite{ref:PYTHIA64} is a general-purpose MC with a large library of LO sub-processes, including the LO QCD matrix elements for the $2 \rightarrow 2$ sub-processes used for dijet production.
 The PYTHIA PS orders emissions in transverse momentum and has a veto to ensure angle ordering. 
-The hadronization used in PYTHIA is based on the Lund string model \cite{ref:Lund}.
+The hadronisation used in PYTHIA is based on the Lund string model \cite{ref:Lund}.
 The version of PYTHIA used in the analyses presented is PYTHIA 6.4.2.3 with the MRST LO$^*$ PDF \cite{ref:MRST} and the AMBT1 tune \cite{ref:Tune}.
 
-The dijet cross section is falling in both \ptb{} and \dy{}.
+The dijet cross-section is falling in both \ptb{} and \dy{}.
 To get a large number of events in the high \ptb{} and \dy{} regions, a filter is applied to the centrally produced PYTHIA samples used in Chapters \ref{chp:GBJ1} and \ref{chp:GBJ2}. 
 The result of the filter is flat distribution in \ptb{} and \dy{}. 
 Event weighting factors are stored which allows the original distribution to be recovered. 
 
-To improve the decription of data, multiple proton-proton intereaction, ``pile-up'', is included.
+To improve the description of data, multiple proton-proton interaction, ``pile-up'', is included.
 
 Unlike the other MC generators considered, the PYTHIA events are passed through a full ATLAS detector simulation, based on GEANT4 \cite{ref:Geant4}, which results in a sample of fully simulated events which can be directly compared to data. 
 
 \subsubsection{HERWIG++}
 
-HERWIG++ is another general-purpose MC which has LO QCD matrix elements for the $2 \rightarrow 2$ sub-processes.
+HERWIG++\cite{ref:HERWIG} is another general-purpose MC which has LO QCD matrix elements for the $2 \rightarrow 2$ sub-processes.
 HERWIG++ has a PS which evolves the partons using angular ordering of emissions.
-The hadronization used in HERWIG is the cluster model \cite{ref:ClusterModel} which forces all the gluons remaining from the PS to split into quark anti-quark pairs. 
+The hadronisation used in HERWIG is the cluster model \cite{ref:ClusterModel} which forces all the gluons remaining from the PS to split into quark anti-quark pairs. 
 The version used is HERWIG++ 2.5.0 \cite{ref:HERWIG} using the MRST LO$^*$ PDF and underlying event tune of LHC-UE7-1 \cite{ref:Herwigpp}. 
 \subsubsection{ALPGEN}
 
 The ALPGEN \cite{ref:ALPGEN} MC generator provides leading order matrix elements for up to 6 partons in the final state.
 The ALPGEN sample was generated with the CTEQ6L1 PDF set \cite{ref:ALPGENPDF}.
-The sample was pass through HERWIG and JIMMY \cite{ref:Jimmy} for parton showering, hadronization and MPI with AUET1 tune \cite{ref:ALPGENTune}.
+The sample was pass through HERWIG and JIMMY \cite{ref:Jimmy} for parton showering, hadronisation and MPI with AUET1 tune \cite{ref:ALPGENTune}.
 
 \subsubsection{POWHEG}
 The POWHEG generator \cite{ref:Powheg1,ref:Powheg2,ref:Powheg3} has the NLO matrix elements for dijet production. 
-This MC is then interfaced to both PYTHIA and HERWIG for parton showering, hadronization and MPI.
-Events were generated with the MSTW 2008 NLO PDF.
+This MC is then interfaced to both PYTHIA and HERWIG for parton showering, hadronisation and MPI.
+Events were generated with the MSTW 2008 NLO PDF \cite{ref:MRST}.
 
 
 \subsubsection{HEJ}
 High Energy Jets (HEJ) \cite{ref:HEJ1,ref:HEJ2} is a parton level generator. 
-HEJ implements an all-order description of hard wide-angle emissions, in which parton emisions are ordered in rapidity.
-Due to this, HEJ is expected to model the data well in th large \dy{} region in Figure \ref{Theory:KineRange}.
+HEJ implements an all-order description of hard wide-angle emissions, in which parton emissions are ordered in rapidity.
+Due to this, HEJ is expected to model the data well in the large \dy{} region in Figure \ref{Theory:KineRange}.
 Events were generated with the MSTW 2008 NLO PDF.
 

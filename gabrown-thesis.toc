@@ -2,20 +2,21 @@
 \contentsline {chapter}{Abstract}{11}
 \contentsline {chapter}{Declaration}{12}
 \contentsline {chapter}{Copyright}{13}
-\contentsline {chapter}{\numberline {1}Introduction}{14}
-\contentsline {chapter}{\numberline {2}Theory}{16}
-\contentsline {section}{\numberline {2.1}QCD}{16}
-\contentsline {subsection}{\numberline {2.1.1}Asymptotic Freedom and Confinement}{18}
-\contentsline {subsection}{\numberline {2.1.2}Hadron -- Hadron Cross Section}{19}
-\contentsline {subsection}{\numberline {2.1.3}Jet Formation}{20}
-\contentsline {section}{\numberline {2.2}Dijet Production}{21}
-\contentsline {section}{\numberline {2.3}Jets}{23}
+\contentsline {chapter}{Acknowledgements}{14}
+\contentsline {chapter}{\numberline {1}Introduction}{15}
+\contentsline {chapter}{\numberline {2}Theory}{17}
+\contentsline {section}{\numberline {2.1}QCD}{17}
+\contentsline {subsection}{\numberline {2.1.1}Asymptotic Freedom and Confinement}{19}
+\contentsline {subsection}{\numberline {2.1.2}Hadron -- Hadron Cross Section}{20}
+\contentsline {subsection}{\numberline {2.1.3}Jet Formation}{21}
+\contentsline {section}{\numberline {2.2}Dijet Production}{22}
+\contentsline {section}{\numberline {2.3}Jets}{24}
 \contentsline {subsection}{\numberline {2.3.1}\hbox {Anti-${k_t}$}\xspace {} jets}{25}
 \contentsline {section}{\numberline {2.4}MC Event Simulation}{26}
-\contentsline {subsection}{\numberline {2.4.1}MC Generators}{26}
-\contentsline {subsubsection}{PYTHIA}{26}
-\contentsline {subsubsection}{HERWIG++}{27}
-\contentsline {subsubsection}{ALPGEN}{27}
+\contentsline {subsection}{\numberline {2.4.1}MC Generators}{27}
+\contentsline {subsubsection}{PYTHIA}{27}
+\contentsline {subsubsection}{HERWIG++}{28}
+\contentsline {subsubsection}{ALPGEN}{28}
 \contentsline {subsubsection}{POWHEG}{28}
 \contentsline {subsubsection}{HEJ}{28}
 \contentsline {chapter}{\numberline {3}The LHC and ATLAS}{29}
@@ -24,7 +25,7 @@
 \contentsline {subsubsection}{2010 run}{31}
 \contentsline {section}{\numberline {3.2}The ATLAS Coordinate System}{32}
 \contentsline {section}{\numberline {3.3}The ATLAS Detector}{33}
-\contentsline {subsection}{\numberline {3.3.1}Magnet System}{34}
+\contentsline {subsection}{\numberline {3.3.1}Magnet System}{33}
 \contentsline {subsection}{\numberline {3.3.2}Inner Detector}{34}
 \contentsline {subsection}{\numberline {3.3.3}Calorimeter System}{36}
 \contentsline {subsubsection}{EM Calorimeter}{38}
@@ -59,7 +60,7 @@
 \contentsline {section}{\numberline {5.2}2011 Study of Pile-up Dependance}{66}
 \contentsline {subsubsection}{Event Selection}{66}
 \contentsline {subsubsection}{Basic Asymmetry and Response Distributions}{67}
-\contentsline {subsubsection}{Effect of Pileup on Dijet Balance}{69}
+\contentsline {subsubsection}{Effect of Pile-up on Dijet Balance}{69}
 \contentsline {section}{\numberline {5.3}2010 Forward Jet Validation}{77}
 \contentsline {section}{\numberline {5.4} Forward Jet Properties}{78}
 \contentsline {chapter}{\numberline {6}Measurement of Dijet Production with a Veto on Additional Central Jet Activity}{81}
@@ -67,12 +68,12 @@
 \contentsline {section}{\numberline {6.2}Event selection}{83}
 \contentsline {subsection}{\numberline {6.2.1}Data Samples}{83}
 \contentsline {subsection}{\numberline {6.2.2}Trigger Strategy}{83}
-\contentsline {subsection}{\numberline {6.2.3}Noise and Pileup Rejection}{84}
+\contentsline {subsection}{\numberline {6.2.3}Noise and Pile-up Rejection}{84}
 \contentsline {section}{\numberline {6.3}Control Plots}{85}
 \contentsline {section}{\numberline {6.4}Systematic Uncertainties}{88}
 \contentsline {subsection}{\numberline {6.4.1}Stability of Event Selection}{88}
 \contentsline {subsection}{\numberline {6.4.2}Jet Cleaning}{89}
-\contentsline {subsection}{\numberline {6.4.3}Pileup}{89}
+\contentsline {subsection}{\numberline {6.4.3}Pile-up}{89}
 \contentsline {section}{\numberline {6.5}Overview of Other Analysis Components}{96}
 \contentsline {section}{\numberline {6.6}Corrected Data}{97}
 \contentsline {chapter}{\numberline {7}Dijets with a Jet Veto and Azimuthal Decorrelations at Very Large Rapidity Separations}{110}

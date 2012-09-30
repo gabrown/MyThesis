@@ -8,7 +8,7 @@ The EM calorimeter component of the HLTCalo is monitored by using physics object
 There are differences between the L2 and EF level EM cluster finding due to the time constraints on the L2 trigger.  
 The L2 EM clusters are found using only the second EM calorimeter layer, in which the highest energy cell is used as the cluster seed.
 From this cluster seed, the cluster position is formed using the energy weighted $\eta$ $\phi$ from a grid \etaphi{0.075} around the seed, and the cluster energy is calculated by summing over the energy of the cells. 
-Conversely, the EF EM clusters use a sliding-window cluster algorithm using the calo towers. 
+Conversely, the EF EM clusters use a sliding-window cluster algorithm using the calorimeter towers. 
 This reduces the effect of the hot cells, as these will be smeared by the surrounding regular cells which will not have energy deposits.
 The offline clusters are also found using a sliding-window algorithm, but they have full offline cell information.
  
@@ -127,7 +127,7 @@ Figure \ref{SW_egamma_L2EF_EtEt} can then be used to study the reason for the di
       \subfigure[]{\epsfig{figure=figures/ServiceWork/run_190644/Reso_Matched_EF.eps,width=0.5\textwidth}}\quad
 }
 \caption[Offline EM \et{} versus L2/EF EM \et{}]{
-Percentage difference of the (a) L2 and (b) EF EM cluster \et{} to the offline EM cluster \et{}.
+\et{} resolution of the (a) L2 and (b) EF EM cluster \et{} to the offline EM cluster \et{}.
 \label{SW_egamma_L2EF_Reso}}
 \end{figure}
 

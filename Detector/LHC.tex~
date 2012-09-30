@@ -29,7 +29,7 @@ The event rate for pp$\rightarrow$ X is
 R_X = L \sigma_X,
 \label{Det:Lumi}
 \end{equation}
-where $\sigma_X$ is the cross section for the process and L is the luminosity.
+where $\sigma_X$ is the cross-section for the process and L is the luminosity.
 Achieving a large luminosity is important for observing rare physics processes that have a low cross-section. 
 Accurate luminosity determination is important for measuring differential cross-sections of processes from the event rate. 
 
@@ -65,7 +65,7 @@ A data period is a group of data runs with similar beam parameter conditions.
 The 2010 data taking run was split into nine different data periods, which corresponded to a total integrated luminosity delivered of 48.1 $\rm pb^{-1}$.
 Table \ref{Det:Periods} shows the data periods for the 2010 LHC run, and how the beam conditions and peak luminosity changed.  
 Additionally, periods G-I had used bunch trains where bunches were grouped together with 150 ns spacing between the bunches.  
-
+As luminosity increased, the level of ``pile-up'', which is multiple proton-proton interactions in the same bunch crossing, increased.
 
 \begin{table}
 \begin{center}

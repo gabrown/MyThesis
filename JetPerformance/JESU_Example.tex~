@@ -14,7 +14,7 @@ c_{1k}=\mathcal{R_{\rm 12k}}= \frac{2-\mean{\mathcal{A_{\rm ijk}}}}{2+\mean{\mat
 which is the same as Equation \ref{JetPerf:SM_CorrectionFactor} used in the standard method.
 
 
-For a three bin case, with $\eta$ bin indices ${1,2,3}$ the equations are;
+For a three-bin case, with $\eta$ bin indices ${1,2,3}$ the equations are;
 \begin{equation}
 \begin{split}
 c_{2k}\mathcal{R_{\rm 12k}}- c_{1k}; \\
@@ -24,7 +24,7 @@ c_{3k}\mathcal{R_{\rm 23k}}- c_{2k}.
 \label{JetPerf:Matrix_3binEquations}
 \end{equation}
 
-For the three bin example the minimisation equation is,
+For the three-bin example the minimisation equation is,
 \begin{equation}
 \left(\frac{c_{2k}\mathcal{R_{\rm 12k}}- c_{1k}}{\Delta\mathcal{R_{\rm 12k}}}\right)^2+
 \left(\frac{c_{3k}\mathcal{R_{\rm 13k}}- c_{1k}}{\Delta\mathcal{R_{\rm 13k}}}\right)^2+

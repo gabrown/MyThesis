@@ -1,18 +1,13 @@
 The study into dijet production with a jet veto is presented.
-The dijet topology is identified using two different selection criteria. First, is the two highest \pt{} jets in the event which is labeled in plots as ``Leading \pt{} Dijet Selection''. Second, is the most forward and most backwards jets in the event (above a given \pt{}) which is labeled in plots as ``Forward/backward selection''.
-
-The fraction of dijet events that do not have a third jet with \pt{}$>$\qz{} in the rapidity interval bounded by a dijet system, the gap fraction, is studied as a function of the dijet rapidity seperation, \dy{}, the average transverse momentum of the dijet, \ptb{} and the veto scale, \qz{}.
-The dependance of the gap fraction on \dy{}, \ptb{}, and \qz{} is studied after keeping two of the variables fixed.
-Additionally, the average number of jet within the dijet rapidity region is studied.
-
-These observables are compared for a dijet rapidity separation of upto 6 units in rapidity, and a \ptb{} 50--500 GeV.
-The data is compared to POWHEG with both the PYTHIA parton shower (POWHEG + PYTHIA) and the HERWIG parton shower (POWHEG + HERWIG) and also HEJ generator. 
-The data is also compared to PYTHIA, HERWIG++ and ALPGEN.
+These observables are compared for a dijet rapidity separation of up to 6 units in rapidity, and $50\le\ptb{}<500$.
+The data are compared to POWHEG with both the PYTHIA parton shower (POWHEG + PYTHIA) and the HERWIG parton shower (POWHEG + HERWIG), and also to the HEJ generator. 
+The data are also compared to PYTHIA, HERWIG++ and ALPGEN.
+A description of these genertors can be found in Section \ref{Theory:MC}.
 
 The topology and event selection are outlined in Section \ref{sec:GBJ1:AnalSel} and \ref{sec:GBJ1:EvtSel}, respectively. 
 In Section \ref{sec:GBJ1:DataStab}, the robustness of the event selection will be examined. 
 In Section \ref{sec:GBJ1:Uncorr}, the selected data will be compared to the simulated PYTHIA sample.
-Section \ref{sec:GBJ1:OtherWork} outlines the work done by other members of the analysis team that was required to get the final measurements, which are presented in Section \ref{sec:GBJ1:FinalPlots}. 
+Section \ref{sec:GBJ1:OtherWork} outlines the work done by other members of the analysis team that was required to get the final measurements, which are presented in Section \ref{sec:GBJ1:FinalPlots} and published in \cite{ref:ATLASGap}. 
 
 %-introduction to the analysis
 %   -define why we look at it

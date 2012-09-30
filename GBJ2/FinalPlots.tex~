@@ -52,18 +52,18 @@ POWHEG + HERWIG has too low a gap fraction at the low \qz{} region for all \dy{}
 POWHEG + PYTHIA gives the best description of the data, but still getting too low a gap fraction for $30<\qz{}<60$ for the lowest \dy{} range.
 
 
-%Figure \ref{GBJ2:FinalPlots:dphi_Incl} shows (a) the differential cross section as a function of \dphi{} for the three standard \dy{} slices for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
+%Figure \ref{GBJ2:FinalPlots:dphi_Incl} shows (a) the differential cross-section as a function of \dphi{} for the three standard \dy{} slices for the corrected data and the theoretical predictions, and (b) shows the ratio of the predictions to the data.
 %For the low \dy{} slice, all the theoretical predictions poorly match the data at low \dphi{}, but improve for larger \dphi{}.
 %HEJ does particularly well in the 4--5 \dy{} slice, agreeing with the data for all \dphi{}.
-%Both POWHEG + HERWIG and POWHEG + PYTHIA have a larger cross section for all but the largest two \dphi{} bins for the 4--5 \dy{} slice.
+%Both POWHEG + HERWIG and POWHEG + PYTHIA have a larger cross-section for all but the largest two \dphi{} bins for the 4--5 \dy{} slice.
 %In the 7--8 \dy{} slice, both POWHEG + HERWIG and POWHEG + PYTHIA agree with the data within the systematic uncertainty band, which is quite large in this slice.
-%HEJ how too low a cross section in the 7--8 \dy{} slice. 
+%HEJ how too low a cross-section in the 7--8 \dy{} slice. 
 
 Figure \ref{GBJ2:FinalPlots:Cos} shows the \mean{\cosdphi{}} as a function of \dy{} for (a) inclusive events and (c) gap events with the ratios of the theoretical predictions to the data in (b) and (d) respectively. 
 A \mean{\cosdphi{}} value of one corresponds to perfectly back-to-back in azimuth jets.
 The \mean{\cosdphi{}} distribution for the inclusive events shows a value of $ \mean{\cosdphi{}}\sim0.95$ for $\dy{}<3$.
 As the $\dy{}$ increase the jets become less back-to-back and the \mean{\cosdphi{}} falls.
-As the $\dy{}$ increase the available phase-space to emit into is larger due to the jet being at very high energies.
+As the $\dy{}$ increase the available phase space to emit into is larger due to the jet being at very high energies.
 For the gap events, the mean{\cosdphi{}} at low \dy{} starts at a similar level to the inclusive events, but then slowly rises.
 When the \dy{} is low, emissions can fall outside the rapidity region, but as the \dy{} increases this region becomes smaller, and the jet veto is stopping hard emission into the rapidity region.
 For the inclusive events, all three predictions undershoot the data for $3.5<\dy{}<6$.
@@ -156,7 +156,7 @@ For the azimuthal decorrelation observables, POWHEG + PYTHIA again agrees best w
 %              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CrossSection.Inclusive.DPhiBins.AlldY.Ratio.eps,width=0.5\textwidth}}\quad
 %                              }
 %\caption[]{
-%The differential cross section as a function of \dphi{} for inclusive events for the three standard \dy{} ranges.  
+%The differential cross-section as a function of \dphi{} for inclusive events for the three standard \dy{} ranges.  
 %The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against HEJ and POWHEG predictions.
 %The ratio of the theoretical predictions to the data is shown in (b).
 %\label{GBJ2:FinalPlots:dPhi_Incl}}
@@ -169,7 +169,7 @@ For the azimuthal decorrelation observables, POWHEG + PYTHIA again agrees best w
 %              \subfigure[]{\epsfig{figure=figures/GBJ2/FinalPlots/CrossSection.Gap.DPhiBins.AlldY.Ratio.eps,width=0.5\textwidth}}\quad
 %                              }
 %\caption[]{
-%The differential cross section as a function of \dphi{} for inclusive events for the three standard \dy{} ranges.  
+%The differential cross-section as a function of \dphi{} for inclusive events for the three standard \dy{} ranges.  
 %The 2010 corrected data (black points) is shown with statistical (black error bars) and systematic (yellow error band) error bands against HEJ and POWHEG predictions.
 %The ratio of the theoretical predictions to the data is shown in (b).
 %\label{GBJ2:FinalPlots:dPhi_Gap}}

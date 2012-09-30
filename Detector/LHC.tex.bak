@@ -11,24 +11,27 @@ Figure \ref{Det:LHC} shows the layout of the LHC, and the four experiments.
 \begin{figure}
 \centering
 \includegraphics[width=0.9\textwidth]{figures/Detector/AtlasSite.jpg}
-  \caption{The LHC and the sites of the 4 main LHC experiments.}
+  \caption[The Large Hadron Collider complex]{
+The Large Hadron Collider and the sites of the 4 main LHC experiments.
 \label{Det:LHC}
+}
 \end{figure}
 
 A series of accelerators provide proton bunches to the LHC at an energy of 450 GeV.
 The proton bunches are then accelerated around the LHC by an array of superconducting dipole magnets to provide a beam energy up to 7 TeV.
+The beam energy during the 2010 and 2011 proton-proton collisions was 3.5 TeV, in 2012 it was 4 TeV.
 
 
 \subsection{Luminosity}
 
-The event rate of a process X is
+The event rate for pp$\rightarrow$ X is
 \begin{equation}
 R_X = L \sigma_X,
 \label{Det:Lumi}
 \end{equation}
-where $\sigma_X$ is the cross section for the process and L is the luminosity.
-
-Achieving a large luminosity is important for observing physics processes that have a low cross-section, and an accurate luminosity determination is important for measuring differential cross-sections of processes from the event rate. 
+where $\sigma_X$ is the cross-section for the process and L is the luminosity.
+Achieving a large luminosity is important for observing rare physics processes that have a low cross-section. 
+Accurate luminosity determination is important for measuring differential cross-sections of processes from the event rate. 
 
 Luminosity is defined by,
 \begin{equation}
@@ -39,28 +42,14 @@ where $N_b$ is the number of particles per bunch, $n_b$ is the number of collidi
 
 
 Equation \ref{Det:Lumi} is useful to understand both the luminosity and how to increase it. 
-However, the beam current changes throughout a run, so the equation is not ideal to measure the luminosity during a run.
-*I am ot sure this is the only reason, it may also be due to the precision of the beam current measurement* 
-An alternative way of acquiring the instantaneous luminosity is to measure the interaction rate via various ATLAS detectors and correlate this to the luminosity. 
-The interaction rate is either the hit rate or the event rate for a given detector.
+Experimentally, the instantaneous luminosity can be determined by measuring the interaction rate in various ATLAS subdetectors.
 The luminosity defined by the interaction rate is,
 \begin{equation}
 L=\frac{\mu n_bf_{rev}}{\sigma_{inel}}=\frac{\mu_{vis}n_bf_{rev}}{\sigma_{vis}}
 \label{Det:Lumi2}
 \end{equation}
-where $\mu$ is the number of inelastic collisions per bunch crossing, $\sigma_{inel}$ is the inelastic cross-section, $\mu_{vis}$ is the number of visible inelastic collisions per bunch crossing, and $\sigma_{vis}$ is visible inelastic cross-section. 
-
-
-The calibration constant that associates the luminosity to the $\mu_{vis}$, which is measured using interaction rates, is $\sigma_{vis}$.
-One method of obtaining the calibration constant $\sigma_{vis}$, and thus the absolute luminosity, is using a van der Meer scan method.
-The method aims to measure the interaction rate when the two beams are perfectly aligned, while also measuring the beam currents.
-This is achieved by scanning one beam over the other in the x-y plane. 
-The interaction rate is fitted as a function of separation in x and y separately, and the maximum interaction rate is found at the peak of each fit. 
-The 2010 data luminosity calibrated by the van der Meer scan method has a luminosity uncertainty of 3.4\%.
-
-The amount of data that an experiment collects is expressed using the integrated luminosity, which is the integral over time of the luminosity.
-
-The luminosity determination at ATLAS is presented in \cite{ref:Lumi}.
+where $\mu$ is the number of inelastic collisions per bunch crossing, $\sigma_{inel}$ is the inelastic cross-section, $\mu_{vis}$ is the number of visible inelastic collisions per bunch crossing, and $\sigma_{vis}$ is a calibration constant related to the visible inelastic cross-section. 
+This is obtained in special runs using Van der Meer scans and provide a luminosity uncertainty of 3.4\% \cite{ref:Lumi}.
 
 \subsubsection{2010 run}
 The 7 TeV centre-of-mass proton-proton run in 2010 was the first substantial data-taking period provided by the LHC. 
@@ -69,14 +58,14 @@ By the end of the 2010 data-taking run the peak luminosity was \lumi{\sim2\times
 The luminosity increase was mainly achieved by increasing the number of colliding bunches per beam and the number of protons per bunch, though decreasing the $\beta^\star$ and reducing the beams crossing angle also increased the luminosity.
 
 The data is split into luminosity blocks, runs and periods.
-A luminosity block corresponds to the luminosity infomation stored in two minute during a run. 
-A data run is a group of luminosity blocks consecutavely taken. 
+A luminosity block corresponds to the luminosity information stored in two minute during a run. 
+A data run is a group of luminosity blocks consecutively taken. 
 A data period is a group of data runs with similar beam parameter conditions.
 
 The 2010 data taking run was split into nine different data periods, which corresponded to a total integrated luminosity delivered of 48.1 $\rm pb^{-1}$.
 Table \ref{Det:Periods} shows the data periods for the 2010 LHC run, and how the beam conditions and peak luminosity changed.  
 Additionally, periods G-I had used bunch trains where bunches were grouped together with 150 ns spacing between the bunches.  
-
+As luminosity increased, the level of ``pile-up'', which is multiple proton-proton interactions in the same bunch crossing, increased.
 
 \begin{table}
 \begin{center}

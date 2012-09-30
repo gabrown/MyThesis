@@ -19,7 +19,7 @@ For given values of $\eta^{left}$ and $\eta^{right}$, the relative response betw
 \mathcal{R_{\rm ijk}}= \frac{2-\mean{\mathcal{A_{\rm ijk}}}}{2+\mean{\mathcal{A_{\rm ijk}}}} = \frac{ c_{ik}^{left}}{ c_{jk}^{right}}
 \label{JetPerf:MM_Response_Measured}
 \end{equation}
-where i, j and k are label bins in  $\eta^{left}$, $\eta^{right}$ and $\ptave{}$ respectively, and $\mean{\mathcal{A}}$ is the mean \footnote{The asymmetry distribution is fitted with a Gaussian function between -0.7 and 0.7, and the value of the fit is taken as the mean, unless there are low statistics, then the average of the asymmetry value is taken} of the asymmetry distribution. 
+where i, j and k are label bins in  $\eta^{left}$, $\eta^{right}$ and $\ptave{}$ respectively, and $\mean{\mathcal{A}}$ is the mean \footnote{The asymmetry distribution is fitted with a Gaussian function between -0.7 and 0.7, and the value of the fit is taken as the mean, unless there are low statistics, then the average of the asymmetry is taken} of the asymmetry distribution. 
 
 
 For every k-th $\ptave{}$ bin, there exists $\sum\limits^N_{n=1}n$ relative responses, $\mathcal{R_{\rm ijk}}$, corresponding to different $\eta^{left}$ and $\eta^{right}$ bins (i,j).
@@ -31,14 +31,15 @@ The inverse of the variance on each measured relative response, $\Delta\mathcal{
 \end{equation}
 
 The first term in Equation \ref{JetPerf:MM_Final} is minimised to find the values of $c_{ik}$ that best agree with the measured $\mathcal{R_{\rm ijk}}$. 
-A trivial undesired solution is $c_i=0$, and second term in \ref{JetPerf:MM_Final} is added to prevent this.
+A trivial undesired solution is $c_i=0$. 
+The second term in \ref{JetPerf:MM_Final} is added to prevent this solution.
 The specific form is 
 \begin{equation}
 X(c_{ik})= K(N^{-1}_{bins} \sum\limits^{N_{bins}}_{i=1} c_{ik} - 1 )^2,
 \end{equation}
 where K is a constant.
 This term is a minimum when the average correction factor is equal to unity.
-The constant, K, is arbitrarily set to $10^6$, and its purpose is to penalise deviations of the average away from 1. 
+The constant, K, is set to $10^6$, and its purpose is to penalise deviations of the average away from 1. 
 For large values of K, the correction factors found are stable.
 Once the minimised $c_{ik}$ values are found, these values are re-scaled such that the correction factors at $|\eta|<1$ are equal to unity. 
 

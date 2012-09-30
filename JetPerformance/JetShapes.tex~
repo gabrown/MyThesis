@@ -14,10 +14,10 @@ In both plots the data are compared to PYTHIA using three different physics list
 The three physics lists used, QGSP, $\rm QGSP\_BERT$, and $\rm FTFP\_BERT$ are discussed in \cite{ref:HadModels}. 
 These lists define different aspects of modelling the interactions of hadrons with matter and are shown in Table \ref{JetPerf:Models}.
 
-The QGSP physics list contains the quark gluon string model, which is a phenomenological model describing the parton production arising from collisions between hadrons and nucleons, for high energy hadrons, and uses a low energy parameterisation model (LEP), which is based on extrapolating measured reaction cross-sections for the low energy hadrons.  
+The QGSP \cite{ref:QGSPNew} physics list contains the quark gluon string model, which is a phenomenological model describing the parton production arising from collisions between hadrons and nucleons, for high energy hadrons, and uses a low energy parameterisation model (LEP), which is based on extrapolating measured reaction cross-sections for the low energy hadrons.  
 The $\rm{QGSP\_BERT}$ physics list still uses QGSP at high hadronic energy, but only uses LEP at medium energies.
-For low energy hadrons, the Bertini nucleon-nucleon scattering model (BERT) is used. This is an alternative model for the low energy interaction of hadrons in  the nucleon medium.
-$\rm{FTFP\_BERT}$ uses the  Fritiof fragmentation model (FTF) to model the high energy interactions. 
+For low energy hadrons, the Bertini nucleon-nucleon scattering model (BERT) \cite{ref:BERTNew} is used. This is an alternative model for the low energy interaction of hadrons in  the nucleon medium.
+$\rm{FTFP\_BERT}$ uses the  Fritiof fragmentation model (FTF) \cite{ref:FTFNew} to model the high energy interactions. 
 In regions where there is overlap between the different models, there is linear interpolation between them.
 
 
