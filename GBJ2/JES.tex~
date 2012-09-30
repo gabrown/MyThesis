@@ -15,10 +15,10 @@ This will effect distributions that probe non-leading jets, such as gap fraction
 
 The JES uncertainty band for the gap fraction as a function of \dy{} is shown in Figure \ref{GBJ2:JES:gap_njets} (a), and is small for low \dy{}, but increases at larger \dy{}.
 The effect of shifting the JES up for the leading jets is to include dijet events that has a lower \ptb{}. 
-As seen in the previous analysis (Figure \ref{GBJ1:pTSelA}), dijets with lower \ptb{} have a higher gap fraction, and so the effecto of the upwards shift is to increase the gap fraction.
+As seen in the previous analysis (Figure \ref{GBJ1:pTSelA}), dijets with lower \ptb{} have a higher gap fraction, and so the effect of the upwards shift is to increase the gap fraction.
 Shifting the JES up of the non-leading jets increase the probability that there is a jet with $\pt{}>Q_0$ in the rapidity region, and so decreases the gap fraction. 
 At low \dy{} the the effect is small and the two effects cancel.
-At higher \dy{} the leading jets are more likely to be at high rapidiies where the JES uncertainty is higher, the effects no longer cancel and the gap fraction increases.
+At higher \dy{} the leading jets are more likely to be at a higher rapidity where the JES uncertainty is higher, the effects no longer cancel and the gap fraction increases.
 Figure \ref{GBJ2:JES:gap_njets} (b) shows the JES uncertainty band for the average number of jets in the rapidity region and the overall uncertainty is approximately flat at $\pm 10 \%$.
 
 
@@ -36,7 +36,7 @@ The JES uncertainty affects the inclusive events more than the gap events in bot
 The maximum effect of the JES uncertainty on the \mean{\cosdphi{}} is around $1\%$ for the inclusive events, and less than $0.5\%$ for the gap events.
 For the \mean{\costwodphi{}} the effect from the JES uncertainty is around $3\%$ for the inclusive events, and less than $0.5\%$ for the gap events. 
 The shape of the inclusive JES uncertainties for \mean{\cosdphi{}} and \mean{\costwodphi{}} can be understood from \dphiDist{} for the JES smeared up and JES smeared down. 
-When the JES is smeared up in \dphiDist{} , for the low \dy{} slices the shape does not change very much.
+When the JES is smeared up in \dphiDist{}, for the low \dy{} slices the shape does not change very much.
 However, in the larger \dy{} slices the distribution now has more low \dphi{} dijets.
 The effect of this on the \mean{\cosdphi{}} and \mean{\costwodphi{}} is that at low \dy{} there should be little change, but at large \dy{} the change should be larger.
 

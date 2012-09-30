@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.11.4)  30 SEP 2012 18:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.11.4)  30 SEP 2012 20:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -4849,7 +4849,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4624 strings out of 493633
  103653 string characters out of 3143377
- 128361 words of memory out of 3000000
+ 128356 words of memory out of 3000000
  7630 multiletter control sequences out of 15000+200000
  16999 words of font info for 61 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -4873,7 +4873,7 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2011/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2011/texmf-dist/fo
 nts/type1/urw/palatino/uplb8a.pfb>
-Output written on gabrown-thesis.pdf (154 pages, 23062979 bytes).
+Output written on gabrown-thesis.pdf (154 pages, 23064543 bytes).
 PDF statistics:
  2275 PDF objects out of 2487 (max. 8388607)
  1535 compressed objects within 16 object streams

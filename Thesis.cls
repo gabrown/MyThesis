@@ -149,7 +149,7 @@ November 2012\\
   \newpage
   \tableofcontents
   \begin{center}
-    {\it Total word count: not yet set}
+    {\it Total word count: 20718}
   \end{center}
   \newpage
   \iftablespage
