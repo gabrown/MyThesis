@@ -4,7 +4,7 @@ The \pt{} balance of dijets events can be used to construct a correction factor 
 In this section it is used as a cross-check of JES uncertainty components from pileup.
 This is done by calculating the relative response for events with different levels of pileup.
 
-Two estimators of the amount of pileup used are the number of pileup vertices, NPV, and the mean number of interactions per bunch crossing, $\mu$.
+Two estimators of the amount of pileup used are the number of primary vertices, NPV, and the mean number of interactions per bunch crossing, $\mu$.
 Figure \ref{JetPerf:NPV_Mu} shows (a) the NPV distribution and (b) the $\mu$ distributions.
 These NPV and $\mu$ cuts are chosen to select events with different amount of pileup.
 For the NPV cuts, three slices are chosen so that each has good statistics, but also has differences in the average NPV per slice.
@@ -36,7 +36,7 @@ Naively, it might be expected that the jets in the lower pileup conditions shoul
 
 
 Figures \ref{JetPerf:MuComp_j10}, \ref{JetPerf:MuComp_j15} and \ref{JetPerf:MuComp_j20}  show the relative response as a function of detector $\eta$ for jets with $22<\ptave{}<30$ GeV, $30<\ptave{}<40$ GeV and $55<\ptave{}<75$ GeV respectively for different $\mu$ ranges.
-For the $22<\ptave{}<30$ GeV jets, the spread  is $\sim 3\%$ for $-2.8\ge\eta\ge-2$ range, but for most bins it is within $ 1-2\%$.
+For the $22<\ptave{}<30$ GeV jets, the spread  is $\sim 3\%$ for $-2.8\le\eta\le-2$ range, but for most bins it is within $ 1-2\%$.
 In most of the bins the low pileup sample has a responses slightly higher than the response from the high pileup samples.
 For the $30<\ptave{}<40$ GeV jets, the relative responses are closer to unity than for the lower \ptave{} jets.
 The spread is consistent $2\%$ with approximately equal number of bins where the low pileup sample is above the high pileup sample, than the reverse.
@@ -54,7 +54,7 @@ These spreads of values for the relative response show agreement to the JES unce
               \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/NPVDist.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/MuDist.eps,width=0.5\textwidth}}\quad
                               }
-\caption[]{
+\caption[Number of primary vertices and \mu{} for 2011 data]{
 (a) The NPV distribution and (b) the $\mu$ distribution for 2011 data.
 \label{JetPerf:NPV_Mu}}
 \end{figure}
@@ -66,7 +66,7 @@ These spreads of values for the relative response show agreement to the JES unce
 \mbox{
               \epsfig{figure=figures/JetPerformance/2011/ResponseNPVj10Comp.eps,width=0.9\textwidth}
 }
-\caption[]{
+\caption[Relative response as a function of $\eta$ for 3 different pileup conditions, based on NPV, for jets with $22<\ptave{}<30$ GeV]{
 Relative response as a function of detector $\eta$ for jets with $22<\ptave{}<30$ GeV.
 Relative responses are shown for events with \Range{NPV}{0}{2}, \Range{NPV}{3}{6}, $\rm NPV\ge7$ and all NPV. 
 \label{JetPerf:PileupComp_j10}}
@@ -80,7 +80,7 @@ Relative responses are shown for events with \Range{NPV}{0}{2}, \Range{NPV}{3}{6
               \epsfig{figure=figures/JetPerformance/2011/ResponseNPVj15Comp.eps,width=0.9\textwidth}
               %\includegraphics[width=0.8\textwidth]{figures/JetPerformance/2011/Pileup/PileupComp_AntiKt4TopoEM_j15_30-40Uncorrected.pdf}
 }
-\caption[]{
+\caption[Relative response as a function of $\eta$ for 3 different pileup conditions, based on NPV, for jets with $30<\ptave{}<40$ GeV]{
 Relative response as a function of detector $\eta$ for jets with $30<\ptave{}<40$ GeV.
 Relative responses are shown for events with \Range{NPV}{0}{2}, \Range{NPV}{3}{6}, $\rm NPV\ge7$ and all NPV. 
 \label{JetPerf:PileupComp_j15}}
@@ -92,7 +92,7 @@ Relative responses are shown for events with \Range{NPV}{0}{2}, \Range{NPV}{3}{6
               \epsfig{figure=figures/JetPerformance/2011/ResponseNPVj30Comp.eps,width=0.9\textwidth}
               %\includegraphics[width=0.8\textwidth]{figures/JetPerformance/2011/Pileup/PileupComp_AntiKt4TopoEM_j20_40-55Uncorrected.pdf}
 }
-\caption[]{
+\caption[Relative response as a function of $\eta$ for 3 different pileup conditions, based on NPV, for jets with $55<\ptave{}<75$ GeV]{
 Relative response as a function of detector $\eta$ for jets with $55<\ptave{}<75$ GeV.
 Relative responses are shown for events with \Range{NPV}{0}{2}, \Range{NPV}{3}{6}, $\rm NPV\ge7$ and all NPV. 
 \label{JetPerf:PileupComp_j20}}
@@ -104,7 +104,7 @@ Relative responses are shown for events with \Range{NPV}{0}{2}, \Range{NPV}{3}{6
               \epsfig{figure=figures/JetPerformance/2011/Responsemuj10Comp.eps,width=0.9\textwidth}
               %\includegraphics[width=0.8\textwidth]{figures/JetPerformance/2011/Pileup/MuComp_AntiKt4TopoEM_j10_22-30Uncorrected.pdf}
 }
-\caption[]{
+\caption[Relative response as a function of $\eta$ for 2 different pileup conditions, based on \mu{}, for jets with $22<\ptave{}<30$ GeV]{
 Relative response as a function of detector $\eta$ for jets with $22<\ptave{}<30$ GeV.
 Relative responses are shown for events with \Range{\mu}{0}{6}, $\rm \mu\ge6$ and all $\mu$. 
 \label{JetPerf:MuComp_j10}}
@@ -118,7 +118,7 @@ Relative responses are shown for events with \Range{\mu}{0}{6}, $\rm \mu\ge6$ an
               \epsfig{figure=figures/JetPerformance/2011/Responsemuj15Comp.eps,width=0.9\textwidth}
               %\includegraphics[width=0.8\textwidth]{figures/JetPerformance/2011/Pileup/MuComp_AntiKt4TopoEM_j15_30-40Uncorrected.pdf}
 }
-\caption[]{
+\caption[Relative response as a function of $\eta$ for 2 different pileup conditions, based on \mu{}, for jets with $30<\ptave{}<40$ GeV]{
 Relative response as a function of detector $\eta$ for jets with $30<\ptave{}<40$ GeV.
 Relative responses are shown for events with \Range{\mu}{0}{6}, $\rm \mu\ge6$ and all $\mu$. 
 \label{JetPerf:MuComp_j15}}
@@ -130,7 +130,7 @@ Relative responses are shown for events with \Range{\mu}{0}{6}, $\rm \mu\ge6$ an
               \epsfig{figure=figures/JetPerformance/2011/Responsemuj30Comp.eps,width=0.9\textwidth}
               %\includegraphics[width=0.8\textwidth]{figures/JetPerformance/2011/Pileup/MuComp_AntiKt4TopoEM_j20_40-55Uncorrected.pdf}
 }
-\caption[]{
+\caption[Relative response as a function of $\eta$ for 2 different pileup conditions, based on \mu{}, for jets with $55<\ptave{}<75$ GeV]{
 Relative response as a function of detector $\eta$ for jets with $55<\ptave{}<75$ GeV.
 Relative responses are shown for events with \Range{\mu}{0}{6}, $\rm \mu\ge6$ and all $\mu$. 
 \label{JetPerf:MuComp_j20}}

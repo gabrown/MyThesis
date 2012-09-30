@@ -28,7 +28,10 @@ This resulted in the cell being masked.
 \mbox{
    \includegraphics[width=0.9\textwidth]{figures/ServiceWork/Cells_HotSpot.pdf}
 }
-\caption[Offline egamma \et{} verses L2/EF egamma \et{}]{Average \et{} per $\eta \phi$ bin in run 201191. A clear hot region is observed at $\eta=2.5$ $\phi=1$. \label{SW_hotspot}}
+\caption[Average \et{} for HLT calorimeter cells]{
+Average \et{} per $\eta \phi$ bin in run 201191. 
+A clear hot region is observed at $\eta=2.5$ $\phi=1$. 
+\label{SW_hotspot}}
 \end{figure}
 
 

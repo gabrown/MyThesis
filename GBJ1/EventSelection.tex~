@@ -4,7 +4,7 @@
 
 The analysis was performed on  pp collision data with a centre-of-mass energy of 7 TeV recorded between April and October 2010 using the ATLAS detector. 
 Data was only used if it was collected during stable beam conditions and there was good data quality. 
-The data quality was assessed by checking that all the parts of the detector and trigger were performing normally, and the physics objects (for instance jets and muons) were being correctly reconstructed. 
+The data quality was assessed by the ATLAS performance working groups by checking that all the parts of the detector and trigger were performing normally, and the physics objects (for instance jets and muons) were being correctly reconstructed. 
 This is achieved by the application of a ``good runs list'' (GRL) which is a list of runs and the luminosity blocks in which the data quality and beam conditions have been declared adequite by the relevant peformance groups.
 
 
@@ -36,9 +36,8 @@ Table \ref{tab:trig_strat} shows the trigger requirement for different $\bar{p_T
 210 - 7000  & $\rm L1\_J95$ & $\rm EF\_L1J95\_NoAlg$  & $\rm EF\_L1J95\_NoAlg$ \\
   \hline                       
 \end{tabular}
-\caption[Jet trigger strategy]{
-L1 and L2 jet triggers used to select events. 
-Jet triggers are shown for different $\bar{p_T}$ regions and data periods. 
+\caption[Trigger strategy using jet triggers]{
+L1 and L2 jet triggers used to select events are shown for different the differ dijet $\bar{p_T}$ regions and data periods. 
 \label{tab:trig_strat}}
 \end{table}%
 

@@ -7,8 +7,11 @@ The tracking detectors have to be able to deal with the high track multiplicity 
 \begin{figure}  
 \centering  
 \includegraphics[width=0.9\textwidth]{figures/Detector/AtlasID.jpg}
-  \caption{ATLAS Inner Detector.}
-\label{Det:ATLASID}
+\caption[The ATLAS Inner Detector]{
+A schematic of the ATLAS Inner Detector.
+Figure from \cite{ref:ATLASExp}.
+  \label{Det:ATLASID}
+}
 \end{figure}
 
 Figure \ref{Det:ATLASID} shows the different components of the ATLAS inner detector that will be discussed. 

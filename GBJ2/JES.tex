@@ -1,6 +1,6 @@
 \subsection{Jet Energy Scale Uncertainty}
 
-The effect of the uncertainty in the JES, explained in Section \ref{sec:Det:Jets}, is studied using the rapidity weighted PYTHIA samples.
+The effect of the uncertainty in the JES, explained in Section \ref{sec:Det:Jets}, is studied using the reconstructed PYTHIA samples.
 Each jet, which is at the central value of the JES by default, is shifted up and down by $1 \sigma$ of the uncertainty of the JES.
 The events are then passed through the event selection and three sets of the final distributions are made corresponding to nominal JES,  JES shifted up and JES shift down.
 The JES uncertainty band was found by taking the ratio of the shifted distribution (both up and down) to the nominal distribution.
@@ -10,7 +10,7 @@ Figures \ref{GBJ2:JES:gap_njets} - \ref{GBJ2:JES:Q0} show the JES uncertainty ba
 The JES uncertainty shifting has two main effects that will apply differently in different distributions, one shifting the leading jet energy, and the other shifting the non-leading jets.
 The shift in the leading jets energy has the effect of moving events across the \pt{} cuts at 60 GeV and 50 GeV.
 This results in more events for JES shifted up and less events for JES shifted down. 
-Shifting the non-leading jets has the main effect is on the highest \pt{} jet in the rapidity region bounded by the dijet. 
+The effect of shifting the non-leading jets is mainly due to the shift in \pt{} of the highest \pt{} jet in the rapidity region bounded by the dijet. 
 This will effect distributions that probe non-leading jets, such as gap fraction or average number of jets. 
 
 The JES uncertainty band for the gap fraction as a function of \dy{} is shown in Figure \ref{GBJ2:JES:gap_njets} (a), and is small for low \dy{}, but increases at larger \dy{}.
@@ -38,14 +38,14 @@ For the \mean{\costwodphi{}} the effect from the JES uncertainty is around $3\%$
 The shape of the inclusive JES uncertainties for \mean{\cosdphi{}} and \mean{\costwodphi{}} can be understood from \dphiDist{} for the JES smeared up and JES smeared down. 
 When the JES is smeared up in \dphiDist{} , for the low \dy{} slices the shape does not change very much.
 However, in the larger \dy{} slices the distribution now has more low \dphi{} dijets.
-The effect of this on the \mean{\cosdphi{}} and \mean{\costwodphi{}} is that at low \dy{} there should be little change, but at large \dy{} the change in \dphi{} is larger, and so the effect on \dy{} should be greater. 
+The effect of this on the \mean{\cosdphi{}} and \mean{\costwodphi{}} is that at low \dy{} there should be little change, but at large \dy{} the change should be larger.
 
 
 Figure \ref{GBJ2:JES:Q0} shows the JES uncertainty bands for the gap fraction as a function of the jet veto scale, \qz{}, for (a) $2<\dy{}<3$, (b) $4<\dy{}<5$, and (c) $7<\dy{}<8$.
 The uncertainty bands increase for larger \dy{}.
 The maximum uncertainty for the $2<\dy{}<3$,  $4<\dy{}<5$, and  $7<\dy{}<8$ slices is $~3\%$, $~6\%$ and $~10\%$, respectively.
 The uncertainty bands are largest at low \qz{} and reduce to zero for larger \qz{}.
-At large values of \qz{} the gap fraction will be 1, and there are few jets with \pt{} close to \qz{}, and so the shifted third jet is unlikely to go above the \qz{} and change the gap fraction.
+At large values of \qz{} the gap fraction is 1, and there are few jets with \pt{} close to \qz{}, and so the shifted third jet is unlikely to go above the \qz{} and change the gap fraction.
 Conversely, at low \qz{} the gap fraction will not be 1, and there will be many jets with a \pt{} near the \qz{} cut, thus the shifted third jet \pt{}  can move across \qz{} changing the gap fraction.
 
 
@@ -55,7 +55,7 @@ Conversely, at low \qz{} the gap fraction will not be 1, and there will be many 
               \subfigure[]{\epsfig{figure=figures/GBJ2/JES/Smeared__GapFraction_deltaY.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ2/JES/Smeared__prof_deltaY_njets.eps,width=0.5\textwidth}}\quad
                               }
-\caption[]{
+\caption[Uncertainty bands due to the JES uncertainty for gap fraction and mean number of jets]{
 The uncertainty on the (a) gap fraction and (b) mean number of jets in the rapidity interval due to the JES uncertainty as a function of dijet rapidity separation. 
 \label{GBJ2:JES:gap_njets}}
 \end{figure}
@@ -68,9 +68,9 @@ The uncertainty on the (a) gap fraction and (b) mean number of jets in the rapid
               \subfigure[]{\epsfig{figure=figures/GBJ2/JES/Smeared__dPhi__7_8.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ2/JES/Smeared__dPhi_gap__7_8.eps,width=0.5\textwidth}}\quad
                               }
-\caption[]{
+\caption[Uncertainty bands due to the JES uncertainty for \dphiDist{}]{
 The uncertainty on \dphiDist{} due to the JES uncertainty for (a) inclusive events and (b) gap events. 
-Three dijets rapidity separation slices are shown, 2--3 in black, 4--5 in red and 7--8 in green.
+Three dijets rapidity separation slices are shown, $2<\dy{}<3$ in black, $4<\dy{}<5$ in red and $7<\dy{}<8$ in green.
 \label{GBJ2:JES:dPhi}}
 \end{figure}
 
@@ -81,7 +81,7 @@ Three dijets rapidity separation slices are shown, 2--3 in black, 4--5 in red an
               \subfigure[]{\epsfig{figure=figures/GBJ2/JES/Smeared__cosdPhi_deltaY_gap.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/GBJ2/JES/Smeared__cos2dPhi_deltaY_gap.eps,width=0.5\textwidth}}\quad
                               }
-\caption[]{
+\caption[Uncertainty bands due to the JES uncertainty for \mean{\cosdphi{}} and  \mean{\costwodphi{}}]{
 The uncertainty on (a) \mean{\cosdphi{}} and (b) \mean{\costwodphi{}} distributions due to the JES uncertainty as a function of dijet rapidity separation.
 The gap events are plotted in red and the inclusive events in black.
 \label{GBJ2:JES:cos}}
@@ -100,7 +100,7 @@ The gap events are plotted in red and the inclusive events in black.
 
               \subfigure[]{\epsfig{figure=figures/GBJ2/JES/Smeared7_8__Q0.eps,width=0.5\textwidth}}\quad
                               }
-\caption[]{
-The uncertainty on the gap fraction due to the JES uncertainty as a function of \qz{} for dijet rapidity separation (a) 2--3, (b) 4--5, and (c) 7--8.
+\caption[Uncertainty bands due to the JES uncertainty for gap fraction as a function of \qz{}]{
+The uncertainty on the gap fraction due to the JES uncertainty as a function of \qz{} for dijet rapidity separation (a) $2<\dy{}<3$, (b) $4<\dy{}<5$, and (c) $7<\dy{}<8$.
 \label{GBJ2:JES:Q0}}
 \end{figure}

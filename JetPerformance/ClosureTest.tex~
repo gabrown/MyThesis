@@ -1,8 +1,8 @@
-In 2010, the dijet \pt{} balance was not used to recalibrate the jets, but was used to assess the uncertainty on the JES calibration factors.
+In 2010, the dijet \pt{} balance method was not used to recalibrate the jets, but was used to assess the uncertainty on the JES calibration factors.
 However, the relative jet response, \cite{ref:EtaInter2010}, shows a difference in the forward region for MC and data.
-The difference between the data and MC jet responses could either originate from physics or detector effects described in Section \ref{sec:Det:Jets}. 
+The difference between the data and MC jet responses could either originate from physics or the detector effects described in Section \ref{sec:Det:Jets}. 
 Until the source of the differences is determined, these relative response factors should not be used to calibrate the jets for physics analysis.
-However, they are used to test the closure of the calibration and to see if it fixes the difference between data and MC.
+However, they are used to test the closure of the calibration and to see the difference between data and MC can be resolved.
 
 Using the ratio of the relative response factors from the MC and the data, the residual correction, 
 
@@ -13,16 +13,16 @@ Using the ratio of the relative response factors from the MC and the data, the r
 is calculated, where $\frac{1}{\rm{c_{MC}}}$ and $\frac{1}{\rm{c_{Data}}}$ are the relative response factors for MC and data respectively. 
 
 
-Figure \ref{JetPerf:EtaData} shows the jet $\eta$ distribution for (a) \pt{}$>30$ GeV from the Min Bias trigger and (b) \pt{}$>50$ from the calorimeter trigger stream. 
-The in-situ calibrated data has a much better agreement with the MC than the regular data does in both plots. 
-There are still differences in the forward region, but overall the differences are smaller than ten percent.
+Figure \ref{JetPerf:EtaData} shows the jet $\eta$ distribution for (a) \pt{}$>30$ GeV from the Min Bias trigger and (b) \pt{}$>50$ GeV from the calorimeter trigger stream. 
+The in-situ calibrated data has a much better agreement with the MC than the uncorrected data in both plots. 
+There are still differences in the forward region, but overall the differences are smaller than $10\%$.
 
-Figure \ref{JetPerf:E_PtData} is the jet (a) \pt{}  and  (b) energy distributions  for jets in the region \etaRange{3.2}{4.5}  for \pt{}$>20$ GeV. 
-The energy distribution shows improvements in agreement between the MC after the data is calibrated.
+Figure \ref{JetPerf:E_PtData} shows (a) the jet energy  and  (b) the \pt{} distributions  for jets in the region \etaRange{3.2}{4.5}  for \pt{}$>20$ GeV. 
+The energy distribution shows improvements in agreement between the MC after the data has been calibrated.
 The \pt{} distribution shows smaller differences for the in-situ calibrated data.
 
-These results show that calibration bring the data closer to the MC, which gives confidence to the method and results.
-This confidence resulted in the decision to uses the dijet \pt{} balance method to calibrate the jets in the 2011 sample. 
+These results show that calibration brings the data into  closer agreement with the MC, giving confidence to the method and the results.
+This confidence resulted in the decision to use the dijet \pt{} balance method to calibrate the jets in the 2011 sample. 
 These plots were published in an ATLAS conference note \cite{ref:EtaInter2010}.
 
 
@@ -32,8 +32,8 @@ These plots were published in an ATLAS conference note \cite{ref:EtaInter2010}.
               \subfigure[]{\epsfig{figure=figures/JetPerformance/EtaDist30GeV.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/JetPerformance/EtaDist50GeV.eps,width=0.5\textwidth}}\quad
 }
-\caption[]{
-$\eta$ distribution for jets with (a) \pt{}$>30$ GeV from the Min Bias trigger and (b) \pt{}$>50$ from the calorimeter trigger stream. 
+\caption[Effect of additional calibration on the jet $\eta$ distribution]{
+$\eta$ distribution for jets with (a) \pt{}$>30$ GeV from the Min Bias trigger and (b) \pt{}$>50$ GeV from the calorimeter trigger stream. 
 Uncorrected data (open black circles) and corrected data (red circles) are shown along with the reference MC. 
 \label{JetPerf:EtaData}}
 \end{figure}
@@ -44,12 +44,9 @@ Uncorrected data (open black circles) and corrected data (red circles) are shown
               \subfigure[]{\epsfig{figure=figures/JetPerformance/EDist.eps,width=0.5\textwidth}}\quad
               \subfigure[]{\epsfig{figure=figures/JetPerformance/PtDist.eps,width=0.5\textwidth}}\quad
 }
-\caption[]{
+\caption[Effect of additional calibration on the jet energy and \pt{} distributions for jets in the FCal]{
 (a) Jet energy and (b) jet \pt{} for the region \etaRange{3.2}{4.5}.
 Uncorrected data (open black circles) and corrected data (red circles) are shown along with the reference MC. 
 \label{JetPerf:E_PtData}}
 \end{figure}
-
-
-
 

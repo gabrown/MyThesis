@@ -11,7 +11,7 @@ The amount of material, in radiation lengths, is shown in Figure \ref{Det:RadLeg
 \begin{figure}
   \centering
   \includegraphics[width=0.9\textwidth]{figures/Detector/AtlasCalorimeter.jpg}
-\caption[ATLAS calorimeter system]{
+\caption[The ATLAS Calorimeter System]{
 Schematic of the ATLAS calorimeter system.
 Figure from \cite{ref:ATLASExp}.
 \label{Det:ATLASCalo}
@@ -21,7 +21,7 @@ Figure from \cite{ref:ATLASExp}.
 \begin{figure}
   \centering
   \includegraphics[width=0.9\textwidth]{figures/Detector/CalorimeterRadLegnths.eps}
-  \caption[Radiation Lengths of Calorimeter Sub-detectors ]{
+  \caption[Radiation Lengths of the Calorimeter Sub-detectors ]{
 Amount of material, in interaction lengths, in front of the different calorimeters.
 The electromagnetic calorimeter is labelled ``EM calo'', the hadronic calorimeter is segmented into ``Tile'' and ``HEC'' layers, and the forward calorimeters is segmented with labels ``FCal''.
 The final layer shown outermost for $|\eta|<3$ is the muon spectrometer.

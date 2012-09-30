@@ -1,6 +1,6 @@
 \subsubsection{Standard Method for Dijet Balance}
 
-In the standard method, one of the jets is required to be in a reference region where the jet is well calibrated and understood.
+In the standard \pt{} balance method, one of the jets is required to be in a reference region where the jet is well calibrated and understood.
 This jet is defined as the ``reference'' jet.
 The other jet is the ``probe'' jet, and is used to probe the regions outside the reference region.
 

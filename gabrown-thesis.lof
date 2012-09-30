@@ -1,21 +1,21 @@
 \select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The fundamental particles in the SM}}{17}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces }}{20}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The fundamental particles in the Standard Model}}{17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of a hadron-hadron interaction}}{20}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Jets at parton, particle and calorimeter levels}}{21}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces }}{22}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces }}{24}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces LO Feynmann diagrams for dijet production}}{22}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the different effects on the gap fraction for a range of phase space }}{24}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The LHC and the sites of the 4 main LHC experiments.}}{30}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The Large Hadron Collider complex}}{30}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces The ATLAS Detector}}{33}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces ATLAS Inner Detector.}}{35}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces ATLAS calorimeter system}}{36}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Radiation Lengths of Calorimeter Sub-detectors }}{37}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces }}{45}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Example JES Uncertainty}}{46}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The ATLAS Inner Detector}}{35}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The ATLAS Calorimeter System}}{36}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Radiation Lengths of the Calorimeter Sub-detectors }}{37}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Jet response for different regions of the ATLAS calorimeter}}{45}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces JES Uncertainty}}{46}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Offline EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{} verses L2/EF EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{51}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Average \unhbox \voidb@x \hbox {$E_{\rm t}$}{} for HLT calorimeter cells}}{51}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces \unhbox \voidb@x \hbox {$\Delta {\rm R}$}{} between offline and L2 EM object}}{52}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}
@@ -31,7 +31,7 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Offline EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{} versus L2/EF EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{55}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Offline EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{} versus L2/EF EM \unhbox \voidb@x \hbox {$E_{\rm t}$}{}}}{56}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Mean EF EM cluster \unhbox \voidb@x \hbox {$E_{\rm t}$}{} resolution as a function of run number}}{56}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces \unhbox \voidb@x \hbox {$\Delta {\rm R}$}{} between offline and L2 jets}}{58}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{58}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{58}
@@ -48,202 +48,202 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{60}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{60}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces }}{69}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example asymmetry distribution for jets with $30<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<40$ GeV}}{69}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{69}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces }}{70}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example asymmetry distribution for jets with $55<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<75$ GeV}}{70}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{70}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{70}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces }}{70}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces }}{71}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces }}{71}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces }}{73}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The response matrix for jets with $30<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<40$ GeV}}{70}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The response matrix for jets with $55<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<75$ GeV}}{71}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Relative response as a function of $\eta $}}{71}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Number of primary vertices and $\mu {}$ for 2011 data}}{73}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{73}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{73}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces }}{74}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces }}{74}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces }}{75}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces }}{75}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces }}{76}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces }}{76}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces }}{78}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Relative response as a function of $\eta $ for 3 different pileup conditions, based on NPV, for jets with $22<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<30$ GeV}}{74}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Relative response as a function of $\eta $ for 3 different pileup conditions, based on NPV, for jets with $30<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<40$ GeV}}{74}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Relative response as a function of $\eta $ for 3 different pileup conditions, based on NPV, for jets with $55<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<75$ GeV}}{75}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Relative response as a function of $\eta $ for 2 different pileup conditions, based on $\mu {}$, for jets with $22<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<30$ GeV}}{75}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Relative response as a function of $\eta $ for 2 different pileup conditions, based on $\mu {}$, for jets with $30<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<40$ GeV}}{76}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Relative response as a function of $\eta $ for 2 different pileup conditions, based on $\mu {}$, for jets with $55<\unhbox \voidb@x \hbox {$\unhbox \voidb@x \hbox {$p_{\rm T}$}{}^{ave}$}{}<75$ GeV}}{76}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Effect of additional calibration on the jet $\eta $ distribution}}{78}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{78}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{78}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces }}{78}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Effect of additional calibration on the jet energy and \unhbox \voidb@x \hbox {$p_{\rm T}$}{} distributions for jets in the FCal}}{78}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{78}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{78}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces }}{80}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Comparison of jet widths and EMF for data compared to PYTHIA with various physics lists}}{80}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{80}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{80}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison between data and PYTHIA sample in the inclusive distribution for $\Delta y$}}{86}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of the inclusive distribution verses \unhbox \voidb@x \hbox {$\Delta y$}{} between the data and the reconstructed PYTHIA sample for the leading \unhbox \voidb@x \hbox {$p_{\rm T}$}{} dijet selection}}{86}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{86}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{86}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{86}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison between data and PYTHIA sample for Pt3 distribution}}{87}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of $p_T^{veto}$ distribution between the data and the reconstructed PYTHIA sample }}{87}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{87}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{87}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of gap fraction between data and PYTHIA sample for $\Delta y$}}{87}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of gap fraction verses \unhbox \voidb@x \hbox {$\Delta y$}{} and \unhbox \voidb@x \hbox {$\overline {p_{\rm T}}$}{} between the data and the reconstructed PYTHIA sample for leading \unhbox \voidb@x \hbox {$p_{\rm T}$}{} dijet selection}}{87}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{87}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{87}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Effect of jet cleaning on the inclusive distribution for $\mathaccentV {bar}016{p_T}$}}{89}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{89}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{89}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Effect of jet cleaning on the gap fraction for $\mathaccentV {bar}016{p_T}$}}{90}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Effect of jet cleaning on the inclusive distribution in \unhbox \voidb@x \hbox {$\Delta y$}{}}}{90}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{90}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{90}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Effect of jet cleaning on the gap fraction for $\Delta y$}}{90}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Effect of jet cleaning on the gap fraction verses \unhbox \voidb@x \hbox {$\overline {p_{\rm T}}$}{}}}{90}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{90}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{90}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Average gap fraction vs period for $60<\mathaccentV {bar}016{p_T}<70$}}{93}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Effect of jet cleaning on the gap fraction verses \unhbox \voidb@x \hbox {$\Delta y$}{}}}{91}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{91}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{91}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Average gap fraction verses period for $60<\unhbox \voidb@x \hbox {$\overline {p_{\rm T}}$}{}<70$ GeV}}{93}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{93}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{93}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{93}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Average gap fraction vs period for $90<\mathaccentV {bar}016{p_T}<120$}}{94}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Average gap fraction verses period for $90<\unhbox \voidb@x \hbox {$\overline {p_{\rm T}}$}{}<120$ GeV}}{94}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{94}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{94}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{94}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Average gap fraction vs period for $150<\mathaccentV {bar}016{p_T}<180$}}{95}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Average gap fraction verses period for $150<\unhbox \voidb@x \hbox {$\overline {p_{\rm T}}$}{}<180$ GeV}}{95}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{95}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{95}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{95}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Gap fraction as a function of $\Delta y$ for leading $p_T$ dijet selection}}{101}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Gap fraction as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for the leading \unhbox \voidb@x \hbox {$p_{\rm T}$}{} dijet selection}}{101}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{101}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{101}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Gap fraction as a function of $\mathaccentV {bar}016{p_T}$ for leading $p_T$ dijet selection}}{102}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Gap fraction as a function of \unhbox \voidb@x \hbox {$\overline {p_{\rm T}}$}{} for leading \unhbox \voidb@x \hbox {$p_{\rm T}$}{} dijet selection}}{102}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{102}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{102}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Gap fraction as a function of $Q_0$ for leading $p_T$ dijet selection}}{103}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Gap fraction as a function of \unhbox \voidb@x \hbox {$Q_0$}{} for leading \unhbox \voidb@x \hbox {$p_{\rm T}$}{} dijet selection}}{103}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{103}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{103}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Mean number of jets as a function of $\Delta y$ for leading $p_T$ dijet selection}}{104}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Mean number of jets as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for leading \unhbox \voidb@x \hbox {$p_{\rm T}$}{} dijet selection}}{104}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{104}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{104}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Mean number of jets as a function of $\mathaccentV {bar}016{p_T}$ for leading $p_T$ dijet selection}}{105}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Mean number of jets as a function of \unhbox \voidb@x \hbox {$\overline {p_{\rm T}}$}{} for leading $p_T$ dijet selection}}{105}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{105}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{105}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Gap fraction as a function of $\Delta y$ for forward backward selection}}{106}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Gap fraction as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for forward backward selection}}{106}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{106}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{106}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Gap fraction as a function of $\mathaccentV {bar}016{p_T}$ for forward backward selection}}{107}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Gap fraction as a function of \unhbox \voidb@x \hbox {$\overline {p_{\rm T}}$}{} for forward backward selection}}{107}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{107}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{107}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Gap fraction as a function of $Q_0$ for forward backward selection}}{108}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Gap fraction as a function of \unhbox \voidb@x \hbox {$Q_0$}{} for forward backward selection}}{108}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{108}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{108}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Gap fraction as a function of $\Delta y$ for forward backward selection and variable $Q_0$}}{109}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Gap fraction as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for forward backward selection and variable \unhbox \voidb@x \hbox {$Q_0$}{}}}{109}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{109}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{109}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{115}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison of gap fraction and mean number of jets between AOD data format and D3PD data format}}{115}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{115}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{115}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{116}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Comparison of \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} between AOD data format and D3PD data format}}{116}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{116}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{116}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces }}{119}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Uncertainty bands due to the JES uncertainty for gap fraction and mean number of jets}}{119}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{119}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{119}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces }}{119}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Uncertainty bands due to the JES uncertainty for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{}}}{119}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{119}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{119}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces }}{120}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Uncertainty bands due to the JES uncertainty for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(\pi - \unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{})$}{} \delimiter "526930B $} and \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(2\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}) $}{} \delimiter "526930B $}}}{120}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{120}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{120}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces }}{120}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Uncertainty bands due to the JES uncertainty for gap fraction as a function of \unhbox \voidb@x \hbox {$Q_0$}{}}}{120}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{120}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{120}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{120}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces }}{122}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Uncertainty bands due to the JER uncertainty for gap fraction and mean number of jets}}{122}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{122}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{122}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces }}{123}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Uncertainty bands due to the JER uncertainty for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(\pi - \unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{})$}{} \delimiter "526930B $}}}{123}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{123}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{123}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces }}{123}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Uncertainty bands due to the JER uncertainty for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(2\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}) $}{} \delimiter "526930B $}}}{123}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{123}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{123}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces }}{124}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Uncertainty bands due to the JER uncertainty for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} for $2<\unhbox \voidb@x \hbox {$\Delta y$}{}<3$}}{124}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{124}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{124}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces }}{124}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Uncertainty bands due to the JER uncertainty for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} for $4<\unhbox \voidb@x \hbox {$\Delta y$}{}<5$}}{124}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{124}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{124}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces }}{125}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Uncertainty bands due to the JER uncertainty for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} for $7<\unhbox \voidb@x \hbox {$\Delta y$}{}<8$}}{125}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{125}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{125}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces }}{125}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Uncertainty bands due to the JER uncertainty for gap fraction as a function of \unhbox \voidb@x \hbox {$Q_0$}{}}}{125}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{125}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{125}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{125}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces }}{127}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Uncertainty bands due to the jet $\phi $ resolution for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(\pi - \unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{})$}{} \delimiter "526930B $}}}{127}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{127}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{127}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces }}{127}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Uncertainty bands due to the jet $\phi $ resolution for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(2\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}) $}{} \delimiter "526930B $}}}{127}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{127}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{127}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces }}{128}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Uncertainty bands due to the jet $\phi $ resolution for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} for $2<\unhbox \voidb@x \hbox {$\Delta y$}{}<3$}}{128}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{128}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{128}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces }}{128}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Uncertainty bands due to the jet $\phi $ resolution for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} for $4<\unhbox \voidb@x \hbox {$\Delta y$}{}<5$}}{128}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{128}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{128}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces }}{129}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Uncertainty bands due to the jet $\phi $ resolution for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} for $7<\unhbox \voidb@x \hbox {$\Delta y$}{}<8$}}{129}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{129}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{129}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Comparison between event-level and jet-level cleaning criteria for the loose jet cleaning definition for (a) the gap fraction and (b) the average number of jets as a function of \unhbox \voidb@x \hbox {$\Delta y$}{}}}{132}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Comparison between event and jet level cleaning cuts on the gap fraction and average number of jets}}{132}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{132}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{132}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Comparison between event-level and jet-level cleaning criteria for the loose jet cleaning definition for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(\pi - \unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{})$}{} \delimiter "526930B $} as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for (a) inclusive events and (b) events that pass the gap veto}}{132}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Comparison between event and jet level cleaning cuts on the \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(\pi - \unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{})$}{} \delimiter "526930B $}}}{132}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{132}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{132}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Comparison between event-level and jet-level cleaning criteria for the loose jet cleaning definition for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(2\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}) $}{} \delimiter "526930B $} as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for (a) inclusive events and (b) events that pass the gap veto}}{133}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Comparison between event and jet level cleaning cuts on the \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(2\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}) $}{} \delimiter "526930B $}}}{133}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{133}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{133}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Comparison between event-level and jet-level cleaning criteria for the loose jet cleaning definition for the differential cross section as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for a \unhbox \voidb@x \hbox {$\Delta y$}{} range of 2--3 for (a) inclusive events and (b) events that pass the gap veto}}{133}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Comparison between event and jet level cleaning cuts on the \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{}}}{133}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{133}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{133}
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Comparison between medium jet cleaning definitions and loose jet cleaning definition for (a) the gap fraction and (b) the average number of jets as a function of \unhbox \voidb@x \hbox {$\Delta y$}{}}}{134}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Comparison loose between and medium cleaning cuts on the gap fraction and average number of jets}}{134}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{134}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{134}
-\contentsline {figure}{\numberline {7.24}{\ignorespaces Comparison between medium jet cleaning definitions and loose jet cleaning definition for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(\pi - \unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{})$}{} \delimiter "526930B $} as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for (a) inclusive events and (b) events that pass the gap vet}}{134}
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Comparison loose between and medium cleaning cuts on \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(\pi - \unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{})$}{} \delimiter "526930B $}}}{134}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{134}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{134}
-\contentsline {figure}{\numberline {7.25}{\ignorespaces Comparison between medium jet cleaning definitions and loose jet cleaning definition for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(2\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}) $}{} \delimiter "526930B $} as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for (a) inclusive events and (b) events that pass the gap veto}}{135}
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Comparison loose between and medium cleaning cuts on \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(2\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}) $}{} \delimiter "526930B $}}}{135}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{135}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{135}
-\contentsline {figure}{\numberline {7.26}{\ignorespaces Comparison between medium jet cleaning definitions and loose jet cleaning definition for the differential cross section as a function of \unhbox \voidb@x \hbox {$\Delta y$}{} for a \unhbox \voidb@x \hbox {$\Delta y$}{} range of 2--3 for (a) inclusive events and (b) events that pass the gap veto}}{135}
+\contentsline {figure}{\numberline {7.26}{\ignorespaces Comparison loose between and medium cleaning cuts on \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{}}}{135}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{135}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{135}
-\contentsline {figure}{\numberline {7.27}{\ignorespaces }}{137}
-\contentsline {figure}{\numberline {7.28}{\ignorespaces }}{138}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {b}}}{138}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{138}
-\contentsline {figure}{\numberline {7.29}{\ignorespaces }}{138}
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Comparison of the data and PYTHIA for the \unhbox \voidb@x \hbox {$p_{\rm T}$}{} of the leading gap jet}}{137}
+\contentsline {figure}{\numberline {7.28}{\ignorespaces Combined systematics for the gap fraction and average number of jets}}{138}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{138}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{138}
-\contentsline {figure}{\numberline {7.30}{\ignorespaces }}{139}
+\contentsline {figure}{\numberline {7.29}{\ignorespaces Combined systematics for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{}}}{138}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{138}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{138}
+\contentsline {figure}{\numberline {7.30}{\ignorespaces Combined systematics for \unhbox \voidb@x \hbox {$\delimiter "426830A \unhbox \voidb@x \hbox {$\rm cos(2\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}) $}{} \delimiter "526930B $}}}{139}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{139}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{139}
-\contentsline {figure}{\numberline {7.31}{\ignorespaces }}{141}
+\contentsline {figure}{\numberline {7.31}{\ignorespaces Comparison of the data and PYTHIA for the gap fraction and mean number of jets}}{141}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{141}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{141}
-\contentsline {figure}{\numberline {7.32}{\ignorespaces }}{141}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{141}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{141}
-\contentsline {figure}{\numberline {7.33}{\ignorespaces }}{142}
+\contentsline {figure}{\numberline {7.32}{\ignorespaces Comparison of the data and PYTHIA for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} with $2<\unhbox \voidb@x \hbox {$\Delta y$}{}<3$}}{142}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{142}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{142}
-\contentsline {figure}{\numberline {7.34}{\ignorespaces }}{142}
+\contentsline {figure}{\numberline {7.33}{\ignorespaces Comparison of the data and PYTHIA for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} with $4<\unhbox \voidb@x \hbox {$\Delta y$}{}<5$}}{142}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{142}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{142}
-\contentsline {figure}{\numberline {7.35}{\ignorespaces }}{143}
+\contentsline {figure}{\numberline {7.34}{\ignorespaces Comparison of the data and PYTHIA for \unhbox \voidb@x \hbox {$\frac {d\sigma }{d\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}}$}{} with $7<\unhbox \voidb@x \hbox {$\Delta y$}{}<8$}}{143}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{143}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{143}
-\contentsline {figure}{\numberline {7.36}{\ignorespaces }}{143}
+\contentsline {figure}{\numberline {7.35}{\ignorespaces Comparison of the data and PYTHIA for \unhbox \voidb@x \hbox {$\rm cos(\pi - \unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{})$}{}}}{143}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{143}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{143}
-\contentsline {figure}{\numberline {7.37}{\ignorespaces }}{144}
+\contentsline {figure}{\numberline {7.36}{\ignorespaces Comparison of the data and PYTHIA for \unhbox \voidb@x \hbox {$\rm cos(2\unhbox \voidb@x \hbox {$\Delta {\rm \phi }$}{}) $}{}}}{144}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{144}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{144}
+\contentsline {figure}{\numberline {7.37}{\ignorespaces Comparison of the data and PYTHIA for the gap fraction as a function of \unhbox \voidb@x \hbox {$Q_0$}{}}}{144}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{144}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{144}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{144}

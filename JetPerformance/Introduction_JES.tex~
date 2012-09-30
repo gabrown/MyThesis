@@ -1,13 +1,13 @@
 The response of the calorimeter to jets is found using fully simulated MC, comparing reconstructed jets to truth jets, and correction factors are found.
 These correction factors are know as the JES calibration and is described in Section \ref{sec:Det:Jets}. 
-To get the uncertainty on the JES, various MC and in-situ validation is done.
+To get the uncertainty on the JES, various MC and in-situ validation are done.
 This chapter describes one such in-situ method, \pt{} balancing of dijet events. 
 
 In the central region (\etaRange{0}{0.8}), the JES and its uncertainty  are well known due to test-beam data and good knowledge of the detector geometry.
-\pt{} balancing of dijet events can extend this uncertainty in to the end cap (\etaRange{0.8}{2.8}) and forward (\etaRange{2.8}{4.5}) regions. 
-The jets in the central region, which are well understood, are used as a baseline to get relative JES uncertainties in the end cap and forward regions. 
+The \pt{} balancing of dijet events can extend the determination of the uncertainty in to the end-cap (\etaRange{0.8}{2.8}) and forward (\etaRange{2.8}{4.5}) regions. 
+The jets in the central region, which are well understood, are used as a baseline to get relative JES uncertainties in the end-cap and forward regions. 
 
-This method of extending the uncertainty outside the central region is achieved by using the \pt{} balance of dijet events to get a relative jet response between the 2 jets.
+This method of extending the uncertainty outside the central region is achieved by using the \pt{} balance of dijet events to get a relative jet response between the two jets.
 In a dijet topology, it is expected, that both jets should have the same transverse momentum, assuming that the jets arise from a $2\rightarrow2$ partonic scatter.
 Using this assumption, the \pt{} imbalance can be expressed using the asymmetry, $\mathcal{A}$, defined as
 \begin{equation}
@@ -22,6 +22,6 @@ For imperfectly measured jets, the asymmetry would not be unity and a relative c
 \end{equation}
 
 The assumption made is that the event comes from a $2\rightarrow2$ partonic scatter, without an additional hard QCD emission in the interaction.
-This assumption can be wrong if there is more than two hard jets, or if there is a large amount of soft quark or gluon emission outside the jet. 
-To reduce these effects, a cut is placed on the third jet \pt{} of $\pt{}^3<0.25\times\ptave{}$ and also requiring the jets to be back-to-back in azimuth with a cut $\dphi{}>2.6$.
+This assumption can be wrong if there are more than two hard jets, or if there is a large amount of soft quark or gluon emission outside the jets. 
+To reduce these effects, a cut is placed on the third jet \pt{} of $\pt{}_3<0.25\times\ptave{}$ and also requiring the jets to be back-to-back in azimuth with a cut $\dphi{}>2.6$.
  

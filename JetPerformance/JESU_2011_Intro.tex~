@@ -24,7 +24,8 @@ $170-220$ & j100 \\
 $220-300$ & j135 \\
 $300-400$ & j180 \\
 \end{tabular}
-\caption[]{
+\caption[Trigger strategy for dijet \pt{} balance in 2011]{
+Trigger strategy for the different dijet \ptave{}. 
 \label{JetPerf:Triggers}}
 \end{table}
 The data were required to be in luminosity blocks when all ATLAS sub-detectors are fully functioning. 
@@ -65,13 +66,14 @@ This crack can be seen in the jet energy EM-scale response in Figure \ref{JetPer
 For low \pt{} jets, the calibration has over-calibrated the jets in this crack region. 
 For the medium and high jet \pt{} ranges shown, the relative response for $|\eta|<1$ is very close to unity.
 The response at higher $\eta{}$ deviates away from unity, and as the jet \pt{} increases the deviation reduces. 
+
 \begin{figure}
 \centering
 \mbox{
               \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j15zvar4_6.eps,width=0.5\textwidth}}
               \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j15zvar6_9.eps,width=0.5\textwidth}}
 }
-\caption[]{
+\caption[Example asymmetry distribution for jets with $30<\ptave{}<40$ GeV]{
 Asymmetry distribution for jets with $30<\ptave{}<40$ GeV with (a) $-0.8<\eta_{left}<-0.1$ and $0.1<\eta_{right}<0.8$ and (b)  $0.1<\eta_{left}<0.8$ and $2.1<\eta_{right}<2.8$.
 The distribution is fitted using a Gaussian function between $\rm{-0.7<A<0.7}$ and the fit result and error is shown as is the mean and error on the mean. 
 \label{JetPerf:Asym_j15}}
@@ -83,7 +85,7 @@ The distribution is fitted using a Gaussian function between $\rm{-0.7<A<0.7}$ a
               \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j30zvar4_6.eps,width=0.5\textwidth}}
               \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j30zvar6_9.eps,width=0.5\textwidth}}
 }
-\caption[]{
+\caption[Example asymmetry distribution for jets with $55<\ptave{}<75$ GeV]{
 Asymmetry distribution for jets with $55<\ptave{}<75$ GeV with (a) $-0.8<\eta_{left}<-0.1$ and $0.1<\eta_{right}<0.8$ and (b)  $0.1<\eta_{left}<0.8$ and $2.1<\eta_{right}<2.8$.
 The distribution is fitted using a Gaussian function between $\rm{-0.7<A<0.7}$ and the fit result and error is shown as is the mean and error on the mean. 
 \label{JetPerf:Asym_j30}}
@@ -94,8 +96,8 @@ The distribution is fitted using a Gaussian function between $\rm{-0.7<A<0.7}$ a
 \mbox{
               \epsfig{figure=figures/JetPerformance/2011/j15TwoDPlotBoth.eps,width=0.9\textwidth}
 }
-\caption[]{
-Response matrix for $30<\ptave{}<40GeV$ for AntiKt4TopoEM jets which passed the j15 trigger. 
+\caption[The response matrix for jets with $30<\ptave{}<40$ GeV]{
+Response matrix for $30<\ptave{}<40$ GeV for AntiKt4TopoEM jets which passed the j15 trigger. 
 The text in the bins is the percentage away from unity that the response is.
 \label{JetPerf:ResponseMatrix_30_40_j15}}
 \end{figure}
@@ -105,8 +107,8 @@ The text in the bins is the percentage away from unity that the response is.
 \mbox{
               \epsfig{figure=figures/JetPerformance/2011/j30TwoDPlotBoth.eps,width=0.9\textwidth}
 }
-\caption[]{
-Response matrix for $55<\ptave{}<75GeV$ for AntiKt4TopoEM jets which passed the j30 trigger. 
+\caption[The response matrix for jets with $55<\ptave{}<75$ GeV]{
+Response matrix for $55<\ptave{}<75$ GeV for AntiKt4TopoEM jets which passed the j30 trigger. 
 The text in the bins is the percentage away from unity that the response is.
 \label{JetPerf:ResponseMatrix_55_75_j30}}
 \end{figure}
@@ -117,8 +119,8 @@ The text in the bins is the percentage away from unity that the response is.
 \mbox{
               \epsfig{figure=figures/JetPerformance/2011/ResponseAvePtComp.eps,width=0.9\textwidth}
 }
-\caption[]{
-Relative response as a function of detector $\eta$ for jets with $22<\ptave{}<30$ GeV, $40<\ptave{}<40$ GeV and $55<\ptave{}<75$ GeV.
+\caption[Relative response as a function of $\eta$]{
+Relative response as a function of detector $\eta$ for jets with $22<\ptave{}<30$ GeV, $30<\ptave{}<40$ GeV and $55<\ptave{}<75$ GeV.
 \label{JetPerf:PtComp}}
 \end{figure}
 
