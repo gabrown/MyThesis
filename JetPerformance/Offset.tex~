@@ -1,0 +1,138 @@
+The effect of pile-up in 2010 data can be assessed looking at the inclusive jet cross-section.
+Each period has a different pile-up conditions, but the data can be loosely split into period A-C which has low levels of pile-up, D-F medium levels of pile-up and G-I which has higher levels of pile-up, plus bunch trains.
+
+
+To reduce the effect of pile-up, and offset correction has been determined, which removes an average amount of energy from jets, depending on the number of primary vertices in the event.
+Figures \ref{JetPerf:Offset_Nominal_Central} and \ref{JetPerf:Offset_Nominal_Forward} shows the effect of this offset correction on the inclusive jet cross-section measurement as a function of jet \pt{} for central and forward jets respectively.
+In all regions period A-C have very little change, which is expected due to the low pile-up condition.
+Period D-F and G-I have larger deviations due to the correction, which is agrees with expectation due to increasing pile-up conditions.
+%Period C will be used as a test no pile-up sample to check the distributions with no pile-up.
+
+
+Figures \ref{JetPerf:EtaJES_Correction_Central} and \ref{JetPerf:EtaJES_Correction_Forward} show the inclusive jet cross-section for the medium and high pile-up conditions divided by the inclusive cross-section for the low pile-up periods. 
+Differences should arise from the differing levels of pile-up (luminosity weights can also effect this).  
+The main differences occurs at the lowest jet \pt{} bin, which would be expected due to the steeply falling \pt{} distribution.
+The effect from the highest pile-up periods is approximately 15\% in the lowest \pt{} bin for the plots in Figure \ref{JetPerf:EtaJES_Correction_Central}, except for the \etaRange{0.8}{1.2} plot which is approximately 30\%.
+In the forward plots in Figure \ref{JetPerf:EtaJES_Correction_Forward} the effect of the increase due to pile-up is reduced.
+Pile-up jets falling into the forward region are a lot higher energy, and so there are fewer pile-up jets of a given \pt{}, leading to the lower effect seen in Figure \ref{JetPerf:EtaJES_Correction_Forward}.
+
+
+The effects of the offset correction are shown in Figures \ref{JetPerf:Offset_Correction_Central} and \ref{JetPerf:Offset_Correction_Forward} which show the inclusive jet cross-section for the medium and high pile-up conditions divided by the inclusive jet cross-section for the low pile-up periods for offset corrected jets. 
+The first four bins have been fitted with,
+\begin{equation}
+y =1 + \frac{a}{x},
+\label{JetPerf:BinFit}
+\end{equation}
+to help reduce the statistical fluctuations.
+The effect of the pile-up offset correction is to reduce the observed pile-up effect leading to differences of $<10\%$ in most of the central bins, again with the exception of the \etaRange{0.8}{1.2} plot, which has seen a reduction to approximately 20\% for the high pile-up sample. 
+In the two most forward bins, where the effect previously was small, there seems to have been an over correction giving a deviation for the highest pile-up sample of approximately 10\%. 
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/Offset_EtaJES_Eta_00_03.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/Offset_EtaJES_Eta_03_08.eps,width=0.5\textwidth}}\quad
+}
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/Offset_EtaJES_Eta_08_12.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/Offset_EtaJES_Eta_12_21.eps,width=0.5\textwidth}}\quad
+}
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/Offset_EtaJES_Eta_21_28.eps,width=0.5\textwidth}}\quad
+}
+
+
+\caption[]{
+Inclusive jet cross-section from jets calibrated using EtaJES and offset correction divide by the inclusive jet cross-section without the offset correction for periods ABC, DEF and GHI as a function of the jet \pt{} for the jet $\eta$ regions (a) \etaRange{0.0}{0.3}, (b) \etaRange{0.3}{0.8}, (c) \etaRange{0.8}{1.2}, (d) \etaRange{1.2}{2.1} and  (e) \etaRange{2.1}{2.8}.
+\label{JetPerf:Offset_Nominal_Central}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/Offset_EtaJES_Eta_28_36.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/Offset_EtaJES_Eta_36_44.eps,width=0.5\textwidth}}\quad
+}
+\caption[]{
+Inclusive jet cross-section from jets calibrated using EtaJES and offset correction divide by the inclusive jet cross-section without the offset correction for periods ABC, DEF and GHI as a function of the jet \pt{} for the jet $\eta$ regions (a) \etaRange{2.8}{3.6} and (b) \etaRange{3.6}{4.4}.
+\label{JetPerf:Offset_Nominal_Forward}}
+\end{figure}
+
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/EtaJESTemp_Eta_00_03.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/EtaJESTemp_Eta_03_08.eps,width=0.5\textwidth}}\quad
+}
+\mbox{
+
+
+
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/EtaJESTemp_Eta_08_12.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/EtaJESTemp_Eta_12_21.eps,width=0.5\textwidth}}\quad
+}
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/EtaJESTemp_Eta_21_28.eps,width=0.5\textwidth}}\quad
+}
+
+
+\caption[]{
+Inclusive jet cross-section from jets calibrated using EtaJES for periods DEF and GHI divided by the low pile-up periods, ABC, inclusive jet cross-section as a function of the jet \pt{} for the jet $\eta$ regions (a) \etaRange{0.0}{0.3}, (b) \etaRange{0.3}{0.8}, (c) \etaRange{0.8}{1.2}, (d) \etaRange{1.2}{2.1} and  (e) \etaRange{2.1}{2.8}.
+\label{JetPerf:EtaJES_Correction_Central}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/EtaJESTemp_Eta_28_36.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/EtaJESTemp_Eta_36_44.eps,width=0.5\textwidth}}\quad
+}
+\caption[]{
+Inclusive jet cross-section from jets calibrated using EtaJES for periods DEF and GHI divided by the low pile-up periods, ABC, inclusive jet cross-section as a function of the jet \pt{} for the jet $\eta$ regions (a) \etaRange{2.8}{3.6} and  (b) \etaRange{3.6}{4.4}.
+\label{JetPerf:EtaJES_Correction_Forward}}
+\end{figure}
+
+
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/OffsetTemp_Eta_00_03.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/OffsetTemp_Eta_03_08.eps,width=0.5\textwidth}}\quad
+}
+\mbox{
+
+
+
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/OffsetTemp_Eta_08_12.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/OffsetTemp_Eta_12_21.eps,width=0.5\textwidth}}\quad
+}
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/OffsetTemp_Eta_21_28.eps,width=0.5\textwidth}}\quad
+}
+
+
+\caption[]{
+Inclusive jet cross-section from jets calibrated using EtaJES with an addition offset correction for periods DEF and GHI divided by the low pile-up periods, ABC, inclusive jet cross-section as a function of the jet \pt{} for the jet $\eta$ regions (a) \etaRange{0.0}{0.3}, (b) \etaRange{0.3}{0.8}, (c) \etaRange{0.8}{1.2}, (d) \etaRange{1.2}{2.1} and  (e) \etaRange{2.1}{2.8}.
+\label{JetPerf:Offset_Correction_Central}}
+\end{figure}
+
+
+\begin{figure}
+\centering
+
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/OffsetTemp_Eta_28_36.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/InclPileup/OffsetTemp_Eta_36_44.eps,width=0.5\textwidth}}\quad
+}
+\caption[]{
+Inclusive jet cross-section from jets calibrated using EtaJES with an addition offset correction for periods DEF and GHI divided by the low pile-up periods, ABC, inclusive jet cross-section as a function of the jet \pt{} for the jet $\eta$ regions (a) \etaRange{2.8}{3.6} and  (b) \etaRange{3.6}{4.4}.
+\label{JetPerf:Offset_Correction_Forward}}
+\end{figure}
+

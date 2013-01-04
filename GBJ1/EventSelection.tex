@@ -2,20 +2,20 @@
 \label{sec:GBJ1:EvtSel}
 \subsection{Data Samples}
 
-The analysis was performed on  pp collision data with a centre-of-mass energy of 7 TeV recorded between April and October 2010 using the ATLAS detector. 
-Data was only used if it was collected during stable beam conditions and there was good data quality. 
-The data quality was assessed by the ATLAS performance working groups by checking that all the parts of the detector and trigger were performing normally, and the physics objects (for instance jets and muons) were being correctly reconstructed. 
+The analysis is performed on  pp collision data with a centre-of-mass energy of 7~TeV recorded between April and October 2010 using the ATLAS detector. 
+Data are only used if they were collected during stable beam conditions with good data quality. 
+The data quality is assessed by the ATLAS performance working groups by checking that all the parts of the detector and trigger were performing normally, and the physics objects (for instance jets and muons) are being correctly reconstructed. 
 This is achieved by the application of a ``good runs list'' (GRL) which is a list of runs and the luminosity blocks in which the data quality and beam conditions have been declared adequate by the relevant performance groups.
 
 
 \subsection{Trigger Strategy}
 
-The trigger strategy used the ATLAS jet triggers to select events.
+The trigger strategy uses the ATLAS jet triggers to select events.
 For a given dijet \ptb{}, a specific trigger is required to have fired for the event to be included in the analysis.
 The trigger depends on the data period the event was collected in.
 
-During the data periods B-D, only the level 1 (L1) jet triggers were also used for selecting events. 
-During periods E-I, the level 2 (L2) jet triggers were used. 
+During the data periods B-D, only the level 1 (L1) jet triggers are used for selecting events. 
+During periods E-I, the level 2 (L2) jet triggers are also used. 
 The L1 and L2 (named EF) jet triggers have names of the format $\rm L1\_JX$, where X is the EM transverse energy threshold.
 The jet triggers used only inputs from $|\eta|<3.2$ to build trigger jets.
  
@@ -25,7 +25,7 @@ Table \ref{tab:trig_strat} shows the trigger requirement for different $\bar{p_T
 \centering
 \begin{tabular}{ | c | c | c | c | }
   \hline                       
- $\bar{p_T}$ [GeV] & Period B-D & Period E-F & Period G-I \\
+ \ptb{} [GeV] & Period B-D & Period E-F & Period G-I \\
   \hline                       
 50 - 70   & $\rm L1\_J5$  & $\rm EF\_j20\_jetNoCut$ & $\rm EF\_j20\_jetNoEF$ \\
 70 - 90   & $\rm L1\_J10$ & $\rm EF\_j30\_jetNoCut$ & $\rm EF\_j30\_jetNoEF$ \\
@@ -37,17 +37,17 @@ Table \ref{tab:trig_strat} shows the trigger requirement for different $\bar{p_T
   \hline                       
 \end{tabular}
 \caption[Trigger strategy using jet triggers]{
-L1 and L2 jet triggers used to select events are shown for different the differ dijet $\bar{p_T}$ regions and data periods. 
+L1 and L2 jet triggers used to select events are shown for different dijet \ptb{} regions and data periods. 
 \label{tab:trig_strat}}
 \end{table}%
 
 \subsection{Noise and Pile-up Rejection}
 
-Events are rejected if a fake jet with $\pt{}>20$ GeV within the event.
+An events is rejected if any fake jets with $\pt{}>20$~GeV is found.
 Fake jets are defined as ``bad'' jets, which are related to noisy calorimeters, cosmic rays or beam-background, or ``ugly'' jets that are energy deposits from the proton-proton interaction, but have been poorly measured (often by falling into transitions between different detectors). 
 The ugly jet cleaning cuts and the loose and medium bad jet cleaning cuts are defined in Section \ref{sec:Det:Jets}.
 
-The medium jet cleaning cut removes a larger proportion of bad jets, but is inefficient for good jets.
+The medium jet cleaning cut removes a large proportion of bad jets, but is inefficient for good jets.
 The loose jet cleaning cut has an efficiency of $>99\%$ for good jets, but some bad jets remain.
 The effects of the jet cleaning cuts and the justification for using the loose bad jet requirement is shown in Section \ref{sec:GBJ1:Pileup}.
 

@@ -1,25 +1,26 @@
 \section{Topology Selection}
 \label{sec:GBJ1:AnalSel}
 
-The jets used in this analysis were reconstructed using the \antikt{} algorithm with a radius parameter R=0.6, as described in Section \ref{sec:Theory:Jets}.
-Only jets that have \pt{}$>20$ GeV and $|y|<4.4$ have been used, as these are the regions that have a well defined jet energy scale and jet cleaning cuts, as dicussed in Section \ref{sec:Det:Jets}. 
+The jets used in this analysis are reconstructed using the \antikt{} algorithm with a radius parameter $R=0.6$, as described in Section \ref{sec:Theory:Jets}.
+Only jets with \pt{}$>20$ GeV and $|y|<4.4$ are used, as these are the regions that have a well defined jet energy scale and jet cleaning cuts, as discussed in Section \ref{sec:Det:Jets}. 
 
 The analysis uses two different dijet selection criteria, ``Leading \pt{} Dijet Selection'' and ``Forward/Backward Selection'', to define two boundary jets. 
 In the leading dijet \pt{} selection the boundary jets are the two highest \pt{} jets in the event, whereas in the forward/backward selection the two boundary jets are the most forward (positive rapidity) and most backward (negative rapidity) jets in the event. 
-Once the boundary jets have been defined, an additional cut is applied to the average transverse momentum, \ptb{}, of the boundary jets of 50 GeV. 
-This ensures that the dijets are in a high efficiency trigger region, which were studied in early plausibility studies \cite{ref:GBJConf} by other members of the analysis team. 
-These cuts define the inclusive events for the analysis. 
+Once the boundary jets have been defined, an additional cut is applied to the average transverse momentum, \ptb{}, of the boundary jets of $\ptb{}>50$~GeV.
+This ensures that the dijets are in a high efficiency trigger region \cite{ref:GBJConf1}. 
+These cuts define the inclusive event sample for the analysis. 
 
 
 Two variables are investigated; the gap fraction and the mean  number of jets in the rapidity interval between the boundary jets. 
-The gap fraction, \gap, defined in Equation \ref{Theory:GapFraction} can be measured by,
+The gap fraction, \gap, defined in Equation \ref{Theory:GapFraction}, can be measured by,
 \begin{equation}
 f_{\rm gap}(\qz{}) = \frac{\sigma_{0}}{\sigma} =  \frac{N (\qz{})}{N},
 \label{GBJ1:fgap}
 \end{equation}
-where N(\qz{}) is the number of events that do not contain a jet with $\pt{}>\qz{}$ in the rapidity interval between the boundary jets, and $N$ is the number of events in the inclusive sample, if the trigger, acceptance and lumionsity biases cancel in the ratio.
-The nominal choice of the jet veto scale is \qz{}$=20$ GeV. 
-The mean number of jets in the rapidity interval is defined for jets with $\pt{}>20$ GeV. 
+where $N(\qz{})$ is the number of events that do not contain a jet with $\pt{}>\qz{}$ in the rapidity interval between the boundary jets, and $N$ is the number of events in the inclusive sample. 
+The trigger acceptance and luminosity biases are assumed to cancel in the ratio.
+The nominal choice of the jet veto scale is $\qz{}=20$~GeV. 
+The mean number of jets in the rapidity interval is defined for jets with $\pt{}>20$~GeV. 
 
 Both the gap fraction and the mean number of jets are measured as a function of dijet rapidity region, \dy{}, for multiple slices in \ptb{}, and also as a function of \ptb{} for multiple slices in \dy{}. 
-The gap fraction is also measured as a fraction of the veto scale, \qz{}
+The gap fraction is also measured as a fraction of the veto scale, \qz{}.

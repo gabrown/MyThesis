@@ -2,7 +2,7 @@
 To understand the matrix method, a two-bin and a three-bin case are discussed further.
 The equation relating the two $\eta$ bins for the $k$-th \ptave{} bin is,  
 \begin{equation}
-c_{2k}\mathcal{R_{\rm 12k}}- c_{1k}.
+\mathcal{M}_{k} = c_{2k}\mathcal{R_{\rm 12k}}- c_{1k}.
 \label{JetPerf:Matrix_2binEquations}
 \end{equation}
 The equation is minimised when $c_{2k}\mean{\mathcal{R_{\rm 12k}}}= c_{1k}$ with a requirement that the average value is equal to unity.
@@ -12,8 +12,6 @@ c_{1k}=\mathcal{R_{\rm 12k}}= \frac{2-\mean{\mathcal{A_{\rm ijk}}}}{2+\mean{\mat
 \label{JetPerf:Matrix_2binEquations}
 \end{equation}
 which is the same as Equation \ref{JetPerf:SM_CorrectionFactor} used in the standard method.
-
-
 For a three-bin case, with $\eta$ bin indices ${1,2,3}$ the equations are;
 \begin{equation}
 \begin{split}
@@ -23,10 +21,9 @@ c_{3k}\mathcal{R_{\rm 23k}}- c_{2k}.
 \end{split}
 \label{JetPerf:Matrix_3binEquations}
 \end{equation}
-
 For the three-bin example the minimisation equation is,
 \begin{equation}
-\left(\frac{c_{2k}\mathcal{R_{\rm 12k}}- c_{1k}}{\Delta\mathcal{R_{\rm 12k}}}\right)^2+
+\mathcal{M}_{k} =\left(\frac{c_{2k}\mathcal{R_{\rm 12k}}- c_{1k}}{\Delta\mathcal{R_{\rm 12k}}}\right)^2+
 \left(\frac{c_{3k}\mathcal{R_{\rm 13k}}- c_{1k}}{\Delta\mathcal{R_{\rm 13k}}}\right)^2+
 \left(\frac{c_{3k}\mathcal{R_{\rm 23k}}- c_{2k}}{\Delta\mathcal{R_{\rm 23k}}}\right)^2+ X(c_{ik}).
 \label{JetPerf:Matrix_3binEquations2}

@@ -1,9 +1,9 @@
 \subsection{Magnet System}
 
-The purpose of the magnet system in ATLAS is to bend charged particles, such that the tracking detectors can measure their angle and transverse momentum using the curvature of the track. 
-There are two different tracking regions, one very close to the interaction point which measures all charged tracks, and then one tracking system at the outermost part of the detector which just measures the muon tracks. 
+The purpose of the magnet system in ATLAS is to bend charged particles, such that the tracking detectors can measure their transverse momentum using the curvature of the track. 
+There are two different tracking regions, one very close to the interaction point which measures all charged particles, and then one tracking system at the outermost part of the detector which just measures the muon tracks. 
 There is a different magnet system for each tracking region.
-The magnet providing a field close to the interaction point is solenoidal, and provides a 2T field for the inner detector. 
+The magnet providing a field close to the interaction point is solenoidal, and provides a 2 T field for the inner detector. 
 The system for the muon tracking has a set of toroidal magnets.
-One set of barrel torroids combine with the two end-cap toroids to provide the muon tracking with a magnetic field of 0.5 T and 1 T respectively.
+One set of barrel toroids combine with the two end-cap toroids to provide the muon tracking with a magnetic field of 0.5 T and 1 T, respectively.
 

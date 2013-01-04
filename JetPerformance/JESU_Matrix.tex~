@@ -1,46 +1,46 @@
 \subsubsection{Matrix Method for Dijet Balance}
 
 The matrix method differs from the standard method by not requiring a specific reference region.
-Instead of a probe and reference jet, there is a ``left'' jet and a ``right'' jet, where $\eta_{\rm left}<\eta_{\rm right}$.
+Instead of a probe and reference jet, there is a ``left'' jet and a ``right'' jet, where $\eta^{\mathrm{left}}<\eta^{\mathrm{right}}$.
 As a result Equations \ref{JetPerf:Assym} and \ref{JetPerf:JetResp} become,
 \begin{equation}
-\mathcal{A} =\frac{\pt{}^{left} - \pt{}^{right}}{\ptave{}}
+\mathcal{A} =\frac{\pt{}^{\mathrm{left}} - \pt{}^{\mathrm{right}}}{\ptave{}}
 \label{JetPerf:MM_Assym}
 \end{equation}
 and 
 \begin{equation}
-\frac{\pt{}^{left}}{\pt{}^{right}}=\frac{2+\mathcal{A}}{2-\mathcal{A}}
+\frac{\pt{}^{\mathrm{left}}}{\pt{}^{\mathrm{right}}}=\frac{2+\mathcal{A}}{2-\mathcal{A}}
 \label{JetPerf:MM_CorrectionFactor}
 \end{equation}
 
-For given values of $\eta^{left}$ and $\eta^{right}$, the relative response between the two regions can be defined as 
+For given values of $\eta^{\mathrm{left}}$ and $\eta^{\mathrm{right}}$, the relative response between the two regions can be defined as 
 
 \begin{equation}
-\mathcal{R_{\rm ijk}}= \frac{2-\mean{\mathcal{A_{\rm ijk}}}}{2+\mean{\mathcal{A_{\rm ijk}}}} = \frac{ c_{ik}^{left}}{ c_{jk}^{right}}
+\mathcal{R}_{ijk}= \frac{2-\mean{\mathcal{A}_{ ijk}}}{2+\mean{\mathcal{A}_{ ijk}}} = \frac{ c_{ik}^{\mathrm{left}}}{ c_{jk}^{\mathrm{right}}}
 \label{JetPerf:MM_Response_Measured}
 \end{equation}
-where i, j and k are label bins in  $\eta^{left}$, $\eta^{right}$ and $\ptave{}$ respectively, and $\mean{\mathcal{A}}$ is the mean \footnote{The asymmetry distribution is fitted with a Gaussian function between -0.7 and 0.7, and the value of the fit is taken as the mean, unless there are low statistics, then the average of the asymmetry is taken} of the asymmetry distribution. 
+where $i$, $j$ and $k$ are label bins in  $\eta^{\mathrm{left}}$, $\eta^{\mathrm{right}}$ and $\ptave{}$ respectively, and $\mean{\mathcal{A}}$ is the mean\footnote{The asymmetry distribution is fitted with a Gaussian function between -0.7 and 0.7, and the value of the fit is taken as the mean, unless there are low statistics, then the average of the asymmetry is taken} of the asymmetry distribution. 
 
 
-For every k-th $\ptave{}$ bin, there exists $\sum\limits^N_{n=1}n$ relative responses, $\mathcal{R_{\rm ijk}}$, corresponding to different $\eta^{left}$ and $\eta^{right}$ bins (i,j).
+For every $k$-th $\ptave{}$ bin, there exists $\sum\limits^N_{n=1}n$ relative responses, $\mathcal{R}_{ ijk}$, corresponding to different $\eta^{\mathrm{left}}$ and $\eta^{\mathrm{right}}$ bins ($i$,$j$).
 A minimisation is performed to take into account the response measurements between many regions, to extract the inter-calibration factors for a specific $\eta$ region.
-The inverse of the variance on each measured relative response, $\Delta\mathcal{R_{\rm ijk}}$, is used to weight the equations in a minimisation equation,
+The inverse of the variance on each measured relative response, $\Delta\mathcal{R}_{ijk}$, is used to weight the equations in a minimisation equation,
 \begin{equation}
-\sum\limits^N_{j=1} \sum\limits^N_{i=j}\left\{\frac{1}{\Delta\mathcal{R_{\rm ijk}}}( c_{jk}\mathcal{R_{\rm ijk}}- c_{ik} )\right\}^2 + X(c_{ik}).
+\mathcal{M}_{k} = \sum\limits^N_{j=1} \sum\limits^N_{i=j}\left\{\frac{1}{\Delta\mathcal{R}_{ ijk}}( c_{jk}\mathcal{R}_{ ijk}- c_{ik} )\right\}^2 + X(c_{ik}).
 \label{JetPerf:MM_Final}
 \end{equation}
 
-The first term in Equation \ref{JetPerf:MM_Final} is minimised to find the values of $c_{ik}$ that best agree with the measured $\mathcal{R_{\rm ijk}}$. 
-A trivial undesired solution is $c_i=0$. 
+The first term in Equation \ref{JetPerf:MM_Final} is minimised to find the values of $c_{ik}$ that best agree with the measured $\mathcal{R}_{ijk}$. 
+A trivial undesired solution is $c_{ik}=0$. 
 The second term in \ref{JetPerf:MM_Final} is added to prevent this solution.
 The specific form is 
 \begin{equation}
-X(c_{ik})= K(N^{-1}_{bins} \sum\limits^{N_{bins}}_{i=1} c_{ik} - 1 )^2,
+\mathcal{M}_{k} = X(c_{ik})= K(N^{-1}_{bins} \sum\limits^{N_{bins}}_{i=1} c_{ik} - 1 )^2,
 \end{equation}
 where K is a constant.
 This term is a minimum when the average correction factor is equal to unity.
-The constant, K, is set to $10^6$, and its purpose is to penalise deviations of the average away from 1. 
+K is set to $10^6$, and its purpose is to penalise deviations of the average away from 1. 
 For large values of K, the correction factors found are stable.
-Once the minimised $c_{ik}$ values are found, these values are re-scaled such that the correction factors at $|\eta|<1$ are equal to unity. 
+Once the minimised $c_{ik}$ values are found, these values are rescaled such that the correction factors at $|\eta|<1$ are equal to unity. 
 
 The advantage of this method with respect to the standard method is that each relative response is calculated using every $\eta$ bin combination, which gives an increase in the statistics used, especially at larger $\eta$, when compared to the standard method which needed one of the jets to be in the central probe region.

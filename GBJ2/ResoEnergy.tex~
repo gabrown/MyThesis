@@ -1,11 +1,11 @@
 \subsection{Jet Energy Resolution}
 \label{GBJ2:JER}
 
-The effect from the jet energy resolution (JER) was assessed by smearing the energy in every jet in an event using a Gaussian function with the width given by the measured JER, as described in Section \ref{sec:Det:Jets}, which depends on the jet \pt{} and $\eta$. 
-The analysis was then repeated using the smeared jets and the ratio of the final plots were used to see the effect compared to the unsmeared sample.
-The smearing procedure was repeated ten times and an average of all curves is the final effect of JER.
+The effect from the jet energy resolution (JER) is assessed by smearing the energy in every jet in an event using a Gaussian function with the width given by the measured JER, as described in Section \ref{sec:Det:Jets}, which depends on the jet \pt{} and $\eta$. 
+The analysis is then repeated using the smeared jets and the ratio of the final plots were used to see the effect compared to the unsmeared sample.
+The smearing procedure is repeated ten times and an average of all curves is the final effect of JER.
 This averaging reduced the effect of statistical fluctuations in some bins.
-The reconstructed PYTHIA sample was used due to the larger statistics compared to data.
+The reconstructed PYTHIA sample is used due to the larger statistics compared to data.
 This method assesses the effect of an increase in JER. 
 Reducing the JER is not possible, so a symmetric uncertainty band is constructed from the results of the increased JER.
 
@@ -69,6 +69,25 @@ The ratio of \mean{\cosdphi{}} as a function of \dy{} for (a) inclusive and (b) 
 \caption[Uncertainty bands due to the JER uncertainty for \mean{\costwodphi{}}]{
 The ratio of \mean{\costwodphi{}} as a function of \dy{} for (a) inclusive and (b) gap events reconstructed PYTHIA sample with nominal sample compared to energy smeared sample.
 \label{GBJ2:ResoEnergy:cos2}}
+\end{figure}
+
+\begin{figure}
+\centering
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoEnergy/RMS_E___dPhi__2_3_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoEnergy/RMS_E___dPhi_gap__2_3_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoEnergy/RMS_E___dPhi__4_5_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoEnergy/RMS_E___dPhi_gap__4_5_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoEnergy/RMS_E___dPhi__7_8_Ratio.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/GBJ2/ResoEnergy/RMS_E___dPhi_gap__7_8_Ratio.eps,width=0.5\textwidth}}\quad
+                              }
+\caption[Uncertainty bands due to the JER uncertainty for \dphiDist{} for $7<\dy{}<8$]{
+The ratio of \dphiDist{} for $7<\dy{}<8$ for (a) inclusive and (b) gap events reconstructed PYTHIA sample with nominal sample compared to energy smeared sample.
+\label{GBJ2:ResoEnergy:dphi78}}
 \end{figure}
 
 

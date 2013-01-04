@@ -2,35 +2,35 @@
 \label{sec:Theory:Jets}
 
 Jets are defined using an algorithm that clusters nearby objects together.
-For a jet finding algorithm to be theoretically safe it needs to be collinear and infrared safe. 
-Collinear safety of a jet is the requirement that the jet finding should be unaffected by particles radiated at small angles to the original particle. 
+A jet finding algorithm needs to be collinear and infrared safe. 
+Collinear safety is the requirement that the jet finding should be unaffected by particles radiated at small angles to the original particle. 
 Infrared safety requires that the jet finding is unaffected by the addition of soft radiation in the event.  
 
 
 \subsection{\Antikt{} jets}
 
-The default jet finding algorithm used in ATLAS is the \antikt{} algorithm \cite{ref:antiKt}, which is a sequential recombination algorithm.
+The standard jet finding algorithm used in ATLAS is the \antikt{} algorithm \cite{ref:antiKt}, which is a sequential recombination algorithm.
 The algorithm defines merging scales for each  main pair of objects in the event, 
 \begin{equation}
-d_{ij} = min\left( \frac{1}{\kt{}_j^2},\frac{1}{\kt{}_i^2}\right) \frac{\Delta R_{ij}^2}{R^2}
+d_{ij} = \min\left( \frac{1}{\kt{}_j^2},\frac{1}{\kt{}_i^2}\right) \frac{\Delta R_{ij}^2}{R^2}
 \label{Theory:dij}
 \end{equation}
 and each individual object, 
 \begin{equation}
-d_{iB} = \frac{1}{\kt{}_i^2}
+d_{iB} = \frac{1}{\kt{}_i^2},
 \label{Theory:diB}
 \end{equation}
-where $\Delta R_{ij}=\sqrt{(y_{i} - y_{j})^2+(\phi_{i} - \phi_{j})^2}$, $R$ is the intrinsic distance parameter of the algorithm, and $\kt{}_i^2$ and $\kt{}_j^2$ is the transverse momentum of object i and j respectively. 
-The algorithm then combines the objects into jets in the following way:
+where $\Delta R_{ij}=\sqrt{(y_{i} - y_{j})^2+(\phi_{i} - \phi_{j})^2}$, $R$ is the intrinsic distance parameter of the algorithm, and $\kt{}_i^2$ and $\kt{}_j^2$ are the transverse momenta of objects $i$ and $j$, respectively. 
+The algorithm combines the objects into jets in the following way:
 \begin{enumerate}
-\item Find the smallest of $d_{ij}$ and $d_{iB}$
-\item If $d_{ij}^{min} < d_{iB}^{min}$ then combine the two objects
-\item If $d_{ij}^{min} > d_{iB}^{min}$ then define object $i$ as a jet and remove from list of objects
-\item Continue iterating until there is no objects left in the list of objects 
+\item Find the minimum of $d_{ij}$ and $d_{iB}$.
+\item If $d_{ij}^{min} < d_{iB}^{min}$ then combine the two objects.
+\item If $d_{ij}^{min} > d_{iB}^{min}$ then define object $i$ as a jet and remove it from list of objects.
+\item Continue iterating until there is no object left in the list of objects. 
 \end{enumerate}
 The \antikt{} jet finding algorithm combines the objects around the highest \pt{} objects first, which have a  $\Delta R  < R$, then subsequently lower \pt{} objects.
-Only jets that have a final \pt{} greater than a \pt{} cut are kept in the jet collection. 
+Only jets that have a \pt{} greater than a \pt{} cut-off are kept in the jet collection. 
 
 There are many algorithms that are theoretically safe (both IR and collinear safe).
-The \antikt{} algorithm was chosen to be the default because it produces regularly shaped jets and has a good behaviour under noise and pileup. 
-The ATLAS default recombines jet with two $R$ parameters, 0.4 and 0.6, and full four momentum recombination.
+The \antikt{} algorithm was chosen to be the standard because it produces regularly shaped jets and has a good behaviour under noise and pile-up. 
+The ATLAS jet algorithm recombines jet with two $R$ parameters, 0.4 and 0.6, and full four-momentum recombination.

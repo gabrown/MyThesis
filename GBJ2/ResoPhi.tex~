@@ -1,13 +1,13 @@
 \subsection{Jet $\phi{}$ Resolution}
 \label{GBJ2:JPhiR}
 
-The effect of the jet $\phi$ resolution was assessed by smearing every jet's $\phi$ in the event by a Gaussian function, with the width found by comparing the $\phi$ of truth and reconstructed jets, which was calculated by another member of the analysis team. 
-This method is an overestimate of the $\phi$ resolution uncertainty (ie $100\%$ uncertainty), but a data-driven method was not available in the forward region.
+The effect of the jet $\phi$ resolution is assessed by smearing every jet's $\phi$ in the event by a Gaussian function, with the width found by comparing the $\phi$ of truth and reconstructed jets, which is calculated by another member of the analysis team. 
+This method is an overestimate of the $\phi$ resolution uncertainty (ie $100\%$ uncertainty), but a data-driven method is not available in the forward region.
 The effect is assessed in the same way as in Section \ref{GBJ2:JER}, using multiple smears and taking the average to reduce fluctuations. 
 As no cuts are dependent on $\phi$, only distributions that are $\phi$ dependent are affected.
 
 Figures \ref{GBJ2:ResoPhi:cos} -- \ref{GBJ2:ResoPhi:dphi78} show the ratio of the final distributions from the jets smeared by the Gaussian function and from the nominal jets.
-The different blue histograms represent the 10 implementations of the increased jet $\phi$ resolution, the two red histogram are the uncertainty band found from the average of the blue histograms, and the black points show the PYTHIA statistical uncertaintie.
+The different blue histograms represent the 10 implementations of the increased jet $\phi$ resolution, the two red histogram are the uncertainty band found from the average of the blue histograms, and the black points show the PYTHIA statistical uncertainties.
 
 Figure \ref{GBJ2:ResoPhi:cos} shows the ratio for \mean{\cosdphi{}} as a function of the dijet rapidity separation, \dy{}, for both (a) inclusive events and (b) gap events.
 For both the gap and inclusive distributions, the increased $\phi$ smearing has reduced the \mean{\cosdphi{}} by about $1\%$ at low \dy{}, but at larger \dy{} the effect becomes small.

@@ -1,16 +1,16 @@
-The internal structure of jets in the forward region was examined using 2010 data to assess how well the MC simulation reproduces the data.
+The internal structure of jets in the forward region were examined using 2010 data to assess how well the MC simulation reproduces the data.
 The transverse size of the jet is quantified using the jet width,
 \begin{equation}
-\rm{Width}=\frac{\sum (r^{cluster} \times \et{}^{cluster}) }{\sum \et{}^{cluster}},
+\mathrm{Width}=\frac{\sum (r^{\mathrm{cluster}} \times \et{}^{\mathrm{cluster}}) }{\sum \et{}^{\mathrm{cluster}}},
 \label{JetPerf:Width}
 \end{equation}
-where the sums are over all clusters within the jet, and $r^{cluster}$ is the distance of each cluster from the jet centre.
+where the sums are over all clusters within the jet, and $r^{\mathrm{cluster}}$ is the distance of each cluster from the jet centre.
 Another important jet observable is the electromagnetic fraction (EMF), which is the fraction of the total jet energy (at EM scale) coming from electromagnetic clusters.
 
 
 Figure \ref{JetPerf:Width_EMF} (a) shows the jet width for jets in the forward region.
 Figure \ref{JetPerf:Width_EMF} (b) shows the EMF for jets in the forward region.
-In both plots the data are compared to PYTHIA using three different physics lists which use different calorimeter interaction models.
+The data are compared to PYTHIA using three different physics lists which use different calorimeter interaction models.
 The three physics lists used, QGSP, $\rm QGSP\_BERT$, and $\rm FTFP\_BERT$ are discussed in \cite{ref:HadModels}. 
 These lists define different aspects of modelling the interactions of hadrons with matter and are shown in Table \ref{JetPerf:Models}.
 
@@ -26,12 +26,16 @@ By comparing the standard PYTHIA physics list, $\rm QGSP\_BERT$, to QGSP and $\r
 \begin{table}
 \centering
 \begin{tabular}{ | c | c | c | c |}
+\hline
+\hline
 Physics List& \multicolumn{3}{ c |}{Hadron Energy Range (GeV)} \\ 
 & Low & Medium & High \\ 
 \hline
            QGSP    &                       &    $0-25$ LEP     &    $>12$ QGSP \\
 $\rm QGSP\_BERT$   &    $0-9.9$ BERT   &    $9.5-25$ LEP   &    $>12$ QGSP \\
 $\rm FTFP\_BERT$   &    $0-5$ BERT     &                   &    $>4$ FTF   \\
+\hline
+\hline
 \end{tabular}
 \caption[Physics lists description of hadron interaction models used for various hadron energies]{
 Hadron interaction models for different physics list for various hadron energies.
@@ -42,7 +46,7 @@ Taken from Table 6 in \cite{ref:HadModels}.
 None of the physics lists manage to accurately describe the data, and the width is consistently higher in data than in the simulations. 
 These differences have also been observed for central jets, though with smaller magnitude \cite{ref:JetShapes}.
 As concluded in \cite{ref:HadModels}, the physics lists chosen as default at ATLAS produced narrower and shorter showers than data, but gave the best agreement with the data for the pion response.
-These results have been published in an ATLAS conference note \cite{ref:EtaInter2010}. 
+These results have been published in an ATLAS conference note~\cite{ref:EtaInter2010}. 
 
 \begin{figure}
 \centering

@@ -1,11 +1,12 @@
 \section{The Large Hadron Collider}
 \label{sec:Det:LHC}
 
-The Large Hadron Collider (LHC) is situated 100m below the border between Switzerland and France near the Swiss city of Geneva. 
-The LHC was designed to provide two proton beams with 2808 bunches in each beam colliding with 25 ns bunch spacing at a centre-of-mass energy of 14TeV.
-Around the LHC ring, which is 26.6km long, there are four interaction points. 
+The Large Hadron Collider (LHC) is situated 100 m below the border between Switzerland and France near the Swiss city of Geneva. 
+The LHC was designed to provide two proton beams with 2808 bunches in each beam colliding with 25 ns bunch spacing at a centre-of-mass energy of 14 TeV.
+Around the LHC ring, which is 26.6 km long, there are four interaction points. 
 The four experiments at these interaction points are ATLAS, CMS, LHCb and ALICE.
-ATLAS and CMS are general purpose detectors designed to be able to detect a broad range of physics. ALICE is designed to investigate heavy ion collisions, and LHCb is designed to explore CP violation and rare b-decays.
+ATLAS and CMS are general purpose detectors designed to be able to detect a broad range of physics processes. 
+ALICE is designed to investigate heavy ion collisions, and LHCb is designed to explore CP violation and rare B-decays.
 Figure \ref{Det:LHC} shows the layout of the LHC, and the four experiments.
 
 \begin{figure}
@@ -24,25 +25,30 @@ The beam energy during the 2010 and 2011 proton-proton collisions was 3.5 TeV, i
 
 \subsection{Luminosity}
 
-The event rate for pp$\rightarrow$ X is
+The event rate for $pp \rightarrow X$ is
 \begin{equation}
 R_X = L \sigma_X,
 \label{Det:Lumi}
 \end{equation}
-where $\sigma_X$ is the cross-section for the process and L is the luminosity.
-Achieving a large luminosity is important for observing rare physics processes that have a low cross-section. 
+where $\sigma_X$ is the cross-section for the process and $L$ is the instantaneous luminosity.
+Achieving a large integrated luminosity,
+\begin{equation}
+{\cal L} = \int L\cdot dt,
+\label{Det:IntLumi}
+\end{equation}
+is important for observing rare physics processes that have a low cross-section. 
 Accurate luminosity determination is important for measuring differential cross-sections of processes from the event rate. 
 
-Luminosity is defined by,
+Instantaneous luminosity is defined by,
 \begin{equation}
-L=\frac{N_b^2n_bf_{rev}\gamma_r}{4\pi\epsilon_n\beta^\star}F
+L=\frac{N_b^2n_bf_{rev}\gamma_r}{4\pi\epsilon_n\beta^\star}F,
 \label{Det:Lumi}
 \end{equation}
-where $N_b$ is the number of particles per bunch, $n_b$ is the number of colliding bunches per beam, $f_{rev}$ is the revolution frequency, $\gamma_r$ is the relativistic gamma factor, $\epsilon_n$ is the normalised transverse beam emitance, $\beta^\star$ is the $\beta$ function at the interaction point, and $F$ is the geometric luminosity reduction factor due to the crossing angle of the beams.
+where $N_b$ is the number of particles per bunch, $n_b$ is the number of colliding bunches per beam, $f_{rev}$ is the revolution frequency, $\gamma_r$ is the relativistic gamma factor, $\epsilon_n$ is the normalised transverse beam emittance, $\beta^\star$ is the $\beta$ function at the interaction point, and $F$ is the geometric luminosity reduction factor due to the crossing angle of the beams.
 
 
 Equation \ref{Det:Lumi} is useful to understand both the luminosity and how to increase it. 
-Experimentally, the instantaneous luminosity can be determined by measuring the interaction rate in various ATLAS subdetectors.
+Experimentally, the instantaneous luminosity can be determined by measuring the interaction rate in various ATLAS sub-detectors.
 The luminosity defined by the interaction rate is,
 \begin{equation}
 L=\frac{\mu n_bf_{rev}}{\sigma_{inel}}=\frac{\mu_{vis}n_bf_{rev}}{\sigma_{vis}}
@@ -53,19 +59,19 @@ This is obtained in special runs using Van der Meer scans and provide a luminosi
 
 \subsubsection{2010 run}
 The 7 TeV centre-of-mass proton-proton run in 2010 was the first substantial data-taking period provided by the LHC. 
-The initial runs provided peak luminosity of \lumi{\sim0.01\times10^{30}} from one pair of interacting bunches with a very low number of protons per bunch. 
-By the end of the 2010 data-taking run the peak luminosity was \lumi{\sim2\times10^{32}} from 348 colliding bunches.
+The initial runs provided peak luminosity of \lumi{\approx0.01\times10^{30}} from one pair of interacting bunches with a very low number of protons per bunch. 
+By the end of the 2010 data-taking run, the peak luminosity was \lumi{\approx2\times10^{32}} from 348 colliding bunches.
 The luminosity increase was mainly achieved by increasing the number of colliding bunches per beam and the number of protons per bunch, though decreasing the $\beta^\star$ and reducing the beams crossing angle also increased the luminosity.
 
 The data is split into luminosity blocks, runs and periods.
-A luminosity block corresponds to the luminosity information stored in two minute during a run. 
+A luminosity block corresponds to the luminosity information stored in two minute intervals during a run. 
 A data run is a group of luminosity blocks consecutively taken. 
 A data period is a group of data runs with similar beam parameter conditions.
 
 The 2010 data taking run was split into nine different data periods, which corresponded to a total integrated luminosity delivered of 48.1 $\rm pb^{-1}$.
 Table \ref{Det:Periods} shows the data periods for the 2010 LHC run, and how the beam conditions and peak luminosity changed.  
-Additionally, periods G-I had used bunch trains where bunches were grouped together with 150 ns spacing between the bunches.  
-As luminosity increased, the level of ``pile-up'', which is multiple proton-proton interactions in the same bunch crossing, increased.
+In addition, periods G-I used bunch trains where bunches are grouped together with 150 ns spacing between the bunches.  
+As instantaneous luminosity increased, the level of ``pile-up'', which is multiple proton-proton interactions in the same bunch crossing, increased.
 
 \begin{table}
 \begin{center}

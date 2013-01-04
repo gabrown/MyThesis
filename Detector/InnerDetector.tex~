@@ -18,13 +18,12 @@ Figure \ref{Det:ATLASID} shows the different components of the ATLAS inner detec
 Both the pixel detector and the semiconducting tracker have a tracking region out to $|\eta|<2.5$, and the transition radiation tracker goes out to $|\eta|<2$. 
 
 The pixel detector is the closest to the interaction point, and thus has the highest granularity of the inner detector trackers. 
-There are three pixel layers in the barrel region each having a 2d segmentation, with a minimum size of $\phi\times z$ of $50\times400~\mu\rm{m}^2$, giving a well measured space point. 
+There are three pixel layers in the barrel region each having a 2d segmentation, with a minimum size in $\phi\times z$ of $50\times400~\mu\rm{m}^2$, giving a well measured space point. 
 The main use of the pixel detector is to find B hadrons and $\tau$ leptons. 
 
-Further from the interaction point is the semi conductor tracker (SCT) which is less granulated. 
-%*how does it work? 8 measurement from 4 layers + some detector pairs *. 
+Further from the interaction point is the Semi Conductor Tracker (SCT) which is less granulated. 
 The main use of the SCT is determining track momenta, impact parameters and vertex positions.
 
-Furthest away from the interaction point is the transition radiation tubes detector (TRT), which provides a large number of hits per track. 
-The position accuracy of these hits is less accurate than that from the pixel and SCT detectors
+Furthest away from the interaction point is the Transition Radiation Tubes (TRT) detector, which provides a large number of hits per track. 
+The position accuracy of these hits is less accurate than that from the pixel and SCT detectors.
 The TRT was not used for tracking in 2010 data-taking.

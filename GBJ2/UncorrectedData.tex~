@@ -1,7 +1,6 @@
-\section{Assessment of Uncorrected Data vs MC}
+\section{Assessment of Data vs MC Before Unfolding}
 \label{sec:GBJ2:Uncorr}
 This section presents the data compared to the reconstructed PYTHIA sample.
-
 Figures \ref{GBJ2:Uncorr:Incl_Gap} -- \ref{GBJ2:Uncorr:Q0} show the uncorrected data compared to PYTHIA.
 The PYTHIA error bands are the quadrature sum of the statistical error and the JES uncertainty bands. 
 
@@ -16,10 +15,10 @@ Both the flattening out of the gap fraction and the plateau in the mean number o
 Figures \ref{GBJ2:Uncorr:dphi23}, \ref{GBJ2:Uncorr:dphi45}, and \ref{GBJ2:Uncorr:dphi78} show \dphidyDist{} for $2<\dy{}<3$, $4<\dy{}<5$, and $7<\dy{}<8$,  respectively, for (a) inclusive events and (b) gap events.
 PYTHIA does not describe the data particularly well, especially at high \dphi{} for  $2<\dy{}<3$ and $4<\dy{}<5$ slices where it is about $20\%$ below the data.
 In the  $7<\dy{}<8$ slice, the PYTHIA results are still consistently below the data, but they agree within the JES uncertainty band.
-It is not surprising that the cross-section from PYTHIA does not agree with the measured cross-section, as there are large uncertainties in the leading order plus leading logarithm cross-section used by PYTHIA.
+The cross-section from PYTHIA does not agree with the measured cross-section, as there are large uncertainties in the leading order plus leading logarithm cross-section used by PYTHIA.
 
 Figures \ref{GBJ2:Uncorr:cos} and \ref{GBJ2:Uncorr:cos2} show the \mean{\cosdphi{}} and \mean{\costwodphi{}} variables respectively, as a function of the dijet separation, \dy{}, for (a) inclusive and (b) gap events.
-A \mean{\cosdphi{}} value of $1.0$ corresponds to perfectly back-to-back jets in azimuth.
+A \mean{\cosdphi{}} value of 1 corresponds to perfectly back-to-back jets in azimuth.
 The \mean{\cosdphi{}} distribution for the inclusive events have a value of about $0.94$ for $\dy{}<2$.
 As the $\dy{}$ increases, the jets become less back-to-back and the value of \mean{\cosdphi{}} falls and then levels off at a value of about $0.86$ for $\dy{}=6$.
 As the $\dy{}$ increases, the available phase space to emit into is larger due to the jets being at very high energies.

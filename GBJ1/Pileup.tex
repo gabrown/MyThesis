@@ -1,18 +1,17 @@
-
 \subsection{Pile-up}
 \label{sec:GBJ1:Pileup}
 
 
 
 Two effects from pile-up are studied; in-time pile-up and out-of-time (OOT) pile-up.
-In-time pile-up is additional proton-proton interactions in the event and is dependent on the number of primary vertices in the event.
+In-time pile-up is additional proton-proton interactions in the event and is dependent on the number of primary vertices.
 Out-of-time pile-up is additional energy coming from previous bunch collisions and depends on both the number of primary vertices of the previous bunches and the bunch spacing. 
-Both have the effect of adding additional energy into the event, which can affect the gap fraction.
+Both have the effect of adding additional energy to the event, which can affect the gap fraction.
 
-The cut requiring one primary vertex will reduce the effect of in-time pile-up. 
+Requiring one primary vertex will reduce the effect of in-time pile-up. 
 The effect of the OOT pile-up and the residual in-time pile-up are assessed by comparing the average gap fraction for different pile-up conditions.
 Table \ref{GBJ1:VertexAve} shows that the average number of primary vertices for different periods increases throughout 2010 data taking. 
-The main changes in the bunch spacing are in period E where it was partially reduced and in period G where bunch trains, which had 150ns bunch spacing, were introduced.
+The main changes in the bunch spacing are in period E, where it was partially reduced, and in period G, where bunch trains with 150~ns bunch spacing were introduced.
 
 
 The data periods are combined into two different bunch spacing conditions.
@@ -20,16 +19,15 @@ In periods B-D the bunch spacing was large, and so the effect of OOT pile-up is 
 In periods E-I, the bunch spacing was smaller, especially from period G onwards.
 It is expected that the effect of OOT pile-up will be larger in this period.
 The effect of OOT pile-up is assessed by considering the average gap fraction for different slices in \dy{} and \ptb{} as a function of data period.
-The periods B-D and E-I are separately fitted with a horizontal line, and the differences between these fits are used to assess the effect. 
+The periods B-D and E-I are separately fitted with a constant, and the differences between these fits are used to assess the effect. 
 
 To assess the residual effect from in-time pile-up, the average gap fraction for different slices in \dy{} and \ptb{} as a function of data period is fitted with
 \begin{equation}                              
-y = A~\mathrm{and}~y = A + B x.
+y = A + B x,
 \label{GBJ1:Fit1}
 \end{equation}
-The first term has no period dependence, and the second has a period dependence.
-For each function, the constants and the  $\chi^2/NDF$ are measured and assessed.
-If there is no period dependence the period independent fit should do well, and the period dependent fit should have a zero gradient. 
+where $x$ is the data period.
+If there is no period dependence, the gradient $B$ is constsitant with zero. 
 
 
 Figures \ref{GBJ1:GFAve6070} - \ref{GBJ1:GFAve150180} show the average gap fraction as a function of period for various \dy{} and \ptb{} slices with fits to the two different OOT pile-up conditions, periods B-D and E-I, with a simple $y = A$ fit. 
@@ -40,18 +38,15 @@ Figures \ref{GBJ1:GFAve90120} and \ref{GBJ1:GFAve150180} show a similar lack of 
 These results would indicate that there is no significant effect from OOT pile-up. 
 
 
-Table \ref{GBJ1:GFAveTable} shows the result of all the fits for the various \dy{} and \ptb{} slices. 
-The $\chi^2/NDF$ of the period-independent fit show that the fits have good agreement with a straight line with no period dependence.
-The period-dependent fit show the gradient of the line, $B$, is consistent, within statistical errors, with zero for almost all slices. 
-
-
-These two methods have shown that after the primary vertex cut, the effect of pile-up is negligible, especially when compared to the systematic uncertainties discussed later. 
+Table \ref{GBJ1:GFAveTable} shows the result of fiting the function in Equation \ref{GBJ1:Fit1} to the various \dy{} and \ptb{} slices. 
+The fits from the period-dependent function show that the gradient of the line, $B$, is consistent, within statistical uncertainties, with zero for almost all slices. 
+These two methods have shown that after the primary vertex cut, the effect of pile-up is negligible. 
  
 \begin{table}
 \begin{center}
 \begin{tabular}{|c|c|}
 \hline
-Period&Ave $N^o$ Vertices\\
+Period&$\langle N_{PV} \rangle$\\
 \hline
 B&1.07\\
 C&1.06\\
@@ -64,7 +59,7 @@ I&2.78\\
 \hline
 \end{tabular}
 \caption[Average number of primary vertices for different data periods]{ 
-Average number of vertices for the different data taking periods.
+Average number of vertices ($\langle N_{PV} \rangle$) for the different data taking periods.
 \label{GBJ1:VertexAve}}
 \end{center}
 \end{table}
@@ -81,7 +76,7 @@ Average number of vertices for the different data taking periods.
                               }
 \caption[Average gap fraction versus period for $60<\ptb{}<70$ GeV]{
 Average gap fraction with $60<\ptb{}<70$ GeV and (a) $1<\dy{}<2$, (b) $2<\dy{}<3$  and (c) $3<\dy{}<5$. 
-Each set of average gap fractions have been fitted with three horizontal lines; one for periods B-D, one for periods E-I and one for all periods.
+Each set of average gap fractions have been fitted with three constants; one for periods B-D, one for periods E-I and one for all periods.
 \label{GBJ1:GFAve6070}}
 \end{figure}
 
@@ -99,7 +94,7 @@ Each set of average gap fractions have been fitted with three horizontal lines; 
                               }
 \caption[Average gap fraction versus period for $90<\ptb{}<120$ GeV]{
 Average gap fraction with $90<\ptb{}<120$ GeV and (a) $1<\dy{}<2$, (b) $2<\dy{}<3$  and (c) $3<\dy{}<5$. 
-Each set of average gap fractions have been fitted with three horizontal lines; one for periods B-D, one for periods E-I and one for all periods.
+Each set of average gap fractions have been fitted with three constants; one for periods B-D, one for periods E-I and one for all periods.
 \label{GBJ1:GFAve90120}}
 \end{figure}
 
@@ -117,20 +112,21 @@ Each set of average gap fractions have been fitted with three horizontal lines; 
                               }
 \caption[Average gap fraction versus period for $150<\ptb{}<180$ GeV]{
 Average gap fraction with $150<\ptb{}<180$ GeV and (a) $1<\dy{}<2$, (b) $2<\dy{}<3$  and (c) $3<\dy{}<5$. 
-Each set of average gap fractions have been fitted with three horizontal lines; one for periods B-D, one for periods E-I and one for all periods.
+Each set of average gap fractions have been fitted with three constants; one for periods B-D, one for periods E-I and one for all periods.
 \label{GBJ1:GFAve150180}}
 \end{figure}
 
 
 
 \begin{table}
-\footnotesize 
+%\footnotesize 
+%\small
 \centering
-\begin{tabular}{ | c | c | c | c | c | c | c | c | }
+\begin{tabular}{ | c | c | c | c | c | c |  }
 \hline
 \hline
-\dy{} & \ptb{} & $\bar{f}_{gap}$&\multicolumn{2}{|c|}{$y = A$} & \multicolumn{3}{|c|}{y = A + Bx}\\
-   & GeV& Periods B-D &A&$\chi^{2}$/NDF&A&B&$\chi^{2}$/NDF\\
+\dy{} & \ptb{} & $\bar{f}_{gap}$ & \multicolumn{3}{|c|}{$y = A + Bx$}\\
+   & GeV& Periods B-D &$A$&$B / 10^{-3}$&$\chi^{2}$/NDF\\
 %\dy{} & $\ptb{} [GeV]$ & $\bar{f}_{gap}$ & b & c & d & e & f  \\
 \hline
 \input{figures/GBJ1/DataStability/Pileup/AveGFTable2.txt}
@@ -138,7 +134,7 @@ Each set of average gap fractions have been fitted with three horizontal lines; 
 \hline
 \end{tabular}
 \caption[Results from period dependent and period independent fits to the average gap fraction as a function of period]{
-The results from the period dependent and period independent fits (Equation \ref{GBJ1:Fit1}) for various slices of \dy{} and \ptb{}.
+The results from fits to the period dependent function in Equation \ref{GBJ1:Fit1} for various slices of \dy{} and \ptb{}.
 \label{GBJ1:GFAveTable}}
 \end{table}
 

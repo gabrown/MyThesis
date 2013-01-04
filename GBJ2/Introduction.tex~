@@ -1,10 +1,10 @@
 The first LHC measurement of dijet production with a jet veto (documented in Chapter \ref{chp:GBJ1} and \cite{ref:ATLASGap}) examined the gap fraction in slices \ptb{} up to $\dy{}=6$.
-This cut-off in \dy{} was necessary because the analysis used a central jet trigger strategy in which the trigger fired if a jet was within $|y|<2.8$.
-There was a relatively small number of events at large \dy{} where the statistical uncertainties were large. 
-The data was compared to state of the art theory predictions by HEJ and POWHEG.
+This cut-off in \dy{} is necessary because the analysis uses a central jet trigger strategy in which the trigger fires if a jet is within $|y|<2.8$.
+There is a relatively small number of events at large \dy{} where the statistical uncertainties are large. 
+The data are compared to theory predictions by HEJ and POWHEG.
 
-The analysis was extended to probe the gap fraction at a larger \dy{} region.
-This larger \dy{} region is again studied using the 2010 data, but using a new dijet trigger strategy that allowed measurements up to $\dy{}=8$, which is the limit of the detector.
+The analysis is extended to probe the gap fraction at a larger \dy{} region.
+This larger \dy{} region is again studied using the 2010 data, but using a new dijet trigger strategy that allowes measurements up to $\dy{}=8$, which is the boundary of the detector.
 In addition, the effect of quark/gluon emission from the dijet system is studied using the azimuthal decorrelation between the jets that make up the dijet system.
-The previous ATLAS measurement of azimuthal decorrelation, \cite{ref:Decorr}, was carried out using jets with an $|\eta{}| < 0.8$.
+The previous ATLAS measurement of azimuthal decorrelation was carried out using jets with an $|\eta{}| < 0.8$ \cite{ref:Decorr}.
 

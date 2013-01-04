@@ -4,26 +4,26 @@
 In this section, the final plots that were shown in the publication are discussed. 
 The plots shown are from  the leading \pt{} dijet selection and the forward/backwards selection and show the gap fraction as a function of \dy{}, \ptb{} and \qz{}, and also the mean number of jets in the rapidity interval as a function of \dy{} and \ptb{}. 
 When \dy{} and \ptb{} are studied, \qz{} is always at a fixed value of 20 GeV. 
-The data is sliced up into different regions. 
-The gap fraction and mean number of jets versus \dy{} distributions are shown for seven different \ptb{} ranges, and it is shown versus \ptb{} for fice different \dy{} ranges. 
+The data is sliced into different regions. 
+The gap fraction and mean number of jets versus \dy{} distributions are shown for seven different \ptb{} ranges, and it is shown versus \ptb{} for five different \dy{} ranges. 
 Each slice is offset to allow the data to be shown on one plot. 
 The ratio of the theory predictions to data is shown next to each plot.
 
 On each plot, the black points are the data points with statistical uncertainty bars, with the yellow bands indicating the systematic uncertainty from both the JES and unfolding. 
 The red and blue dotted lines are the POWHEG + PYTHIA and POWHEG + HERWIG predictions respectively, and the blue band is the HEJ prediction with a theoretical uncertainty.
 
-Figures \ref{GBJ1:dYSelA} and \ref{GBJ1:pTSelA} show the gap fraction and the ratio of theory to data as a function of $\dy{}$ and $\ptb{}$ respectively for different \ptb{} and \dy{} slices for the leading \pt{} dijet selection. 
+Figures \ref{GBJ1:dYSelA} and \ref{GBJ1:pTSelA} show the gap fraction and the ratio of theory to data as a function of $\dy{}$ and $\ptb{}$, respectively, for different \ptb{} and \dy{} slices for the leading \pt{} dijet selection. 
 The gap fraction from the data reduces as a function of \ptb{} and \dy{}.
-When the rapidity region between the dijets is small the phase space for emission is small. 
-When the \dy{} or the \ptb{} of the dijets increases that phase space available for emission increase, and so the gap fraction decreases.
+When the rapidity region between the dijets is small, the phase space for emission is small. 
+When the \dy{} or the \ptb{} of the dijets increases, the phase space available for emission increase, and so the gap fraction decreases.
 For the highest \ptb{} range, the gap fraction starts to level off. 
-This feature could be due to PDF effects, where both of the jets have high \pt{}, and so the probablity of having another jet in the event is low.
+This feature could be due to PDF effects, where both of the jets have high \pt{}, and so the probability of having another jet in the event is low.
 HEJ agrees well with the data for the complete range in $\dy$ for low $\ptb{}$. 
 However, for $\ptb{}$ slices $150\le\ptb{}<180$ GeV and above, HEJ starts to overestimate the gap fraction.
-This deviation is shown more clearly when plotting as a function of \ptb{}.
+This deviation is shown more clearly as a function of \ptb{}.
 HEJ deviates from the data for $\ptb{}>140$ GeV for all but the highest \dy{} slices, in which there are significant uncertainties.
-As described in Section \ref{Theory:MC}, HEJ is relevent only for hard wide angle emissons.
-Therefore, is it not unexpected that it should do better when \qz{} and \ptb{} are similar, and to do worse when $Q_{0}<<\ptb{}$.
+As described in Section \ref{Theory:MC}, HEJ is relevant only for hard wide angle emissions.
+Therefore, is it not unexpected that it should do better when $\qz{}\approx\ptb{}$, and to do worse when $Q_{0}<<\ptb{}$.
 
 POWHEG + PYTHIA and POWHEG + HERWIG give significantly different gap fractions as a function of \dy{} and \ptb{}.
 POWHEG + PYTHIA gives the best overall description of the data.
@@ -40,13 +40,13 @@ Figure \ref{GBJ1:Q0SelA} shows the gap fraction as a function of \qz{} for diffe
 For a low \qz{} value, the gap fraction is at a minimum, as any increase in \qz{} will reduce the number of events with a jet above \qz{}.
 When the \qz{} increases the gap fraction increases, which is expected as the probability of getting a very high \pt{} emission is lower.
 POWHEG + HERWIG underestimates the data for all but the highest \qz{} bins, indicating that there is too much emission from the POWHEG + HERWIG parton shower. 
-For the gap fraction against \qz{} for $2\le\dy{}<3$ and  $70\le\pt{}<90$ GeV slice, both HEJ and POWHEG + PYTHIA over laps with the data throughout the \qz{} range. 
-For the other slices, as low \qz{} HEJ overestimates the gap fraction, but improves as \qz{} and \ptb{} become closer, which is expected as HEJ generates partons with similar \pt{}.
+For the gap fraction against \qz{} for $2\le\dy{}<3$ and  $70\le\pt{}<90$ GeV slice, both HEJ and POWHEG + PYTHIA overlaps with the data throughout the \qz{} range. 
+For the other slices, at low \qz{} HEJ overestimates the gap fraction, but improves as $\qz{}\approx\ptb{}$, which is expected as HEJ generates partons with similar \pt{}.
 Neither POWHEG + PYTHIA or HEJ agrees well with the gap fraction when both \dy{} and \qz{} is large.
 
 
 
-Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of jets in the rapidity interval between the boundary jets as a function of $\dy{}$ and $\ptb{}$ respectively for slices in \ptb{} and \dy{} for the leading \pt{} dijet selection. 
+Figures \ref{GBJ1:NjetsdYSelA} and \ref{GBJ1:NjetspTSelA} are the mean number of jets in the rapidity interval between the boundary jets as a function of $\dy{}$ and $\ptb{}$, respectively, for slices in \ptb{} and \dy{} for the leading \pt{} dijet selection. 
 This is an alternative method of probing the activity between the boundary jets. 
 The gap fraction is only concerned with the leading jet in the rapidity region, but the average number of jets considers all jet in that region with a $\pt{}>20$ GeV. 
 As with the gap fraction, POWHEG + PYTHIA agrees best with the data.
@@ -55,9 +55,9 @@ Except at very low \ptb{}, HEJ has too little activity in the rapidity region.
 Comparing to the gap fraction slices, in which it agrees with data, would indicate that HEJ describes only the highest \pt{} emission between the dijet well. 
 
  
-Figures \ref{GBJ1:dYSelB} and \ref{GBJ1:pTSelB} show the gap fraction and the ratio of theory to data as a function of $\dy{}$ and $\ptb{}$ respectively for different \ptb{} and \dy{} slices for the forward/backward dijet selection.
+Figures \ref{GBJ1:dYSelB} and \ref{GBJ1:pTSelB} show the gap fraction and the ratio of theory to data as a function of $\dy{}$ and $\ptb{}$, respectively, for different \ptb{} and \dy{} slices for the forward/backward dijet selection.
 For this selection, there are often imbalances in the \pt{} of the boundary jets, especially at larger \ptb{}.
-All three theory comparisons show similar difference to the data. 
+All three model comparisons show similar difference to the data. 
 The gap fraction from HEJ as a function of \dy{} falls below the data for low \ptb{} slices. 
 It has been suggested in \cite{ref:Anderson1} that this is due to the importance of soft emission from the dijets.
 
@@ -77,9 +77,9 @@ The new definition of the jet veto does not improve the HEJ agreement with the d
 
 
 Since publishing the results of this analysis, several papers \cite{ref:Anderson1,ref:JeffNew} have compared  their theoretical predictions to the ATLAS data. 
-Both discussed the unreliability of fixed order calculations in this topology of event.
-\cite{ref:JeffNew} used an all-order resummation in $\ln(\pt{}/\qz{})$ terms to compare to the data, observing a large theoretical uncertainty. 
-The conclusion of the paper was: ``The message is clear: the accuracy of the ATLAS data already demands better theoretical calculations''.
+Both discuss the unreliability of fixed order calculations in this topology of event.
+Reference \cite{ref:JeffNew} uses an all-order resummation in $\ln(\pt{}/\qz{})$ terms to compare to the data, observing a large theoretical uncertainty. 
+The conclusion of the paper is: ``The message is clear: the accuracy of the ATLAS data already demands better theoretical calculations''.
 
 
 \begin{figure}

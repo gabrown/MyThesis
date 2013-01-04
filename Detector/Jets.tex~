@@ -15,9 +15,10 @@ An EM+JES calibration was determined as a function of the jet \pt{} and rapidity
 
 The EM+JES calibration was done in three consecutive corrections.
 The first was a pile-up offset correction designed to subtract energy contributions due to additional $pp$ interactions.
-The correction is presented in \cite{ref:OffsetCorrection}, where the average energy in towers is considered as a function of the rapidity, the number of primary vertices and the bunch spacing.
+The correction is presented in \cite{ref:OffsetCorrection}, where the average energy in towers is considered as a function of $\eta{}$, the number of primary vertices and the bunch spacing.
 The second correction was the vertex correction, which defined the origin of the jets to be the primary vertex.
 This correction changes the direction and \pt{} of the jet, but not the energy, and it improves the angular resolution of the jet.
+The original uncorrected $\eta{}$ is defined as the detector $\eta$.
 The final correction is the jet energy scale (JES) correction.
 
 The JES correction uses fully simulated MC, ``reco'', jets and jets at hadron level, ``truth'' jets, to obtain correction factors as a function of jet energy and jet rapidity. 
@@ -27,11 +28,12 @@ The response of the calorimeter to jets can be defined using these fully simulat
 \label{JetPerf:MCJetResp}
 \end{equation}
 where \pt{}$^{reco}$ is the \pt{} of the MC jet after full simulation of the detector, and  \pt{}$^{truth}$ is the \pt{} of the MC jet at hadron level.
-The truth and reco jets are matched using a \dr{} cut of 0.3.
-The correction factors are calculated as a function of the jet's detector $\eta$ (not the vertex corrected $\eta$), as they represent calibrations for different detectors, and also as a function of the energy, as the detector responds to energy. 
+The truth and reco jets are matched using a \dr{} requirement of 0.3.
+The correction factors are calculated as a function of the jet's detector $\eta$ oposed to the vertex corrected $\eta$, as they represent calibrations for different detectors, and also as a function of the energy, as the detector responds to energy. 
 Figure \ref{Det:MCResp} shows the jet responses, at EM scale, as a function of detector $|\eta|$ for different jet energies. 
 From the comparison between fully simulated MC jets and truth jets, a small correction on the jet rapidity is calculated. 
-This is due to part of jets falling into regions with poor response, giving a rapidity bias towards the better responding areas. 
+This is due to part of jets falling into regions with lower response, giving a $\eta$ shift towards the higher responding areas. 
+The original derivation of these factors can be found in \cite{ref:OffsetCorrection,ref:JES,ref:JES_basic}.
 
 \begin{figure}
 \centering
@@ -41,20 +43,19 @@ This is due to part of jets falling into regions with poor response, giving a ra
 
                               }
 \caption[Jet response for different regions of the ATLAS calorimeter]{ 
-PYTHIA simulated jet EM-scale response as a function of reconstructed jet $\eta$ for different jet energies \cite{ref:JES}.
+PYTHIA simulated jet EM-scale response as a function of reconstructed jet detector $\eta$ for different jet energies \cite{ref:JES}.
 The different evaluated regions are shown, as well as their relation to the detector geometry. 
 \label{Det:MCResp}
 }
 \end{figure}
 
-The original derivation of these factors can be found in \cite{ref:OffsetCorrection,ref:JES_basic,ref:JES}.
 
 \subsubsection{Jet Energy Scale Uncertainty}
 
 The EM+JES method of calibration is based primarily on the ability of the MC to correctly simulate the ATLAS detector and also to model the physics effects such as energy flow out of the jet.
 In-situ methods are used to validate the JES calibration and assign an uncertainty.
 The JES uncertainty is derived from in-situ data measurements and also by varying MC settings. 
-It is determined by combining the non-closure of the EM+JES on fully simulated MC jets, calorimeter response to isolated hadrons using test-beam information and in-situ methods, additional detector material, noise thresholds, differences compared to other MC's, uncertainties due to pile-up and \pt{} balance of dijet events. 
+It is determined by combining the non-closure of the EM+JES on fully simulated MC jets, calorimeter response to isolated hadrons using test-beam information and in-situ methods, additional detector material, noise thresholds, differences compared to other MCs, uncertainties due to pile-up and \pt{} balance of dijet events. 
 
 
 \begin{figure}
@@ -78,7 +79,7 @@ Dijet balance is an in-situ method of extending the uncertainty in the central r
 \subsubsection{Jet Energy Resolution}
 
 The jet energy resolution (JER) is a measure of the expected range of measured jet \pt{} compared to the original object. 
-Some causes of the fluctuations in the measurement of a jet \pt{} are hadron/EM contributions, non-average amount of additional energy from pile-up, and statistical fluctuations in the sampling technique across multiple calorimeter layers.
+Some causes of the fluctuations in the measurement of a jet \pt{} are different hadron/EM contributions, non-average amount of additional energy from pile-up, and statistical fluctuations in the sampling technique across multiple calorimeter layers.
 The JER was determined using the bi-sector method and the \pt{} balance of dijet events described in \cite{ref:JER,ref:JER2}. 
 
 
@@ -87,30 +88,30 @@ The JER was determined using the bi-sector method and the \pt{} balance of dijet
 \subsubsection{Jet Cleaning}
 
 Jets produced in an event need to be discriminated from ``bad'' background jets that come from  HEC spikes and EM noise in the calorimeter, cosmic rays or non-collision background.
-Table \ref{det:Cleaning} shows the loose and medium cleaning cuts used to remove the bad jets where
+Table \ref{det:Cleaning} shows the loose and medium cleaning requirements used to remove the bad jets where
 \begin{itemize}
-  \item The jet charge fraction, \Bold{Chf}, is the ratio of the sum of the \pt{} of tracks associated to the jet to the calibrated jet \pt{};
-  \item \Bold{EMf} is the fraction of the jet EM scale energy that comes from EM clusters;
-  \item \Bold{HECf} is the fraction of the jet energy that was measured in the HEC;
-  \item The LAr quality, \Bold{LArQ}, is the fraction of the jet energy coming from LAr cells with poor signal shape quality;
-  \item The HEC quality, \Bold{HECQ}, is the fraction of the jet energy coming from HEC cells with poor signal shape quality;
+  \item The jet charge fraction, $\mathbf{f_{CH}}$, is the ratio of the sum of the \pt{} of tracks associated to the jet to the calibrated jet \pt{};
+  \item  $\mathbf{f_{EM}}$ is the fraction of the jet EM scale energy that comes from EM clusters;
+  \item  $\mathbf{f_{HEC}}$ is the fraction of the jet energy that was measured in the HEC;
+  \item The LAr quality, $\mathbf{Q_{LAr}}$, is the fraction of the jet energy coming from LAr cells with poor signal shape quality;
+  \item The HEC quality, $\mathbf{Q_{HEC}}$, is the fraction of the jet energy coming from HEC cells with poor signal shape quality;
   \item \Bold{neg. E} is the sum of the negative energy cells in the jet;
   \item Jet time, \Bold{t}, is the mean time between the cells in the jet and the event time;
-  \item \Bold{FMax} is the maximum energy fraction in one calorimeter layer.
+  \item $\mathbf{f_{max}}$ is the maximum energy fraction in one calorimeter layer.
 \end{itemize}
 
-Jets coming from HEC spikes have most of the energy coming from a single noisy calorimeter cell, and so a HECf cut is applied to ensure energy deposits outside the HEC form a significant part of the total energy.
+Jets coming from HEC spikes have most of the energy coming from a single noisy calorimeter cell, and so a $f_{HEC}$ requirement is applied to ensure energy deposits outside the HEC form a significant part of the total energy.
 Fake jets coming from EM coherent noise are removed by cutting on the fraction of EM energy.
-Finally, jets from non-collision backgrounds and cosmics are removed using a combination of timing cuts and energy layer cuts.
+Finally, jets from non-collision backgrounds and cosmic rays are removed using a combination of timing and energy layer requirements.
 
-The loose cleaning cuts are defined to have an efficiency of greater than 99\% for good jets, but a fraction of bad jets still remain. 
-Whilst, the medium cleaning cuts remove a higher proportion of bad jets, they have inefficiencies at low \pt{} for good jets. 
+The loose cleaning requirements are defined to have an efficiency of greater than 99\% for good jets, but a fraction of bad jets still remain. 
+Whilst the medium cleaning requirements remove a higher proportion of bad jets, they have inefficiencies at low \pt{} for good jets. 
 
 While the bad jets do not come from energy deposits from the interaction, there is a subset of jets, called ``ugly'' jets, which are energy deposits from the interaction which have been badly measured. 
 Ugly jets are often found in regions between detectors, ``cracks'' regions, where the performance of the detectors are not optimal.
-Two cuts are applied to remove ugly jets.
+Two selection criteria are applied to remove ugly jets.
 First, the jet energy which falls into the transition between the barrel and the end-cap is required to be less that half the total jet energy.
-Second, the fraction of energy that comes from bad cells inside the jet is required to be less than half of the total energy.
+Second, the fraction of energy that comes from bad cells inside the jet is required to be less than half of the total jet energy.
 
 
 \begin{table}
@@ -121,21 +122,21 @@ Second, the fraction of energy that comes from bad cells inside the jet is requi
 \hline
 & Loose & Medium = Loose OR \\
 \hline
-            & $\rm HECf<0.5$ \& $|\rm HECQ|>0.5$                         &                                                              \\
-HEC spikes  &              or                                              & $\rm HECf>1-|HECQ|$                                          \\
+            & $\rm f_{HEC}<0.5$ \& $|\rm Q_{HEC}|>0.5$                         &                                                              \\
+HEC spikes  &              or                                              & $\rm f_{HEC}>1-|Q_{HEC}|$                                          \\
             &  $\rm |neg.E|>60$ GeV                                        &                                                              \\
 \hline
 EM          &                                                              &                                                              \\
-coherent    & $\rm EMf >0.95$ \& $\rm |LArQ| >0.8$ \& $|\eta|<2.8$     &   $\rm EMf >0.9$ \& $\rm |LArQ| >0.8$ \& $|\eta|<2.8$    \\
+coherent    & $\rm f_{EM} >0.95$ \& $\rm |Q_{LAr}| >0.8$ \& $|\eta|<2.8$     &   $\rm f_{EM} >0.9$ \& $\rm |Q_{LAr}| >0.8$ \& $|\eta|<2.8$    \\
 noise       &                                                              &                                                              \\
 \hline
             &           $\rm |t|>25$ ns                                                    &                                                              \\
 Non-        &              or                                              &  $\rm |t|>10$ ns                                          \\
-collision   & $\rm EMf <0.05$ \& $\rm Chf<0.05$ \& $|\eta|<2$     &   or     \\
-background  &        or                     &   $\rm EMf<0.05$ \& $\rm Chf <0.1$ \& $|\eta|<2$    \\
-\& cosmics  & $\rm EMf <0.05$ \&  $|\eta|>2$     &   or     \\
-            &        or                     &   $\rm EMf>0.95$ \& $\rm Chf <0.05$ \& $|\eta|<2$    \\
-             & $\rm FMax<0.99$ \&  $|\eta|<2$     &        \\
+collision   & $\rm f_{EM} <0.05$ \& $\rm f_{CH}<0.05$ \& $|\eta|<2$     &   or     \\
+background  &        or                     &   $\rm f_{EM}<0.05$ \& $\rm f_{CH} <0.1$ \& $|\eta|<2$    \\
+\& cosmics  & $\rm f_{EM} <0.05$ \&  $|\eta|>2$     &   or     \\
+            &        or                     &   $\rm f_{EM}>0.95$ \& $\rm f_{CH} <0.05$ \& $|\eta|<2$    \\
+             & $\rm f_{max}<0.99$ \&  $|\eta|<2$     &        \\
 
 \hline
 

@@ -1,53 +1,52 @@
 \section {Event selection}
 \label{sec:GBJ2:EvtSel}
 \subsection{Data Samples and Basic Event Selection}
-The analysis was performed using pp collisions at $\sqrt{s}=7$ TeV, recorded between April and October 2010 using the ATLAS detector.
-Stable beam conditions and good data quality was required for the data used; the data quality was assessed by the ATLAS performance working groups by checking that all the parts of the detector and trigger were performing normally, and the physics objects (for instance jets and muons) were being correctly reconstructed. 
-
+The analysis is performed using pp collisions at $\sqrt{s}=7$ TeV, recorded between April and October 2010 using the ATLAS detector.
+Stable beam conditions and good data quality is required; the data quality was assessed by the ATLAS performance working groups by checking that all the parts of the detector and trigger were performing normally, and the physics objects (for instance jets and muons) were being correctly reconstructed. 
 Events are rejected if there is any jet with $p_T>20$ GeV that is found as either bad or ugly as described in Section \ref{sec:Det:Jets}. 
 Events are also rejected if the number of reconstructed primary vertices is not equal to one.
 
 
 \subsection{Trigger Strategy}
 
-For each of the two leading offline jets, a specific trigger chain is assigned depending on the rapidity, $y$, and \pt{} of the offline jet as well as the run number the event occurred in.
-Tables \ref{tab:CentralTrigger}, \ref{tab:TransTrigger} and \ref{tab:ForwardTrigger} show the trigger chains assigned to jets in the central ($|y_{jet}|<2.9$), forward transition ($3.3\le|y_{jet}|<3.6$) and forward trigger regions ($3.6\le|y_{jet}|<4.4$), respectively.
-If a jet falls into the region $2.9\le|y_{jet}|<3.3$, the offline jet is matched to the closest L1 trigger jet using $\dr{}=\sqrt{\dphi{}^2 + \deta{}^2}$.
+For each of the two leading offline jets, a specific trigger chain is assigned depending on the rapidity $y$ and \pt{} of the offline jet as well as the run number.
+Tables \ref{tab:CentralTrigger}, \ref{tab:TransTrigger} and \ref{tab:ForwardTrigger} show the trigger chains assigned to jets in the central ($|y|<2.9$), forward transition ($3.3\le|y|<3.6$) and forward trigger regions ($3.6\le|y|<4.4$), respectively.
+If a jet falls into the region $2.9\le|y|<3.3$, the offline jet is matched to the closest L1 trigger jet using $\dr{}=\sqrt{(\dphi{})^2 + (\deta{})^2}$.
 It is defined as a central (forward) jet  if it is closest to a trigger jet that fired a central (forward) jet trigger, and the trigger chain is subsequently defined using Table \ref{tab:CentralTrigger} (Table \ref{tab:TransTrigger}).
 Either of the trigger chains associated with the leading jets are required to fire for the event to pass.
 
-This trigger strategy has previously been used in the measurement of the dijet cross section \cite{ref:Dijet}.
-In most regions of phase space, the trigger efficiency for each considered jet is $100\%$ efficient.
+This trigger strategy has previously been used in the measurement of the dijet cross-section \cite{ref:Dijet}.
+In most regions of phase space, the trigger efficiency for each considered jet is $100\%$.
 However, there are two regions in which that is not the case.
-The first is the crack region, $1.3\le|y_{jet}|\le1.6$, between the barrel and end-cap calorimeter.
-The second is in the positive FCAL region in which there is a dead trigger tower that reduces the trigger efficiency for jets with $|y_{jet}|>3.1$.
+The first is the crack region, $1.3\le|y|\le1.6$, between the barrel and end-cap calorimeter.
+The second is in the positive FCAL region in which there is a dead trigger tower that reduces the trigger efficiency for jets with $|y|>3.1$.
 For each jet that falls into one of these regions, the event is weighted by 
 \begin{equation}
 W_{eff}= \frac{\mathcal{P}_{lead}}{\epsilon_{lead}} + \frac{\mathcal{P}_{sublead}}{\epsilon_{sublead}} -\frac{\mathcal{P}_{lead}\mathcal{P}_{sublead}}{\epsilon_{lead}\epsilon_{sublead}}
 \label{GBJ2:Eff}
 \end{equation}
-where $\mathcal{P}_{lead}$ and $\mathcal{P}_{sublead}$ is 1 if the event passed the leading and subleading trigger chain, else it is zero, and $\epsilon_{lead}$ and $\epsilon_{sublead}$ are thei \pt{} dependent efficiencies for the leading and subleading jets.
-The efficiencies are taken from the analysis in \cite{ref:Dijet}.
+where $\mathcal{P}_{lead}$ and $\mathcal{P}_{sublead}$ is 1 if the event passed the leading and subleading trigger chain, else it is zero, and $\epsilon_{lead}$ and $\epsilon_{sublead}$ are their \pt{} dependent efficiencies for the leading and subleading jets.
+The efficiencies are taken from the analysis in~\cite{ref:Dijet}.
 
 During data taking, prescales are applied to the jet trigger to preferentially select events with higher \pt{} jets; only the highest \pt{} trigger is unprescaled.
 The end result is a flattening of the jet \pt{} spectrum.
 To retrieve the original distribution, the events are weighted by the inverse of an effective luminosity for each trigger combination.
-The  effective luminosity is calculated by
+The effective luminosity is calculated by
 \begin{equation}
-\mathcal{L}_{effective} = \sum_{LB} \frac{\mathcal{L}_{LB}}{P_{LB}^L P_{LB}^{SL}/(P_{LB}^L + P_{LB}^{SL} -1)}
+\mathcal{L}_{eff} = \sum_{LB} \frac{\mathcal{L}_{LB}}{P_{LB}^L P_{LB}^{SL}/(P_{LB}^L + P_{LB}^{SL} -1)}
 \label{GBJ2:LBeff}
 \end{equation}
-where $P_{LB}^L$ and $P_{LB}^{SL}$ are the prescales for a given luminosity for the trigger chain associated with the leading and subleading jet respectively, and $\mathcal{L}_{LB}$ is the luminosity for the luminosity block. 
+where $P_{LB}^L$ and $P_{LB}^{SL}$ are the prescales for a given luminosity for the trigger chain associated with the leading and subleading jet, respectively, and $\mathcal{L}_{LB}$ is the luminosity for the luminosity block. 
 
 The effective luminosities were calculated in \cite{ref:Dijet} for all pile-up conditions.
-In this analysis, a single vertex cut is applied, which effectively reduces the luminosity, $\mathcal{L}_{LB}$, in Equation \ref{GBJ2:LBeff} by a factor $\rm f_{L}$.
+In this analysis, a single vertex cut is applied, which effectively reduces the luminosity $\mathcal{L}_{LB}$ in Equation \ref{GBJ2:LBeff} by a factor $f_{L}$.
 A single vertex correction is derived for this analysis, defined as 
 \begin{equation}
-\rm f_{L} = \frac{N_{SV}}{N_{ALL}},
+ f_{L} = \frac{N_{SV}}{N_{ALL}},
 \label{GBJ2:SVCorrection}
 \end{equation}
-where $\rm N_{SV}$ is the number of events with only one vertex and  $\rm N_{ALL}$ is the total number of events, for every trigger combination.
-The effective luminosity, $\mathcal{L}_{effective}$, is then weighted by $\frac{1}{\rm f_{L}}$ to return the correct luminosity for the measurement.
+where $N_{SV}$ is the number of events with only one vertex and  $N_{ALL}$ is the total number of events, for every trigger combination.
+The effective luminosity, $\mathcal{L}_{eff}$, is then weighted by $f_{L}^{-1}$ to return the correct luminosity for the measurement.
 
 \begin{table}[htdp]
 \centering
@@ -66,7 +65,7 @@ The effective luminosity, $\mathcal{L}_{effective}$, is then weighted by $\frac{
   \hline
 \end{tabular}
 \caption[Triggers used for jets in the central region]{
-Trigger chains used for central trigger region, $|y_{jet}|<2.9$, for jet \pt{} and period.
+Trigger chains used for central trigger region, $|y|<2.9$, for jet \pt{} and period.
 \label{tab:CentralTrigger}}
 \end{table}%
 
@@ -86,7 +85,7 @@ Trigger chains used for central trigger region, $|y_{jet}|<2.9$, for jet \pt{} a
          \hline
       \end{tabular}
 \caption[Triggers used for jets in the transition region]{
-      Trigger chains used for transition trigger region, $3.3\le|y_{jet}|<3.6$, for jet \pt{} and period.
+      Trigger chains used for transition trigger region, $3.3\le|y|<3.6$, for jet \pt{} and period.
       \label{tab:TransTrigger}}
 \end{table}%
 
@@ -105,7 +104,7 @@ Trigger chains used for central trigger region, $|y_{jet}|<2.9$, for jet \pt{} a
   \hline
 \end{tabular}
 \caption[Triggers used for jets in the forward region]{
-Trigger chains used for forward trigger region, $3.6\le|y_{jet}|<4.4$, for jet \pt{} and period.
+Trigger chains used for forward trigger region, $3.6\le|y|<4.4$, for jet \pt{} and period.
 \label{tab:ForwardTrigger}}
 \end{table}%
 

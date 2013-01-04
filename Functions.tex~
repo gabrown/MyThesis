@@ -3,7 +3,7 @@
 \newcommand{\dphi}{\mbox{$\Delta{\rm \phi}$}}
 \newcommand{\cosdphi}{\mbox{$\rm cos(\pi - \dphi{})$}}
 \newcommand{\costwodphi}{\mbox{$\rm cos(2\dphi{}) $}}
-\newcommand{\et}{\mbox{$E_{\rm t}$}}
+\newcommand{\et}{\mbox{$E_{\rm T}$}}
 \newcommand{\pt}{\mbox{$p_{\rm T}$}}
 \newcommand{\ptave}{\mbox{$\pt{}^{ave}$}}
 \newcommand{\kt}{\mbox{$k_{\rm t}$}}
@@ -15,14 +15,18 @@
 \newcommand{\Bold}[1]{\textbf{#1}}
 \newcommand{\lumi}[1]{\mbox{$#1 \rm{cm}^{-2}\rm{s}^{-1}$}}
 \newcommand{\etaphi}[1]{\mbox{$\Delta\eta \times \Delta\phi$ of $#1 \times #1$}}
+\newcommand{\etaphiB}[1]{\mbox{$\Delta\eta \times \Delta\phi = #1 \times #1$}}
 \newcommand{\etaRange}[2]{\mbox{$#1<{\rm |\eta|}<#2$}}
 \newcommand{\etarange}[2]{\mbox{$#1<{\rm \eta}<#2$}}
 \newcommand{\Range}[3]{\mbox{$#2\le{\rm #1}\le#3$}}
 \newcommand{\mean}[1]{\mbox{$\langle #1 \rangle$}}
 \newcommand{\antikt}{\hbox{anti-${k_t}$}\xspace}
 \newcommand{\Antikt}{\hbox{Anti-${k_t}$}\xspace}
-\newcommand{\Incl}{\mbox{$\frac{1}{N}\frac{dN}{d\Delta y}$}}
-\newcommand{\ptDist}{\mbox{$\frac{1}{N}\frac{dN}{d\Delta \pt{}^{veto}}$}}
-\newcommand{\dphiDist}{\mbox{$\frac{d\sigma}{d\dphi{}}$}}
-\newcommand{\dphidyDist}{\mbox{$\frac{d^2{}\sigma}{dyd\dphi{}}$}}
+%\newcommand{\Incl}{\mbox{$\frac{1}{N}\frac{dN}{d\Delta y}$}}
+\newcommand{\Incl}{\mbox{normalised \dy{}}}
+%\newcommand{\ptDist}{\mbox{$\frac{1}{N}\frac{dN}{d\Delta \pt{}^{veto}}$}}
+\newcommand{\ptDist}{\mbox{normalised $\pt{}^{veto}$}}
+%\newcommand{\dphiDist}{\mbox{$\frac{d\sigma}{d\dphi{}}$}}
+\newcommand{\dphiDist}{\mbox{$d\sigma/ d\dphi{}$}}
+\newcommand{\dphidyDist}{\mbox{$d^2{}\sigma/dyd\dphi{}$}}
 %\newcommand{\dphiDist}{\mbox{$d\sigma/d\dphi{}$}}

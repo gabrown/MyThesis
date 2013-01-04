@@ -1,5 +1,5 @@
 In 2010, the dijet \pt{} balance method was not used to recalibrate the jets, but was used to assess the uncertainty on the JES calibration factors.
-However, the relative jet response, \cite{ref:EtaInter2010}, shows a difference in the forward region for MC and data.
+However, the relative jet response \cite{ref:EtaInter2010} shows a difference in the forward region for MC and data.
 The difference between the data and MC jet responses could either originate from physics or the detector effects described in Section \ref{sec:Det:Jets}. 
 Until the source of the differences is determined, these relative response factors should not be used to calibrate the jets for physics analysis.
 However, they are used to test the closure of the calibration and to see the difference between data and MC can be resolved.
@@ -10,10 +10,10 @@ Using the ratio of the relative response factors from the MC and the data, the r
 \mathcal{C_{\rm{in-situ}}} = \frac{\rm{c_{MC}}}{\rm{c_{Data}}}
 \label{JetPerf:ResidualCorrection}
 \end{equation}
-is calculated, where $\frac{1}{\rm{c_{MC}}}$ and $\frac{1}{\rm{c_{Data}}}$ are the relative response factors for MC and data respectively. 
+is calculated, where ${1}/{\rm{c_{MC}}}$ and ${1}/{\rm{c_{Data}}}$ are the relative response factors for MC and data, respectively. 
 
 
-Figure \ref{JetPerf:EtaData} shows the jet $\eta$ distribution for (a) \pt{}$>30$ GeV from the Min Bias trigger and (b) \pt{}$>50$ GeV from the calorimeter trigger stream. 
+Figure \ref{JetPerf:EtaData} shows the jet $\eta$ distribution for (a) \pt{} $>30$ GeV from the Min Bias trigger and (b) \pt{}$>50$ GeV from the calorimeter trigger stream. 
 The in-situ calibrated data has a much better agreement with the MC than the uncorrected data in both plots. 
 There are still differences in the forward region, but overall the differences are smaller than $10\%$.
 
@@ -33,7 +33,7 @@ These plots were published in an ATLAS conference note \cite{ref:EtaInter2010}.
               \subfigure[]{\epsfig{figure=figures/JetPerformance/EtaDist50GeV.eps,width=0.5\textwidth}}\quad
 }
 \caption[Effect of additional calibration on the jet $\eta$ distribution]{
-$\eta$ distribution for jets with (a) \pt{}$>30$ GeV from the Min Bias trigger and (b) \pt{}$>50$ GeV from the calorimeter trigger stream. 
+$\eta$ distribution for jets with (a) \pt{} $>30$ GeV from the Min Bias trigger and (b) \pt{} $>50$ GeV from the calorimeter trigger stream. 
 Uncorrected data (open black circles) and corrected data (red circles) are shown along with the reference MC. 
 \label{JetPerf:EtaData}}
 \end{figure}

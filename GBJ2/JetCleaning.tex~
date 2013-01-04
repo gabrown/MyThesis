@@ -2,7 +2,7 @@
 \label{sec:GBJ2:Cleaning}
 
 The analysis removes events with jets that have $\pt{}>20$ GeV  and that fail the loose cleaning cut.
-This event-level jet cleaning cut can be compared to a jet-level cleaning cut, which only removes the jets that fail the loose cleaning cuts, to assess the impact of rejecting events due to bad jets that do not impact the measurement.
+This event-level jet cleaning cut can be compared to a jet-level cleaning cut, which only removes the jets that fail the loose cleaning cuts, to assess the impact of rejecting events due to bad jets.
 
 
 
@@ -46,7 +46,7 @@ Both distributions show that the effect of the bad jets and inefficiency is smal
 At larger \dy{} there are some statistical fluctuation.
 
 Figure \ref{GBJ2:JetCleaning:dphi23_ML} shows the ratio of \dphiDist for $2<\dy{}<3$ for the medium cleaning to the loose cleaning, and the ratio of inefficient loose cleaning to the loose cleaning for (a) inclusive events and (b) events that pass the jet veto.
-There is a reduction of $\approx 2\%$ in the gap and inclusive cross section when the medium cleaning cut is applied.
+There is a reduction of $\approx 2\%$ in the gap and inclusive cross-section when the medium cleaning cut is applied.
 The inefficient loose cleaning cuts causes a reduction to \dphiDist{} of between $2-4\%$, and crucially it falls to below the medium jet cleaning ratio. 
 This indicates that the inefficiencies of the medium jet cleaning on good jets are overestimated.
 The maximum effect from the bad jets would occur if there was no inefficiency in the medium jet cleaning, ie corresponding to the deviation of the distribution from unity. 
