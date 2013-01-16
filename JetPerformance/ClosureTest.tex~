@@ -25,28 +25,28 @@ These results show that calibration brings the data into  closer agreement with 
 This confidence resulted in the decision to use the dijet \pt{} balance method to calibrate the jets in the 2011 sample. 
 These plots were published in an ATLAS conference note \cite{ref:EtaInter2010}.
 
-
 \begin{figure}
 \centering
 \mbox{
-              \subfigure[]{\epsfig{figure=figures/JetPerformance/EtaDist30GeV.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/JetPerformance/EtaDist50GeV.eps,width=0.5\textwidth}}\quad
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/EtaDist30GeV.eps,width=0.5\textwidth}}
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/EtaDist50GeV.eps,width=0.5\textwidth}}
 }
 \caption[Effect of additional calibration on the jet $\eta$ distribution]{
 $\eta$ distribution for jets with (a) \pt{} $>30$ GeV from the Min Bias trigger and (b) \pt{} $>50$ GeV from the calorimeter trigger stream. 
 Uncorrected data (open black circles) and corrected data (red circles) are shown along with the reference MC. 
 \label{JetPerf:EtaData}}
-\end{figure}
-
-\begin{figure}
-\centering
+%\end{figure}
+\medskip
+%\begin{figure}
+%\centering
 \mbox{
-              \subfigure[]{\epsfig{figure=figures/JetPerformance/EDist.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/JetPerformance/PtDist.eps,width=0.5\textwidth}}\quad
+              %\subfigure[]{\epsfig{figure=figures/JetPerformance/EDist.eps,width=0.5\textwidth}}
+              %\subfigure[]{\epsfig{figure=figures/JetPerformance/PtDist.eps,width=0.5\textwidth}}
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/EDist-Edit.eps,width=0.5\textwidth}}
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/PtDist-Edit.eps,width=0.5\textwidth}}
 }
 \caption[Effect of additional calibration on the jet energy and \pt{} distributions for jets in the FCal]{
 (a) Jet energy and (b) jet \pt{} for the region \etaRange{3.2}{4.5}.
 Uncorrected data (open black circles) and corrected data (red circles) are shown along with the reference MC. 
 \label{JetPerf:E_PtData}}
 \end{figure}
-

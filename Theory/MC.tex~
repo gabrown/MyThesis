@@ -44,7 +44,7 @@ The version used is HERWIG++ 2.5.0 \cite{ref:HERWIG} using the MRST LO$^*$ PDF a
 
 The ALPGEN \cite{ref:ALPGEN} MC generator provides LO matrix elements for up to six partons in the final state.
 The ALPGEN sample was generated with the CTEQ6L1 PDF set \cite{ref:ALPGENPDF}.
-The sample was passed through HERWIG and JIMMY \cite{ref:Jimmy} for parton showering, hadronisation and MPI with the AUET1 tune \cite{ref:ALPGENTune}.
+The sample was passed through HERWIG and JIMMY \cite{ref:Jimmy} for parton showering, hadronisation and MPI with the the AUET1 tune \cite{ref:ALPGENTune}.
 
 \subsubsection{POWHEG}
 The POWHEG generator \cite{ref:Powheg1,ref:Powheg2,ref:Powheg3} has the NLO matrix elements for dijet production. 

@@ -29,7 +29,7 @@ The response of the calorimeter to jets can be defined using these fully simulat
 \end{equation}
 where \pt{}$^{reco}$ is the \pt{} of the MC jet after full simulation of the detector, and  \pt{}$^{truth}$ is the \pt{} of the MC jet at hadron level.
 The truth and reco jets are matched using a \dr{} requirement of 0.3.
-The correction factors are calculated as a function of the jet's detector $\eta$ oposed to the vertex corrected $\eta$, as they represent calibrations for different detectors, and also as a function of the energy, as the detector responds to energy. 
+The correction factors are calculated as a function of the jet's detector $\eta$ opposed to the vertex corrected $\eta$, as they represent calibrations for different detectors, and also as a function of the energy, as the detector responds to energy. 
 Figure \ref{Det:MCResp} shows the jet responses, at EM scale, as a function of detector $|\eta|$ for different jet energies. 
 From the comparison between fully simulated MC jets and truth jets, a small correction on the jet rapidity is calculated. 
 This is due to part of jets falling into regions with lower response, giving a $\eta$ shift towards the higher responding areas. 
@@ -87,7 +87,7 @@ The JER was determined using the bi-sector method and the \pt{} balance of dijet
 
 \subsubsection{Jet Cleaning}
 
-Jets produced in an event need to be discriminated from ``bad'' background jets that come from  HEC spikes and EM noise in the calorimeter, cosmic rays or non-collision background.
+Jets produced in an event need to be discriminated from ``bad'' background jets that come from  signal spikes in cells within the HEC and EM noise in the calorimeter, cosmic rays or non-collision background.
 Table \ref{det:Cleaning} shows the loose and medium cleaning requirements used to remove the bad jets where
 \begin{itemize}
   \item The jet charge fraction, $\mathbf{f_{CH}}$, is the ratio of the sum of the \pt{} of tracks associated to the jet to the calibrated jet \pt{};

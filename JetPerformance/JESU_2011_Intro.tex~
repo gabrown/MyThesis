@@ -72,8 +72,10 @@ The response at higher $\eta{}$ deviates away from unity, and as the jet \pt{} i
 \begin{figure}
 \centering
 \mbox{
-              \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j15zvar4_6.eps,width=0.5\textwidth}}
-              \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j15zvar6_9.eps,width=0.5\textwidth}}
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j15zvar4_6.eps,width=0.8\textwidth}}
+}
+\mbox{
+              \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j15zvar6_9.eps,width=0.8\textwidth}}
 }
 \caption[Example asymmetry distribution for jets with $30<\ptave{}<40$ GeV]{
 Asymmetry distribution for jets with $30<\ptave{}<40$ GeV with (a) $-0.8<\eta_{left}<-0.1$ and $0.1<\eta_{right}<0.8$ and (b)  $0.1<\eta_{left}<0.8$ and $2.1<\eta_{right}<2.8$.
@@ -85,8 +87,11 @@ The distribution is fitted using a Gaussian function between $\rm{-0.7<A<0.7}$ a
 \centering
 \mbox{
               \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j30zvar4_6.eps,width=0.5\textwidth}}
+}
+\mbox{
               \subfigure[]{\epsfig{figure=figures/JetPerformance/2011/j30zvar6_9.eps,width=0.5\textwidth}}
 }
+
 \caption[Example asymmetry distribution for jets with $55<\ptave{}<75$ GeV]{
 Asymmetry distribution for jets with $55<\ptave{}<75$ GeV with (a) $-0.8<\eta_{left}<-0.1$ and $0.1<\eta_{right}<0.8$ and (b)  $0.1<\eta_{left}<0.8$ and $2.1<\eta_{right}<2.8$.
 The distribution is fitted using a Gaussian function between $\rm{-0.7<A<0.7}$ and the fit result and error is shown as is the mean and error on the mean. 

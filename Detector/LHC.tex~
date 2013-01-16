@@ -54,7 +54,7 @@ The luminosity defined by the interaction rate is,
 L=\frac{\mu n_bf_{rev}}{\sigma_{inel}}=\frac{\mu_{vis}n_bf_{rev}}{\sigma_{vis}}
 \label{Det:Lumi2}
 \end{equation}
-where $\mu$ is the number of inelastic collisions per bunch crossing, $\sigma_{inel}$ is the inelastic cross-section, $\mu_{vis}$ is the number of visible inelastic collisions per bunch crossing, and $\sigma_{vis}$ is a calibration constant related to the visible inelastic cross-section. 
+where $\mu$ is the number of inelastic collisions per bunch crossing, $\sigma_{inel}$ is the inelastic cross-section for a proton-proton collision, $\mu_{vis}$ is the number of visible inelastic collisions per bunch crossing, and $\sigma_{vis}$ is a calibration constant related to the visible inelastic cross-section. 
 This is obtained in special runs using Van der Meer scans and provide a luminosity uncertainty of 3.4\% \cite{ref:Lumi}.
 
 \subsubsection{2010 run}

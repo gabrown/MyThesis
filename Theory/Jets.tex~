@@ -32,5 +32,5 @@ The \antikt{} jet finding algorithm combines the objects around the highest \pt{
 Only jets that have a \pt{} greater than a \pt{} cut-off are kept in the jet collection. 
 
 There are many algorithms that are theoretically safe (both IR and collinear safe).
-The \antikt{} algorithm was chosen to be the standard because it produces regularly shaped jets and has a good behaviour under noise and pile-up. 
+The \antikt{} algorithm was chosen to be the standard because it produces circular jets and has a good behaviour under noise and pile-up. 
 The ATLAS jet algorithm recombines jet with two $R$ parameters, 0.4 and 0.6, and full four-momentum recombination.
