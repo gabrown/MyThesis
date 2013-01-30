@@ -66,14 +66,20 @@ Average number of vertices ($\langle N_{PV} \rangle$) for the different data tak
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_060_70_1-2_exclusive.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_060_70_2-3_exclusive.eps,width=0.5\textwidth}}\quad
-}
-\mbox{
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/DataStability/Pileup/GFAve_060_70_1-2_exclusive.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/DataStability/Pileup/GFAve_060_70_2-3_exclusive.eps}
+        \end{subfigure}%
 
-              \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_060_70_3-5_exclusive.eps,width=0.5\textwidth}}\quad
-                              }
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/DataStability/Pileup/GFAve_060_70_3-5_exclusive.eps}
+        \end{subfigure}%
+
 \caption[Average gap fraction versus period for $60<\ptb{}<70$ GeV]{
 Average gap fraction with $60<\ptb{}<70$ GeV and (a) $1<\dy{}<2$, (b) $2<\dy{}<3$  and (c) $3<\dy{}<5$. 
 Each set of average gap fractions have been fitted with three constants; one for periods B-D, one for periods E-I and one for all periods.
@@ -84,14 +90,19 @@ Each set of average gap fractions have been fitted with three constants; one for
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_090_120_1-2_exclusive.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_090_120_2-3_exclusive.eps,width=0.5\textwidth}}\quad
-}
-\mbox{
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/DataStability/Pileup/GFAve_090_120_1-2_exclusive.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/DataStability/Pileup/GFAve_090_120_2-3_exclusive.eps}
+        \end{subfigure}%
 
-              \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_090_120_3-5_exclusive.eps,width=0.5\textwidth}}\quad
-                              }
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/DataStability/Pileup/GFAve_090_120_3-5_exclusive.eps}
+        \end{subfigure}%
 \caption[Average gap fraction versus period for $90<\ptb{}<120$ GeV]{
 Average gap fraction with $90<\ptb{}<120$ GeV and (a) $1<\dy{}<2$, (b) $2<\dy{}<3$  and (c) $3<\dy{}<5$. 
 Each set of average gap fractions have been fitted with three constants; one for periods B-D, one for periods E-I and one for all periods.
@@ -102,14 +113,19 @@ Each set of average gap fractions have been fitted with three constants; one for
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_150_180_1-2_exclusive.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_150_180_2-3_exclusive.eps,width=0.5\textwidth}}\quad
-}
-\mbox{
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/DataStability/Pileup/GFAve_150_180_1-2_exclusive.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/DataStability/Pileup/GFAve_150_180_2-3_exclusive.eps}
+        \end{subfigure}%
 
-              \subfigure[]{\epsfig{figure=figures/GBJ1/DataStability/Pileup/GFAve_150_180_3-5_exclusive.eps,width=0.5\textwidth}}\quad
-                              }
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/DataStability/Pileup/GFAve_150_180_3-5_exclusive.eps}
+        \end{subfigure}%
 \caption[Average gap fraction versus period for $150<\ptb{}<180$ GeV]{
 Average gap fraction with $150<\ptb{}<180$ GeV and (a) $1<\dy{}<2$, (b) $2<\dy{}<3$  and (c) $3<\dy{}<5$. 
 Each set of average gap fractions have been fitted with three constants; one for periods B-D, one for periods E-I and one for all periods.

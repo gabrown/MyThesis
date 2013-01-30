@@ -142,16 +142,16 @@ S.~Agostinelli et~al.
   Accelerators, Spectrometers, Detectors and Associated Equipment}, {\bf
   506}(3):250 -- 303, 2003.
 
-\bibitem{ref:ClusterModel}
-Richard~D. Field and Stephen Wolfram.
-\newblock A QCD model for e+e− annihilation.
-\newblock {\em Nuclear Physics B}, {\bf 213}(1):65 -- 84, 1983.
-
 \bibitem{ref:HERWIG}
 M.~Bahr, S.~Gieseke, M.A. Gigg, D.~Grellscheid, K.~Hamilton, et~al.
 \newblock {Herwig++ Physics and Manual}.
 \newblock {\em Eur.Phys.J.}, {\bf C58}:639--707, 2008.
 \newblock 0803.0883.
+
+\bibitem{ref:ClusterModel}
+Richard~D. Field and Stephen Wolfram.
+\newblock A QCD model for e+e− annihilation.
+\newblock {\em Nuclear Physics B}, {\bf 213}(1):65 -- 84, 1983.
 
 \bibitem{ref:Herwigpp}
 Stefan Gieseke, Christian Rohr, and Andrzej Siodmok.
@@ -339,6 +339,20 @@ Georges Aad et~al. [ATLAS Collaboration].
   sqrt(s)=7 TeV}.
 \newblock {\em Phys.Rev.Lett.}, {\bf 106}:172002, 2011.
 \newblock 1102.2696.
+
+\bibitem{ref:D0Azi}
+V.M. Abazov et~al. [D0 Collaboration Collaboration].
+\newblock {Measurement of dijet azimuthal decorrelations at central rapidities
+  in $p\bar{p}$ collisions at $\sqrt{s} = 1.96$ TeV}.
+\newblock {\em Phys.Rev.Lett.}, {\bf 94}:221801, 2005.
+\newblock hep-ex/0409040.
+
+\bibitem{ref:CMSAzi}
+Vardan Khachatryan et~al. [CMS Collaboration Collaboration].
+\newblock {Dijet Azimuthal Decorrelations in $pp$ Collisions at $\sqrt{s} =
+  7$~TeV}.
+\newblock {\em Phys.Rev.Lett.}, {\bf 106}:122003, 2011.
+\newblock 1101.5029.
 
 \bibitem{ref:GBJConf2}
 ATLAS Collaboration.

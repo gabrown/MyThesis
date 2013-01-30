@@ -50,10 +50,14 @@ These results have been published in an ATLAS conference note~\cite{ref:EtaInter
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/JetPerformance/Width.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/JetPerformance/EMF.eps,width=0.5\textwidth}}\quad
-}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/JetPerformance/Width.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/JetPerformance/EMF.eps}
+        \end{subfigure}%
 \caption[Comparison of jet widths and EMF for data compared to PYTHIA with various physics lists]{
 (a) Jet width and (b) jet EMF for jets with \pt{}$>20$ GeV and in the region \etaRange{3.2}{4.5}.
 2010 data is compared to standard PYTHIA with the different physics lists, $\rm QGSP\textunderscore{}BERT$ (yellow filled), $\rm FTFP\textunderscore{}BERT$ (red circles) and $\rm QGSP$ (purple circles).  

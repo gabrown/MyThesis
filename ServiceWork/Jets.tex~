@@ -26,10 +26,14 @@ This corresponds to the R value used in the jet-finding for both the trigger and
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/L2_DRUnmatchedJetsJet.eps,width=0.5\textwidth}}
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/L2_DRUnmatchedJetsZoomedJet.eps,width=0.5\textwidth}}
-                              }
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/L2_DRUnmatchedJetsJet.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/L2_DRUnmatchedJetsZoomedJet.eps}
+        \end{subfigure}%
 \caption[\dr{} between offline and L2 jets]{
 \dr{} distribution between the offline jet and all L2 jets in the event, shown within the range (a) $0 - 6$ and (b) $0 - 1$.
 \label{SW_jet_L2_dR}}
@@ -37,10 +41,14 @@ This corresponds to the R value used in the jet-finding for both the trigger and
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/EF_DRUnmatchedJetsJet.eps,width=0.5\textwidth}}
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/EF_DRUnmatchedJetsZoomedJet.eps,width=0.5\textwidth}}
-                              }
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/EF_DRUnmatchedJetsJet.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/EF_DRUnmatchedJetsZoomedJet.eps}
+        \end{subfigure}%
 \caption[\dr{} between offline and EF jets]{
 \dr{} distribution between the offline jet and all EF jets in the event, shown within the range (a) $0 - 6$ and (b) $0 - 1$.
 \label{SW_jet_EF_dR}}
@@ -76,10 +84,14 @@ Problems in the detector should show up in the plot as a change in the mean.
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/L2_EtEtMatchedJet.eps,width=0.5\textwidth}}
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/EF_EtEtMatchedJet.eps,width=0.5\textwidth}}
-                              }
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/L2_EtEtMatchedJet.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/EF_EtEtMatchedJet.eps}
+        \end{subfigure}%
 \caption[Offline jet \et{} versus L2/EF jet \et{}]{
 \et{} of the offline jet versus the \et{} of the matched (a) L2 and (b) EF jet.
 \label{SW_jet_L2EF_EtEt}}
@@ -88,10 +100,14 @@ Problems in the detector should show up in the plot as a change in the mean.
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/L2_EtFracEtaMatchedJet.eps,width=0.5\textwidth}}
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/EF_EtFracEtaMatchedJet.eps,width=0.5\textwidth}}
-                              }
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/L2_EtFracEtaMatchedJet.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/EF_EtFracEtaMatchedJet.eps}
+        \end{subfigure}%
 \caption[\et{} fraction of L2 and EF jet to offline jet ]{
 \et{} fraction of the (a) L2 and (b) EF jets to the offline jet \et{} as a function of $\eta$. 
 \label{SW_jet_L2EF_EtFrac_Eta}}
@@ -100,10 +116,14 @@ Problems in the detector should show up in the plot as a change in the mean.
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/L2_ResoMatchedJetsJet.eps,width=0.5\textwidth}}
-              \subfigure[]{\epsfig{figure=figures/ServiceWork/Jets/EF_ResoMatchedJetsJet.eps,width=0.5\textwidth}}
-                              }
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/L2_ResoMatchedJetsJet.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/ServiceWork/Jets/EF_ResoMatchedJetsJet.eps}
+        \end{subfigure}%
 \caption[\et{} resolution between offline jet \et{} and L2/EF jet \et{}]{
 \et{} resolution of (a) the L2 jets and (b) the EF jets. 
 \label{SW_jet_L2EF_Reco}}

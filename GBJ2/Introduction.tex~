@@ -6,5 +6,10 @@ The data are compared to theory predictions by HEJ and POWHEG.
 The analysis is extended to probe the gap fraction at a larger \dy{} region.
 This larger \dy{} region is again studied using the 2010 data, but using a new dijet trigger strategy that allowes measurements up to $\dy{}=8$, which is the boundary of the detector.
 In addition, the effect of quark/gluon emission from the dijet system is studied using the azimuthal decorrelation between the jets that make up the dijet system.
-The previous ATLAS measurement of azimuthal decorrelation was carried out using jets with an $|\eta{}| < 0.8$ \cite{ref:Decorr}.
+The previous ATLAS measurement of azimuthal decorrelation was carried out using jets with $|y| < 0.8$ \cite{ref:Decorr}.
+Measurements of the azimuthal decorrelation using a normalised dijet cross section were reported by CMS and D0 collaborations \cite{ref:D0Azi,ref:CMSAzi}.
+%Other Experiments:
+% D0 :  ref:D0Azi
+% CMS: ref:CMSAzi
+% CDF: 
 

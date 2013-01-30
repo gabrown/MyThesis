@@ -73,9 +73,7 @@ The PDFs have been measured at electron-proton collider and fix target experimen
 
 \begin{figure}
 \centering
-\mbox{
-              \epsfig{figure=figures/Theory/Hadron-Hadron.eps,width=0.6\textwidth}
-                              }
+\includegraphics[width=0.6\textwidth]{figures/Theory/Hadron-Hadron.eps}
 \caption[Illustration of a hadron-hadron interaction]{
 Illustration showing hadron-hadron interaction through partons $a$ and $b$ going to $X$. 
 \label{Theory:HadronHadron}}
@@ -93,15 +91,13 @@ The result is a cascade of hadrons in the direction of the original parton.
 
 Calculations with partons in the final state are performed using a jet algorithm.  
 The jet algorithm clusters nearby partons into a single object.
-The jet algorithms can be applied to calculations at a particular order in perturbation theory, to final state hadrons, or to detector deposits.
+The jet algorithms can be applied to calculations at a particular order in perturbation theory, to final state hadrons, or to detector energy deposits.
 Figure \ref{Theory:InitJet} shows an illustration of a jet at different levels.
 
 
 \begin{figure}
 \centering
-\mbox{
-              \epsfig{figure=figures/Theory/JetEvolution.eps,width=0.9\textwidth}
-                              }
+\includegraphics[width=0.9\textwidth]{figures/Theory/JetEvolution.eps}
 \caption[Jets at parton, particle and calorimeter levels]{
 Illustration of a jet at parton, particle and calorimeter levels. 
 Illustration from Dag Gillberg.

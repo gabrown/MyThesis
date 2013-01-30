@@ -84,27 +84,23 @@ The conclusion of the paper is: ``The message is clear: the accuracy of the ATLA
 
 \begin{figure}
 \centering
-        \centering
-        \begin{subfigure}[b]{0.3\textwidth}
+        \begin{subfigure}[b]{0.5\textwidth}
                 \centering
-                \epsfig{figure=figures/GBJ1/FinalData/GF_dY.eps,width=0.45\textwidth}
-                \caption{A gull}
-                \label{fig:gull}
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_dY.eps}
         \end{subfigure}%
-        \begin{subfigure}[b]{0.3\textwidth}
+        \begin{subfigure}[b]{0.5\textwidth}
                 \centering
-                \epsfig{figure=figures/GBJ1/FinalData/GF_dY_ratio.eps,width=0.45\textwidth}
-                \caption{A tiger}
-                \label{fig:tiger}
-        \end{subfigure}
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY.eps,width=0.45\textwidth}}
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY_ratio.eps,width=0.45\textwidth}}
-}
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY.eps,width=0.45\textwidth}}
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY_ratio.eps,width=0.45\textwidth}}
-}
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_dY_ratio.eps}
+        \end{subfigure}%
+
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_dY.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_dY_ratio.eps}
+        \end{subfigure}%
 \caption[Gap fraction as a function of  \dy{} for the leading \pt{} dijet selection]{
 (a) Gap fraction as a function of \dy{} for various \ptb{} slices for the leading \pt{} dijet selection. 
 (b) Ratio between the theoretical predictions and the data.
@@ -115,10 +111,14 @@ The conclusion of the paper is: ``The message is clear: the accuracy of the ATLA
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_ptBar.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_ptBar_ratio.eps,width=0.5\textwidth}}\quad
-}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_ptBar.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_ptBar_ratio.eps}
+        \end{subfigure}%
 \caption[Gap fraction as a function of \ptb{} for leading \pt{} dijet selection]{ 
 (a) Gap fraction as a function of \ptb{} for various \dy{} slices for the leading \pt{} dijet selection. 
 (b) Ratio between the theoretical predictions and data.
@@ -129,10 +129,14 @@ The conclusion of the paper is: ``The message is clear: the accuracy of the ATLA
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Q0.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Q0_ratio.eps,width=0.5\textwidth}}\quad
-}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_Q0.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_Q0_ratio.eps}
+        \end{subfigure}%
 \caption[Gap fraction as a function of \qz{} for leading \pt{} dijet selection]{ 
 (a) Gap fraction as a function of \qz{} for various \dy{} and \ptb{} slices for the leading \pt{} dijet selection. 
 (b) Ratio between the theoretical predictions and data. 
@@ -141,10 +145,14 @@ The conclusion of the paper is: ``The message is clear: the accuracy of the ATLA
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Njets_dY.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Njets_dY_ratio.eps,width=0.5\textwidth}}\quad
-}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_Njets_dY.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_Njets_dY_ratio.eps}
+        \end{subfigure}%
 \caption[Mean number of jets as a function of \dy{} for leading \pt{} dijet selection]{ 
 (a) Mean number of jets in the rapidity region bounded by the dijet system as a function of \dy{} for various \ptb{} slices for the leading \pt{} dijet selection. 
 (b) Ratio between the theoretical predictions and data. 
@@ -153,10 +161,14 @@ The conclusion of the paper is: ``The message is clear: the accuracy of the ATLA
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Njets.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_Njets_ratio.eps,width=0.5\textwidth}}\quad
-}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_Njets.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_Njets_ratio.eps}
+        \end{subfigure}%
 \caption[Mean number of jets as a function of \ptb{} for leading $p_T$ dijet selection]{ 
 (a) Mean number of jets in the rapidity region bounded by the dijet system as a function of \ptb{} for various \dy{} slices for the leading \pt{} dijet selection. 
 (b) Ratio between the theoretical predictions and data.
@@ -167,10 +179,14 @@ The conclusion of the paper is: ``The message is clear: the accuracy of the ATLA
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY_SelB.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_dY_SelB_ratio.eps,width=0.5\textwidth}}\quad
-}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_dY_SelB.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_dY_SelB_ratio.eps}
+        \end{subfigure}%
 \caption[Gap fraction as a function of \dy{} for forward backward selection]{ 
 (a) Gap fraction as a function of \dy{} for various \ptb{} slices for the forward backward selection. 
 (b) Ratio between the theoretical predictions and data. 
@@ -179,10 +195,14 @@ The conclusion of the paper is: ``The message is clear: the accuracy of the ATLA
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_pT.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_pT_ratio.eps,width=0.5\textwidth}}\quad
-}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_SelB_pT.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_SelB_pT_ratio.eps}
+        \end{subfigure}%
 \caption[Gap fraction as a function of \ptb{} for forward backward selection]{ 
 (a) Gap fraction as a function of \ptb{} for various \dy{} slices for the forward backward selection. 
 (b) Ratio between the theoretical predictions and data.
@@ -191,10 +211,14 @@ The conclusion of the paper is: ``The message is clear: the accuracy of the ATLA
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_Q0.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_Q0_ratio.eps,width=0.5\textwidth}}\quad
-}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_SelB_Q0.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_SelB_Q0_ratio.eps}
+        \end{subfigure}%
 \caption[Gap fraction as a function of \qz{} for forward backward selection]{ 
 (a) Gap fraction as a function of \qz{} for various \dy{} and \ptb{} slices for the forward backward selection. 
 (b) Ratio between the theoretical predictions and data. 
@@ -204,10 +228,14 @@ The conclusion of the paper is: ``The message is clear: the accuracy of the ATLA
 
 \begin{figure}
 \centering
-\mbox{
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_dY_Q0pTbar.eps,width=0.5\textwidth}}\quad
-              \subfigure[]{\epsfig{figure=figures/GBJ1/FinalData/GF_SelB_dY_Q0pTbar_ratio.eps,width=0.5\textwidth}}\quad
-}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_SelB_dY_Q0pTbar.eps}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figures/GBJ1/FinalData/GF_SelB_dY_Q0pTbar_ratio.eps}
+        \end{subfigure}%
 \caption[Gap fraction as a function of \dy{} for forward backward selection and variable \qz{}]{ 
 (a) Gap fraction as a function of \dy{} for various \ptb{} slices for the forward backward selection with veto scale set as \ptb{}. 
 (b) Ratio between the theoretical predictions and data. 
